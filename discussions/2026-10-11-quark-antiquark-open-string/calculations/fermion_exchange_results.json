@@ -1,0 +1,56 @@
+{
+  "scope": "Free fermion exchange, a coupled-channel Hamiltonian, and a leading zero-range dimer EFT. Not a string construction or experimental fit.",
+  "checks_passed": [
+    "Dirac inverse has the scalar mass-shell denominator",
+    "Off-source Helmholtz equation and nonzero massless spatial derivative",
+    "Yukawa/Coulomb spatial Green function from an independent proper-time integral",
+    "Low-transfer expansion gives a contact term and derivative corrections",
+    "Eigenvalues of a Hamiltonian in a fixed total-parity two-channel basis",
+    "Renormalized zero-range dimer has finite, tunable radius and nontrivial form factor"
+  ],
+  "green_function_values": [
+    {
+      "mass": "0",
+      "r": "1",
+      "G": "0.0795774715459476679"
+    },
+    {
+      "mass": "0.3",
+      "r": "2",
+      "G": "0.0218365211776786873"
+    },
+    {
+      "mass": "2",
+      "r": "0.5",
+      "G": "0.0585498315243191607"
+    },
+    {
+      "mass": "2",
+      "r": "2",
+      "G": "0.000728756116257048398"
+    }
+  ],
+  "static_scalar_green_function": "exp(-m*r)/(4*pi*r)",
+  "massless_radial_derivative": "-1/(4*pi*r^2)",
+  "coupled_channel_eigenvalues": "+/- sqrt(delta^2/4 + |K|^2), relative to the mean channel energy",
+  "dimer_separation_squared": "a**2/2",
+  "dimer_charge_radius_squared": "a**2/8",
+  "dimer_form_factor": "4*atan(a*Q/4)/(a*Q), equal masses and one charged constituent",
+  "dimer_sample_values": [
+    {
+      "a": "2.0",
+      "Q": "0.1",
+      "F": "0.999167914438855228"
+    },
+    {
+      "a": "2.0",
+      "Q": "1.0",
+      "F": "0.927295218001612232"
+    },
+    {
+      "a": "2.0",
+      "Q": "4.0",
+      "F": "0.553574358897045252"
+    }
+  ]
+}
