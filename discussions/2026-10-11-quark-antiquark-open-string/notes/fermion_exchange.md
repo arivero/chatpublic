@@ -2,6 +2,8 @@
 
 The user's motivating conjecture is that a bosonic field can build a coherent binding field, whereas fermionic statistics obstruct this buildup and may confine a fermionic interaction to contact. This note records what survives and what needs an additional mechanism. Natural units are used throughout.
 
+**12 October correction:** the intended construction changes the binding carrier itself. The [new three-fermion model](../blackboard/005_fermionic_binding_and_seiberg.md) proves binding with an active adjoint fermion in a finite-range contact theory. The exchange selection rule below does not forbid that retained-constituent mechanism, whose vertices have two carrier fields.
+
 ## The distinction in classical fields is real
 
 Let \(P=(-1)^F\) and let a physical density operator respect fermion parity, \([\rho,P]=0\). Since \(P\chi P=-\chi\),
@@ -121,6 +123,6 @@ A fermionic object can be extended and held together by a bosonic field; ordinar
 
 Moreover, the simple four-Ramond disk amplitude factorizes through NS states. Lack of a classical fermionic mediator field does not remove that bosonic exchange tower or its string corrections.
 
-The constructive question is therefore: **can the proposed dual/geometric model suppress the fermion's coupling to extended hadronic excitations while retaining the bosonic meson's binding and spectrum?** Parity-changing selection rules might contribute, but one must calculate the allowed couplings, spectral thresholds, and current matrix elements. The ordinary gauge interactions needed for point-particle scattering would remain; the target of suppression is additional structural dependence.
+The clarified constructive question is: **can a fermionic carrier bind the two fermionic endpoints, with a completion that gives the desired whole-state scattering?** Endpoint-conversion models and a retained adjoint constituent are different mechanisms. The new contact construction advances the latter; its completion and current remain to be derived. Neither a preformed meson nor an inert spectator should be silently substituted for the binding channel.
 
 The working formulation and explicit tests are in [blackboard entry 001](../blackboard/001_fermionic_coherence_and_range.md). [The calculation script](../scripts/fermion_exchange_checks.py) verifies the propagator algebra, spatial kernel, local expansion, coupled-channel eigenvalues, and zero-range dimer example. These are diagnostic examples, not a completed string model.

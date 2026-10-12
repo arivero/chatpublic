@@ -2,6 +2,8 @@
 
 12 October 2026. This plan follows the [independent manuscript reconstruction](../manuscript/README.md), created before the previous preprints arrived. Those drafts are now [preserved](../references/received-2026-10-12/README.md) and [compared](draft_comparison.md). The purpose is to find a viable construction or a sharply scoped obstruction. Confirmation of a 1970s model is an outcome to assess, not an assumption.
 
+**Active correction:** replace the binding carrier, not the endpoint pair with a preformed meson. The [short progress table](progress.md) records the achieved contact-binding result; [blackboard 005](../blackboard/005_fermionic_binding_and_seiberg.md) contains its proof and the Seiberg-duality analysis. The broad stages below remain a map of later obligations, not prerequisites for each useful result.
+
 ## Starting decisions
 
 - Endpoint quarks are vectorlike Dirac fields. The weak sector is deferred; pion chiral dynamics is required.
@@ -29,15 +31,11 @@ Stages 5A and 5B are alternative ultraviolet routes. Neither should be assumed t
 
 ## The next calculation to prioritize
 
-First allow a **two-flavor** vectorlike 4D candidate with a color-singlet meson sector and an explicit odd carrier. Add a **three-flavor** scalar-antidiquark extension when requiring full quark-branch closure, or explicitly choose a different spin/carrier ansatz if retaining fewer flavors. Do not make complete three-generation electroweak matter a prerequisite. Before attempting a full compactification:
+Match a specified massive-squark completion to the qλ and qbar λ contact interactions in the proven three-body model. Derive the sign, spin/color projections and cutoff, retain allowed annihilation channels, and determine whether the binding inequality can be satisfied within the approximation. This is the single next physical target. A mismatch is useful evidence for changing the completion, not a reason to repeat the same parity objection.
 
-1. Specify an action or a controlled effective action, its cutoff, and its exact global charges. Decide whether ordinary B and L are separately conserved; this choice changes the number of carriers.
-2. Construct the interpolators appropriate to the selected stage and a complete mixing basis. For the colored extension state the gauge/factorization prescription and the physical observable ultimately used. Record precisely what each added flavor makes possible.
-3. Compute enough of the spectral matrix and current vertices to determine whether the odd pole is emergent, elementary, or an existing quark pole with additional overlap.
-4. Calculate one whole-fermion scattering amplitude with the same parameters that control the bosonic sector. Include bosonic exchange, which parity does not forbid. Test the entire claimed energy range, not just its zero-momentum limit.
-5. If this produces a protected regime, compute the axial Ward identities and the first radiative corrections to its separation of scales. If it does not, document which assumption failed before enlarging the model.
+If that match succeeds, calculate a current of the same bound state and examine a dual description with a declared momentum window. The SQCD laboratory SU(3),N_f=4 is chosen for s-confinement; it is not a claim that four flavors are needed for the contact proof or for pion physics. An H–mesino overlap requires a UV operator prescription and nonholomorphic matching data. A nonzero overlap alone is not an observable constituent probability.
 
-An ordinary mixing EFT, worked out in [blackboard 002](../blackboard/002_two_branch_dictionary.md), is already a useful calibration: it suppresses the light-state radius by a composite fraction η and one vector-induced four-fermion coefficient by η². It currently fulfills only the weak description. The research task is to derive those ingredients and their stability in the strong description.
+The earlier [mixing EFT](../blackboard/002_two_branch_dictionary.md) and meson-plus-inert-spectator idea are comparison models, not substitutes for this binding calculation. Pion dynamics, the three-flavor scalar-antidiquark extension and weak generations remain staged targets, each requiring its own reason for added field content.
 
 ## Evidence that would change the current assessment
 

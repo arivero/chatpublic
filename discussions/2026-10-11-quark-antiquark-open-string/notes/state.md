@@ -4,7 +4,9 @@ Last updated 12 October 2026 for the conversation begun on 11 October. This is a
 
 ## Goal
 
-Investigate whether an open string with quark–antiquark endpoint structure can have a bosonic sector behaving as a standard meson and a fermionic sector whose whole-state hard scattering is approximately pointlike. The related two-antiquark/diquark branch may model quark-like states; its color and baryon-number accounting differs from the meson/lepton branch.
+Investigate **two physical fermionic endpoints bound through a fermionic color carrier**, and whether the resulting odd state can have approximately pointlike whole-state scattering. The user clarified that the binding carrier replaces bosonic glue; a preformed meson plus an inert neutral spectator was assistant drift. For a retained adjoint carrier the endpoint pair is an octet, not an ordinary color-singlet meson. The quark–diquark branch and the original comparison with bosonic string behavior remain longer-term targets.
+
+**Current result:** [blackboard 005](../blackboard/005_fermionic_binding_and_seiberg.md) constructs a finite-range contact Hamiltonian of q, qbar and an active adjoint fermion. In its global-color, fixed-number singlet sector, a variational proof gives E₃≤2ε₂<ε₂ below dimer breakup, without a direct q qbar force. It establishes a restricted binding example; its coupling, UV completion, flux tube and pointlike scattering are not derived. The same entry supplies the SQCD component dictionary and flavor-phase choices requested by the user's Seiberg-duality suggestion. See [progress](progress.md) and the [idea bank](../blackboard/ideas.md).
 
 The user explicitly wants active research rather than a restriction to the simplest flat Ramond-string construction. Alternative dual strong theories and Kaluza–Klein geometry are in scope.
 
@@ -13,6 +15,8 @@ The user also frames this as frontier-model-assisted research, naming GPT Astra 
 ## User decisions and clarifications
 
 - Keep readable notes in this repository for later agents, at two levels: curated `notes/` and a working `blackboard/`.
+- Keep milestones short and cross them with results. Store half-baked ideas separately with objections and revival conditions, without favoring orthodoxy or agreement with the user.
+- The fermion is to participate in binding the endpoints. Distinguish exchange with endpoint conversion from a retained binding constituent; neither is an inert spectator. Seiberg duality / a super-QCD string is now an explicit avenue.
 - The two uploaded Markdown conversations are references. Copies have been preserved unchanged and their SHA-256 hashes recorded.
 - “Non-Dirac quarks” in an earlier message was a typo. The intended quarks are **non-chiral in gauge representation, Dirac quarks**.
 - A chiral weak sector need not be constructed at this stage. This does not remove the need for approximate global chiral flavor symmetry if the pion's Goldstone mechanism is to be reproduced.
@@ -41,11 +45,11 @@ The user also frames this as frontier-model-assisted research, naming GPT Astra 
 
 ## Current research conjecture
 
-Can a dual/geometric construction allow strong extended bosonic binding while suppressing the candidate fermion's coupling to the hadronic excitation spectrum? The latest suggestion is to investigate whether parity-changing transition structure helps cause that suppression.
+Can a completion of the demonstrated fermion-only contact interaction connect a two-fermion-plus-adjoint bound state to a controlled dual description and ultimately the desired scattering behavior? In SQCD, H=(ψtilde Tᵃψ)λᵃ shares the mesino's exact charges, but its overlap is uncalculated and depends on the operator prescription. The usual mesino ψ_M=φtilde ψ+ψtilde φ must not be relabeled as the proposed constituent structure.
 
 The correct target is a calculation of current matrix elements, relevant spectral weights/gaps, and hard scattering. A missing classical fermionic mean field by itself does not remove bosonic exchanges, form-factor corrections, or Regge states from fermion scattering.
 
-The [independent manuscript](../manuscript/README.md) gathers the constraints and candidate mechanisms into a research draft. The [workplan](workplan.md) now begins with a two-flavor meson/odd-sector calculation and a three-flavor scalar-antidiquark extension when needed. It prioritizes a complete operator dictionary and a minimal spectral/current/scattering calculation before a full dual or compactification construction. It distinguishes elementary hadronic dressing from the stronger intended theory, and defers a full weak-generation construction.
+The [independent manuscript](../manuscript/README.md) remains the historical reconstruction, not a revision incorporating this correction. Earlier colorless-carrier and elementary/composite mixing examples are comparisons, not the active binding ansatz. The [workplan](workplan.md) prioritizes matching an explicit completion to the contact interaction, then its current. SU(3),N_f=4 offers an s-confining SQCD laboratory; those extra flavors serve phase control, not an explanation of weak generations.
 
 ## Not yet established
 
@@ -62,7 +66,7 @@ The [independent manuscript](../manuscript/README.md) gathers the constraints an
 - [Comparison with the supplied drafts](draft_comparison.md)
 - [Flavor/generation scaffold](../blackboard/003_flavor_scaffolding.md)
 - [Analytic draft corrections and radial boundary case](../blackboard/004_draft_equations.md)
-- [AI research bibliography and its access limits](ai_research_bibliography.md)
+- [AI research bibliography and October source update](ai_research_bibliography.md)
 - [Research protocol and restrained computation](research_protocol.md)
 - [Latest curated result on fermion exchange](fermion_exchange.md)
 - [Working blackboard](../blackboard/README.md)
@@ -73,7 +77,7 @@ The [independent manuscript](../manuscript/README.md) gathers the constraints an
 
 The original conversation copies remain unchanged. The [previous PRL/PRD/addendum PDFs](../references/received-2026-10-12/README.md) are now available; source archives and other mentioned images remain absent. Luna performed native PDF text extraction, without OCR. The reuploaded `fermion_force_mediation.md` is byte-identical to the earlier copy.
 
-Primary-paper downloads and requests to INSPIRE, Nature, DeepMind, and OpenAI were blocked by the network proxy. The AI bibliography is an annotated starting point, not a verified survey through October 2026. Recent scientific citations and experimental numbers inside the supplied drafts remain unverified externally. Distinguish actually reading a supplied draft from independently verifying the sources it cites.
+Network retrieval was restored after the user enabled full access. Seiberg's paper, FunSearch, the 6 October OpenAI mathematics release and its pinned repository README, and selected September AI-assisted physics papers were retrieved; Schwarz's bibliographic metadata and abstract were verified. See the [reading record](../references/literature_2026-10-12.md). This is a selective update, not a comprehensive survey or independent verification of the reported new proofs/calculations. The supplied drafts' other recent citations and experimental numbers remain unchecked.
 
 ## Persistence
 

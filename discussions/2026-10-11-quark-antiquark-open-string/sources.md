@@ -6,7 +6,7 @@ Both originals were preserved byte-for-byte under `references/`. The assessment 
 
 ## Primary literature reading trail
 
-The following are primary references for the established frameworks discussed in the assessment. PDF retrieval from `https://arxiv.org/pdf/...` was attempted for all eight papers during this task and returned `Tunnel connection failed: 403 Forbidden`. No text of these papers was retrieved in this run. The source links should therefore be used to check the literature claims independently; none is presented as a new search result or a verified recent experimental limit.
+The following are primary references for the established frameworks discussed in the assessment. At the initial checkpoint all eight PDF requests returned proxy 403 failures. **Access was restored on 12 October:** S7 was retrieved and its relevant sections read; the other seven have not been reread in this update. The [new reading record](references/literature_2026-10-12.md) also covers Schwarz metadata and recent AI-assisted mathematics/physics sources. No current experimental limit is inferred from this access change.
 
 | ID | Reference | Relevance and scope |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ The included script reproduces the numerical checks. It does not derive a worlds
 
 The user identified J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons* as the intended historical anchor, and recalled related early work with Joel Scherk. This supersedes treating “quark gluon dual theories” as an unspecified phrase. The exact Scherk papers still need identification. Quark–gluon, quark–diquark, and lepton–meson correspondences should be compared separately, with explicit gauge representations and observables.
 
-A request to the INSPIRE literature API for the exact Schwarz title returned `Tunnel connection failed: 403 Forbidden`. No primary text or bibliographic metadata was obtained. The manuscript records the user-supplied title/year and deliberately leaves journal/pages unfilled rather than guessing them.
+The first INSPIRE request was blocked; the successful follow-up verified **Phys. Lett. B 37 (1971), 315–319, DOI [10.1016/0370-2693(71)90028-1](https://doi.org/10.1016/0370-2693(71)90028-1)**, [INSPIRE 75918](https://inspirehep.net/literature/75918). Its abstract describes mathematical quarks/gluons and a quark-emission vertex. The full paper remains unread. The historical pre-PDF manuscript is preserved as written rather than silently updated.
 
 Related reading leads, also not retrieved here:
 
@@ -45,10 +45,10 @@ Related reading leads, also not retrieved here:
 
 The [independent manuscript](manuscript/README.md) was created before the previous PDFs arrived and is preserved at `333e537`. Those PDFs have now been received and [compared](notes/draft_comparison.md). The reconstruction had already used detailed conversation fragments and should not be described as a blind discovery or evidence of independent priority.
 
-## AI-assisted research and present access limits
+## AI-assisted research and source-verification scope
 
-The user explicitly wants to situate the project in model-assisted mathematical and physical research. The [annotated AI bibliography](notes/ai_research_bibliography.md) separates actual research advances, benchmark performance, rediscovery, and numerical methods. It supplies established reading pointers and recent-update tasks rather than claiming a verified October 2026 survey.
+The user explicitly wants to situate the project in model-assisted mathematical and physical research. The [annotated AI bibliography](notes/ai_research_bibliography.md) separates research advances, benchmark performance, rediscovery, and numerical methods. It now includes retrieved October 2026 sources with explicit reading and verification scope.
 
-On 12 October, requests to a Nature article, DeepMind's IMO report, and OpenAI's news page each failed with proxy `CONNECT tunnel failed, response 403`. No content was retrieved. The bibliographic pointers and the supplied drafts' recent 2025–2026 citations therefore retain explicit verification limits. Reading a supplied draft does not independently verify the papers it cites.
+Earlier requests to Nature, DeepMind and OpenAI failed with proxy 403 responses. After the network change, FunSearch, OpenAI's current mathematics release and its pinned README, and two recent AI-assisted physics papers were retrieved. Those authors' results were not independently proved or reproduced here; other bibliography entries and the supplied drafts' citations retain their stated verification limits. See the [reading record](references/literature_2026-10-12.md).
 
 The [research protocol](notes/research_protocol.md) records the user's instructions to avoid routine scripted rechecks of known results, use smaller models for justified computation/extraction, save outputs to disk, and distinguish reproducibility from discovery.
