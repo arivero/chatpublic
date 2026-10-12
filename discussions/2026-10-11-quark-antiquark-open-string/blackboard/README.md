@@ -9,7 +9,9 @@ This is the exploratory level of the notebook. It contains user motivations, exp
 - [005 — A three-fermion binding construction and Seiberg-dual possibilities](005_fermionic_binding_and_seiberg.md)
 - [006 — Supporting scalar-completion test and its restricted no-binding result](006_scalar_completion_test.md)
 - [007 — Main mechanism test: pointlike current hierarchy and UV-boundary requirement](007_pointlike_current_mechanism.md)
-- [008 — Current focus: retained adjoint binding and current with explicit hbar](008_retained_adjoint_hbar.md)
+- [008 — Retained adjoint binding and current with explicit hbar](008_retained_adjoint_hbar.md)
+- [009 — Leading anharmonic charge-radius correction](009_anharmonic_radius.md)
+- [010 — Endpoint statistics, Goldstino and B−L hypotheses](010_endpoints_goldstino_and_b_minus_l.md)
 - [Idea bank — hypotheses, objections, next tests and revival conditions](ideas.md)
 
 Earlier exploratory constructions remain in [dual_qcd_cp2_s1.md](../dual_qcd_cp2_s1.md); the distinction between checked ingredients and an unconstructed model is recorded in [notes/state.md](../notes/state.md).

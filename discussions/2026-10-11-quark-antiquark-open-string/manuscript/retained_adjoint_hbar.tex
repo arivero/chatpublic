@@ -30,7 +30,7 @@ $-\hbar^2(\nabla_x^2+\nabla_y^2)/(2\mu)
 -\hbar^2\nabla_x\cdot\nabla_y/M$.
 The two contacts are number-conserving four-fermion density interactions. No propagating bosonic binding field is included in this Hamiltonian. Their ultraviolet origin remains unspecified. $R>0$ is the specified finite regulator length; we do not silently take an unrenormalized three-dimensional delta limit.
 
-The spin-independent model allows endpoint spin zero and total spin $1/2$ supplied by $\lambda$. Physical spins satisfy $s^2=3\hbar^2/4$. Spin-dependent interactions, allowed annihilation channels and gauged color would change the problem and must be supplied explicitly.
+The spin-independent model allows the two spin-$1/2$ endpoints to form a spin singlet, with total spin $1/2$ supplied by $\lambda$. Each constituent has $s^2=3\hbar^2/4$; the endpoints here are not scalar particles. Spin-dependent interactions, allowed annihilation channels and gauged color would change the problem and must be supplied explicitly.
 
 \subsection{Binding and the correct breakup threshold}
 For $h_\mu=p^2/(2\mu)-3Gf_R/2$, a normalized Gaussian orbital of width $a$ gives
@@ -217,6 +217,55 @@ For a single dressed current insertion, after matching the point-particle kinema
 \end{equation}
 Contact binding alone therefore does not remove size from the current. In particular, a mean-square radius proportional to $\hbar$ is insufficient by itself for pointlike scattering at fixed physical $Q$: the resolution length is $\hbar/Q$. The harmonic approximation to the current is controlled for fixed $Q\sqrt{r_E^2}/\hbar$ in the deep-well expansion, especially near the pointlike window. Its exponentially small large-$Q$ tail is not a uniform prediction of the finite Gaussian well as $\hbar\to0$.
 
+\subsection{Leading anharmonic radius}
+\label{sec:anharmonic-radius}
+The first correction to the current's slope requires the changed bound state.
+It can be obtained without a spectral sum by adding independent quadratic
+sources $j_\pm u_\pm^2/2$, writing $k_\pm=\mu\omega^2+j_\pm$, and
+holding the physical quartic coefficient $-V_0/(2R^4)$ fixed. Define the component variances
+\begin{equation}
+ v_\pm=\frac{\hbar}{2}\sqrt{\frac{1\pm\eta}{\mu k_\pm}},
+ \qquad s=\frac{v_++v_-}{2}.
+\end{equation}
+The harmonic energy depending on these sources is
+$(3\hbar/2)\sum_\pm\sqrt{(1\pm\eta)k_\pm/\mu}$, and
+$E_4=-15V_0s^2/R^4$. Hellmann--Feynman differentiation gives
+\begin{equation}
+ \langle u_\pm^2\rangle
+ =2\frac{\partial(E_{\rm harm}+E_4)}{\partial k_\pm}
+ =3v_\pm+\frac{15V_0s v_\pm}{k_\pm R^4}
+ +O(R^2\varepsilon^3).
+\end{equation}
+Evaluate at $k_+=k_-=\mu\omega^2=2V_0/R^2$.
+In the full finite well these derivatives may be taken from nonnegative
+added sources, avoiding an unbounded negative quadratic potential at infinity.
+Exchange symmetry makes $\langle\mathbf u_+\cdot\mathbf u_-\rangle=0$.
+Both mode variances, and hence both $\langle x^2\rangle$ and
+$\langle\mathbf x\cdot\mathbf y\rangle$, acquire the same relative
+correction $5S_\eta\varepsilon/8$. Thus
+\begin{equation}
+ \boxed{r_E^2=r_{E,{\rm harm}}^2
+ \left(1+\frac{5S_\eta}{8}\frac{\hbar}{\mu\omega R^2}\right)
+ +O(R^2\varepsilon^3).}
+ \label{eq:radius-correction}
+\end{equation}
+The leading radius is order $\hbar$ and this correction is order $\hbar^2$
+at fixed physical well parameters and mass ratio. The coefficient is positive:
+the finite Gaussian well is softer than its quadratic approximation and
+increases the size. It does not supply an additional pointlike mechanism.
+In the independent-dimer limit $\eta=0$,
+\begin{equation}
+ r_E^2=\frac{3\hbar}{2\mu\omega}
+ \left(1+\frac{5\hbar}{4\mu\omega R^2}\right)
+ +O(R^2\varepsilon^3),
+\end{equation}
+which agrees with the single three-dimensional Gaussian well. The coefficients
+are at fixed $0\leq\eta<1$; no uniform limit at $\eta=1$ is asserted.
+Equation~\eqref{eq:radius-correction} improves the small-$Q$ expansion
+\eqref{eq:smallq}, under the same charge assumptions. Substituting this radius
+into a Gaussian exponential would not derive the anharmonic finite-$Q$
+form factor: its higher moments change as well.
+
 \section{Contact iterations are not the same as the semiclassical series}
 Choose momentum normalization
 $\langle\mathbf r|\mathbf p\rangle=e^{i\mathbf p\cdot\mathbf r/\hbar}$, with completeness measure $d^3p/(2\pi\hbar)^3$. The dimer potential kernel is
@@ -238,9 +287,9 @@ Every factor has physical units: $V$ and $T$ here have units of energy times vol
 A bound-state pole is a nonperturbative feature of the full resolvent. Quantum-field-theory loop counting instead follows from a specified action in $\exp(iS/\hbar)$ and a stated field/coupling normalization. The present fixed-number Hamiltonian has no vacuum pair-creation loops. A relativistic completion would have to specify them before their $\hbar$ orders could be calculated. We have not computed such a completion's radiative corrections.
 
 \section{Result and next calculation}
-The retained adjoint contact model binds both endpoints without a direct endpoint force. Keeping $\hbar$ explicit reveals three separate controls and supplies two further results: attractive second-order recoil for the bound product, and the energy through $\hbar^2$ with recoil resummed at each displayed semiclassical order. The same harmonic state has a nonzero, calculable whole-state charge radius.
+The retained adjoint contact model binds both endpoints without a direct endpoint force. Keeping $\hbar$ explicit reveals three separate controls, attractive second-order recoil, and the deep-well energy and whole-state radius through $\hbar^2$. The leading anharmonic radius correction is positive. This crosses the current calculation's milestone without establishing the desired experimental pointlikeness.
 
-The next quantitative target is the finite-range trimer current beyond the harmonic approximation, in a stated regime. A useful first extension is the leading anharmonic correction to $r_E^2$; a different near-threshold target would require resummed two- and three-body propagation. Neither needs an immediate three-generation model. A string or Seiberg-dual completion remains a possible bridge to the broader correspondence, with an explicit operator dictionary and physical currents.
+The next quantitative target is the first anharmonic correction to the finite-momentum current for fixed $Q\sqrt{r_{E,{\rm harm}}^2}/\hbar=O(1)$, including its non-Gaussian shape. This will test a declared resolution interval rather than only its zero-momentum slope. A different near-threshold target would require resummed two- and three-body propagation. Neither needs an immediate three-generation model. A string or Seiberg-dual completion remains a possible bridge to the broader correspondence, with an explicit operator dictionary and physical currents.
 
 The previous scalar-completion study produces spin-dependent contacts rather than the spin-independent interaction assumed here. For physical spins its projectors are
 $P_0=1/4-\mathbf s_i\cdot\mathbf s_j/\hbar^2$ and $P_1=1-P_0$.

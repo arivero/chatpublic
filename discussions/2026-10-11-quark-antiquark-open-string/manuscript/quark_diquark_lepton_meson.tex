@@ -4,28 +4,29 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,booktabs,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.3: binding, recoil, semiclassical corrections and the whole-state current}}
+\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.4: anharmonic radius and conditional endpoint dictionary}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \title{Retained adjoint-fermion binding with explicit $\hbar$:\\
 recoil, quantum corrections and the whole-state current}
-\author{Research-notebook draft, version 0.3}
-\date{12 October 2026}
+\author{Research-notebook draft, version 0.4}
+\date{13 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
-We study two fermionic endpoints bound to a retained adjoint fermion by regulated contact interactions, with no direct quark--antiquark force. In a fixed-number, global-color model, dimer binding suffices to prove a trimer below breakup. With physical units and explicit $\hbar$, we distinguish recoil perturbation theory, the semiclassical expansion and contact iterations. The leading recoil energy correction is second order and attractive. For a Gaussian contact in the deep-well regime, we derive the energy through order $\hbar^2$ with exact mass-ratio dependence at each displayed order, together with the correlated harmonic charge radius. Contact binding does not by itself make this current pointlike. These results develop the user-selected retained-carrier model; a relativistic or common string realization remains a separate construction task.
+We study two fermionic endpoints bound to a retained adjoint fermion by regulated contact interactions, with no direct quark--antiquark force. In a fixed-number, global-color model, dimer binding suffices to prove a trimer below breakup. With physical units and explicit $\hbar$, we distinguish recoil perturbation theory, the semiclassical expansion and contact iterations. The leading recoil energy correction is second order and attractive. For a Gaussian contact in the deep-well regime, we derive the energy and whole-state charge radius through order $\hbar^2$, with exact mass-ratio dependence at each displayed order. The leading anharmonic radius correction is positive. Contact binding does not by itself make this current pointlike. Separate endpoint-statistics, $B-L$ and Goldstino proposals are identified as construction hypotheses; a relativistic or common string realization remains a separate task.
 \end{abstract}
 
 \paragraph{Research scope and provenance.}
 The broader target remains bosonic strings with $q/\bar q$ or $q/q$ endpoints for mesons or diquarks, and fermionic strings with $q/\bar q$ or $\bar q/\bar q$ endpoints for leptons or quarks. The main phenomenological question is approximately pointlike scattering of the whole fermionic state. The user now selects the retained adjoint contact model as the most interesting concrete object and requests explicit $\hbar$ in all calculations.
 
-This focused revision develops that selection. It does not identify a contact trimer with a string by definition. Version 0.2, including the warped-current comparison and the scalar-completion study, remains preserved at repository commit \texttt{6b73d29}; version 0.1 is preserved at \texttt{333e537}. The uploaded originals remain unchanged. Earlier natural-unit calculations are historical comparisons, not the unit convention of this paper. The new calculation uses standard spectral perturbation theory and oscillator methods; no claim of literature priority follows from their application here.
+This focused revision develops that selection. It does not identify a contact trimer with a string by definition. Version 0.2, including the warped-current comparison and the scalar-completion study, remains preserved at repository commit \texttt{6b73d29}; version 0.1 is preserved at \texttt{333e537}. The uploaded originals remain unchanged. Earlier natural-unit calculations are historical comparisons, not the unit convention of this paper. The new radius calculation uses standard perturbation theory; no claim of literature priority follows from its application here. The later hypothesis section does not change the fermionic-endpoint Hamiltonian used for this calculation.
 
 \input{retained_adjoint_hbar}
+\input{supersymmetry_dictionary}
 
 \section*{Reproducibility and review scope}
-The derivations in this revision are analytic; no new numerical physics script was required. A second research agent reviewed only the new recoil, semiclassical and current formulas. Routine document checks are assigned to a smaller model, following the user's two-level validation policy. Such reviews test consistency, not experimental correctness or novelty.
+The new radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Source reading and this document build were delegated to Sol. Earlier recoil, energy and harmonic-current results were unchanged and not rereviewed in this revision. These scoped checks do not establish experimental correctness, novelty or a completed supersymmetric model.
 
 The living source and PDF are in
 \begin{quote}\small
@@ -41,5 +42,15 @@ Metadata and abstract verified previously; full primary text not yet reviewed.
 \bibitem{Seiberg} N. Seiberg, \emph{Electric-magnetic duality in supersymmetric non-Abelian gauge theories},
 \href{https://arxiv.org/abs/hep-th/9411149}{arXiv:hep-th/9411149}.
 Relevant sections were read in the preceding notebook work; no new operator matching is claimed here.
+\bibitem{Rivero2005} A. Rivero, \emph{Supersymmetry with composite bosons},
+\href{https://arxiv.org/abs/hep-ph/0512065}{arXiv:hep-ph/0512065} (2005).
+The primary PDF was read; its degree count and proposed lepton-sector extension are prior art, not a completed dynamics.
+\bibitem{Rivero2009} A. Rivero, \emph{Unbroken supersymmetry, without new particles},
+\href{https://arxiv.org/abs/0910.4793}{arXiv:0910.4793} (2009).
+The primary PDF was read; its six charged pseudoscalar states and pointlike-lepton objection are relevant here.
+\bibitem{VolkovAkulov} D. V. Volkov and V. P. Akulov,
+\emph{Is the Neutrino a Goldstone Particle?}, Phys. Lett. B \textbf{46}, 109--110 (1973),
+\href{https://doi.org/10.1016/0370-2693(73)90490-5}{doi:10.1016/0370-2693(73)90490-5}.
+The supplied two-page original was read; it does not make the pion--muon identification proposed here.
 \end{thebibliography}
 \end{document}

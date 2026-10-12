@@ -1,0 +1,121 @@
+Volume 46B, number 1                                     PHYSICS LETTERS                                         3 September 1973
+
+
+
+
+                                    IS T H E N E U T R I N O A G O L D S T O N E P A R T I C L E ?
+
+                                                D.V. VOLKOV and V.P. AKULOV
+                    Physico- Technical Institute, Academy o f Sciences of the Ukrainian SSR, Kharkov 108, USSR
+
+                                                        Received 5 March 1973
+
+         Using the hypotheses, that the neutrino is a goldstone particle, a phenomenological Lagrangian is constructed,
+      which describes an interaction of the neutrino with itself and with other particles.
+
+
+
+    Recently much attention has been paid in the ele-                 the transformations (2) by the transformations:
+mentary particle physics to the problem of spontane-
+                                                                      ~0--, ~ ' = ~ +~       ~0+ ~ ' +   = ~+ +~ +
+ously broken symmetries and the related degeneracy
+of the vacuum state. An immediate consequence of                             f           a
+                                                                      x . -+ x . = x u - ~ (f+ou ~k - ~k+ou f ) .             (3)
+the vacuum degeneracy is that it gives rise to a possible
+existence of zero mass particles, the so-called Goldstone             The resulting structure is a group with ten commuting
+particles [1 ].                                                       and four anticommuting parameters*. It is the only
+    Among known elementary particles only the neu-                    possible generalization of (2) and the Poincar6 group
+trino, the photon and the graviton have zero masses.                  if the dimension of the group space is not enlarged. In
+However, the last two correspond to the gauge fields                  the transformations (3) a is an arbitrary constant. Its
+and do not require the vacuum degeneracy for their                    dimension is the fourth power of length.
+existence. Therefore the neutrino is the only elemen-                     Let us assume that in the presence of interaction
+tary particle the existence of which may be immedi-                   the equations for the neutrino are invariant under the
+ately related to the vacuum degeneracy.                               transformations (3).
+    We will restrict our attention to the following. If                   In the following we also assume that the number
+the neutrino is regarded as a Goldstone particle then                 of the derivatives of the neutrino field is a minimal
+this leads to a certain type of interaction of the neu-               one that is compatible with the invariance requirement.
+trino with itself as well as with other particles. The                    To construct the phenomenological action integral
+interaction is completely defined by phenomenologi-                   that satisfies the above assumptions it is sufficient to
+cal constants and in this sense is universal.                         use the following differential forms
+    For the determination of the type of spontaneously
+                                                                                    a
+broken symmetry that causes the degeneracy of the                     w , = d r , + ~ (~+oud¢ - d~k+ou t.k),                  (4)
+vacuum and the corresponding properties of the neu-
+trino as a Goldstone particle, let us consider the equa-              which are invariant under transformations (3). The
+tion for a free neutrino                                              action integral which is invariant under the Poincar6
+                                                                      group and the transformations (3) has the form
+i o , a~laxu = o                                             (])
+Eq. (1) is invariant under transformations of the                     S   1 f~0    X co 1 X oa 2 X co3                        (5)
+Poincar6 group and the chiral transformations as well
+as under translations in the spinor space, i.e. under the             where the sign X denotes the outer product of differ-
+transformations of the type                                           ential forms.
+                                I                                        The expression under the integral corresponds to the
+  -+ ~b' = ~b + ~      x . -+ x . = x . ,                    (2)
+                                                                      invariant infinitesimal four-dimensional volume in the
+where ~"is a constant spinor, anticommuting with qJ.                  space of group parameters.
+Leaving the transformation properties of x . and q~                   * Lie groups with commuting and anticommuting parameters
+under the Poincar6 group unchanged, let us replace                      were considered recently by Berezin and Kats [2].
+
+
+                                                                                                                              109
+Volume 46B, number 1                             PHYSICS LETTERS                                     3 September 1973
+
+   If the four-dimensional subspace in the action inte-     where
+gral (5) is determined by the explicit functions
+                                                                    1
+  = ff (x), the integral (5) takes the following, more
+conventional form
+                                                             and the tensor T,v and the determinant IWI are the
+S =1_
+   a
+     f lwl d4x                                      (6)      same as in (7).
+                                                                The weak interaction introduced into the scheme
+where IWI is the determinant of the matrix W~               under consideration with the help of the gauge fields
+                                                            for an approximate unitary symmetry group for the
+Wuu=Suv+aTuv                                                neutrino and other leptons. The simultaneous inclusion
+Tuv = ~1 (qJ+ou Ov~ - 3v~k+ou~).                    (7)     of the electromagnetic interaction as well is carried out
+                                                            by means of the well-known mechanism of the sponta-
+From (6) and (7) it follows that the action integral as     neously broken unitary symmetry [3]. In the limit of
+a function of the tensor Tuu has the form:                  zero lepton mass the unitary symmetry may be exact.
+                                                            In order to obtain the action integral for leptons in
+                                                            the unitary symmetry limit it is sufficient to consider
+                                                            the products of spinors in formulae, (3), (4) and (7)
+    a2                                                      as the products of unitary multiplets. In the formulae
+  +-~. ~ ( - 1 )     p TuuTvvTpo
+                                                            (3), (4) and (7) the terms for leptons with opposite
+      a3   P
+
+  +~.v ~ ( - 1 ) P
+                                   ]
+                      TuuTwTtwTao d4x,              (8)
+                                                            chirality may be added. The unitary groups for the
+                                                            different chirality states do not necessarily have to
+       p
+                                                            coincide.
+where ~p denotes the sum of the permutations of the             Similarly, the gravitational interaction may be in-
+second tensor indices in the products of the tensors        cluded by means of introduction the gauge fields for
+Tuu. The term with Tuu corresponds to the kinetic           the Poincar6 group. Note, that if the gauge field for
+term, the term with products of two, three and four         the transformation (3) is also introduced, then as a
+tensors Tuu form the parts of the interaction Lagrangian    result of the Higgs effect [41 the massive gauge field
+with four, six and eight fields correspondingly. The        with spin three-half appears and the considered Gold-
+power of the derivatives of the fields in interaction       stone particle with spin one half disappears.
+terms is determined by the number of multipliers Tuu.
+    The interaction of the neutrino with other fields
+is unambiguously defined by the requirement of in-          References
+variance under the considered group. Thus, for exam-
+ple, the action integral for a Dirac particle is given by   [1] J. Goldstone, Nuovo Cim. 19 (1961) 154.
+the following expression                                    [2] F.A. Berezin, G.I. Kats, Mathemat. Sbornik (USSR) 82
+                                                                (1970) 343.
+s =f [Ruu + a(Ruu T~, - Ruv Tvu)                            [3] S. Weinberg, Phys. Rev. Letters 19 (1967) 1264.
+                                                            [4] P.W. Higgs, Phys. Rev. 145 (1966) 1156.
+
+ + ~v. ~ (-1)P RuuTuvToo
+           P
+
+ +a~_~.Z(_l)PRuuTvvTgoToa+m~dp,WlJd4x               (9)
+
+
+
+
+110
+
