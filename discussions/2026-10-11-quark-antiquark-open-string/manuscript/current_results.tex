@@ -1,0 +1,41 @@
+Numerically integrating the finite-cutoff current gives the examples in
+Table~\ref{tab:current-results}. For $c=1$, solving $F_F^2=0.99$ at
+$Q=10\Lambda_{\had}$ gives
+\begin{equation}
+ \rho_{\rm threshold}\simeq2888.50,\qquad
+ F_F=0.99498744,\qquad F_B=0.03998718.
+\end{equation}
+This is the threshold of the specified model and tolerance, not a lower
+bound extracted from experiment. At $\rho=3000$ the fermionic rate
+ratio is $0.990366$; raising the momentum to $100\Lambda_{\had}$ at
+$\rho=10^4$ instead gives $0.970144$. The interval over which the
+current appears pointlike therefore matters.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{rrrrr}
+\toprule
+$\rho$ & $Q/\Lambda_{\had}$ & $F_F$ ($c=1$) & $F_F^2$ & $F_B$\\
+\midrule
+$1000$ & $10$ & $0.985846$ & $0.971892$ & $0.0399953$\\
+$3000$ & $10$ & $0.995171$ & $0.990366$ & $0.0399871$\\
+$10000$ & $10$ & $0.998537$ & $0.997076$ & $0.0399859$\\
+$10000$ & $100$ & $0.984959$ & $0.970144$ & $0.000400094$\\
+\bottomrule
+\end{tabular}
+\caption{Finite-momentum overlaps for the assumed profiles.
+The complete scan has 23 points with $Q/\Lambda_{\rm UV}\leq0.1$.
+The bosonic column is an amplitude form factor, not its square.}
+\label{tab:current-results}
+\end{table}
+
+Adaptive quadrature in $\log z$ was compared at the threshold and at
+$(Q/\Lambda_{\had},\rho)=(100,10^4)$ with fixed Gauss--Legendre quadrature
+and independently evaluated Bessel functions. Higher precision Bessel
+arithmetic and two quadrature orders gave agreement with the adaptive
+results within $4\times10^{-16}$ in absolute value at those points.
+The fixed-rule nodes and saved outputs use double precision, so this
+comparison does not certify 40 or 60 accurate decimal digits.
+For the next test, the marginal profile $c=1/2$ at
+$(Q/\Lambda_{\had},\rho)=(10,3000)$ gives $F_{1/2}=0.726914$,
+well below the $c=1$ value $0.995171$ at the same scales.

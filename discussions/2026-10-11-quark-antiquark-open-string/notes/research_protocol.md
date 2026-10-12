@@ -6,7 +6,9 @@
 
 A new derivation with explicit assumptions, a candidate construction surviving a serious consistency test, a scoped obstruction, or a new scattering prediction can advance the project. Standard representation identities and rederivations of known amplitudes provide background. They do not become new results because a script reproduces them.
 
-Use the short [checkpoint table](progress.md), not an expanding gate bureaucracy. Keep unfinished alternatives in the [idea bank](../blackboard/ideas.md), with their strongest objection and a next test or revival condition. The assistant's meson-plus-inert-spectator drift is explicitly parked there; familiarity is not a reason to replace the user's binding target.
+Use the short [checkpoint table](progress.md), not an expanding gate bureaucracy. Keep unfinished alternatives in the [idea bank](../blackboard/ideas.md), with their strongest objection and a next test or revival condition. The assistant's meson-plus-inert-spectator drift and later contact-trimer emphasis must not replace the user's four-string-sector target and whole-state pointlike-scattering question.
+
+The user requires the **living paper and built PDF to be updated after each research step**. Preserve the pre-PDF version 0.1 in Git at `333e537`; let the current paper evolve. Notes identify the result and next test; the paper carries the integrated argument. More documentation is not a substitute for crossing a physical milestone.
 
 The earlier **24 check groups** are historical reproducibility checks, not 24 discoveries or independent validations of the proposed physics. Some repeat elementary algebra and should not set the pattern for future work. Preserve their record, but do not grow the test count as a proxy for progress.
 
@@ -20,7 +22,7 @@ Before a substantive new numerical calculation, specify the quantity and regime,
 
 When scripts are justified, the user requests a smaller submodel for their routine implementation/execution and outputs saved to disk. Return only the result, uncertainties, and file paths to the main conversation. Escalate mathematical interpretation when necessary; a cheaper model's summary is not automatically authoritative. Do not introduce a script merely to have something executable.
 
-Checksums, native PDF extraction, and document-build checks remain useful file operations. They verify preservation and readability, not physics. No new numerical physics script was written for the current comparison.
+Checksums, native PDF extraction, and document-build checks remain useful file operations. They verify preservation and readability, not physics. The [finite-momentum current experiment](../blackboard/007_pointlike_current_mechanism.md) is justified by a new threshold question, with disk outputs and independent high-precision comparisons; its results remain conditional on the specified effective profiles.
 
 ## Small models and document handling
 

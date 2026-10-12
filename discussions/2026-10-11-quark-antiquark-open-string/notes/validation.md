@@ -35,3 +35,14 @@ Python packages `numpy`, `scipy`, `mpmath`, `sympy`, and `matplotlib` and the re
 The scattering script regenerates figures; SVG timestamps and internal identifiers can change without a mathematical or visual change. The validation run's incidental SVG rewrite was discarded after inspection. The numerical outputs and PNG remained unchanged.
 
 Primary-literature retrieval remains incomplete: arXiv attempts in the earlier assessment and the latest INSPIRE metadata request were blocked by the network proxy. No experimental fit was run, and the missing preprint drafts were not inspected.
+
+## Version 0.2 checkpoint — 12 October 2026
+
+The preceding record describes version 0.1. The drafts have since arrived and network access recovered. The living paper now incorporates the four-sector goal, finite-momentum current calculation and analytic localization discriminator; contact studies are supporting appendices.
+
+- `latexmk -pdf -interaction=nonstopmode -halt-on-error quark_diquark_lepton_meson.tex` completed: 20-page PDF, no final-log warnings, unresolved references or overfull boxes. Rendered pages 3–4 were inspected for the new equations and result table.
+- Both reference checksum manifests passed: all six original uploads remain unchanged.
+- The new `warped_current_experiment.py` was run by a `gpt-6-sol` agent. Its 23-point scan and threshold are saved in JSON. Adaptive and fixed-rule quadrature agree within 4×10⁻¹⁶ at the selected comparison points. Higher precision Bessel arithmetic does not remove the double-precision node/output limitation.
+- Additional agents reviewed the analytic profile formulas and scientific framing. Model agreement does not establish physical correctness, a common string construction or agreement with experiment.
+
+The older four physics scripts were not rerun: no new changes required their execution. No additional package installation, service startup or environment configuration change was needed. The recovered current instance supports the workflow; the cloud interruption's root cause is unknown.

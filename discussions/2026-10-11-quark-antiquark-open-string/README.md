@@ -2,11 +2,11 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
-**Latest, 12 October:** the user clarified that the fermionic carrier replaces the binding glue, rather than joining an already formed meson, and proposed Seiberg duality. [Blackboard 005](blackboard/005_fermionic_binding_and_seiberg.md) gives an explicit three-fermion contact model with a bound state below breakup, plus a careful SQCD operator dictionary. This is a limited binding result, not yet a string or pointlike-scattering construction. See the concise [progress record](notes/progress.md) and [idea bank](blackboard/ideas.md).
+**Latest, 12 October:** the primary question is how a **whole fermionic color string** can appear pointlike while the bosonic string remains extended. [Blackboard 007](blackboard/007_pointlike_current_mechanism.md) summarizes two conditional current tests now leading the paper: a calculable hierarchy from different radial profiles, and the UV-boundary requirement those profiles impose. The contact binding and scalar completion in [005](blackboard/005_fermionic_binding_and_seiberg.md) and [006](blackboard/006_scalar_completion_test.md) are supporting results. See the concise [progress record](notes/progress.md) and [idea bank](blackboard/ideas.md).
 
 The [previous PRD/PRL drafts and addendum are preserved](references/received-2026-10-12/README.md); the [comparison](notes/draft_comparison.md) and [flavor scaffold](blackboard/003_flavor_scaffolding.md) remain available. Internet access now works. The [AI bibliography](notes/ai_research_bibliography.md) includes retrieved October 2026 sources, distinguishing reported results from independently verified work.
 
-Our [independent PRD-style reconstruction](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), remains the pre-PDF version preserved at commit `333e537`. It was informed by the earlier conversations and is not a blind discovery experiment. The [research workplan](notes/workplan.md) now prioritizes smaller flavor models and meaningful derivations over routine scripted checks. Schwarz's 1971 *Dual quark-gluon model of hadrons* remains the historical anchor; its primary text and related Scherk papers still need verification.
+The [living PRD-style paper](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), is now version 0.2 and must be updated after each research step. Its pre-PDF version 0.1 is preserved in Git at `333e537`; it was informed by the earlier conversations, not a blind discovery experiment. The [workplan](notes/workplan.md) prioritizes deriving the common string/dual construction behind the current mechanism. Schwarz's 1971 *Dual quark-gluon model of hadrons* remains the historical anchor; its primary text and related Scherk papers still need verification.
 
 The active notebook now has two levels:
 
@@ -15,7 +15,16 @@ The active notebook now has two levels:
 
 These are readable files in the shared checkout and are versioned on the repository's `work` branch. The original notebook checkpoint `2ab95a4` has been pushed to GitHub; [the remote notebook](https://github.com/arivero/chatpublic/tree/work/discussions/2026-10-11-quark-antiquark-open-string) is the publication location. The `main` branch is unchanged. [AGENTS.md](AGENTS.md) records the user's ongoing note-taking convention for future work in this directory. Check local and remote Git status before assuming later edits are already published.
 
-The original question compared ordinary mesonic behavior with a fermionic state's **whole-particle** pointlike scattering. The clarified construction changes the binding carrier itself: two physical fermionic endpoints with adjoint fermionic glue. A retained q qbar λ singlet has an octet endpoint pair; an ordinary meson is not being assumed as a pre-existing constituent.
+The user's controlling four-sector definition is:
+
+| State | SU(3) color string | Endpoints | Selected whole-state color |
+| --- | --- | --- | --- |
+| Meson | Bosonic | q / qbar | 1 |
+| Diquark | Bosonic | q / q | anti-3 |
+| Lepton | Fermionic | q / qbar | 1 |
+| Quark | Fermionic | qbar / qbar | 3 |
+
+The antisymmetric diquark channel is selected here. Color carried internally is distinct from the total state's color. Pointlike constituent scattering, an inert spectator, or a bound contact trimer alone does not answer the whole-string question.
 
 The earlier flat-string assessment remains a conditional benchmark: that specified open-superstring construction does not achieve the desired scattering hierarchy. It does not settle the corrected fermionic-binding construction, Seiberg-dual possibilities, or all confining duals.
 

@@ -2,7 +2,7 @@
 
 12 October 2026. This plan follows the [independent manuscript reconstruction](../manuscript/README.md), created before the previous preprints arrived. Those drafts are now [preserved](../references/received-2026-10-12/README.md) and [compared](draft_comparison.md). The purpose is to find a viable construction or a sharply scoped obstruction. Confirmation of a 1970s model is an outcome to assess, not an assumption.
 
-**Active correction:** replace the binding carrier, not the endpoint pair with a preformed meson. The [short progress table](progress.md) records the achieved contact-binding result; [blackboard 005](../blackboard/005_fermionic_binding_and_seiberg.md) contains its proof and the Seiberg-duality analysis. The broad stages below remain a map of later obligations, not prerequisites for each useful result.
+**Controlling target:** meson = bosonic color string q/qbar; diquark = bosonic color string q/q; lepton = fermionic color string q/qbar; quark = fermionic color string qbar/qbar. The main result sought is approximately pointlike **whole-string** fermionic scattering alongside extended bosons. [007](../blackboard/007_pointlike_current_mechanism.md) gives a conditional current mechanism and its UV-completion discriminator. Contact binding in [005](../blackboard/005_fermionic_binding_and_seiberg.md) and [006](../blackboard/006_scalar_completion_test.md) is supporting material. The broad stages below are a map of obligations, not prerequisites for each useful result.
 
 ## Starting decisions
 
@@ -31,11 +31,11 @@ Stages 5A and 5B are alternative ultraviolet routes. Neither should be assumed t
 
 ## The next calculation to prioritize
 
-Match a specified massive-squark completion to the qλ and qbar λ contact interactions in the proven three-body model. Derive the sign, spin/color projections and cutoff, retain allowed annihilation channels, and determine whether the binding inequality can be satisfied within the approximation. This is the single next physical target. A mismatch is useful evidence for changing the completion, not a reason to repeat the same parity objection.
+Derive a physical UV mode/boundary and the two sector profiles from one string or Seiberg-dual construction with the user's endpoint assignments. The current experiment has already quantified the required hierarchy for its c=1 profile; the normalizability test identifies which boundary physics must be explained. Specify whether an elementary source is an input or a derived degree of freedom. An explicit boundary action and endpoint/operator dictionary would advance this step; another assumed profile would not complete it.
 
-If that match succeeds, calculate a current of the same bound state and examine a dual description with a declared momentum window. The SQCD laboratory SU(3),N_f=4 is chosen for s-confinement; it is not a claim that four flavors are needed for the contact proof or for pion physics. An H–mesino overlap requires a UV operator prescription and nonholomorphic matching data. A nonzero overlap alone is not an observable constituent probability.
+Then compute a second observable of that construction, such as a transition current, resonance coupling, or four-point process, over a declared momentum interval. One spacelike form factor is insufficient to establish pointlike experimental behavior. Preserve pion dynamics and flavor additions as staged questions, each with a stated purpose.
 
-The earlier [mixing EFT](../blackboard/002_two_branch_dictionary.md) and meson-plus-inert-spectator idea are comparison models, not substitutes for this binding calculation. Pion dynamics, the three-flavor scalar-antidiquark extension and weak generations remain staged targets, each requiring its own reason for added field content.
+The scalar-contact completion has been tested in [006](../blackboard/006_scalar_completion_test.md): its spin structure changes the original proof, and its weak far-detuned regime has a no-binding bound. A resonant coupled-channel calculation remains an optional supporting idea, not the next main milestone. Likewise the earlier [mixing EFT](../blackboard/002_two_branch_dictionary.md) is a comparison, not a silent substitute for the string construction. SU(3),N_f=4 provides an s-confining laboratory; it does not by itself supply the required string dictionary or scattering window.
 
 ## Evidence that would change the current assessment
 
@@ -45,6 +45,6 @@ Negative evidence includes a required odd carrier that carries the wrong exact c
 
 ## Comparison with the supplied drafts and the next version
 
-The source preservation and first comparison are complete; see [draft_comparison.md](draft_comparison.md). Keep the independent PDF/source version and its commit. The next revision should correct the supplied sign/citation issues, make the lower-flavor scope explicit, and preserve the distinction between known benchmarks and the missing dynamical construction. The addendum's weak-sector and data-matching claims are later conditional tests, not current obligations to solve the full Standard Model.
+The source preservation and first comparison are complete; see [draft_comparison.md](draft_comparison.md). Version 0.1 remains in Git at `333e537`; version 0.2 is the living paper, updated after every research step as the user requested. It leads with the four-sector target and current tests, with supporting contact calculations in appendices. Keep known benchmarks distinct from the missing dynamical construction. The addendum's weak-sector and data-matching claims are later conditional tests, not current obligations to solve the full Standard Model.
 
-The omitted marginal radial case `b=2` is derived analytically in [blackboard 004](../blackboard/004_draft_equations.md). It refines an ansatz, not a QCD dual; no new numerical run was needed. The next justified numerical task should be selected only after a specific current/amplitude or profile calculation makes it necessary.
+The omitted marginal radial case `b=2` is derived analytically in [blackboard 004](../blackboard/004_draft_equations.md). It refines an earlier amplitude ansatz, distinct from the current overlaps in [007](../blackboard/007_pointlike_current_mechanism.md). The latter's finite-momentum calculation answers a new quantitative question and is saved to disk; further code needs a similarly specific purpose.

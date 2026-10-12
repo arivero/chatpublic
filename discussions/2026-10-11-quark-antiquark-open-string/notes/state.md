@@ -4,9 +4,11 @@ Last updated 12 October 2026 for the conversation begun on 11 October. This is a
 
 ## Goal
 
-Investigate **two physical fermionic endpoints bound through a fermionic color carrier**, and whether the resulting odd state can have approximately pointlike whole-state scattering. The user clarified that the binding carrier replaces bosonic glue; a preformed meson plus an inert neutral spectator was assistant drift. For a retained adjoint carrier the endpoint pair is an octet, not an ordinary color-singlet meson. The quark–diquark branch and the original comparison with bosonic string behavior remain longer-term targets.
+Find a mechanism making the **whole fermionic color string** approximately pointlike in scattering while the bosonic string remains extended. The user's controlling assignment is meson = bosonic string q/qbar, diquark = bosonic string q/q, lepton = fermionic string q/qbar, and quark = fermionic string qbar/qbar. The selected total colors are 1, anti-3, 1 and 3; internal SU(3) flux does not make the meson or lepton colored. A preformed meson plus an inert spectator and the later promotion of a contact trimer to the main goal were both assistant drift.
 
-**Current result:** [blackboard 005](../blackboard/005_fermionic_binding_and_seiberg.md) constructs a finite-range contact Hamiltonian of q, qbar and an active adjoint fermion. In its global-color, fixed-number singlet sector, a variational proof gives E₃≤2ε₂<ε₂ below dimer breakup, without a direct q qbar force. It establishes a restricted binding example; its coupling, UV completion, flux tube and pointlike scattering are not derived. The same entry supplies the SQCD component dictionary and flavor-phase choices requested by the user's Seiberg-duality suggestion. See [progress](progress.md) and the [idea bank](../blackboard/ideas.md).
+**Current result:** [007](../blackboard/007_pointlike_current_mechanism.md) and the living paper calculate a conditional whole-mode elastic-current hierarchy using different warped radial profiles. At Q=10Λ_had, a c=1 fermion profile reaches F_F²=0.99 at Λ_UV/Λ_had≈2888.50, with F_B≈0.0399872 for the extended comparison profile. A second analytic test shows that weaker localization cannot achieve this efficiently and that c≥1/2 needs a physical UV boundary/completion. This is one assumed current, not a derived common string, full scattering matrix or experimental bound. Next derive the boundary mode and both sector profiles within a common string or Seiberg-dual dictionary, then test another observable. See [progress](progress.md) and the [idea bank](../blackboard/ideas.md).
+
+[005](../blackboard/005_fermionic_binding_and_seiberg.md) proves binding in a restricted global-color, fixed-number contact Hamiltonian; [006](../blackboard/006_scalar_completion_test.md) matches a scalar completion and excludes its weak, far-detuned binding regime. These remain useful supporting calculations, now in paper appendices.
 
 The user explicitly wants active research rather than a restriction to the simplest flat Ramond-string construction. Alternative dual strong theories and Kaluza–Klein geometry are in scope.
 
@@ -16,13 +18,14 @@ The user also frames this as frontier-model-assisted research, naming GPT Astra 
 
 - Keep readable notes in this repository for later agents, at two levels: curated `notes/` and a working `blackboard/`.
 - Keep milestones short and cross them with results. Store half-baked ideas separately with objections and revival conditions, without favoring orthodoxy or agreement with the user.
+- Update the living paper and built PDF after each research step; notebook updates alone do not complete a step.
 - The fermion is to participate in binding the endpoints. Distinguish exchange with endpoint conversion from a retained binding constituent; neither is an inert spectator. Seiberg duality / a super-QCD string is now an explicit avenue.
 - The two uploaded Markdown conversations are references. Copies have been preserved unchanged and their SHA-256 hashes recorded.
 - “Non-Dirac quarks” in an earlier message was a typo. The intended quarks are **non-chiral in gauge representation, Dirac quarks**.
 - A chiral weak sector need not be constructed at this stage. This does not remove the need for approximate global chiral flavor symmetry if the pion's Goldstone mechanism is to be reproduced.
 - Consider a dual description of QCD-like dynamics and a geometric route based on CP² × S¹, including the spinᶜ/bundle ingredients necessary to make it meaningful.
 - Physical motivation: bosonic statistics permit a classical/coherent field associated with binding; the user suspects the absence of an analogous fermionic field could restrict its effect to contact and conceal the fermionic string. This is a working hypothesis to refine and test, not an established implication of statistics.
-- The user requested an independent PRD-style reconstruction before supplying the previous preprints. That version is preserved at `333e537`. The PRL, PRD, and addendum PDFs have now arrived, been preserved, extracted, and compared; the original reconstruction PDF/source is unchanged. It used the earlier detailed conversations, so it was not a blind rediscovery experiment.
+- The user requested an independent PRD-style reconstruction before supplying the previous preprints. Version 0.1 is preserved in Git at `333e537`; the current paper evolves as version 0.2. The PRL, PRD, and addendum PDFs have arrived, been preserved, extracted, and compared. The reconstruction used the earlier detailed conversations, so it was not a blind rediscovery experiment.
 - The historical target is Schwarz's 1971 *Dual quark-gluon model of hadrons*, with related early work involving Joel Scherk to identify. The user provided this title; the primary text has not been retrieved here.
 - On 12 October the user explicitly requested pushing, in addition to commits. The first notebook checkpoint is published on `origin/work`; `main` remains unchanged.
 - The user asks to build flavor/generation content in stages: explain what each addition is needed for, and retain useful models with fewer flavors. Do not attempt the complete three-generation Standard Model as one indivisible target.
@@ -45,11 +48,11 @@ The user also frames this as frontier-model-assisted research, naming GPT Astra 
 
 ## Current research conjecture
 
-Can a completion of the demonstrated fermion-only contact interaction connect a two-fermion-plus-adjoint bound state to a controlled dual description and ultimately the desired scattering behavior? In SQCD, H=(ψtilde Tᵃψ)λᵃ shares the mesino's exact charges, but its overlap is uncalculated and depends on the operator prescription. The usual mesino ψ_M=φtilde ψ+ψtilde φ must not be relabeled as the proposed constituent structure.
+Can one string or controlled dual construction derive an ultraviolet-concentrated fermionic mode and an extended bosonic mode with the specified endpoints? The warped overlap calculation makes the needed hierarchy quantitative. It does not yet explain the UV boundary or exclude elementary-source admixture. In SQCD, H=(ψtilde Tᵃψ)λᵃ shares the mesino's exact charges, but its overlap is uncalculated and depends on the operator prescription. The usual mesino ψ_M=φtilde ψ+ψtilde φ must not be relabeled as the intended fermionic string.
 
 The correct target is a calculation of current matrix elements, relevant spectral weights/gaps, and hard scattering. A missing classical fermionic mean field by itself does not remove bosonic exchanges, form-factor corrections, or Regge states from fermion scattering.
 
-The [independent manuscript](../manuscript/README.md) remains the historical reconstruction, not a revision incorporating this correction. Earlier colorless-carrier and elementary/composite mixing examples are comparisons, not the active binding ansatz. The [workplan](workplan.md) prioritizes matching an explicit completion to the contact interaction, then its current. SU(3),N_f=4 offers an s-confining SQCD laboratory; those extra flavors serve phase control, not an explanation of weak generations.
+The [living manuscript](../manuscript/README.md) now leads with the corrected four-sector goal and both current tests. Earlier colorless-carrier and elementary/composite mixing examples remain comparisons; contact binding is supporting material. The [workplan](workplan.md) prioritizes a physical UV mode and common sector construction. SU(3),N_f=4 offers an s-confining SQCD laboratory; those extra flavors serve phase control, not an explanation of weak generations.
 
 ## Not yet established
 
@@ -70,6 +73,7 @@ The [independent manuscript](../manuscript/README.md) remains the historical rec
 - [Research protocol and restrained computation](research_protocol.md)
 - [Latest curated result on fermion exchange](fermion_exchange.md)
 - [Working blackboard](../blackboard/README.md)
+- [Finite-momentum current experiment](../calculations/warped_current_experiment.json), with [script](../scripts/warped_current_experiment.py) and [interpretation](../blackboard/007_pointlike_current_mechanism.md).
 - [Flat/radial calculations](../scripts/scattering_checks.py): six check groups recorded in [results.json](../calculations/results.json).
 - [Geometry/representation calculations](../scripts/geometry_checks.py): seven check groups recorded in [geometry_results.json](../calculations/geometry_results.json).
 - [Fermion exchange calculations](../scripts/fermion_exchange_checks.py): propagator, spatial kernel, contact expansion, and coupled-channel checks; output in [fermion_exchange_results.json](../calculations/fermion_exchange_results.json).

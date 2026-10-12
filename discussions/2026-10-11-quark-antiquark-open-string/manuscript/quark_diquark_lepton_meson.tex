@@ -4,7 +4,7 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,slashed,graphicx,booktabs,array,longtable,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Quark-diquark and lepton-meson correspondences},pdfauthor={Independent research notebook},pdfsubject={Version 0.1: scattering constraints and routes to a dual construction}}
+\hypersetup{pdftitle={Pointlike scattering from fermionic color strings},pdfauthor={Research notebook},pdfsubject={Version 0.2: four string sectors and current-localization tests}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \newcommand{\CP}{\mathbb{CP}^{2}}
@@ -13,27 +13,42 @@
 \newcommand{\had}{\mathrm{had}}
 \newcommand{\tr}{\operatorname{tr}}
 \graphicspath{{../calculations/}}
-\title{Quark--diquark and lepton--meson correspondences:\
-scattering constraints and routes to a dual construction}
-\author{Independent research-notebook reconstruction, version 0.1}
+\title{Pointlike scattering from fermionic color strings:\\
+mechanism tests for quark--diquark and lepton--meson correspondences}
+\author{Research-notebook draft, version 0.2}
 \date{12 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
-We examine whether quark--antiquark and two-antiquark string configurations can support extended bosonic hadrons together with fermionic states whose hard scattering is approximately elementary. We separate an operator correspondence, a common excitation spectrum, and a genuine dynamical duality. Ordinary QCD meson and scalar antidiquark operators have even fermion parity; an odd partner requires additional physical or topological structure. Conserved baryon and lepton numbers impose different requirements on the two branches. A charged open-superstring benchmark reproduces the known common Veneziano factor and fails to hide a hadronic string scale in fermion scattering. A positive radial convolution replaces exponential softness with a power law but does not by itself recover elementary scattering. We formulate a conditional two-branch operator dictionary, a mixing model that diagnoses the weaker possibility of hadronic dressing, and geometric ingredients for vectorlike Dirac modes on $\CP\times S^1$. Fermionic statistics forbid a conventional odd classical mean field but neither finite-range exchange nor compositeness form factors. The resulting program identifies the operator, chiral, spectral, and scattering calculations needed for a genuine construction. No full QCD dual, compactification vacuum, or phenomenological fit is claimed.
+We study the proposal that bosonic color strings with quark--antiquark or quark--quark endpoints describe mesons or diquarks, while fermionic color strings with quark--antiquark or antiquark--antiquark endpoints describe leptons or quarks. The primary objective is a mechanism making the whole fermionic string appear pointlike in experiments while bosonic strings remain extended. As a first test, a warped effective model with ultraviolet-localized fermionic modes and extended bosonic modes produces a hierarchy of elastic-current form factors. A second test identifies the necessary localization: marginal and infrared-weighted profiles cannot achieve the same separation with a comparable scale hierarchy, and the efficient profiles require ultraviolet boundary or completion physics. The mode profiles are assumed, not derived from a common string construction; one elastic current is not a complete string scattering amplitude. Earlier flat-string and geometric analyses remain comparisons, while contact binding and scalar matching are supporting appendices. A consistent string realization, its endpoint dictionary, and its full experimental scattering criterion remain open.
 \end{abstract}
 
 \noindent\fbox{\parbox{0.96\linewidth}{\small
-\textbf{Provenance.} This draft was constructed before receiving the preprint drafts mentioned in two supplied conversation transcripts. Those drafts remain unseen. Equations labeled as checks below were derived or reproduced in the accompanying notebook; proposed mechanisms remain conditional. Literature pointers have not been freshly verified against primary texts because retrieval was blocked. The aim is to make an independently reviewable starting point, not to reconstruct missing text verbatim or establish publication priority.}}
+\textbf{Provenance and revision.} Version 0.1 was reconstructed from detailed conversations before receipt of the earlier preprints and is preserved at Git commit \texttt{333e537}. Those preprints have since been received and compared. Version 0.2 makes the four string sectors and pointlike-scattering mechanism central; treating a contact trimer as the main proposal was a drift corrected by the user. Source-informed reconstruction is not blind discovery. Standard warped-field, few-body and SQCD tools are used with explicit assumptions; their use does not itself establish novelty or a completed string theory.}}
 
 \section{The question and its historical target}
-The proposal has two related branches. In the first, a bosonic $q\bar q$ flux configuration behaves as a meson, while an associated fermion behaves as a lepton in hard scattering. In the second, a scalar antidiquark in the color $\mathbf 3$ is associated with a quark. Both ask for a conspicuous hadronic length scale in the bosonic description and a much smaller, or operationally absent, compositeness scale in the fermionic description. The intended endpoint quarks are vectorlike Dirac fields. Construction of a chiral weak sector is deferred; the global chiral flavor symmetry responsible for light pions is retained.
+The proposed correspondence is the following. ``Bosonic'' and ``fermionic'' label the string sectors; replacing a string by a third pointlike constituent is a separate model, not an identification assumed here.
+\begin{center}
+\begin{tabular}{llll}
+\toprule
+State & $SU(3)$ color-string sector & Physical endpoints & Target net color\\
+\midrule
+Meson & bosonic & $q,\bar q$ & $\mathbf1$\\
+Diquark & bosonic & $q,q$ & $\bar{\mathbf3}$\\
+Lepton & fermionic & $q,\bar q$ & $\mathbf1$\\
+Quark & fermionic & $\bar q,\bar q$ & $\mathbf3$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The diquark entries select the antisymmetric color channels. Internal color flux does not imply that the entire meson or lepton is colored. This table specifies the research target, not a constructed spectrum or a completed charge dictionary. The intended endpoint quarks are vectorlike Dirac fields; weak generations are deferred. Global chiral symmetry remains relevant to the eventual pion sector.
+
+The \emph{main goal} is to explain approximately pointlike scattering of the whole fermionic strings, in contrast to extended bosonic strings. Pointlike endpoint constituents do not answer that question. Section~\ref{sec:current-profiles} directly tests a current-localization mechanism and its limits. Binding and scalar matching are retained only as supporting studies in Appendices~\ref{sec:retained}--\ref{sec:completion}.
 
 The user identifies Schwarz's 1971 \emph{Dual quark-gluon model of hadrons}~\cite{Schwarz1971} as a historical anchor, with related early work involving Joel Scherk. Ramond's fermionic dual construction~\cite{Ramond}, dual parton models, and spinful string endpoints~\cite{BarsHanson} are nearby leads. Before comparing claims, three uses of ``dual'' must be distinguished: channel duality of resonance amplitudes, a gauge/string description of a confining theory, and an electric--magnetic equivalence between gauge theories. An analogy between these ideas is not a derivation of their equivalence. Primary-text review must identify what the 1971 construction actually assigns to its fermionic and bosonic states.
 
 There is also an immediate representation issue. On an ordinary oriented open-string stack the massless Neveu--Schwarz (NS) vector and Ramond (R) spinor carry the same Chan--Paton representation, ordinarily an adjoint. Calling them ``gluon'' and ``quark'' does not turn the latter into a fundamental $\mathbf 3$ of color. Projections, multiple stacks, or additional matter sectors can alter this statement, but their consistency and interactions must be supplied. A meson is itself color singlet, whereas a gluon is adjoint. Thus the quark--gluon and lepton--meson identifications are distinct targets even when inspired by the same string spectrum.
 
-We will use two operational levels of the proposal. A \emph{weak correspondence} permits an elementary fermion with an infrared component described by a meson or antidiquark and another carrier. A \emph{strong correspondence} requires the complete state, its charges, and its scattering to follow from one dual construction without inserting an unrelated elementary copy to obtain the desired answer. A successful weak model is useful, but does not establish the strong one.
+We retain two operational levels for comparison. A \emph{weak correspondence} permits an elementary fermion with hadronic dressing. A \emph{strong correspondence} requires the state and its observables to follow from one string or dual construction. The old singlet-meson/carrier, mixing and contact-trimer examples are diagnostics; none substitutes for the four-sector proposal.
 
 For a lepton-like state $F$ the intended scattering criterion is a comparison with a specified point-particle theory over a finite kinematic domain,
 \begin{equation}
@@ -42,6 +57,8 @@ For a lepton-like state $F$ the intended scattering criterion is a comparison wi
  \label{eq:criterion}
 \end{equation}
 away from angular singularities or zeros in the reference amplitude. Mass, charge, radiative corrections, and infrared resolution must be matched. For quarks, confinement prevents a literal isolated asymptotic-quark measurement: the eventual criterion must use factorized hard amplitudes and infrared-safe jet or hadron observables. A representation count alone cannot meet Eq.~\eqref{eq:criterion}.
+
+\input{pointlike_current}
 
 \section{Operator parity and the two-branch dictionary}
 \subsection{Physical endpoints and labels are different constructions}
@@ -70,12 +87,12 @@ The relevant color products are
 \end{equation}
 Let $D^a_i$ denote a local scalar antidiquark, color antisymmetric and flavor antisymmetric. For three light flavors it transforms as a flavor triplet. In an $S$ wave its spin wavefunction is antisymmetric. Since color and spin together contribute two minus signs under exchange, flavor must also be antisymmetric to satisfy the Pauli principle. For $N_f$ flavors the scalar channel therefore has $N_f(N_f-1)/2$ flavor components. The symmetric count $N_f(N_f+1)/2$ belongs to a different spin/color assignment, not automatically to the same scalar antidiquark.
 
-Suppressing spatial dressing and Lorentz projectors, candidate odd interpolators have the schematic form
+The following factorized operators are charge-bookkeeping diagnostics, not the proposed colored fermionic strings. A fermion-odd matrix-valued line operator between endpoints need not factor into a color-singlet meson and a spectator. Suppressing spatial dressing and Lorentz projectors, the diagnostic interpolators have the schematic form
 \begin{equation}
- {cal O}_Q=D\,\chi_Q,\qquad {\cal O}_\ell=M\,\chi_L.
+ {\cal O}_Q=D\,\chi_Q,\qquad {\cal O}_\ell=M\,\chi_L.
  \label{eq:dictionary}
 \end{equation}
-Here $\chi_Q$ and $\chi_L$ are \emph{physical} odd carriers or symbols for specified odd topological sectors; they are not supplied merely by calling a state Ramond. The minimal ledger, assuming conserved conventional $B$ and $L$, is
+Here $\chi_Q$ and $\chi_L$ are \emph{physical} odd carriers or symbols for specified odd topological sectors; they are not supplied merely by calling a state Ramond. For this factorized diagnostic, a minimal ledger assuming conserved conventional $B$ and $L$ is
 \begin{center}
 \begin{tabular}{lcccc}
 \toprule
@@ -260,7 +277,7 @@ For equal constituent masses with one charged constituent, the normalized charge
 \end{equation}
 When $1/a\ll\Lambda_{\rm UV}$ the composite is resolvable within the EFT although its force is contact to that accuracy. This counterexample isolates the missing step in the proposed coherence argument.
 
-\section{A controlled diagnostic: elementary--composite mixing}
+\section{A comparison diagnostic: elementary--composite mixing}
 A simple effective theory makes the weaker correspondence concrete. Introduce an elementary Dirac fermion $F_0$ and a composite interpolating resonance $C$ with the same exact unbroken charges. Suppose, as a restricted example, that their Dirac mass matrix is real symmetric,
 \begin{equation}
  \Lag_m=-(\bar F_{0L},\bar C_L)
@@ -376,17 +393,17 @@ There is also a scale-direction issue. A free-magnetic description is useful bel
 A proposed exact correspondence should specify a generating functional with matching external sources, or a controlled approximation to one. At minimum the two descriptions must agree on exact symmetries and their anomalies, charges, fermion parity, physical poles, and current matrix elements in a shared regime. For the operators in Eq.~\eqref{eq:dictionary}, a useful first object is the renormalized matrix correlator
 \begin{equation}
  G_{ij}(p)=i\int d^4x\,e^{ipx}
- \langle0|T\,{cal O}_i(x)\overline{{\cal O}}_j(0)|0\rangle,
+ \langle0|T\,{\cal O}_i(x)\overline{{\cal O}}_j(0)|0\rangle,
 \end{equation}
 with a gauge-invariant prescription for physical observables or an explicitly fixed gauge for colored interpolators. Shared poles and residues distinguish overlap with one state from an extra particle, but pole matching alone does not prove equality of four-point functions. The candidate must also reproduce the meson spectrum, chiral Ward identities, and the hard-current criterion without extra light sectors contradicting its intended spectrum.
 
 An ordinary baryon is already a fermionic composite bound by bosonic QCD fields. Its existence illustrates why the statistics of a composite does not determine the statistics of its binding channel. Similarly an R string still has the bosonic embedding coordinates and string tension, and four-R scattering can exchange NS states. The desired suppression must therefore be a property of a specified dual dynamics, not a general consequence of the word ``fermionic.''
 
 \section{A falsifiable construction program}
-The immediate priority is the smallest model capable of distinguishing a useful correspondence from a restatement of quantum numbers. The stages below are ordered by what can invalidate a candidate before an expensive compactification calculation.
+The immediate task following Sec.~\ref{sec:current-profiles} is to derive the different mode profiles and ultraviolet boundary physics from a candidate realization of the four string sectors, then test additional scattering channels. A Seiberg-dual description is one possible source of an emergent weak fermionic variable, but its operator and scale dictionary must be supplied. The contact and scalar-completion studies do not take priority over this pointlike-scattering objective. The broader stages below organize later obligations.
 
 \begin{enumerate}
-\item \textbf{Recover the precise historical target.} Read Schwarz's 1971 paper and identify the related Scherk papers. Record their gauge representations, worldsheet sectors, spectra, and meaning of quark--gluon duality. Separately compare the unseen preprints when supplied. This independent draft must remain accessible as the pre-comparison checkpoint.
+\item \textbf{Recover the precise historical target.} Read Schwarz's full 1971 paper and identify the related Scherk papers. Its journal metadata and abstract have been verified, while the supplied preprints have been compared. Preserve the version-0.1 Git checkpoint and separate historical claims from the present construction.
 \item \textbf{Close the operator dictionary.} Specify whether endpoints are physical partons or labels; choose conserved charges and all carriers; implement Pauli symmetry and chiral representations. A failure to construct an allowed odd operator with the desired charges rejects that assignment before scattering is considered.
 \item \textbf{Compute a minimal dynamical discriminator.} In a chosen EFT or controlled dual model, calculate a two-point spectral matrix, a probe-current three-point function, and at least one four-point scattering amplitude. Test both the lepton branch and the colored branch with its proper observable. Determine whether the light fermion is inserted, emergent, or merely a dressed known quark.
 \item \textbf{Explain the scale and residue separation.} Reproduce extended bosonic hadrons while keeping fermion deviations small over a declared interval. If suppression uses mixing or localization, derive it and test loops, transition channels, and resonance production. Contact expansions are tested only in their domain of validity.
@@ -395,9 +412,11 @@ The immediate priority is the smallest model capable of distinguishing a useful 
 \item \textbf{Match to data and reassess the historical claim.} Derive the full relevant EFT coefficients or finite-energy amplitudes, then apply identified experimental likelihoods with their conventions. Only then compare the model's actual successes with the precise historical proposal. Confirmation cannot be built into the criterion for success.
 \end{enumerate}
 
-There is presently a consistent \emph{question}, a set of verified necessary constraints, and several conditional building blocks. The flat common-slope construction fails its explicit hard-scattering test; the broader dual/geometric program remains open. The most informative next achievement would be one complete two-branch operator and current calculation that meets both the pion and scattering conditions, rather than a larger set of representation coincidences.
+The current result is a conditional elastic-current mechanism and a discriminator that identifies its dependence on ultraviolet localization. The common string realization and full hard-scattering criterion remain unresolved. The supporting binding example and its failed weak completion neither establish nor exclude that main proposal. Each additional flavor, channel or scale must serve a specified requirement rather than an immediate attempt at all three Standard Model generations.
 
 \appendix
+\input{fermionic_binding}
+
 \section{Reproducibility and evidence boundaries}
 All calculations use natural units. The notebook is in the repository directory
 \begin{quote}\small
@@ -408,18 +427,24 @@ It contains verbatim copies of the two supplied transcripts with checksums, cura
 \texttt{fermion\_exchange\_checks.py}, and \texttt{branch\_checks.py}
 verify, respectively, the string/radial functions, index and charge algebra, exchange/contact counterexamples, and the new branch/mixing bookkeeping. Results are stored as JSON, with the scattering figure and table alongside them. Checks of equations do not establish a complete vacuum, an exact duality, or agreement with experiment.
 
-The preliminary literature pointers below are intentionally limited. The existing notebook records failed arXiv retrieval attempts; an INSPIRE metadata request for Schwarz's title on 12 October 2026 also returned a proxy 403. No current strongest compositeness limit is asserted. Full historical bibliography, attribution of any purported novelty, and the relevant experimental datasets remain work items. Titles and identifiers are reading leads, not a claim that these primary texts were inspected for this version.
+The new finite-momentum question in Sec.~\ref{sec:current-profiles} is implemented in \path{warped_current_experiment.py}, with its conventions, scan, threshold and numerical comparisons saved in \path{calculations/warped_current_experiment.json}. Routine implementation and execution were delegated to GPT-6-Sol, following the user's preference for a smaller model for numerical work. The analytic profile discriminator and the supporting binding/completion results were reviewed by additional agents; no numerical physics script was used for those derivations. Agreement between models is not independent physical verification. The notebook records assumptions, corrections and source exposure, with a short milestone table and an idea bank. Its AI-research bibliography distinguishes research reports from proof verification and benchmark performance; FunSearch~\cite{FunSearch} is a relevant precedent for separately specified evaluators, not a validation of the present theory.
+
+Network access was restored on 12 October. Relevant sections of Seiberg's paper were retrieved, Schwarz's journal metadata and abstract were verified, and Bargmann's publication metadata was checked. The arXiv metadata and abstracts for Refs.~\cite{GP,GR} were retrieved; the finite-cutoff formulas here were derived directly. Schwarz's full paper and most older pointers below remain unread in this session. No current strongest compositeness limit is asserted. Original uploads and the pre-PDF manuscript checkpoint remain preserved in Git.
 
 \begin{thebibliography}{99}
 \raggedright
-\bibitem{Schwarz1971} J. H. Schwarz, \emph{Dual quark-gluon model of hadrons} (1971), historical paper identified by the user; publication metadata and precise claims pending primary-text verification.
+\bibitem{Schwarz1971} J. H. Schwarz, \emph{Dual quark-gluon model of hadrons}, Phys. Lett. B \textbf{37}, 315--319 (1971), \href{https://doi.org/10.1016/0370-2693(71)90028-1}{doi:10.1016/0370-2693(71)90028-1}. Metadata and abstract retrieved; full text not yet examined.
 \bibitem{Ramond} P. Ramond, \emph{Dual Theory for Free Fermions}, Phys. Rev. D \textbf{3}, 2415 (1971), \href{https://doi.org/10.1103/PhysRevD.3.2415}{doi:10.1103/PhysRevD.3.2415}.
 \bibitem{BarsHanson} I. Bars and A. J. Hanson, \emph{Quarks at the ends of the string}, Phys. Rev. D \textbf{13}, 1744 (1976), \href{https://doi.org/10.1103/PhysRevD.13.1744}{doi:10.1103/PhysRevD.13.1744}.
 \bibitem{CPP} S. Cullen, M. Perelstein, and M. E. Peskin, \emph{TeV Strings and Collider Probes of Large Extra Dimensions}, \href{https://arxiv.org/abs/hep-ph/0001166}{arXiv:hep-ph/0001166}.
 \bibitem{ABL} I. Antoniadis, K. Benakli, and A. Laugier, \emph{Contact interactions in D-brane models}, \href{https://arxiv.org/abs/hep-th/0011281}{arXiv:hep-th/0011281}.
 \bibitem{PSHard} J. Polchinski and M. J. Strassler, \emph{Hard Scattering and Gauge/String Duality}, \href{https://arxiv.org/abs/hep-th/0109174}{arXiv:hep-th/0109174}.
 \bibitem{PSDIS} J. Polchinski and M. J. Strassler, \emph{Deep Inelastic Scattering and Gauge/String Duality}, \href{https://arxiv.org/abs/hep-th/0209211}{arXiv:hep-th/0209211}.
+\bibitem{GP} T. Gherghetta and A. Pomarol, \emph{Bulk Fields and Supersymmetry in a Slice of AdS}, \href{https://arxiv.org/abs/hep-ph/0003129}{arXiv:hep-ph/0003129}.
+\bibitem{GR} H. R. Grigoryan and A. V. Radyushkin, \emph{Form Factors and Wave Functions of Vector Mesons in Holographic QCD}, \href{https://arxiv.org/abs/hep-ph/0703069}{arXiv:hep-ph/0703069}.
 \bibitem{Dosch} H. G. Dosch, G. F. de T\'eramond, and S. J. Brodsky, \emph{Superconformal Baryon-Meson Symmetry and Light-Front Holographic QCD}, \href{https://arxiv.org/abs/1501.00959}{arXiv:1501.00959}.
 \bibitem{Seiberg} N. Seiberg, \emph{Electric-magnetic duality in supersymmetric non-Abelian gauge theories}, \href{https://arxiv.org/abs/hep-th/9411149}{arXiv:hep-th/9411149}.
+\bibitem{Bargmann} V. Bargmann, \emph{On the Number of Bound States in a Central Field of Force}, Proc. Natl. Acad. Sci. USA \textbf{38}, 961--966 (1952), \href{https://doi.org/10.1073/pnas.38.11.961}{doi:10.1073/pnas.38.11.961}.
+\bibitem{FunSearch} B. Romera-Paredes et al., \emph{Mathematical discoveries from program search with large language models}, Nature \textbf{625}, 468--475 (2024), \href{https://doi.org/10.1038/s41586-023-06924-6}{doi:10.1038/s41586-023-06924-6}.
 \end{thebibliography}
 \end{document}

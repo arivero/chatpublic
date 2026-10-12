@@ -1,23 +1,20 @@
-# Independent manuscript reconstruction
+# Living research paper
 
-Version 0.1, 12 October 2026. The preprint drafts mentioned in the uploaded conversations have **not** been supplied. This manuscript is an independent reconstruction from those conversations, the present research discussion, and calculations in this notebook. It is not a transcription or a claim to recover the missing manuscripts.
+Version 0.2, 12 October 2026: *Pointlike scattering from fermionic color strings*. The paper now leads with the user's four string sectors and the main goal: whole fermionic strings that appear pointlike while bosonic strings remain extended.
 
-**Subsequent source update:** the previous drafts arrived later on 12 October and are now [preserved as references](../references/received-2026-10-12/README.md). The preceding paragraph describes the circumstances in which version 0.1 was written. Its PDF and LaTeX remain unchanged at the pre-PDF scientific version, commit `333e537`. Read the [comparison](../notes/draft_comparison.md) before making a revision. Because the earlier conversations already contained many of the same results, “independent reconstruction” does not mean a blind rediscovery or a claim of new priority.
+Version 0.1, written before receipt of the previous drafts, is preserved at [commit 333e537](https://github.com/arivero/chatpublic/tree/333e537/discussions/2026-10-11-quark-antiquark-open-string/manuscript). It was informed by the uploaded conversations, not a blind rediscovery. The supplied preprints are [archived unchanged](../references/received-2026-10-12/README.md) and [compared](../notes/draft_comparison.md). The user requires the living paper to be updated after each research step; preserving history in Git does not mean freezing the current paper.
 
 - [Read the PDF](quark_diquark_lepton_meson.pdf).
-- [LaTeX source](quark_diquark_lepton_meson.tex).
+- [Main LaTeX source](quark_diquark_lepton_meson.tex).
+- [Current-localization derivation](pointlike_current.tex) and [finite-momentum results](current_results.tex).
+- [Supporting binding and scalar-completion appendices](fermionic_binding.tex).
 - [Research workplan](../notes/workplan.md).
-- [Working derivation of the two branches](../blackboard/002_two_branch_dictionary.md).
 
-The draft develops constraints and candidate mechanisms. It does not claim a completed dual of QCD, a consistent compactification vacuum, or confirmation of a historical model. In particular, an elementary fermion with a small hadronic admixture meets a weaker objective than deriving the entire fermion as a composite string.
+The new calculation establishes a conditional hierarchy of elastic-current form factors for specified radial profiles. It identifies the ultraviolet localization and boundary physics that a common string or Seiberg-dual construction must explain. One current is not a complete string scattering amplitude; the bosonic comparison profile is not yet a derived meson spectrum or pion model. Contact trimers remain supporting diagnostics.
 
-The historical anchor is the user's identification of J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons*. Exact historical claims and the related work with Joel Scherk require primary-text verification. Bibliographic retrieval from INSPIRE was attempted on 12 October and blocked by the network proxy (403); the draft does not present that literature as freshly read.
+The historical anchor is J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons*. Its journal metadata and abstract have been verified after network access recovered; the full primary text and related Scherk papers still need examination.
 
-The source uses the standard LaTeX `article` class in a readable preprint layout; REVTeX is not installed in this environment. It is a PRD-style research draft in scope and organization, not an APS-formatted submission.
-
-The PDF has 13 pages. All 24 calculation check groups passed, the document compiles without warnings or unresolved references, and both original conversation checksums match. See the [validation record](../notes/validation.md) for commands and scope.
-
-Those checks document reproducibility, not 24 research contributions. The [current protocol](../notes/research_protocol.md) reserves new computation for genuine quantitative questions and requests smaller models for routine scripts and extraction.
+The source uses the standard LaTeX `article` class; this is a research draft, not an APS-formatted submission. The earlier [validation record](../notes/validation.md) documents version 0.1. Its 24 check groups are reproducibility checks, not research contributions. The new quantitative question, numerical conventions and outputs are recorded in [blackboard 007](../blackboard/007_pointlike_current_mechanism.md) and [the current experiment JSON](../calculations/warped_current_experiment.json). The [protocol](../notes/research_protocol.md) reserves new computation for meaningful quantitative questions and requests smaller models for routine scripts and extraction.
 
 Build from this directory:
 
@@ -25,6 +22,4 @@ Build from this directory:
 latexmk -pdf -interaction=nonstopmode -halt-on-error quark_diquark_lepton_meson.tex
 ```
 
-The figure is generated by the existing scattering script. The PDF is committed so that reading the manuscript does not require TeX. Auxiliary build files are ignored locally by this directory's `.gitignore`.
-
-Keep this independent version identifiable in Git before reading the missing preprints. When they arrive, compare operator definitions, equations, historical attributions, and proposed mechanisms explicitly; do not silently rewrite the reconstruction as though their contents were known in advance.
+The older comparison figure is generated by the existing scattering script. The PDF is committed so reading the manuscript does not require TeX. Auxiliary build files are ignored by this directory's `.gitignore`.
