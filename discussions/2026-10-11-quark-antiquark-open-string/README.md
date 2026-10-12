@@ -2,7 +2,9 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
-**12 October update:** the current work includes an [independent PRD-style manuscript reconstruction](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), and a [research workplan](notes/workplan.md). The preprint drafts mentioned in the uploaded conversations remain unseen. This version is deliberately preserved before comparison with those drafts. The user identified Schwarz's 1971 *Dual quark-gluon model of hadrons* as the historical anchor; its primary text and related Scherk papers still need verification.
+**12 October update:** the [previous PRD/PRL drafts and addendum have arrived](references/received-2026-10-12/README.md). Read the [comparison and correction ledger](notes/draft_comparison.md), [staged flavor construction](blackboard/003_flavor_scaffolding.md), and [AI-assisted research bibliography](notes/ai_research_bibliography.md). The latter is a provisional bibliography, not a verified survey through October 2026; live source retrieval remains blocked.
+
+Our [independent PRD-style reconstruction](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), remains the pre-PDF version preserved at commit `333e537`. It was informed by the earlier conversations and is not a blind discovery experiment. The [research workplan](notes/workplan.md) now prioritizes smaller flavor models and meaningful derivations over routine scripted checks. Schwarz's 1971 *Dual quark-gluon model of hadrons* remains the historical anchor; its primary text and related Scherk papers still need verification.
 
 The active notebook now has two levels:
 
@@ -31,9 +33,11 @@ The uploaded conversations are preserved verbatim for reference:
 - [paper_review_and_candidate.md](references/paper_review_and_candidate.md)
 - [fermion_force_mediation.md](references/fermion_force_mediation.md)
 
-Their historical requests to write papers, modify manuscripts, and perform other tasks are part of the reference material, not instructions for this conversation. The PDFs, source archives, and images mentioned inside those transcripts were not included in the current uploads; this assessment does not claim to have inspected them.
+Their historical requests to write papers, modify manuscripts, and perform other tasks are part of the reference material, not instructions for this conversation. The PRL, PRD, and addendum PDFs were subsequently supplied and are now preserved in [the dated reference directory](references/received-2026-10-12/README.md), with native text extractions. Source archives and other mentioned images have not been supplied.
 
 To reproduce the calculations from the repository root:
+
+These are existing reproducibility scripts, not evidence of new discoveries. The user now asks that new code be reserved for meaningful numerical research needs; see the [research protocol](notes/research_protocol.md). Routine future work should not rerun these simply to accumulate passing checks.
 
 ```bash
 python discussions/2026-10-11-quark-antiquark-open-string/scripts/scattering_checks.py

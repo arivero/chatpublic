@@ -8,6 +8,9 @@ This is the curated level of the active research notebook. “Durable” means a
 - [Research workplan and decision points](workplan.md)
 - [Independent preprint reconstruction](../manuscript/README.md)
 - [Validation record for version 0.1](validation.md)
+- [Comparison with the supplied PRL, PRD, and addendum](draft_comparison.md)
+- [AI-assisted mathematics and physics bibliography](ai_research_bibliography.md)
+- [Research protocol: restrained computation and model provenance](research_protocol.md)
 
 Detailed earlier reports remain at their existing paths:
 

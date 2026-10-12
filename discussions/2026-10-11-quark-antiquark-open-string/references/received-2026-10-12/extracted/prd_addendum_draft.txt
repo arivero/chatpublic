@@ -1,0 +1,428 @@
+       Draft sections for the PRD: warped embedding; lepton–meson
+                                realization
+     sections numbered after the PRD; equations from (101); bare numbers in brackets and
+                            equations below (78) refer to the PRD
+
+
+
+
+15     Warped embedding and separation of the hard scale
+This section replaces the flat common-tension disk of Sec. X by a confining warped background and asks
+under which condition the same-sign four-Ramond amplitude remains pointlike at s ≫ Mhad   2 ≡ 1/α′ .
+                                                                                                  had
+
+
+15.1    Radial convolution
+Take the Polchinski–Strassler (PS) background [1]
+
+                                   r2                  R2 2
+                           ds2 =      η µν dx µ
+                                                dx ν
+                                                     +    dr + · · · ,       r ≥ rmin ,                (101)
+                                   R2                  r2
+with the Ramond states as open strings on branes that extend along r. Local inertial momenta are
+p̃µ = (R/r) pµ , so α′ s̃ = α′ (R2 /r2 ) s. Strings localized near rmin have the four-dimensional Regge slope
+  ′
+αhad  = α′ R2 /rmin
+                2 . Define
+
+
+                                   rmin                    ′
+                            y=          ∈ (0, 1],     z = αhad s,        α′ s̃ = z y 2 .               (102)
+                                    r
+The rescaling p → p̃ is uniform, so the local scattering angle equals the four-dimensional one and
+x = (1 − cos θ)/2 is independent of r.
+   The four-dimensional amplitude is the radial integral of the local string amplitude weighted by the
+external profiles [PS, Eq. (7)]. For the same-stack sector the local amplitude is ASYM (p̃) V ; at fixed
+angle the r dependence of ASYM (p̃) is a power that PS absorb into the twist counting. Hence
+                                                                   R
+                                                                      dy ρ(y) Vzy2 (x)
+                   MRR (s, θ) = Mgauge (s, θ) V(z, x),   V(z, x) =      R              ,           (103)
+                                                                          dy ρ(y)
+
+                                               Γ(1 + wx) Γ[1 + w(1 − x)]
+                                    Vw (x) ≡                             ,                             (104)
+                                                      Γ(1 + w)
+where Mgauge carries the low-energy four-dimensional coupling and Vw (x) is Eq. (38) at α′ s = w. In
+the same-sign channel both local invariants t̃, ũ are spacelike, so the local amplitude has no poles along
+the radial integral. In channels containing an s ordering the local continuum approximation would
+smear the discrete Regge spectrum; Eq. (103) is not used there.
+
+
+
+
+                                                        1
+15.2    Radial weight and twist
+For profiles ψi → (r/rmin )−∆i at large r, PS find that
+                                                    P the energy
+                                                           P      dependence is governed by the twists
+τi = ∆i − σi . The measure and profiles give dr r3− τi ∝ y τi −5 dy, i.e.
+                                                           4
+                                                           X                  X
+                                         2ν−1
+                              ρ(y) ∝ y          ,   2ν =         (τi − 1) ≡       γi ,              (105)
+                                                           i=1                i
+
+where γi is the twist of state i above the free spin- 12 value. Unitarity requires ∆ ≥ 3/2 for a spin- 12
+operator, with equality only for a free field [5]; hence ν ≥ 0 for normalizable states, and ν = 0 only if
+all four are free. A weight with ν < 0 is UV dominated and needs a UV boundary at y0 ; this describes
+states with an elementary component (Sec. 15.4).
+
+15.3    Mellin form and the disk modulus
+For z ≫ 1 only y ≲ z −1/2 ≪ 1 contributes, where the profiles are pure powers. With w = zy 2 ,
+                                                                 Z ∞
+                          z≫1                −ν
+                 V(z, x) −−−→ K ν M(ν; x) z ,        M(ν; x) ≡       dw wν−1 Vw (x),                (106)
+                                                                          0
+
+where K depends on the profiles near rmin (K = P1 for a hard wall with pure-power profiles). The
+exponent ν reproduces the PS counting M ∼ s2− τi /2 . The angular dependence M(ν; x) does not
+depend on the infrared region.
+   Using Vw (x) = w x(1 − x) B(wx, w(1 − x)) and the Euler integral for B, the w integration can be
+done first:
+                               Z 1
+                                     dξ          −ν−1
+  M(ν; x) = Γ(ν + 1) x(1 − x)               ℓx (ξ)      , ℓx (ξ) = −x ln ξ − (1 − x) ln(1 − ξ). (107)
+                                0 ξ(1 − ξ)
+
+Here ξ is the disk modulus of Eq. (13) and e−wℓx (ξ) its Koba–Nielsen factor. The radial average replaces
+that exponential by the power ℓ−ν−1
+                                 x     ; its minimum ℓx (x) = H(x) [Eq. (40)] is the saddle that produced
+the flat-space suppression e −zH . For a hard wall the same steps give the result at all z,
+                          Z z                                Z 1
+                       −ν                         −ν                dξ
+       VHW (z, x) = νz             ν−1
+                              dw w Vw (x) = νz x(1 − x)                   ℓ−ν−1
+                                                                           x    γ(ν + 1, z ℓx ) ,    (108)
+                           0                                  0  ξ(1 − ξ)
+with γ the lower incomplete gamma function, and
+                                            ν
+                     VHW (z, x) = 1 − ζ(2)     z 2 x(1 − x) + O(z 3 )                (z ≪ 1).       (109)
+                                           ν+2
+The coefficient ν/(ν + 2) in Eq. (109) depends on the infrared model; Eq. (106) does not, apart from
+K.
+    Equation (106) refines the PS counting, which fixes the exponent; the same counting was applied
+to open-string meson amplitudes in Ref. [3] without evaluating the angular function. In a conformal
+background the analogous radial integral gives a Borel-type transform of the flat amplitude [4]; the
+confining wall replaces it by the Mellin transform (106).
+                                                       R1                     R∞
+    M(ν; x) is meromorphic in ν. Writing M = ν −1 + 0 dw wν−1 (Vw − 1) + 1 dw wν−1 Vw continues
+it to Re ν > −2; the Taylor series of Vw − 1 [Eq. (29)] gives poles at ν = 0, −2, −3, . . . with residues
+1, −ζ(2)x(1 − x), ζ(3)x(1 − x), . . .
+
+15.4    Regimes
+Composite-dominated, ν > 0. The amplitude falls as z −ν , a power law in place of the flat e−zH(x) .
+                2
+At fixed s ≫ Mhad  the angular distribution relative to the point-fermion one is [M(ν; x)/M(ν; 21 )]2 ,
+independent of s and of the infrared region.
+
+                                                      2
+                                            (a) composite-dominated, hard wall                                                                    (b) UV-dominated, ν = −b, y0 = 10−4
+                      100                                                                                                     100           b = 0.5
+                                                                                                                                            b = 1.0
+                     10−2                                                                                                    10−2           b = 1.5
+
+                                                                                                                             10−4           b = 3.0
+                     10−4
+
+
+
+
+                                                                                                    1 − |(z, θ = 90 ∘ )|2
+|(z, θ = 90 ∘ )|2
+
+
+
+
+                                                                                                                             10−6
+                     10−6
+                                                                                                                             10−8
+                     10−8
+                                                                                                                             10−10
+                     10−10          flat: |V|2                                                                               10−12
+                                    warped, ν = 0.05
+                     10−12          warped, ν = 0.5                                                                          10−14
+                                    warped, ν = 2.0
+                     10−14                                                                                                   10−16
+                             10−2    10−1     100      101      102       103   104   105    106                                     10−8     10−7     10−6   10−5     10−4    10−3   10−2   10−1
+                                                             z = αhad s
+                                                                  0
+                                                                                                                                                              z y02 = s/M 2*
+
+
+
+Figure 1: (a) |V|2 at θ = 90◦ for the hard wall, Eq. (108), with ν = 0.05, 0.5, 2, and the flat-space |V |2
+of Eq. (26). (b) 1 − |V|2 for UV-dominated weights, ν = −b, y0 = 10−4 ; thin lines are the leading term
+of Eq. (111).
+
+
+Near-free, ν → 0+ .
+                                                                                                                                     Z 1                        Z ∞
+                                                                                                                                           dw                           dw
+                                     ν M(ν; x) = 1 + ν κ(x) + O(ν 2 ),                               κ(x) =                                   (Vw − 1) +                   Vw ,              (110)
+                                                                                                                                      0    w                      1     w
+                −ν
+so V ≃ z e−κ(x)                                                    ′ s). Values:
+      
+                    . The hadronic slope enters only through ν ln(αhad
+
+                                                    χ = (1 − x)/x                 1          2.33                   4                       9           16      99
+                                                        κ(x)                    0.599       0.711                 0.887                   1.271       1.606   2.870
+
+For x → 0, κ(x) = − ln[x ln(1/x)] + O(1), so near the forward direction the radial cutoff is set by
+ ′ |t| ln(s/|t|), the Regge combination.
+αhad
+
+UV-dominated, ν = −b < 0.                                     With the weight (105) on (y0 , 1] and M∗ ≡ Mhad /y0 ,
+                                                               
+                                                               b M(−b; x) (s/M∗2 )b ,           0 < b < 2,
+                                                         1−V =                                                                                                                               (111)
+                                                               ζ(2) x(1 − x) b (s/M 2 )2 , b > 2,
+                                                                                        ∗
+                                                                             b−2
+
+for z ≫ 1 and s ≪ M∗2 . The hard scale is M∗ , set by the UV boundary rather than by Mhad . For b < 2
+the leading deviation is a non-integer power of s and does not correspond to a local operator; b = 1
+has the energy dependence of a dimension-six term with the angular function |M(−1; x)|. At θ = 90◦ ,
+b|M(−b; 21 )| = 0.818, 0.867, 1.475 for b = 0.5, 1, 1.5. For b > 2 one recovers the dimension-eight form
+of Eq. (31) with Ms4 → M∗4 (b − 2)/b.
+    Figure 1 compares the flat factor with Eqs. (108) and (111).
+
+15.5                         Consequences for the bootstrap
+Constituent twist. If the two antiquarks of [q̄ q̄] are hard constituents, τi = 2 and ν = 2: dσ/dt ∝
+s−6 , the counting rule for eight constituents. With αhad′  = 0.9 GeV−2 the hard-wall factor at 90◦ is
+
+
+                                                                                                    3
+                       √
+|V|2 = 1.3 × 10−6 at s = 10 GeV (flat: 9 × 10−53 ) and 1.3 × 10−22 at 1 TeV. Warping removes the
+exponential, but this case is excluded by the      −2 scaling of partonic cross sections.
+                                              P s
+    Near-twist-one states. |V|2 ∝ (αhad′ s)− γi . Requiring the ratio to perturbative QCD to stay within
+               √
+10% between s = 0.1 and 3 TeV gives i γi ≲ 1.5 × 10−2 (between 0.1 and 8 TeV, 1.1 × 10−2 ). This is
+                                            P
+an order-of-magnitude estimate: it treats the extra power  P as multiplying    the QCD prediction channel
+                                                                            1
+by channel.PAt fixed s the angular shape changes by i γi [κ(x) − κ( 2 )]; between χ = 16 and χ = 1
+this is 1.01 i γi , the same in every mass bin.
+    What the warped embedding requires. Pointlike hard scattering with a hadronic Regge slope is ob-
+tained in two cases: ν → 0+ , where by the unitarity bound the state approaches a free twist-one field, or
+ν < 0, where the state has an elementary component and the hard scale is M∗ . In both cases the degree
+of freedom that scatters at large s is a single twist-one field. The anti-diquark–string configuration can
+be at most the infrared, composite component of the quark, as in partial compositeness [6]. This is
+consistent with the absence of partonic behavior in strongly coupled holographic duals [2].
+    Color. Normalizable bulk states of a holographic dual are singlets of the confining gauge group, and
+Chan–Paton labels on branes extending along r are global symmetries of that sector. Carrying QCD
+color on the Ramond strings therefore requires a confining sector in which SU (3)c is a weakly gauged
+global symmetry. In that construction the throat string is not the QCD flux tube, Mhad is replaced by
+the infrared string scale of that sector (a few times the lightest Kaluza–Klein mass in Randall–Sundrum
+realizations [7]), and the relation 3̄ ∧ 3̄ = 3 of Eq. (56) applies to its constituents rather than to QCD
+antiquarks. The literal identification of Eq. (63) with the QCD string is not realized by warping.
+
+
+16      Lepton–meson realization
+The anti-diquark construction of Sec. VIII has a colour-singlet counterpart: the two endpoint labels
+form a quark–antiquark pair and the Ramond string supplies spin 21 and lepton number. This section
+gives its quantum numbers and Chan–Paton structure, the string factors for the leptonic channels, and
+a comparison of both realizations with compositeness limits.
+
+16.1      Quantum numbers
+For each left-handed Weyl field f of one generation we list the Lorentz-scalar bilinears ψχ or (ψχ)∗ of
+Standard Model fields that carry exactly the SU (3)c × SU (2)L × U (1)Y charges of f (Table 1). When
+ψ = χ, Fermi statistics and the antisymmetric Lorentz contraction fix the flavour symmetry to equal
+the gauge symmetry type.
+
+Table 1: Scalar bilinears with the gauge charges of each Standard Model field (one generation, left-
+handed fields). ∆B, ∆L are f minus the bilinear.
+ f      bilinear                            ∆B   ∆L       type
+ uc     (dc dc )∗ , flavour antisymmetric   −1   0        anti-diquark, Eq. (58)
+ dc     (uc dc )∗ ; QQ, flavour symmetric   −1   0        (anti-)diquark
+ dc     (QL)∗ ; uc ec                        0   1        leptoquark
+ Q      (dc L)∗                              0   1        leptoquark
+ L      Q uc ; (Q dc )∗                      0   1        meson
+ L      (L ec )∗                             0   1        lepton–antilepton
+ ec     (LL)∗ , flavour antisymmetric        0   1        lepton–lepton
+ νc     none
+
+      In every entry ∆(B − L) = −1. With X = 5(B − L) − 4Y , the left-handed fields have X = 1
+
+                                                      4
+(Q, uc , ec ), X = −3 (dc , L) and X = 5 (ν c ); matching Y and the non-Abelian charges forces ∆X = −5,
+i.e. one unit of B − L. The string state R therefore carries the Standard Model gauge charges (none)
+and the B − L of a right-handed neutrino. The two realizations differ in how that unit is split: ∆B = 1
+for q ≃ [q̄ q̄] ⊗ R, ∆L = 1 for ℓ ≃ (q q̄ ′ ) ⊗ R. With lepton number conserved, the leptonic R has exactly
+the quantum numbers of νR ; the baryonic R of Sec. IX has no Standard Model counterpart.
+     The lepton–meson identification reads
+
+                         LL ≃ (ūR QL ) ⊗ R :        νL ↔ (ūR uL ),       eL ↔ (ūR dL ),                    (112)
+
+i.e. the u column of the chiral matrix Σij = q̄Rj qLi , with the charges of (π 0 , π − ). The equivalent form
+L ≃ (Q dc )∗ uses the d column. The singlets eR and νR have no scalar partner (for eR only the vector
+ūR γ µ dR ). The pattern is complementary to the quark case: there uR and dR have scalar partners and
+QL has none. The colour singlet arises from 3⊗ 3̄ ⊃ 1 without a junction, so none of the baryon-number
+questions of Sec. IX arise.
+     In SU (5) language the entries of Table 1 are three contractions: 10 ≃ (5̄ ∧ 5̄)∗ (uc , Q, ec ); 5̄ ≃
+ϵabcde 10bc 10de (dc ≃ QQ, uc ec ; L ≃ Quc ); and 5̄ ≃ (10 ⊗ 5̄)∗ (dc , L). These are the contractions of the
+Yukawa terms 10 10 5H and 10 5̄ 5̄H with the Higgs replaced by a fermion bilinear. The quark–diquark
+relation is the plain antisymmetric product of Eq. (64); the lepton–meson relation L ≃ Quc uses the
+SU (5) ϵ tensor. Under SU (3)c alone the roles are reversed.
+
+16.2    Chan–Paton realization and selection rules
+The lepton–meson state is an oriented open string with labels in N ⊗ N̄ . The charged Ramond state
+of Sec. III B, λ± = E12 , E21 , is of this type: the Møller computation of Secs. III–IV is already a
+lepton–meson calculation. The quark–diquark state is unoriented, with labels in N̄ ∧ N̄ or N̄ ∨ N̄
+from an orientifold. If the labels carry colour only, Λ2 (3̄) = 3. If they carry colour and flavour,
+U (9) ⊃ SU (3)c × SU (3)f , then Λ2 (9̄) = (3, 6̄) ⊕ (6̄, 3) and S 2 (9̄) = (3, 3) ⊕ (6̄, 6̄): the anti-diquark that
+is antisymmetric in colour and in flavour requires the symmetric projection and comes with colour-sextet
+partners.
+    The oriented sector has an analogous feature: if the endpoint labels carry colour, 3 ⊗ 3̄ = 1 ⊕ 8 and
+the lepton has colour-octet partners, degenerate at tree level. LHC recasts exclude colour-octet leptons
+below 1.2–1.55 TeV [10].
+    For four Ramond states, the orderings with a nonzero Chan–Paton trace are those in which particle
+and antiparticle labels alternate. An explicit enumeration gives the same result for oriented adjoint,
+bifundamental, Λ2 and S 2 labels:
+
+            channel                                                    lepton sector     quark sector
+            same sign, V (t, u)                                        e− e− → e− e−     qq → qq
+            particle–antiparticle, V (s, t)                            e+ e− → e+ e−     q q̄ → q q̄
+            annihilation into a pair sharing one label, V (s, t)       e+ e− → µ+ µ−     q q̄ → ℓ+ ℓ−
+
+In the last row a single ordering contributes. Its second invariant is t (between the incoming and
+outgoing fermions of equal charge) if the shared label has the same orientation in both states, and u
+otherwise; the sign of δAF B below follows that orientation. If the two pairs share no label the disk
+amplitude vanishes; the process then needs U (1) mixing beyond the disk. This makes the generation
+map observable: with e ↔ dū, µ ↔ sc̄ the disk gives no e+ e− → µ+ µ− string factor, while with
+e ↔ dū, µ ↔ sū it gives V (s, t). In both realizations the off-diagonal Chan–Paton gauge bosons (e.g.
+Esd ) mediate flavour-changing transitions among states that share labels and must be heavy.
+
+
+
+
+                                                         5
+Table 2: Lepton and quark sectors: published dimension-six contact-interaction limits (Λ±LL , 95% CL)
+and limits relevant to the same-stack string, whose leading effect is dimension eight. Entries marked
+“est.” use Eq. (116) or a coupling mapping and are not fits.
+ process                       dimension six, Λ+ /Λ−      string-sector limit                        source
+                               [TeV]
+ ee → ee (LEP)                 8.3/10.3                   Ms > 0.631 TeV (fit)                       PDG [32];
+                                                                                                     Ref. [29]
+ ee → µµ, τ τ (LEP)            8.5/9.5; 7.9/7.2           Ms ≳ 0.5–0.6 TeV (est., shared             PDG [32]
+                                                          label)
+ q q̄ → ee, µµ (LHC)           24/37; 23.3/40.0           Ms ≈ 2–3.5 TeV (est., label                PDG [32]; [9]
+                                                          chain)
+ dim.-8 dileptons              —                          ADD ΛT > 7.5 TeV                           [9]
+ (LHC)
+ excited lepton (first         —                          e∗ > 5.6 TeV (contact                      PDG [32]
+ Ramond level)                                            production)
+ colour-octet partner          —                          ℓ8 > 1.2–1.55 TeV (recasts)                [10]
+ (g − 2)µ                      Λ ≳ 2.6 (est.,             Ms ≳ 0.13 TeV (one loop, est.)             [11, 12]
+                               δa ∼ m2µ /Λ2 )
+ qq → qq (dijet χ)             17/37                      string resonances > 7.7 TeV                [33]; [31]
+ excited quark                 —                          q ∗ > 6.7 TeV                              PDG [32]
+
+
+16.3    Observables
+From Eq. (29),
+                                    2
+       |V (t, u)|2 − 1 = − π3 z 2 x(1 − x) + O(z 3 )              (same sign),                                          (113)
+                                 π2
+        |V (s, t)|2 − 1 = + 3 z 2 x + O(z 3 )                     (particle–antiparticle, annihilation).                (114)
+                                                                                                                    2
+The annihilation channel has an excess. Weighted with 1 + cos2 θ its angular average is + π6 z 2 , and it
+shifts the forward–backward asymmetry of s-channel photon exchange, for the orientation with V (s, t),
+by
+                                                     3π 2 2
+                                         δAF B = −       z .                                        (115)
+                                                      32
+A form factor that depends only on s does not produce this shift; it comes from the t dependence of
+V . At θ = 90◦ a measurement of fractional precision ϵ reaches
+                                    1/4                                           1/4
+                  √           π2                                  √           π2
+                                                                         
+           Ms ≳       s                    (same sign),    Ms ≳       s                   (annihilation, Bhabha).       (116)
+                              12ϵ                                             6ϵ
+                           √
+For LEP2 Bhabha scattering, s ≃ 0.2 TeV and ϵ ≃ 1.5% give 0.65 TeV, in line with the fit of Ref. [29],
+Ms > 0.631 TeV, which used the model of Ref. [8], i.e. this oriented sector.
+
+16.4    Comparison with compositeness limits
+Table 2 collects the numbers. Three points follow.
+    (i) The string-sector limits on the scale lie a factor 5 (quarks) to 16 (leptons) below the dimension-
+six limits, because the leading oscillator effect is dimension eight. In length units the same-stack lepton
+string may be as large as 1/Ms = 3.1 × 10−19 m against 1.9 × 10−20 m for a generic dimension-six
+composite electron; for quarks the corresponding values are 2.6 × 10−20 m and 5.3 × 10−21 m.
+
+
+                                                             6
+    (ii) The lepton string limit, 0.63 TeV, is twelve times weaker than the quark one, 7.7 TeV, while the
+dimension-six limits differ by a factor 3–4. A dimension-eight effect grows as s2 , and the lepton limit
+              √
+comes from s = 0.2 TeV. Future lepton colliders change this. With assumed precisions, Eq. (116)
+gives 2.3 TeV for FCC-ee at 365 GeV (ϵ = 10−3 ), 4.8 TeV for a 1 TeV linear collider (3 × 10−3 ),
+10.7 TeV for CLIC at 3 TeV (10−2 ) and 36 TeV for a 10 TeV muon collider (10−2 ). Bhabha scattering
+and δAF B are the observables that distinguish the string factor from a dimension-six contact term.
+    (iii) Drell–Yan constrains the string only if quark and lepton labels form a single Chan–Paton
+chain. In the combined bootstrap, u ≃ [ds̄] ¯ and e ≃ (dū) share the label d, so uū → e+ e− has a disk
+                                                                         2
+contribution. Its estimated reach, 2–3.5 TeV, comes from |V |2 − 1 = π6 z 2 at mℓℓ ≃ 2–3 TeV, and from
+mapping the ADD limit with the string amplitude lacking the 1/α enhancement of graviton exchange.
+
+16.5    Lepton–meson with the QCD string
+Identifying the endpoint labels with QCD colour fails for three independent reasons: Bhabha scattering
+requires Ms > 0.63 TeV, against Mhad ≃ 1 GeV; the colour-octet partners would be degenerate with
+the leptons; and a hadron-sized electron gives δae ∼ (me /1 GeV)2 ≈ 3 × 10−7 , against |δae | ≲ 10−12 .
+As for quarks (Sec. 15), the labels must belong to a separate confining sector, for which the warped
+analysis applies unchanged, since the same factors V appear.
+    If the leptonic R is lighter than the pion, Eq. (112) implies the operator (c/Λ2 )(ūR dL )(ēL NR ),
+whose pseudoscalar matrix element lifts the helicity suppression of π → eν. The PIENU measurement
+of Γ(π → eν)/Γ(π → µν) to 2.4 × 10−3 [13] then gives Λ ≳ 60 TeV for c = 1 (estimate). This test has
+no analogue in the quark sector.
+
+
+References
+ [1] J. Polchinski and M. J. Strassler, Hard scattering and gauge/string duality, Phys. Rev. Lett. 88,
+     031601 (2002), arXiv:hep-th/0109174.
+
+ [2] J. Polchinski and M. J. Strassler, Deep inelastic scattering and gauge/string duality, JHEP 05, 012
+     (2003), arXiv:hep-th/0209211.
+
+ [3] A. Armoni, B. Pyszkowski, S. Sugimoto, and D. Weissman, High-energy fixed-angle meson scat-
+     tering and the constituent counting rule in holographic QCD, arXiv:2412.17784.
+
+ [4] J. Penedones, Writing CFT correlation functions as AdS scattering amplitudes, JHEP 03, 025
+     (2011), arXiv:1011.1485.
+
+ [5] G. Mack, All unitary ray representations of the conformal group SU(2,2) with positive energy,
+     Commun. Math. Phys. 55, 1 (1977).
+
+ [6] R. Contino and A. Pomarol, Holography for fermions, JHEP 11, 058 (2004), arXiv:hep-th/0406257.
+
+ [7] M. Reece and L.-T. Wang, Randall-Sundrum and strings, JHEP 07, 040 (2010), arXiv:1003.5669.
+
+ [8] S. Cullen, M. Perelstein, and M. E. Peskin, TeV strings and collider probes of large extra dimen-
+     sions, Phys. Rev. D 62, 055012 (2000), arXiv:hep-ph/0001166.
+
+ [9] CMS Collaboration, Search for resonant and nonresonant new phenomena in high-mass dilepton
+                    √
+     final states at s = 13 TeV, JHEP 07, 208 (2021), arXiv:2103.02708.
+
+[10] E. da Silva Almeida, A. Alves, O. J. P. Éboli, and F. S. Queiroz, Resonant lepton-gluon collisions
+     at the Large Hadron Collider, arXiv:2212.06178, and the recasts cited there.
+
+
+                                                   7
+[11] Muon g-2 Collaboration, Measurement of the positive muon anomalous magnetic moment to 127
+     ppb, arXiv:2506.03069.
+
+[12] R. Aliberti et al., The anomalous magnetic moment of the muon in the Standard Model: an
+     update, Phys. Rep. 1143, 1 (2025).
+
+[13] A. Aguilar-Arevalo et al. (PiENu Collaboration), Improved measurement of the π → eν branching
+     ratio, Phys. Rev. Lett. 115, 071801 (2015).
+
+
+
+
+                                                8
+

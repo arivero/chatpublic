@@ -2,6 +2,8 @@
 
 12 October 2026, manuscript version 0.1. These checks support the displayed calculations and reproducibility; they do not establish a complete physical model.
 
+**Later clarification from the user:** the 24 check groups below are not 24 scientific results. Several reproduce known algebra. They are retained as a historical validation record; future work should follow [research_protocol.md](research_protocol.md), avoid automatic reruns, and use scripts only for a concrete quantitative need. The previous drafts arrived after this validation; see [their comparison](draft_comparison.md).
+
 | Check | Result |
 | --- | --- |
 | Original uploaded conversation SHA-256 checks | Both match the preserved originals |

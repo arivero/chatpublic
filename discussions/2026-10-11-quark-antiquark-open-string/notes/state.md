@@ -8,6 +8,8 @@ Investigate whether an open string with quark–antiquark endpoint structure can
 
 The user explicitly wants active research rather than a restriction to the simplest flat Ramond-string construction. Alternative dual strong theories and Kaluza–Klein geometry are in scope.
 
+The user also frames this as frontier-model-assisted research, naming GPT Astra and future models. The objective is useful new physics, with honest provenance and novelty assessment. Script counts, benchmark anecdotes, and repeated known identities are not substitutes for a result.
+
 ## User decisions and clarifications
 
 - Keep readable notes in this repository for later agents, at two levels: curated `notes/` and a working `blackboard/`.
@@ -16,9 +18,11 @@ The user explicitly wants active research rather than a restriction to the simpl
 - A chiral weak sector need not be constructed at this stage. This does not remove the need for approximate global chiral flavor symmetry if the pion's Goldstone mechanism is to be reproduced.
 - Consider a dual description of QCD-like dynamics and a geometric route based on CP² × S¹, including the spinᶜ/bundle ingredients necessary to make it meaningful.
 - Physical motivation: bosonic statistics permit a classical/coherent field associated with binding; the user suspects the absence of an analogous fermionic field could restrict its effect to contact and conceal the fermionic string. This is a working hypothesis to refine and test, not an established implication of statistics.
-- The user requested an independent PRD-style reconstruction before supplying the preprint drafts referenced by the two transcripts. Preserve the resulting version before comparison; do not imply the missing drafts were read.
+- The user requested an independent PRD-style reconstruction before supplying the previous preprints. That version is preserved at `333e537`. The PRL, PRD, and addendum PDFs have now arrived, been preserved, extracted, and compared; the original reconstruction PDF/source is unchanged. It used the earlier detailed conversations, so it was not a blind rediscovery experiment.
 - The historical target is Schwarz's 1971 *Dual quark-gluon model of hadrons*, with related early work involving Joel Scherk to identify. The user provided this title; the primary text has not been retrieved here.
 - On 12 October the user explicitly requested pushing, in addition to commits. The first notebook checkpoint is published on `origin/work`; `main` remains unchanged.
+- The user asks to build flavor/generation content in stages: explain what each addition is needed for, and retain useful models with fewer flavors. Do not attempt the complete three-generation Standard Model as one indivisible target.
+- The user cautions against Python scripts that merely recheck known results and against reward hacking. Use new numerical work only for a concrete quantitative need; delegate routine justified scripts and PDF extraction to a smaller model, save outputs to disk, and keep reports concise. The earlier 24 check groups are reproducibility records, not discoveries.
 
 ## Supported results, with scope
 
@@ -32,6 +36,8 @@ The user explicitly wants active research rather than a restriction to the simpl
 8. **Fermionic coherence versus propagation.** Fermion parity prevents a conventional c-number expectation value of a fermionic field, but not a nonlocal two-point function. Allowed fermion exchange conserves angular momentum and can generate finite-range off-diagonal interactions. Contact behavior requires an appropriate gap/low-momentum limit or an auxiliary-field construction; it does not follow from exclusion statistics.
 9. **Two-branch charge accounting.** With conventional separately conserved B and L, an antidiquark-to-quark carrier needs `(B,L)=(1,0)`, whereas a meson-to-lepton carrier needs `(0,1)`. One fixed carrier cannot fill both roles. If only B−L is preserved, the antilepton orientation can align the shifts; this is a different charge assumption requiring explicit dynamics.
 10. **Pauli and mixing checks.** The S-wave scalar color-3 antidiquark is flavor antisymmetric: 3 components for Nf=3 and 10 for Nf=5. In a restricted elementary/composite mixing model with diagonal probe currents, the light radius is suppressed by a composite fraction η and a vector-induced four-fermion coefficient by η². This demonstrates a weak dressing correspondence, not an emergent wholly composite pointlike fermion.
+11. **Flavor stages.** Two light Dirac flavors suffice for the non-Abelian pion symmetry and a charged/neutral meson branch. Full scalar-antidiquark flavor closure with one flavor-singlet carrier instead selects Nf=3 through `Λ²(3bar)=3`; a neutral carrier also requires the three endpoint charges to sum to zero. This is a conditional reason to add a strange-like flavor, not an explanation of three weak generations. Lower-flavor alternatives can change the spin/carrier assumptions.
+12. **Draft review and radial boundary case.** The supplied PRL beta-function prefactor and PRD alternating pole-residue sign need correction. The addendum's Eq. (111) is correctly positive in the PDF; text extraction loses its absolute-value bars. The omitted b=2 case of its finite-cutoff ansatz gives an intermediate `δ² log(1/δ)` amplitude deficit, derived analytically. This completes a toy formula, not a physical background or a novelty claim.
 
 ## Current research conjecture
 
@@ -39,7 +45,7 @@ Can a dual/geometric construction allow strong extended bosonic binding while su
 
 The correct target is a calculation of current matrix elements, relevant spectral weights/gaps, and hard scattering. A missing classical fermionic mean field by itself does not remove bosonic exchanges, form-factor corrections, or Regge states from fermion scattering.
 
-The [independent manuscript](../manuscript/README.md) gathers the constraints and candidate mechanisms into a research draft. The [workplan](workplan.md) prioritizes a complete operator dictionary and a minimal spectral/current/scattering calculation before a full dual or compactification construction. It distinguishes elementary hadronic dressing from the stronger intended theory.
+The [independent manuscript](../manuscript/README.md) gathers the constraints and candidate mechanisms into a research draft. The [workplan](workplan.md) now begins with a two-flavor meson/odd-sector calculation and a three-flavor scalar-antidiquark extension when needed. It prioritizes a complete operator dictionary and a minimal spectral/current/scattering calculation before a full dual or compactification construction. It distinguishes elementary hadronic dressing from the stronger intended theory, and defers a full weak-generation construction.
 
 ## Not yet established
 
@@ -53,6 +59,11 @@ The [independent manuscript](../manuscript/README.md) gathers the constraints an
 
 - [Conversation progression](conversation_log.md)
 - [Version 0.1 validation record](validation.md)
+- [Comparison with the supplied drafts](draft_comparison.md)
+- [Flavor/generation scaffold](../blackboard/003_flavor_scaffolding.md)
+- [Analytic draft corrections and radial boundary case](../blackboard/004_draft_equations.md)
+- [AI research bibliography and its access limits](ai_research_bibliography.md)
+- [Research protocol and restrained computation](research_protocol.md)
 - [Latest curated result on fermion exchange](fermion_exchange.md)
 - [Working blackboard](../blackboard/README.md)
 - [Flat/radial calculations](../scripts/scattering_checks.py): six check groups recorded in [results.json](../calculations/results.json).
@@ -60,7 +71,9 @@ The [independent manuscript](../manuscript/README.md) gathers the constraints an
 - [Fermion exchange calculations](../scripts/fermion_exchange_checks.py): propagator, spatial kernel, contact expansion, and coupled-channel checks; output in [fermion_exchange_results.json](../calculations/fermion_exchange_results.json).
 - [Branch and mixing checks](../scripts/branch_checks.py): five check groups, including 32 numerical mass/current diagonalizations; output in [branch_results.json](../calculations/branch_results.json).
 
-The earlier primary-paper downloads and the 12 October INSPIRE metadata request were blocked by the network proxy. References are labeled as reading pointers where they were not retrieved. The paper PDFs, ZIPs, and images mentioned within the uploaded conversations were not supplied in this chat. The newly generated manuscript PDF is our reconstruction, not one of those missing documents.
+The original conversation copies remain unchanged. The [previous PRL/PRD/addendum PDFs](../references/received-2026-10-12/README.md) are now available; source archives and other mentioned images remain absent. Luna performed native PDF text extraction, without OCR. The reuploaded `fermion_force_mediation.md` is byte-identical to the earlier copy.
+
+Primary-paper downloads and requests to INSPIRE, Nature, DeepMind, and OpenAI were blocked by the network proxy. The AI bibliography is an annotated starting point, not a verified survey through October 2026. Recent scientific citations and experimental numbers inside the supplied drafts remain unverified externally. Distinguish actually reading a supplied draft from independently verifying the sources it cites.
 
 ## Persistence
 

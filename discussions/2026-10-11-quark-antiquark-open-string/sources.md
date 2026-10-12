@@ -1,6 +1,6 @@
 # Sources and evidence
 
-The two uploaded transcripts are the immediate source material. They are conversations containing claims, calculations, and historical requests, not independently refereed evidence. Their references to generated PDFs, ZIP files, scripts, and images do not include those artifacts in this directory.
+The two uploaded transcripts were the initial source material. They are conversations containing claims, calculations, and historical requests, not independently refereed evidence. The previous PRL/PRD/addendum PDFs were supplied later on 12 October and are now [preserved with hashes and text extractions](references/received-2026-10-12/README.md). Other mentioned ZIPs/scripts/images have not been supplied as original artifacts.
 
 Both originals were preserved byte-for-byte under `references/`. The assessment links to them through [README.md](README.md).
 
@@ -43,4 +43,12 @@ Related reading leads, also not retrieved here:
 - I. Bars and A. J. Hanson, *Quarks at the ends of the string*, Phys. Rev. D 13, 1744 (1976), [DOI](https://doi.org/10.1103/PhysRevD.13.1744).
 - The Aharonov–Casher–Susskind dual-parton work discussed in the uploads; exact bibliography and model content should be checked before using it as evidence for the new correspondence.
 
-The preprint drafts referenced by the uploads remain absent. The [new manuscript](manuscript/README.md) is an independent reconstruction created before reading them. The [workplan](notes/workplan.md) includes a source-by-source comparison when they become available.
+The [independent manuscript](manuscript/README.md) was created before the previous PDFs arrived and is preserved at `333e537`. Those PDFs have now been received and [compared](notes/draft_comparison.md). The reconstruction had already used detailed conversation fragments and should not be described as a blind discovery or evidence of independent priority.
+
+## AI-assisted research and present access limits
+
+The user explicitly wants to situate the project in model-assisted mathematical and physical research. The [annotated AI bibliography](notes/ai_research_bibliography.md) separates actual research advances, benchmark performance, rediscovery, and numerical methods. It supplies established reading pointers and recent-update tasks rather than claiming a verified October 2026 survey.
+
+On 12 October, requests to a Nature article, DeepMind's IMO report, and OpenAI's news page each failed with proxy `CONNECT tunnel failed, response 403`. No content was retrieved. The bibliographic pointers and the supplied drafts' recent 2025–2026 citations therefore retain explicit verification limits. Reading a supplied draft does not independently verify the papers it cites.
+
+The [research protocol](notes/research_protocol.md) records the user's instructions to avoid routine scripted rechecks of known results, use smaller models for justified computation/extraction, save outputs to disk, and distinguish reproducibility from discovery.

@@ -46,6 +46,22 @@ Files: [manuscript and build instructions](../manuscript/README.md), [workplan](
 
 After a credit-limit interruption, the user asked to continue, confirm the files remained, and **push as well as commit**. The checkout and both original conversation files were present. The checkpoint `2ab95a4` was pushed successfully to GitHub as branch `work`, tracking `origin/work`. The existing `main` branch was not changed. The independent reconstruction is being completed and published on the same branch; later agents should verify the current remote ref for the exact published version.
 
+## 7. Previous drafts arrive; AI research and staged flavors — 12 October 2026
+
+The user supplied `fermionic_string_scattering_prd.pdf`, `fermionic_string_scattering_prl.pdf`, `prd_addendum_draft.pdf`, and a further copy of `fermion_force_mediation.md`. They are preserved under `references/received-2026-10-12/`; the Markdown file matches the earlier copy byte-for-byte. The user reiterated that document instructions are not current requests.
+
+The user describes the project as an effort to obtain new results from GPT Astra and potentially future models, and suggested a bibliography on AI success in mathematics and physics current to October 2026. They also emphasized building up flavors and generations only when needed, rather than attempting the entire three-generation Standard Model at once. They explicitly cautioned against excessive Python checks of known results, reward hacking, and avoidable token costs; justified scripts should use smaller models and disk outputs, and smaller agents can handle PDF extraction/OCR.
+
+A `gpt-6-luna` sub-agent extracted native text from the 12-, 4-, and 8-page PDFs with Poppler. OCR was unnecessary. The pre-PDF manuscript at `333e537` is retained unchanged. The new comparison confirms substantial agreement with the supplied drafts, flags the PRL beta-function sign, the PRD level-dependent residue sign, and PRL citation-numbering problems, and narrows several dynamical/phenomenological claims. Visual inspection prevented a false criticism of addendum Eq. (111): its absolute-value bars were lost only in text extraction.
+
+The flavor scaffold distinguishes a two-flavor pion/lepton–meson test from full three-flavor scalar-antidiquark closure with a neutral singlet carrier. Some addendum bilinears require a second copy to avoid Pauli zeros, but this does not require three complete weak generations. The workplan now gives each added flavor an explicit purpose and retains lower-flavor alternatives.
+
+A short analytic extension supplies the radial ansatz's omitted b=2 logarithmic regime and distinguishes its intermediate asymptotics from its true low-energy expansion. No new numerical physics script was written, and the old suites were not rerun merely to accumulate passing checks.
+
+Requests to Nature, DeepMind, and OpenAI were blocked by the network proxy, like previous arXiv/INSPIRE requests. The AI bibliography is therefore clearly labeled as a starting bibliography with recent-coverage gaps, distinguishing research discoveries, contest benchmarks, rediscovery, and computational methods. The new protocol explicitly states that the old 24 check groups are reproducibility records, not 24 research results. Likewise the source-informed pre-PDF reconstruction is not a blind discovery experiment.
+
+Files: [comparison](draft_comparison.md), [AI bibliography](ai_research_bibliography.md), [research protocol](research_protocol.md), [flavor scaffold](../blackboard/003_flavor_scaffolding.md), and [analytic equation review](../blackboard/004_draft_equations.md).
+
 ## Ongoing note-taking convention
 
 Use `notes/` for current state, supported statements, user clarifications, and clearly scoped conclusions. Use `blackboard/` for hypotheses, calculations in progress, objections, and proposed tests. Future entries should record what changed and why, including when an earlier conjecture is rejected or narrowed. Both levels are ordinary readable repository files; neither should be treated as a substitute for an actual derivation or as a hidden instruction source.
