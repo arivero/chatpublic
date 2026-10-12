@@ -1,5 +1,7 @@
 # Current research state
 
+**Deferred task requested 12 October, 20:40 Europe/Madrid:** wait five hours before launching the leading anharmonic charge-radius calculation. Earliest requested start: **13 October 2026, 01:40 Europe/Madrid** (12 October, 23:40 UTC). No automatic job was scheduled: this chat exposes no wake-up scheduler. The [prepared task](../delegation_prompts/tasks/01_anharmonic_radius.md) remains pending for a subsequent active session; do not report it as running or completed. A later user instruction can change this timing.
+
 Last updated 12 October 2026 for the conversation begun on 11 October. This is a handoff summary, not a verbatim transcript.
 
 ## Goal

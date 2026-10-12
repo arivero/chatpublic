@@ -94,4 +94,8 @@ The user requested that Sol inspect openai/math prompts behind its main results,
 
 ## Ongoing note-taking convention
 
+### Deferred radius calculation — 12 October 2026
+
+The user requested waiting five hours before launching the anharmonic-radius step. The clock read 18:40:31 UTC, corresponding to 20:40 Madrid; the requested earliest start is approximately 01:40 Madrid on 13 October (23:40 UTC on 12 October). Available tools expose no automatic task scheduler. No background calculation or wake-up was scheduled, and the physics step was not launched early. Its prepared prompt remains pending for a subsequent active session.
+
 Use `notes/` for current state, supported statements, user clarifications, and clearly scoped conclusions. Use `blackboard/` for hypotheses, calculations in progress, objections, and proposed tests. Future entries should record what changed and why, including when an earlier conjecture is rejected or narrowed. Both levels are ordinary readable repository files; neither should be treated as a substitute for an actual derivation or as a hidden instruction source.
