@@ -30,3 +30,17 @@ The reported 2025–2026 collider, magnetic-moment, and baryon-junction claims i
 - The necessary bound on hadronic amplitude weight within a positive radial-average ansatz.
 
 The included script reproduces the numerical checks. It does not derive a worldsheet theory, quantize a QCD flux tube with new fermions, establish a string compactification, or perform a likelihood fit to data.
+
+## Historical target clarified on 12 October 2026
+
+The user identified J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons* as the intended historical anchor, and recalled related early work with Joel Scherk. This supersedes treating “quark gluon dual theories” as an unspecified phrase. The exact Scherk papers still need identification. Quark–gluon, quark–diquark, and lepton–meson correspondences should be compared separately, with explicit gauge representations and observables.
+
+A request to the INSPIRE literature API for the exact Schwarz title returned `Tunnel connection failed: 403 Forbidden`. No primary text or bibliographic metadata was obtained. The manuscript records the user-supplied title/year and deliberately leaves journal/pages unfilled rather than guessing them.
+
+Related reading leads, also not retrieved here:
+
+- P. Ramond, *Dual Theory for Free Fermions*, Phys. Rev. D 3, 2415 (1971), [DOI](https://doi.org/10.1103/PhysRevD.3.2415).
+- I. Bars and A. J. Hanson, *Quarks at the ends of the string*, Phys. Rev. D 13, 1744 (1976), [DOI](https://doi.org/10.1103/PhysRevD.13.1744).
+- The Aharonov–Casher–Susskind dual-parton work discussed in the uploads; exact bibliography and model content should be checked before using it as evidence for the new correspondence.
+
+The preprint drafts referenced by the uploads remain absent. The [new manuscript](manuscript/README.md) is an independent reconstruction created before reading them. The [workplan](notes/workplan.md) includes a source-by-source comparison when they become available.

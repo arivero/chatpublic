@@ -1,0 +1,96 @@
+{
+  "scope": "Conditional physical-endpoint charge dictionary, S-wave Pauli symmetry, and a real symmetric two-Dirac-state mixing model with diagonal currents. No duality or compositeness bound established.",
+  "quark_branch": [
+    {
+      "quark": "u",
+      "antiquark_flavors": [
+        "d",
+        "s"
+      ],
+      "Q": "2/3",
+      "missing_Nu_Nd_Ns": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "quark": "d",
+      "antiquark_flavors": [
+        "u",
+        "s"
+      ],
+      "Q": "-1/3",
+      "missing_Nu_Nd_Ns": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "quark": "s",
+      "antiquark_flavors": [
+        "u",
+        "d"
+      ],
+      "Q": "-1/3",
+      "missing_Nu_Nd_Ns": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "carrier_B_L": {
+    "quark_branch": [
+      1,
+      0
+    ],
+    "lepton_branch": [
+      0,
+      1
+    ]
+  },
+  "allowed_S_wave_exchange_signs": [
+    {
+      "color_exchange": -1,
+      "spin_exchange": -1,
+      "flavor_exchange": -1
+    },
+    {
+      "color_exchange": -1,
+      "spin_exchange": 1,
+      "flavor_exchange": 1
+    },
+    {
+      "color_exchange": 1,
+      "spin_exchange": -1,
+      "flavor_exchange": 1
+    },
+    {
+      "color_exchange": 1,
+      "spin_exchange": 1,
+      "flavor_exchange": -1
+    }
+  ],
+  "antisymmetric_flavor_dimensions": {
+    "3": 3,
+    "5": 10
+  },
+  "numerical_mixing_cases": 32,
+  "maximum_diagonalization_error": 8.881784197001252e-16,
+  "illustration": {
+    "eta": 0.001,
+    "g_rho": 3,
+    "m_rho_GeV": 1,
+    "rF_over_rC": 0.03162277660168379,
+    "abs_C6_GeV_minus2": 4.5e-06
+  },
+  "checks_passed": [
+    "Three light-flavor antidiquarks have quark charges and a common missing (1,1,1) flavor weight",
+    "Separate conserved B and L require distinct carriers; the antilepton orientation can match only their B-L shift",
+    "Exchange antisymmetry selects scalar color-antisymmetric flavor tensors with dimensions 3 (Nf=3) and 10 (Nf=5)",
+    "Independent numerical diagonalization and current rotation agree with mixing formulas in 32 parameter cases",
+    "Charge radius and tree-level elimination of a massive vector give eta and eta-squared suppression with the stated normalization"
+  ]
+}

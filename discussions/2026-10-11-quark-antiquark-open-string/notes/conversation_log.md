@@ -1,6 +1,6 @@
 # Conversation progression
 
-These are concise records of the current research chat. They preserve decisions and corrections rather than attempting a verbatim reconstruction. All entries below belong to the conversation dated 2026-10-11.
+These are concise records of the current research chat. They preserve decisions and corrections rather than attempting a verbatim reconstruction. The conversation began on 11 October 2026; later entries are dated explicitly.
 
 ## 1. Workspace and reference material
 
@@ -31,6 +31,20 @@ The user also explained the motivation for expecting asymmetric visibility: a bo
 The response distinguishes the valid absence of a conventional fermionic classical mean field from the nonzero propagator. Fermion exchange can have finite range in parity-changing channels; neither energy nor angular momentum is temporarily violated. The proposed research mechanism is reformulated as suppression of the fermion's coupling to the extended hadronic sector, to be tested in a specified model.
 
 Files: [curated discussion](fermion_exchange.md), [working hypothesis and derivations](../blackboard/001_fermionic_coherence_and_range.md).
+
+## 5. Independent reconstruction and the historical target — 12 October 2026
+
+The user requested committing the current notebook and independently reconstructing a PRD-style manuscript from the fragments and new analysis. The preprint drafts mentioned in the transcripts have not been supplied. The purpose is to compare an independent reconstruction with those drafts later and prepare a workplan toward a genuine quark–diquark/lepton–meson theory.
+
+The original state was committed as `2ab95a4`. The manuscript distinguishes established benchmarks, checked conditional calculations, and proposed mechanisms; it does not claim an achieved theory. New work makes the two branches' conserved-charge deficits explicit, enforces scalar-antidiquark Pauli symmetry, and calculates a restricted elementary/composite mixing example.
+
+Asked which 1970s papers the user meant, the user named Schwarz's 1971 *Dual quark-gluon model of hadrons* and recalled early work with Joel Scherk attempting to identify quarks with the fermionic string sector and gluons with the bosonic sector. This updates the historical reading priority. The precise Scherk papers and primary-text claims remain to be established. An INSPIRE metadata request was blocked by the proxy (403), so the title is recorded as user-supplied rather than as a retrieved search result.
+
+Files: [manuscript and build instructions](../manuscript/README.md), [workplan](workplan.md), [two-branch blackboard](../blackboard/002_two_branch_dictionary.md), and [checked algebra](../calculations/branch_results.json).
+
+## 6. Continuity and publication — 12 October 2026
+
+After a credit-limit interruption, the user asked to continue, confirm the files remained, and **push as well as commit**. The checkout and both original conversation files were present. The checkpoint `2ab95a4` was pushed successfully to GitHub as branch `work`, tracking `origin/work`. The existing `main` branch was not changed. The independent reconstruction is being completed and published on the same branch; later agents should verify the current remote ref for the exact published version.
 
 ## Ongoing note-taking convention
 

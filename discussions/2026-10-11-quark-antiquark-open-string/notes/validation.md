@@ -1,0 +1,35 @@
+# Validation of the independent reconstruction
+
+12 October 2026, manuscript version 0.1. These checks support the displayed calculations and reproducibility; they do not establish a complete physical model.
+
+| Check | Result |
+| --- | --- |
+| Original uploaded conversation SHA-256 checks | Both match the preserved originals |
+| Flat-string and positive radial calculations | 6 check groups passed |
+| CP² geometry, charge assignments, and scale examples | 7 check groups passed |
+| Fermion propagation, contact expansion, and zero-range bound-state example | 6 check groups passed |
+| Two-branch charges, Pauli tensors, and mixing EFT | 5 check groups passed, including 32 independent numerical diagonalizations/current rotations |
+| Manuscript compilation | 13-page PDF; no LaTeX warnings, overflowing boxes, or unresolved references |
+| PDF inspection | Title/abstract, scattering figure, and final page inspected; text extraction has no unresolved-reference markers |
+| Local Markdown links and Git whitespace checks | Passed |
+
+From the notebook directory, the calculation commands are:
+
+```bash
+python scripts/scattering_checks.py
+python scripts/geometry_checks.py
+python scripts/fermion_exchange_checks.py
+python scripts/branch_checks.py
+```
+
+Run `sha256sum -c SHA256SUMS` **inside `references/`**, because the manifest uses basenames. Build the paper inside `manuscript/` with:
+
+```bash
+latexmk -pdf -interaction=nonstopmode -halt-on-error quark_diquark_lepton_meson.tex
+```
+
+Python packages `numpy`, `scipy`, `mpmath`, `sympy`, and `matplotlib` and the required LaTeX packages were already available. The preprint uses the standard `article` class, Latin Modern fonts, and the `slashed` package; REVTeX is unavailable. No service startup or dependency installation was necessary for the current-instance research workflow, so no environment configuration change was required. A new cloud instance has not been independently tested.
+
+The scattering script regenerates figures; SVG timestamps and internal identifiers can change without a mathematical or visual change. The validation run's incidental SVG rewrite was discarded after inspection. The numerical outputs and PNG remained unchanged.
+
+Primary-literature retrieval remains incomplete: arXiv attempts in the earlier assessment and the latest INSPIRE metadata request were blocked by the network proxy. No experimental fit was run, and the missing preprint drafts were not inspected.

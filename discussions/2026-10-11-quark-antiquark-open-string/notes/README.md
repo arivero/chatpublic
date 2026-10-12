@@ -5,6 +5,9 @@ This is the curated level of the active research notebook. “Durable” means a
 - [Current state and handoff](state.md)
 - [Conversation progression and user clarifications](conversation_log.md)
 - [Fermionic coherence, exchange range, and contact interactions](fermion_exchange.md)
+- [Research workplan and decision points](workplan.md)
+- [Independent preprint reconstruction](../manuscript/README.md)
+- [Validation record for version 0.1](validation.md)
 
 Detailed earlier reports remain at their existing paths:
 

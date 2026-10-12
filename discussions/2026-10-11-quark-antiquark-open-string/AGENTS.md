@@ -13,6 +13,6 @@ The research scope includes dual confining descriptions and CP² × S¹/spinᶜ 
 
 When adding results, record assumptions, what was actually checked, and remaining gaps. Distinguish citations that were retrieved from literature pointers that were not. Use reproducible calculations when they add evidence; mathematical checks do not establish a compactification vacuum or a phenomenological fit.
 
-Keep existing document paths usable, since previous chat messages link to them. For future turns about this research, update the durable state/log and add working material to the blackboard when useful. Do not reconstruct omitted turns as verbatim transcripts.
+Keep existing document paths usable, since previous chat messages link to them. For future turns about this research, update the durable state/log and add working material to the blackboard when useful. Do not reconstruct omitted turns as verbatim transcripts. The independent manuscript in `manuscript/` was written before receipt of the missing preprints; preserve that version in Git when comparing later supplied drafts.
 
-These files currently live in the shared checkout. Do not claim they are published on GitHub, or available in a fresh remote clone, without checking publication. This instruction does not itself authorize pushing or publishing.
+The user explicitly authorized committing and pushing this research on 12 October 2026. The first notebook checkpoint, `2ab95a4`, was pushed to `origin/work`; `main` was left unchanged. Check actual local and remote status before claiming that later edits are published. This file records the current session's authorization; it does not independently authorize unrelated future publication.
