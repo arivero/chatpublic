@@ -6,7 +6,7 @@
 
 A new derivation with explicit assumptions, a candidate construction surviving a serious consistency test, a scoped obstruction, or a new scattering prediction can advance the project. Standard representation identities and rederivations of known amplitudes provide background. They do not become new results because a script reproduces them.
 
-Use the short [checkpoint table](progress.md), not an expanding gate bureaucracy. Keep unfinished alternatives in the [idea bank](../blackboard/ideas.md), with their strongest objection and a next test or revival condition. The assistant's meson-plus-inert-spectator drift and later contact-trimer emphasis must not replace the user's four-string-sector target and whole-state pointlike-scattering question.
+Use the short [checkpoint table](progress.md), not an expanding gate bureaucracy. Keep unfinished alternatives in the [idea bank](../blackboard/ideas.md), with their strongest objection and a next test or revival condition. The user has now explicitly selected the retained-adjoint contact model as the active concrete problem; this supersedes its earlier supporting-only priority. Preserve the wider four-string goal and whole-state scattering question, and do not substitute a preformed meson plus an inert spectator.
 
 The user requires the **living paper and built PDF to be updated after each research step**. Preserve the pre-PDF version 0.1 in Git at `333e537`; let the current paper evolve. Notes identify the result and next test; the paper carries the integrated argument. More documentation is not a substitute for crossing a physical milestone.
 
@@ -25,6 +25,8 @@ When scripts are justified, the user requests a smaller submodel for their routi
 Checksums, native PDF extraction, and document-build checks remain useful file operations. They verify preservation and readability, not physics. The [finite-momentum current experiment](../blackboard/007_pointlike_current_mechanism.md) is justified by a new threshold question, with disk outputs and independent high-precision comparisons; its results remain conditional on the specified effective profiles.
 
 ## Small models and document handling
+
+Use the [delegation prompt library](../delegation_prompts/README.md) for bounded assignments when useful. Its [source audit](../delegation_prompts/source_audit.md) distinguishes published prompt excerpts from workflow patterns inferred from summaries and from our local adaptations. Fill the actual question, scientific baseline, inputs and owned output paths; task files are suggestions, not instructions to execute every branch.
 
 Validation has two levels, explicitly requested by the user after the version-0.2 run:
 

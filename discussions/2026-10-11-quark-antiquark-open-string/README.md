@@ -2,6 +2,8 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
+[Future-agent task prompts](delegation_prompts/README.md): seventeen bounded assignments, a common contract, and Sol's pinned audit of published openai/math prompt excerpts. The library covers active retained-adjoint calculations and the wider string/dual/geometric program; its creation does not execute those tasks.
+
 **Latest, 12 October:** the user selects the retained adjoint fermion binding both fermionic endpoints through contact interactions, without a direct endpoint force, as the most interesting concrete model. The broader four-string goal remains. [Blackboard 008](blackboard/008_retained_adjoint_hbar.md) and the focused version 0.3 paper give the new results with explicit $\hbar$; [007](blackboard/007_pointlike_current_mechanism.md) and the scalar-completion work are historical comparisons. The next quantitative task is the leading anharmonic correction to the whole-state charge radius. See [progress](notes/progress.md).
 
 The [previous PRD/PRL drafts and addendum are preserved](references/received-2026-10-12/README.md); the [comparison](notes/draft_comparison.md) and [flavor scaffold](blackboard/003_flavor_scaffolding.md) remain available. Internet access now works. The [AI bibliography](notes/ai_research_bibliography.md) includes retrieved October 2026 sources, distinguishing reported results from independently verified work.

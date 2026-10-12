@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/openai/math",
+  "retrieved_utc_date": "2026-10-12",
+  "default_branch_head": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "method": "read-only shallow clone; native pdftotext; no repository code executed",
+  "readme": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/README.md",
+  "primary_physics_summaries": [
+    "reasoning_traces/mezard-parisi-formula.pdf",
+    "reasoning_traces/spontaneous-magnetization-quantum-heisenberg-ferromagnet.pdf",
+    "reasoning_traces/relativistic-vlasov-maxwell.pdf"
+  ],
+  "additional_manuscripts_checked_for_prompts": [
+    "preprints/The-unique-threshold-bound-state-of-the-SU-N-BFSS-model-September-24-2026/paper.pdf",
+    "preprints/Positive-eigenvalues-of-the-relative-SU-2-BFSS-Hamiltonian-October-5-2026/positive-eigenvalues-relative-su2-bfss.pdf",
+    "preprints/Scale-and-conformal-symmetry-in-four-dimensional-operational-quantum-field-theory-September-26-2026/main.pdf"
+  ],
+  "additional_manuscript_result": "Native-text search found no prompt or conversation sections in the three PDFs; opening pages contain abstracts/manuscript introductions; companion READMEs contain citation metadata.",
+  "coverage": "Native text extracted from all ten README-linked reasoning-summary PDFs; three physics-adjacent summaries read in detail; selected math summaries sampled; README and CONTENTS inspected; textual search across Markdown and TeX; three additional BFSS/QFT manuscript PDFs spot-checked for prompts. No full census of 719 manuscript PDFs."
+}
