@@ -1,0 +1,247 @@
+\section{A retained adjoint binds both endpoints}
+\label{sec:model}
+We take distinguishable nonrelativistic endpoint species $q,\bar q$ with physical masses $m,m$, and a retained adjoint fermion $\lambda$ with physical mass $M$. Constituent numbers are conserved and color is global $SU(3)$. These assumptions define the model, not a relativistic QCD completion. The carrier is present in the bound state; it is not a virtual fermion exchanged between unchanged endpoints.
+
+Throughout, $\hbar$ is explicit, $c_{\rm light}$ denotes the speed of light, positions have units of length and momenta have units of momentum:
+\begin{equation}
+ \mathbf p=-i\hbar\nabla,\qquad
+ i\hbar\partial_t\Psi=H\Psi,\qquad [G]={\rm energy}\,{\rm length}^3 .
+\end{equation}
+The color matrices are dimensionless and obey
+$\mathrm{tr}(T^aT^b)=\delta^{ab}/2$. The unique singlet in
+$\mathbf3\otimes\bar{\mathbf3}\otimes\mathbf8$ has
+\begin{equation}
+ T_q\cdot T_{\bar q}=\frac16,\qquad
+ T_q\cdot T_\lambda=T_{\bar q}\cdot T_\lambda=-\frac32.
+\end{equation}
+There is no direct $q\bar q$ potential. With
+$\mathbf x=\mathbf r_q-\mathbf r_\lambda$ and
+$\mathbf y=\mathbf r_{\bar q}-\mathbf r_\lambda$, set
+\begin{align}
+ f_R(r)&=\frac{e^{-r^2/R^2}}{\pi^{3/2}R^3},&
+ V&=-\frac{3G}{2}[f_R(x)+f_R(y)],\qquad G>0,\\
+ \mu&=\frac{mM}{m+M},&
+ H_{\rm rel}&=\frac{p_x^2+p_y^2}{2\mu}
+       +\frac{\mathbf p_x\cdot\mathbf p_y}{M}+V .
+ \label{eq:hamiltonian}
+\end{align}
+Equivalently the kinetic operator is
+$-\hbar^2(\nabla_x^2+\nabla_y^2)/(2\mu)
+-\hbar^2\nabla_x\cdot\nabla_y/M$.
+The two contacts are number-conserving four-fermion density interactions. No propagating bosonic binding field is included in this Hamiltonian. Their ultraviolet origin remains unspecified. $R>0$ is the specified finite regulator length; we do not silently take an unrenormalized three-dimensional delta limit.
+
+The spin-independent model allows endpoint spin zero and total spin $1/2$ supplied by $\lambda$. Physical spins satisfy $s^2=3\hbar^2/4$. Spin-dependent interactions, allowed annihilation channels and gauged color would change the problem and must be supplied explicitly.
+
+\subsection{Binding and the correct breakup threshold}
+For $h_\mu=p^2/(2\mu)-3Gf_R/2$, a normalized Gaussian orbital of width $a$ gives
+\begin{equation}
+ E_2^{\rm trial}(a)=\frac{3\hbar^2}{4\mu a^2}
+   -\frac{3G}{2\pi^{3/2}(R^2+a^2)^{3/2}}.
+\end{equation}
+At $a^2=2R^2$ this proves the sufficient condition
+\begin{equation}
+ \boxed{G>\frac{3\sqrt3\,\pi^{3/2}}{4}\frac{\hbar^2R}{\mu}
+ \quad\Longrightarrow\quad \epsilon_2<0 .}
+ \label{eq:dimer-sufficient}
+\end{equation}
+Here $\epsilon_2$ is the exact dimer ground energy, not its variational estimate. If $u$ is its real normalized orbital, the product $u(x)u(y)$ has
+$\langle\mathbf p_x\cdot\mathbf p_y\rangle=0$ and energy $2\epsilon_2$. Both dimer-plus-spectator thresholds are $\epsilon_2$, so
+\begin{equation}
+ \boxed{E_3\leq2\epsilon_2<\epsilon_2<0.}
+ \label{eq:binding}
+\end{equation}
+The bounded short-range potentials and variational principle establish a trimer below breakup. Removing $\lambda$ removes both interactions. This is a binding result with no pre-existing $q\bar q$ bound state.
+
+Nonrelativistic control requires characteristic momenta much smaller than $mc_{\rm light}$ and $Mc_{\rm light}$, and binding energies small compared with the corresponding rest energies. A useful range choice is $R\gg\hbar/(mc_{\rm light}),\hbar/(Mc_{\rm light})$. The model does not yet generate a light relativistic lepton, a confining flux tube, or protection against annihilation in a larger theory.
+
+\section{Three different expansions}
+Define a depth, a dimensionless contact strength, and a recoil parameter:
+\begin{equation}
+ V_0=\frac{3G}{2\pi^{3/2}R^3},\qquad
+ \gamma=\frac{2\mu V_0R^2}{\hbar^2}
+       =\frac{3\mu G}{\pi^{3/2}\hbar^2R},\qquad
+ \eta=\frac{\mu}{M}=\frac{m}{m+M}.
+ \label{eq:parameters}
+\end{equation}
+The energy unit $E_R=\hbar^2/(2\mu R^2)$ and coordinates
+$\mathbf X=\mathbf x/R$, $\mathbf Y=\mathbf y/R$ give
+\begin{equation}
+ \frac{H_{\rm rel}}{E_R}
+ =-\nabla_X^2-\nabla_Y^2-2\eta\nabla_X\cdot\nabla_Y
+   -\gamma(e^{-X^2}+e^{-Y^2}).
+\end{equation}
+This rescaling displays $\hbar$ in $E_R$ and $\gamma$; it does not set it to one. Equation~\eqref{eq:dimer-sufficient} becomes $\gamma>9\sqrt3/4$.
+
+Three expansions must be kept distinct: a recoil series in $\eta$ about two bound dimers; a deep-well semiclassical series in
+$\varepsilon=\gamma^{-1/2}\propto\hbar$ at fixed physical potential and masses; and a Born series in the contact interaction about free propagation. They have different domains. In particular, the existence of a shallow bound-state pole generally requires resumming the Born series.
+
+\section{Recoil perturbation theory about the bound product}
+\label{sec:recoil}
+At fixed $\mu,G,R$ write
+\begin{equation}
+ H(\eta)=H_0+\eta W,\qquad
+ H_0=h_\mu(x)+h_\mu(y),\qquad
+ W=\frac{\mathbf p_x\cdot\mathbf p_y}{\mu}.
+\end{equation}
+The unperturbed orbital ground state is $|0\rangle=|u,u\rangle$, with $E_0=2\epsilon_2$. Spin degeneracy is inert in this spin-independent Hamiltonian. Reversing $\mathbf x$ alone maps $H(\eta)$ unitarily to $H(-\eta)$. Thus the isolated orbital ground-energy branch is even near $\eta=0$:
+\begin{equation}
+ E_3(\eta)=2\epsilon_2-\eta^2\mathcal C_2+O(\eta^4),\qquad
+ \mathcal C_2=
+ \frac{1}{\mu^2}\sum_{a,b}
+ \frac{|\langle a,b|\mathbf p_x\cdot\mathbf p_y|u,u\rangle|^2}
+      {\Delta_a+\Delta_b}>0.
+ \label{eq:recoil-second}
+\end{equation}
+Here $\Delta_a=\epsilon_a-\epsilon_2$; the spectral sum includes integrals over continuum states. Each momentum takes the dimer $S$ wave into an $l=1$ state, and their scalar contraction selects total orbital angular momentum zero. The first-order shift vanishes, while the second-order shift is attractive. The intermediate states need not be bound $P$ waves. The coefficient has units of energy, and its momenta contain the explicit $\hbar$ above.
+
+This is a correction from the motion of the same retained carrier. It does not insert a direct pair potential between the endpoints. The product trial state already proves binding; the correlated wavefunction lowers its energy further. Recoil correlations are an actual dynamical effect even though their first-order energy expectation vanishes.
+
+For subsequent orders, let $\mathcal Q=1-|0\rangle\langle0|$ and
+$\mathcal R_0=\mathcal Q(E_0-H_0)^{-1}\mathcal Q$.
+With intermediate normalization and
+$|\psi\rangle=\sum_{n\geq0}\eta^n|\psi_n\rangle$, one has
+\begin{align}
+ E_n&=\langle0|W|\psi_{n-1}\rangle,\\
+ |\psi_n\rangle&=\mathcal R_0\left[
+ W|\psi_{n-1}\rangle-\sum_{j=1}^{n-1}E_j|\psi_{n-j}\rangle
+ \right],\qquad n\geq1 .
+ \label{eq:recursion}
+\end{align}
+Odd energy coefficients vanish. This is an all-order prescription, not an evaluation of every coefficient or a claim of convergence up to $\eta=1$. A small dimer gap can limit its useful domain.
+
+The fixed-$\mu$ qualification matters: changing $M$ at fixed endpoint mass $m$ also changes $\mu$. The dimer contribution $2\epsilon_2(\mu)$ then changes, and the total physical heavy-mass expansion need not contain only even powers of $1/M$.
+
+\section{An analytic deep-well calculation through order \texorpdfstring{$\hbar^2$}{hbar squared}}
+\label{sec:deepwell}
+For the specified Gaussian contact take $\gamma\gg1$. Define
+\begin{equation}
+ \omega^2=\frac{2V_0}{\mu R^2},\qquad
+ \varepsilon=\frac{\hbar}{\mu\omega R^2}=\gamma^{-1/2}\ll1,\qquad
+ S_\eta=\sqrt{1+\eta}+\sqrt{1-\eta}.
+\end{equation}
+Hold $0\leq\eta<1$ fixed in this expansion. Deep binding relative to $E_R$ can coexist with nonrelativistic control if $V_0$ remains small compared with the constituent rest energies and $R$ is sufficiently large.
+
+In $\mathbf u_\pm=(\mathbf x\pm\mathbf y)/\sqrt2$, the harmonic Hamiltonian is
+\begin{equation}
+ H_{\rm harm}=-2V_0+
+ \sum_{\sigma=\pm}\left[
+ \frac{(1+\sigma\eta)p_\sigma^2}{2\mu}
+ +\frac{\mu\omega^2u_\sigma^2}{2}
+ \right].
+\end{equation}
+Its frequencies are $\omega\sqrt{1\pm\eta}$, and hence
+\begin{equation}
+ E_{3,{\rm harm}}=-2V_0+\frac{3\hbar\omega}{2}S_\eta .
+ \label{eq:harmonic}
+\end{equation}
+This resums recoil exactly within the harmonic approximation. Relative to twice the harmonic dimer energy,
+\begin{equation}
+ E_{3,{\rm harm}}-2\epsilon_{2,{\rm harm}}
+ =-\frac{3\hbar\omega}{8}\eta^2
+  -\frac{15\hbar\omega}{128}\eta^4+O(\hbar\omega\eta^6).
+\end{equation}
+
+The first anharmonic term is
+$V_4=-V_0(x^4+y^4)/(2R^4)$, where $x^4=(\mathbf x^2)^2$.
+The variance of each Cartesian component of $\mathbf x$ or $\mathbf y$ in the harmonic ground state is
+$s=\hbar S_\eta/(4\mu\omega)$. Since $\langle x^4\rangle=15s^2$, first-order perturbation theory in $V_4$ gives
+\begin{equation}
+ \boxed{
+ E_3=-2V_0+\frac{3\hbar\omega}{2}S_\eta
+ -\frac{15\hbar^2}{32\mu R^2}S_\eta^2
+ +O(V_0\varepsilon^3).}
+ \label{eq:hbar-result}
+\end{equation}
+Thus the classical well depth, harmonic zero-point energy and first anharmonic correction are explicitly orders $\hbar^0,\hbar^1,\hbar^2$ at fixed $V_0,R,\mu,\eta$. Sextic first-order perturbation and quartic second-order perturbation both first enter at order $\hbar^3$; retaining only one would be incomplete.
+
+The corresponding dimer expansion is
+\begin{equation}
+ \epsilon_2=-V_0+\frac{3\hbar\omega}{2}
+       -\frac{15\hbar^2}{16\mu R^2}
+       +O(V_0\varepsilon^3).
+\end{equation}
+In particular, the coefficient of $\eta^2$ in the combined expansion is
+\begin{equation}
+ E_3-2\epsilon_2=
+ \left[-\frac{3\hbar\omega}{8}
+       +\frac{15\hbar^2}{32\mu R^2}
+       +O(\hbar\omega\varepsilon^2)\right]\eta^2
+       +O(\hbar\omega\eta^4).
+\end{equation}
+The attractive curvature agrees with Eq.~\eqref{eq:recoil-second} in the controlled regime $\varepsilon\ll1$. These formulas concern the chosen finite Gaussian regulator; they are not universal coefficients of every short-range force.
+
+\section{The whole-state current with physical momentum transfer}
+\label{sec:current}
+Take an electrically neutral $\lambda$ and endpoint charges $e_1,e_2$ with $e_1+e_2\ne0$. Equal endpoint masses and symmetric dynamics make their one-body elastic form factors equal, even when their charges differ. A charged state may require different endpoint flavors; the binding proof did not require a nonzero electric charge.
+
+The leading constituent current measures
+\begin{equation}
+ \mathbf r_q-\mathbf R_{\rm cm}
+ =\frac{(m+M)\mathbf x-m\mathbf y}{2m+M}
+ =\frac{\mathbf x-\eta\mathbf y}{1+\eta},\qquad
+ F(\mathbf Q)=
+ \left\langle e^{i\mathbf Q\cdot(\mathbf r_q-\mathbf R_{\rm cm})/\hbar}
+ \right\rangle .
+\end{equation}
+Here $\mathbf Q$ is physical momentum transfer, not wave number. With
+$r_E^2=\langle|\mathbf r_q-\mathbf R_{\rm cm}|^2\rangle$,
+\begin{equation}
+ F(Q)=1-\frac{Q^2r_E^2}{6\hbar^2}
+       +O\!\left(\frac{Q^4\langle r^4\rangle}{\hbar^4}\right).
+ \label{eq:smallq}
+\end{equation}
+For a neutral total state the normalized electric form factor is unavailable; other currents or multipoles must be specified.
+
+The harmonic correlated state gives
+\begin{align}
+ \langle x^2\rangle_{\rm harm}
+ &=\frac{3\hbar}{4\mu\omega}S_\eta,&
+ \langle\mathbf x\cdot\mathbf y\rangle_{\rm harm}
+ &=\frac{3\hbar}{4\mu\omega}D_\eta,\\
+ D_\eta&=\sqrt{1+\eta}-\sqrt{1-\eta},&
+ r_{E,{\rm harm}}^2
+ &=\frac{3\hbar[(1+\eta^2)S_\eta-2\eta D_\eta]}
+         {4\mu\omega(1+\eta)^2}.
+\end{align}
+The positive cross-correlation is generated by carrier recoil. It reduces the mean-square radius relative to a distribution with the same marginal variance but zero cross-correlation. The total change also includes the change in that marginal variance and in the center-of-mass weights.
+
+The Gaussian harmonic result is
+\begin{equation}
+ F_{\rm harm}(Q)=\exp\!\left[-\frac{Q^2r_{E,{\rm harm}}^2}{6\hbar^2}\right].
+ \label{eq:gaussian-current}
+\end{equation}
+For a single dressed current insertion, after matching the point-particle kinematics and assuming no independent magnetic or transition form factors, the Born rate ratio is $|F|^2$. The illustrative condition $|F|^2\geq1-\delta$ gives
+\begin{equation}
+ r_{E,{\rm harm}}^2\leq
+ -\frac{3\hbar^2}{Q^2}\log(1-\delta),\qquad 0<\delta<1 .
+\end{equation}
+Contact binding alone therefore does not remove size from the current. In particular, a mean-square radius proportional to $\hbar$ is insufficient by itself for pointlike scattering at fixed physical $Q$: the resolution length is $\hbar/Q$. The harmonic approximation to the current is controlled for fixed $Q\sqrt{r_E^2}/\hbar$ in the deep-well expansion, especially near the pointlike window. Its exponentially small large-$Q$ tail is not a uniform prediction of the finite Gaussian well as $\hbar\to0$.
+
+\section{Contact iterations are not the same as the semiclassical series}
+Choose momentum normalization
+$\langle\mathbf r|\mathbf p\rangle=e^{i\mathbf p\cdot\mathbf r/\hbar}$, with completeness measure $d^3p/(2\pi\hbar)^3$. The dimer potential kernel is
+\begin{equation}
+ V(\mathbf p',\mathbf p)
+ =-\frac{3G}{2}
+   \exp\!\left[-\frac{R^2|\mathbf p'-\mathbf p|^2}{4\hbar^2}\right].
+\end{equation}
+Its scattering operator obeys
+\begin{equation}
+ T(\mathbf p',\mathbf p;E)=V(\mathbf p',\mathbf p)
+ +\int\frac{d^3k}{(2\pi\hbar)^3}
+ \frac{V(\mathbf p',\mathbf k)\,T(\mathbf k,\mathbf p;E)}
+      {E-k^2/(2\mu)+i0}.
+ \label{eq:ls}
+\end{equation}
+Every factor has physical units: $V$ and $T$ here have units of energy times volume. Repeated propagation in this equation is organized by the contact strength and the energy denominator, not by assigning an extra positive power of $\hbar$ to every iteration. At fixed physical $G,R,\mu$, $\gamma\propto\hbar^{-2}$; taking $\hbar$ small makes this interaction strong in dimensionless Schr\"odinger units.
+
+A bound-state pole is a nonperturbative feature of the full resolvent. Quantum-field-theory loop counting instead follows from a specified action in $\exp(iS/\hbar)$ and a stated field/coupling normalization. The present fixed-number Hamiltonian has no vacuum pair-creation loops. A relativistic completion would have to specify them before their $\hbar$ orders could be calculated. We have not computed such a completion's radiative corrections.
+
+\section{Result and next calculation}
+The retained adjoint contact model binds both endpoints without a direct endpoint force. Keeping $\hbar$ explicit reveals three separate controls and supplies two further results: attractive second-order recoil for the bound product, and the energy through $\hbar^2$ with recoil resummed at each displayed semiclassical order. The same harmonic state has a nonzero, calculable whole-state charge radius.
+
+The next quantitative target is the finite-range trimer current beyond the harmonic approximation, in a stated regime. A useful first extension is the leading anharmonic correction to $r_E^2$; a different near-threshold target would require resummed two- and three-body propagation. Neither needs an immediate three-generation model. A string or Seiberg-dual completion remains a possible bridge to the broader correspondence, with an explicit operator dictionary and physical currents.
+
+The previous scalar-completion study produces spin-dependent contacts rather than the spin-independent interaction assumed here. For physical spins its projectors are
+$P_0=1/4-\mathbf s_i\cdot\mathbf s_j/\hbar^2$ and $P_1=1-P_0$.
+Its binding proof cannot be imported unchanged. This limitation does not alter the result for the Hamiltonian in Eq.~\eqref{eq:hamiltonian}.

@@ -46,3 +46,7 @@ The preceding record describes version 0.1. The drafts have since arrived and ne
 - Additional agents reviewed the analytic profile formulas and scientific framing. Model agreement does not establish physical correctness, a common string construction or agreement with experiment.
 
 The older four physics scripts were not rerun: no new changes required their execution. No additional package installation, service startup or environment configuration change was needed. The recovered current instance supports the workflow; the cloud interruption's root cause is unknown.
+
+## Version 0.3 document check — 12 October 2026
+
+The focused retained-adjoint source builds to a 6-page PDF with `latexmk`; the final LaTeX log has no warnings, unresolved references, or overflowing boxes. Rendered pages 1, 3, 5, and 6 were inspected for title, equations, current, and references. The build transcript is `/tmp/chatpublic-hbar-build.log` (its first pass contains expected transient cross-reference warnings; the final pass is clean). The earlier unused TeX sources and natural-unit calculations were left as historical comparisons. No physics scripts or old mathematical checks were rerun; the new mathematics had separate research review. This check establishes document consistency, not physical validity.

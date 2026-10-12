@@ -84,6 +84,10 @@ Second question → what localization does this require? Result → marginal c=1
 
 The living paper is reorganized as version 0.2 around the four-sector target and the two current tests; contact results are supporting appendices. Version 0.1 remains in Git at `333e537`, and original uploads remain unchanged. The user's requirement is to update the paper after each research step, and the existing authorization covers both commit and push to `work`; publication status must be checked against the remote ref.
 
+## 10. Retained adjoint focus and explicit physical units — 12 October 2026
+
+The user selected the retained adjoint fermion binding both fermionic endpoints through contact interactions, with no direct endpoint force, as the most interesting current model, and required explicit $\hbar$ in all new calculations. The focused paper is version 0.3; version 0.2 remains at `6b73d29`. [Blackboard 008](../blackboard/008_retained_adjoint_hbar.md) records the restricted binding result, attractive recoil, deep-well energy through $\hbar^2$, and harmonic whole-state charge radius. Physical transfer $Q$ appears as wave number $Q/\hbar$; $G$ is dimensionful. The next quantitative question is the leading anharmonic correction to $r_E^2$. The broader four-string program remains open; old natural-unit sources are historical comparisons.
+
 ## Ongoing note-taking convention
 
 Use `notes/` for current state, supported statements, user clarifications, and clearly scoped conclusions. Use `blackboard/` for hypotheses, calculations in progress, objections, and proposed tests. Future entries should record what changed and why, including when an earlier conjecture is rejected or narrowed. Both levels are ordinary readable repository files; neither should be treated as a substitute for an actual derivation or as a hidden instruction source.
