@@ -6,6 +6,8 @@ This is the exploratory level of the notebook. It contains user motivations, exp
 - [002 — Two branches, conserved charges, and a mixing diagnostic](002_two_branch_dictionary.md)
 - [003 — Staged flavor construction and the distinction from generations](003_flavor_scaffolding.md)
 - [004 — Draft equation corrections and the marginal radial regime](004_draft_equations.md)
+- [005 — A three-fermion binding construction and Seiberg-dual possibilities](005_fermionic_binding_and_seiberg.md)
+- [Idea bank — hypotheses, objections, next tests and revival conditions](ideas.md)
 
 Earlier exploratory constructions remain in [dual_qcd_cp2_s1.md](../dual_qcd_cp2_s1.md); the distinction between checked ingredients and an unconstructed model is recorded in [notes/state.md](../notes/state.md).
 

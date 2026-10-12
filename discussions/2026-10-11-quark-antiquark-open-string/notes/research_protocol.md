@@ -6,6 +6,8 @@
 
 A new derivation with explicit assumptions, a candidate construction surviving a serious consistency test, a scoped obstruction, or a new scattering prediction can advance the project. Standard representation identities and rederivations of known amplitudes provide background. They do not become new results because a script reproduces them.
 
+Use the short [checkpoint table](progress.md), not an expanding gate bureaucracy. Keep unfinished alternatives in the [idea bank](../blackboard/ideas.md), with their strongest objection and a next test or revival condition. The assistant's meson-plus-inert-spectator drift is explicitly parked there; familiarity is not a reason to replace the user's binding target.
+
 The earlier **24 check groups** are historical reproducibility checks, not 24 discoveries or independent validations of the proposed physics. Some repeat elementary algebra and should not set the pattern for future work. Preserve their record, but do not grow the test count as a proxy for progress.
 
 For a candidate contribution, record the question, assumptions, derivation/result, what would falsify it, prior-work comparison, and unresolved gaps. “New in this notebook” is not the same as “new in the literature.” Agreeing model outputs are not independent verification when they share prompts, sources, or the same erroneous premise.
@@ -36,4 +38,4 @@ Two-flavor pion physics, three-flavor scalar-antidiquark closure, color multipli
 
 Keep the pre-PDF version `333e537` identifiable. It was based on earlier conversations with substantial scientific content, so it was not a blinded experiment. Maintain a record of supplied sources, candidate mechanisms, corrections, and dead ends. A future claim of novelty requires a literature check and a substantive result, not just a temporal checkpoint or a model name.
 
-The [AI bibliography](ai_research_bibliography.md) separates research advances, benchmarks, rediscovery, and numerical methods. It is incomplete for recent 2026 developments because live retrieval is blocked.
+The [AI bibliography](ai_research_bibliography.md) separates research advances, benchmarks, rediscovery, and numerical methods. Access was restored on 12 October and a selective current-source update was completed. Retrieval establishes what authors report, not independent verification of their claims.
