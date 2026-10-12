@@ -1,0 +1,131 @@
+{
+  "scope": "Exact index and representation algebra; illustrative scale estimates. No compactification field equations, dual QCD model, or scattering amplitudes solved.",
+  "index_canonical_spinc_twisted_by_Ok": "(k + 1)*(k + 2)/2",
+  "index_spinc_with_determinant_Od_d_odd": "(d - 1)*(d + 1)/8",
+  "holomorphic_modes": [
+    {
+      "twist_k": 0,
+      "index": 1,
+      "SU3_rep_in_dual_fundamental_convention": [
+        0,
+        0
+      ]
+    },
+    {
+      "twist_k": 1,
+      "index": 3,
+      "SU3_rep_in_dual_fundamental_convention": [
+        0,
+        1
+      ]
+    },
+    {
+      "twist_k": 2,
+      "index": 6,
+      "SU3_rep_in_dual_fundamental_convention": [
+        0,
+        2
+      ]
+    },
+    {
+      "twist_k": 3,
+      "index": 10,
+      "SU3_rep_in_dual_fundamental_convention": [
+        0,
+        3
+      ]
+    },
+    {
+      "twist_k": 4,
+      "index": 15,
+      "SU3_rep_in_dual_fundamental_convention": [
+        0,
+        4
+      ]
+    }
+  ],
+  "ordinary_scalar_harmonics": [
+    {
+      "p": 0,
+      "rep": [
+        0,
+        0
+      ],
+      "dimension": 1
+    },
+    {
+      "p": 1,
+      "rep": [
+        1,
+        1
+      ],
+      "dimension": 8
+    },
+    {
+      "p": 2,
+      "rep": [
+        2,
+        2
+      ],
+      "dimension": 27
+    },
+    {
+      "p": 3,
+      "rep": [
+        3,
+        3
+      ],
+      "dimension": 64
+    },
+    {
+      "p": 4,
+      "rep": [
+        4,
+        4
+      ],
+      "dimension": 125
+    }
+  ],
+  "endpoint_charge_assignment": [
+    {
+      "label": "down-type",
+      "triality": 1,
+      "n": -1,
+      "Q_em": "-1/3"
+    },
+    {
+      "label": "up-type",
+      "triality": 1,
+      "n": 2,
+      "Q_em": "2/3"
+    }
+  ],
+  "color_singlet_meson_charges": [
+    "-1",
+    "0",
+    "1"
+  ],
+  "minimum_common_twist_maximum_circle_mass_times_R": "3/2",
+  "free_magnetic_SQCD_example": {
+    "electric_Nc": 7,
+    "Nf": 10,
+    "magnetic_Nc": 3,
+    "electric_beta0": 11,
+    "magnetic_beta0": -1
+  },
+  "illustrative_dimensional_transmutation": {
+    "M_KK_GeV": 10000,
+    "Lambda_GeV": 0.2,
+    "Dirac_flavors": 6,
+    "alpha_at_M_KK": 0.08295899208202467
+  },
+  "checks_passed": [
+    "Two index-theorem expressions agree under d=2k+3",
+    "Holomorphic section counts match SU(3) representations and negative-twist cohomology counts",
+    "Untwisted scalar harmonics have zero triality",
+    "Quark-like charges obey the chosen center quotient and produce meson charges 0,+1,-1",
+    "Common circle-twist mass bound is saturated at its minimizing midpoint",
+    "SQCD example lies in the free-magnetic range and has the stated beta-function signs",
+    "One-loop dimensional-transmutation example reproduces the specified scale"
+  ]
+}

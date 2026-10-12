@@ -1,0 +1,300 @@
+ Pointlike Scattering from Fermionic Open Strings and a Bootstrap Interpretation of
+                                      Quarks
+
+                                                              Alejandro Rivero1
+                           1
+                               Instituto de Biocomputación y Fı́sica de Sistemas Complejos (BIFI),
+                                         Universidad de Zaragoza, 50018 Zaragoza, Spain
+                                                    (Dated: October 10, 2026)
+                A finite open string can scatter, at tree level, more pointlike than a generic composite fermion. For a
+              charged Ramond state we show that the Møller-like amplitude is the massless gauge-theory amplitude
+              multiplied by a Veneziano factor. The first string correction is O(α′2 E 4 ), with no dimension-six
+              contact term in the same-brane sector. We derive the angular signal and discuss the limited but
+              concrete sense in which this realizes a quark–diquark bootstrap.
+
+
+   Motivation.— The original dual-resonance program                             (a) point fermions                     (b) open string
+was simultaneously a theory of extended hadrons and an
+S-matrix bootstrap: poles in one channel were to be un-                                                              R1
+                                                                                     γ                       γ
+                                                                                                                      0 dx ⟨VR VR VR VR ⟩
+derstood as bound states in a crossed channel. Ramond’s
+fermionic extension placed spin-1/2 states on linear trajec-
+                                                                                                                    one disk; t, u poles are
+tories [1], while the Neveu–Schwarz (NS) model supplied                                  t               u
+                                                                                                                      degeneration limits
+
+the bosonic sector [2]. Aharonov, Casher, and Susskind
+subsequently obtained the NS and fermionic sectors from                 FIG. 1. (a) The two Møller graphs. (b) Four Ramond vertex
+even and odd numbers of spin-1/2 partons and explicitly                 operators on a disk. Point-particle propagator graphs arise
+computed a meson–baryon amplitude [3]. Strings with                     at boundaries of the disk modulus rather than as distinct
+quark quantum numbers attached to their ends, including                 fundamental string diagrams.
+spin-1/2 endpoint models, were constructed by Bars and
+Hanson [4]. Independently, Miyazawa’s meson–baryon
+                                                                        where
+supersymmetry [5] and its quark–diquark realization by
+Catto and Gürsey [6] exploit the elementary color fact                                       Jt = (ū3 γ µ u1 )(ū4 γµ u2 ),
+                                                                                              Ju = (ū4 γ µ u1 )(ū3 γµ u2 ).                  (4)
+         3c ⊗ 3c = 3̄c ⊕ 6c ,        3̄c ⊗ 3̄c = 3c ⊕ 6̄c .       (1)
+                                                                        The minus sign is the exchange sign of the identical final
+Thus an antisymmetric anti-diquark carries the color rep-               fermions. Standard traces give
+resentation of a quark.                                                                        2
+                                                                                               s + u2     s2 + t2    2s2
+                                                                                                                         
+   A sharper question can be asked without assuming a                         |MQED |2 = 2e4           +          +        .   (5)
+hadronic model: how does a genuinely extended fermionic                                           t2        u2       tu
+string reveal itself in elastic scattering? A generic com-
+posite fermion has a low-momentum form factor F (q 2 ) =                With t = −s(1 − cos θ)/2 and u = −s(1 + cos θ)/2, includ-
+1 − q 2 r2 /6 + · · · , suggesting an O(E 2 /Λ2 ) deviation. By         ing the 1/2! for identical particles,
+contrast, the simplest supersymmetric open-string am-
+                                                                                             dσQED   α2 (3 + cos2 θ)2
+plitude has no O(α′ ) correction. Below we make this                                               =                  .                        (6)
+statement explicit by comparing four Ramond strings                                            dΩ    2s     sin4 θ
+with massless Møller scattering and then state precisely                  Four Ramond strings.— For an open RNS string the
+what can, and cannot, be imported into a quark boot-                    massless Ramond vertex in the −1/2 picture is, suppress-
+strap.                                                                  ing compactification-dependent internal operators,
+   Point-fermion benchmark.— For e− (p1 )e− (p2 ) →
+e (p3 )e− (p4 ) and me = 0, define
+ −
+                                                                           VR
+                                                                             (−1/2)
+                                                                                      (u, k; x) = go λ uA SA (x)e−ϕ(x)/2 eik·X(x) ,            (7)
+
+       s = (p1 + p2 )2 ,                   t = (p1 − p3 )2 ,            with Chan–Paton matrix λ. Four such vertices supply
+                      2                                                 the required disk superghost charge −2. After fixing
+       u = (p1 − p4 ) ,         s + t + u = 0.                    (2)
+                                                                        three boundary positions by P SL(2, R), the remaining
+                                                                        modulus x ∈ (0, 1) generates an Euler beta integral. The
+The t- and u-channel photon graphs in Fig. 1(a) give                    standard result for any fixed cyclic ordering of massless
+                                                                      open-superstring states is [7]
+                                     Jt   Ju
+                 MQED = e2              −          ,              (3)
+                                     t    u                                     Astr (1, 2, 3, 4) = ASYM (1, 2, 3, 4) V (s12 , s23 ),          (8)
+                                                                                                                                    2
+
+where                                                               is the precise comparison with QED. The intermediate
+                                                                    factorization states of RR → RR are NS states: at low
+                             Γ(1 − α′ a)Γ(1 − α′ b)
+                V (a, b) =                          .         (9)   energy the massless gauge boson, and above it the bosonic
+                               Γ[1 − α′ (a + b)]                    open-string tower. The fermionic external string there-
+                                                                    fore does not make single-fermion exchange appear in a
+Equation (8) is the operative statement of “pointlike below
+                                                                    diagonal fermion–fermion force; the world-sheet rule is
+the string scale”: the complete spinor numerator and
+                                                                    the same even-fermion rule as in local field theory.
+massless gauge poles are those of super-Yang–Mills; the
+                                                                       Observable string form factor.— In the physical Møller
+extended object multiplies them by an analytic function
+                                                                    region s > 0, t, u < 0. Writing
+containing the massive Regge completion. It is useful
+to see where the Gamma functions enter. For a cyclic                                               s
+                                                                                  z ≡ α′ s =          ,      c ≡ cos θ,           (15)
+ordering with adjacent invariants a, b, the Koba–Nielsen                                          Ms2
+part of the gauge-fixed disk integral contains
+                                                                    Eq. (9) becomes
+          Z 1
+                     ′             ′
+I(a, b) =     dx x−α a−1 (1 − x)−α b−1 = B(−α′ a, −α′ b).                                Γ[1 + z2 (1 − c)] Γ[1 + z2 (1 + c)]
+            0                                                               V (z, c) =                                       .    (16)
+                                                             (10)                                    Γ(1 + z)
+Using a + b + c = 0 and Γ(1 − z) = −zΓ(−z),                         Hence the exact tree-level prediction of the toy model is
+                             α′ ab                                                  dσRR   dσgauge
+                V (a, b) =         B(−α′ a, −α′ b),          (11)                        =         |V (z, c)|2 .                  (17)
+                              −c                                                     dΩ      dΩ
+so the factors of a, b, c supplied by the spin-field kinematic      There are no physical Regge poles in this same-sign chan-
+correlator convert the beta-function poles into the familiar        nel because t, u < 0 and the s-channel ordering is absent;
+massless gauge poles plus a tower of massive poles. Near            the signal is a smooth angular deformation. The Regge
+a crossed-channel pole a = nMs2 (n = 1, 2, . . .),                  poles become physical in crossed channels that admit
+                                         Qn−1    ′                  s-channel string production.
+                              1            k=0 (α b + k)              ThePlow-energy expansion follows from log Γ(1 − x) =
+        V (a, b)     ∼ 2                                 ,   (12)
+                   a→nMs α′ (n − 1)!        a − nMs2                γx + n≥2 ζ(n)xn /n:
+up to the convention-dependent overall sign inherited from              V (t, u) = 1 − ζ(2)α′2 tu + ζ(3)α′3 stu + O(α′4 ),        (18)
+the definition of Mandelstam variables. The residue is                                           2
+                                                                                       π2
+                                                                                                               3 
+a degree-n polynomial, the standard Regge factorization                 dσRR                 s         2         s
+                                                                                 =1−                sin  θ + O        .           (19)
+into the spins carried at level n. At a = 0 the pole instead           dσgauge         12 Ms2                    Ms6
+resides in ASYM ; V (0, b) = 1, so the massless residue is
+exactly the field-theory one.                                       The absence of an O(α′ E 2 ) term is the central experi-
+   To obtain a Møller-like charged state with the minimum           mental fact. In effective-field-theory language the lead-
+amount of structure, take a coincident U (2) stack and use          ing same-stack oscillator correction is dimension eight,
+the off-diagonal Ramond Chan–Paton matrices                         schematically
+                                                                                         g2
+    λ+ = E12 ,        λ− = E21 ,         [Q, λ± ] = ±λ± ,    (13)            ∆L8 ∼           (ψ̄γ µ ∂ ν ψ)(ψ̄γµ ∂ν ψ) + · · · ,   (20)
+                                                                                         Ms4
+for Q = diag(1, −1)/2. This is a gauge-theory analogue              not a generic dimension-six four-fermion contact term.
+of a charged fermion, not a realistic electron: at coinci-          This distinction is known in D-brane phenomenology:
+dent branes it belongs to the non-Abelian adjoint. For              fermions localized at different brane intersections can
+the all-incoming crossing of same-sign scattering choose            instead generate dimension-six operators, whereas same-
+                                               2     2
+λ1 = λ2 = λ+ and λ3 = λ4 = λ− . Since E12        = E21  = 0,        stack open-string matter has the dimension-eight oscillator
+cyclic traces with equal charges adjacent vanish, while             behavior used here [9].
+alternating traces survive. Thus the s-channel color or-               Equation (19) converts immediately into an experimen-
+dering is removed, and the two nonzero orderings are                tal scale. If a central-angle measurement at center-of-mass
+(1, 3, 2, 4) and (1, 4, 2, 3). Their adjacent invariants are                         √
+                                                                    energy Ecm = s agrees with the point-fermion result to
+(t, u) and (u, t); because V is symmetric, the same factor          fractional accuracy ϵ, then
+multiplies both exchange terms. Consequently
+                                                                                             2 1/4
+                                                                                              π
+                    MRR = V (t, u) Mgauge                    (14)               Ms ≳ Ecm                  (θ = π/2).        (21)
+                                                                                              12ϵ
+with Mgauge having exactly the current-current form in              Thus 1% sensitivity probes only Ms ≃ 3.0Ecm , while 0.1%
+Eq. (3), up to the expected group normalization. This               gives 5.35Ecm : energy is far more valuable than precision
+                                                                                                                                3
+
+because the reach grows only as ϵ−1/4 . Conversely, the          can nevertheless be exchanged in a mixed process
+angular structure is diagnostic: the correction vanishes in
+                                                                                      R1 + N S2 −→ N S1 + R2 ,                (24)
+the forward limit and is maximal at 90◦ . At that angle
+the exact form factor is especially simple,                      for which each end of the propagator converts a bosonic
+                                                                 state into a fermionic one. The field-theory limit makes
+                              Γ(1 + z/2)2                        the mechanism transparent. Introduce a heavy fermion χ
+                  V90 (z) =               ,              (22)
+                               Γ(1 + z)                          and interactions
+and illustrates how rapidly the asymptotic string regime                      Lint = g1 ϕ†1 χ̄ψ1 + g2 ϕ†2 χ̄ψ2 + H.c.         (25)
+turns on:
+                                                                 Then the crossed conversion amplitude contains
+        z = s/Ms2 0.10 0.25 0.50 1.0 2.0                                                           q+M
+          |V90 |2 0.992 0.957 0.859 0.617 0.250                                    MR = g1 g2∗ ū2 2     u1 .                 (26)
+                                                                                                  q − M2
+This pattern is not equivalent to the usual composite-           For |q 2 | ≪ M 2 ,
+ness ansatz. A dimension-six current-current interaction
+                                                                                  g1 g2∗          g1 g2∗
+η(ψ̄γµ ψ)2 /Λ2 interferes with gauge exchange at relative                  MR = −        ū2 u1 −        ū2 q u1 + · · · ,   (27)
+                                                                                   M              M2
+order s/Λ2 and is the basis of many quoted “quark ra-
+dius” or compositeness limits. The present disk amplitude        which is reproduced by the local operator
+instead starts at s2 /Ms4 . Current collider limits on conven-                      g1 g2∗ †
+tional dimension-six quark and lepton contact operators                      Leff =       ϕ ϕ2 ψ̄2 ψ1 + H.c. + · · · .  (28)
+                                                                                     M 1
+extend to scales of order tens of TeV in several chan-
+                                                                 Thus the zero-range limit does not forbid fermionic medi-
+nels [11], but they therefore cannot be translated by the
+                                                                 ation; it makes it a contact conversion operator. What
+replacement Λ → Ms ; the angular and energy depen-
+                                                                 remains forbidden is a single fermion generating a diago-
+dence must be fitted to Eq. (17) or to its dimension-eight
+                                                                 nal static potential between unchanged ordinary fermionic
+expansion.
+                                                                 sources. In the string language the distinction is topo-
+   At fixed angle and z ≫ 1, Stirling’s formula gives, with
+                                                                 logical: an R strip can connect mixed NS/R boundaries,
+x = (1 − c)/2,
+                                                                 while the four-R disk degenerates through an NS strip.
+                   p                                             This is exactly the channel distinction obscured by the
+             V ∼ 2πzx(1 − x) e−zH(x) ,
+                                                                 slogan that “forces are mediated by bosons.”
+         H(x) = −x ln x − (1 − x) ln(1 − x) > 0,         (23)       Crossing and realistic color.— The particularly trans-
+                                                                 parent factorization in Eq. (14) relies on the alternating
+so the extended nature ultimately appears as the familiar        U (2) Chan–Paton assignment, for which both surviving
+exponential
+      p        softness of hard string scattering. At 90◦ ,      orderings carry the identical function V (t, u). It should
+V ∼ πz/2 2−z .                                                   not be mistaken for a theorem that every four-quark
+   A caution about terminology is important here. Equa-          observable is obtained by multiplying the full QCD an-
+tion (17) is an on-shell four-point statement, not a direct      swer by one scalar form factor. In a general non-Abelian
+computation of a static charge radius. In ordinary com-          process the full disk amplitude is a sum
+positeness analyses the latter is encoded through off-shell                       X
+current form factors or, at energies above bound-state                   A4 = go2      Tr(λσ1 λσ2 λσ3 λσ4 )AYM (σ) Vσ , (29)
+scales, through local four-fermion operators. What is                                 σ/Z4
+unusually soft in the present string sector is specifically
+                                                                 with Vσ = V (sσ1 σ2 , sσ2 σ3 ). Different color orderings can
+the tree-level disk correction to massless scattering: su-
+                                                                 therefore carry different functions before the color sum.
+persymmetry and the open-string amplitude remove the
+                                                                 Nevertheless every Vσ = 1 + O(α′2 ), so the absence of an
+dimension-six oscillator term. Compactification effects,
+                                                                 oscillator-induced dimension-six term survives ordering
+Kaluza–Klein exchange, brane intersections, or loops need
+                                                                 by ordering in the same-brane supersymmetric sector. For
+not share that cancellation. Thus “pointlike through
+                                                                 a quark realization the robust experimental statement is
+E 2 /Ms2 ” is a precise amplitude statement rather than the
+                                                                 consequently an O(E 4 /Ms4 ) deformation of hard angu-
+claim that a fundamental string possesses zero spatial
+                                                                 lar distributions, not necessarily the single function in
+extent.
+                                                                 Eq. (17).
+   Where a fermionic mediator does appear.— The elastic
+                                                                    Crossing gives a complementary discriminator. In the
+RR → RR process above also clarifies the question of
+                                                                 same-sign channel the relevant invariants t, u are space-
+a fermion mediating a force. A local Lorentz-invariant
+                                                                 like and the result is smooth. In an allowed particle–
+vertex is Grassmann even; the open-string counterpart is
+                                                                 antiparticle channel a Veneziano factor contains a timelike
+that the elementary disk three-point couplings are of NS–
+                                                                 argument s and develops poles at
+NS–NS and NS–R–R type. Hence four external Ramond
+states factorize through NS states. A single Ramond state                         s = nMs2 ,        n = 1, 2, . . . ,         (30)
+                                                                                                                            4
+
+whose residues are the Regge polynomials illustrated in       quark over the experimentally tested hard-scattering do-
+Eq. (12). Thus precision angular distortions below thresh-    main.
+old and direct Regge production above threshold are not          This negative result is as useful as the positive low-
+separate hypotheses; they are crossed manifestations of       energy one. The calculation says that such a fermionic
+the same analytic amplitude.                                  string can scatter pointlike below its common string scale;
+   Bootstrap interpretation and its obstruction.— The cal-    it does not allow the common scale itself to be simultane-
+culation above establishes a limited but nontrivial state-    ously hadronic for the boson and arbitrarily high for the
+ment: spatial extension does not force the leading elastic-   fermion. Consequently Eq. (32) can survive only if “quark
+scattering correction to be a conventional radius             = anti-diquark plus string” is a dual/operator identifica-
+                                              √ term. A
+Ramond string may be extended on the scale α′ while its       tion whose hard amplitudes are not those of the naive
+tree-level massless scattering agrees with a point-fermion    common-tension disk, or if an additional mechanism sep-
+gauge theory through dimension six. This is precisely the     arates the QCD flux-tube scale from the scale controlling
+property required by a bootstrap picture in which an ap-      the Ramond scattering form factor. That required separa-
+parently elementary fermion is re-described by endpoint       tion is an experimentally falsifiable dynamical ingredient,
+constituents plus a string degree of freedom.                 not a matter of terminology.
+   Chan–Paton algebra makes the constituent bookkeep-            Conclusion.— Four-Ramond disk scattering gives a con-
+ing suggestive. An oriented endpoint pair gives N ⊗ N̄ ,      crete answer to the operational question “how pointlike
+while same-orientation pairs give N ⊗ N (or its orientifold   can a fermionic string look?” In the simplest same-stack
+projection). For SU (5) this contains                         sector, extremely pointlike: after the Chan–Paton pro-
+                                                              jection to a Møller-like charged channel, the exact disk
+                                                              amplitude is the gauge-theory amplitude times Eq. (16),
+          5 ⊗ 5̄ = 1 ⊕ 24,        5 ⊗ 5 = 10 ⊕ 15,    (31)
+                                                              and the leading deviation is O(E 4 /Ms4 ). The result sup-
+                                                              plies a precise scattering mechanism for an old bootstrap
+mirroring meson-like and diquark-like label sectors. For      intuition while simultaneously exposing its main obstruc-
+QCD itself Eq. (1) allows an antisymmetric pair of anti-      tion: pointlike low-energy scattering and microscopic size
+quarks to carry the color of a quark, the same algebraic      are not synonymous, but NS and R strings of one theory
+observation underlying quark–diquark hadronic supersym-       cannot be assigned independent tensions. Any quark-as-
+metry and modern light-front versions of it [10]. One may     anti-diquark-plus-fermionic-string model must therefore
+therefore formulate a conjectural bootstrap identification    explain the common string scale, baryon topology, and the
+                                                              absence (or interpretation) of the associated Regge struc-
+               q   ←→        [q̄ q̄]3c ⊗ Rstring ,    (32)    ture; those are experimentally meaningful requirements
+                                                              rather than semantic questions about compositeness.
+where the Ramond string supplies the half-integer statis-
+tics and whatever additional topological quantum number
+is needed. In particular B([q̄ q̄]) = −2/3 differs from
+B(q) = 1/3 by one unit, so a literal realization must
+assign nontrivial baryon topology to the string/junction       [1] P. Ramond, Dual Theory for Free Fermions, Phys. Rev.
+                                                                   D 3, 2415 (1971).
+sector rather than merely relabel two endpoints.
+                                                               [2] A. Neveu and J. H. Schwarz, Factorizable dual model of
+   There is, however, a decisive limitation. Standard RNS          pions, Nucl. Phys. B 31, 86 (1971).
+supersymmetry does not permit a hadron-sized NS string         [3] Y. Aharonov, A. Casher, and L. Susskind, Dual-parton
+and an independently point-sized Ramond partner: both              model for mesons and baryons, Phys. Lett. B 35, 512
+sectors use the same X µ oscillators and the same tension          (1971).
+T = (2πα′ )−1 . A pion-like Regge slope therefore fixes the    [4] I. Bars and A. J. Hanson, Quarks at the ends of the string,
+                                                                   Phys. Rev. D 13, 1744 (1976).
+same string scale for its Ramond sector. Ordinary light-
+                                                               [5] H. Miyazawa, Baryon Number Changing Currents, Prog.
+hadron trajectories have slopes near αhad ′
+                                              ≃ 0.9 GeV−2 ,        Theor. Phys. 36, 1266 (1966).
+corresponding parametrically to Ms ∼ 1.05 GeV. If              [6] S. Catto and F. Gürsey, Algebraic treatment of effective
+Eq. (14) with that same α′ described hard quark scatter-           supersymmetry, Nuovo Cimento A 86, 201 (1985).
+ing literally, the                                             [7] O. Schlotterer, Scattering amplitudes in open superstring
+                √ contradiction would be immediate. At
+90◦ and only s = 10 GeV one has z ∼ 90 and Eq. (23)                theory, Fortschr. Phys. 60, 373 (2012).
+gives a suppression of order 2−180 in the cross section,       [8] I. Antoniadis, K. Benakli, and A. Laugier, Contact interac-
+                                                                   tions in D-brane models, JHEP 05, 044 (2001), arXiv:hep-
+apart from the power prefactor. Instead, perturbative-
+                                                                   th/0011281.
+QCD jet and deep-inelastic data exhibit hard pointlike         [9] H. G. Dosch, G. F. de Téramond, and S. J. Brodsky,
+parton scattering to vastly larger momentum transfers;             Supersymmetry across the light and heavy-light hadronic
+dijet angular distributions are in fact used to constrain          spectrum II, Phys. Rev. D 95, 034016 (2017).
+quark contact interactions [11]. Thus a common-tension,       [10] S. Navas et al. (Particle Data Group), Phys. Rev. D 110,
+hadron-scale open string cannot simply be the observed             030001 (2024).
+

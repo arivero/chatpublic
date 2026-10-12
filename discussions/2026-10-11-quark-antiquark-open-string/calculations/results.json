@@ -1,0 +1,31 @@
+{
+  "assumptions": "Tree-level same-sign 90-degree scattering. Positive radial toy average, nu=2. No data fit.",
+  "alpha_prime_had_GeV_minus2": "0.9",
+  "Ms_had_GeV": "1.05409255338946",
+  "mellin_nu2_x_half": "4.64412305369104282",
+  "flat_ratio_10GeV": "9.27632304586239215e-53",
+  "radial_ratio_10GeV": "1.31491412515315449e-6",
+  "radial_ratio_1TeV_asymptotic": "1.31491412515315449e-22",
+  "sensitivity": [
+    {
+      "fractional_cross_section_tolerance": "0.01",
+      "minimum_Ms_over_E_exact": "2.947953198847358",
+      "minimum_Ms_over_E_leading_order": "3.011477514638137",
+      "maximum_hadronic_amplitude_weight_at_10GeV": "0.005012562893380045"
+    },
+    {
+      "fractional_cross_section_tolerance": "0.001",
+      "minimum_Ms_over_E_exact": "5.320636730778607",
+      "minimum_Ms_over_E_leading_order": "5.355248458076187",
+      "maximum_hadronic_amplitude_weight_at_10GeV": "0.0005001250625390899"
+    }
+  ],
+  "numerical_checks_passed": [
+    "Normalization and exact values V(1)=pi/4, V(2)=1/2",
+    "Low-energy flat amplitude coefficient pi^2/24",
+    "Radial change of variables and nu=2 low-energy coefficient",
+    "Mellin integral, independent disk-modulus form, high-energy power",
+    "Hadronic overlap bound saturated by pointlike UV component",
+    "Flat and radially averaged ratios have the expected ordering"
+  ]
+}
