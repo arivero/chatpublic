@@ -35,7 +35,7 @@ The included script reproduces the numerical checks. It does not derive a worlds
 
 The user identified J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons* as the intended historical anchor, and recalled related early work with Joel Scherk. This supersedes treating “quark gluon dual theories” as an unspecified phrase. The exact Scherk papers still need identification. Quark–gluon, quark–diquark, and lepton–meson correspondences should be compared separately, with explicit gauge representations and observables.
 
-The first INSPIRE request was blocked; the successful follow-up verified **Phys. Lett. B 37 (1971), 315–319, DOI [10.1016/0370-2693(71)90028-1](https://doi.org/10.1016/0370-2693(71)90028-1)**, [INSPIRE 75918](https://inspirehep.net/literature/75918). Its abstract describes mathematical quarks/gluons and a quark-emission vertex. The full paper remains unread. The historical pre-PDF manuscript is preserved as written rather than silently updated.
+The first INSPIRE request was blocked; the successful follow-up verified **Phys. Lett. B 37 (1971), 315–319, DOI [10.1016/0370-2693(71)90028-1](https://doi.org/10.1016/0370-2693(71)90028-1)**, [INSPIRE 75918](https://inspirehep.net/literature/75918). Its abstract describes mathematical quarks/gluons and a quark-emission vertex. The full paper remains unread. The historical pre-PDF manuscript is preserved in Git; the current manuscript is version 0.2.
 
 Related reading leads, also not retrieved here:
 
@@ -52,3 +52,11 @@ The user explicitly wants to situate the project in model-assisted mathematical 
 Earlier requests to Nature, DeepMind and OpenAI failed with proxy 403 responses. After the network change, FunSearch, OpenAI's current mathematics release and its pinned README, and two recent AI-assisted physics papers were retrieved. Those authors' results were not independently proved or reproduced here; other bibliography entries and the supplied drafts' citations retain their stated verification limits. See the [reading record](references/literature_2026-10-12.md).
 
 The [research protocol](notes/research_protocol.md) records the user's instructions to avoid routine scripted rechecks of known results, use smaller models for justified computation/extraction, save outputs to disk, and distinguish reproducibility from discovery.
+
+## Current-profile and scalar-completion revision, 12 October
+
+- T. Gherghetta and A. Pomarol, *Bulk Fields and Supersymmetry in a Slice of AdS*, [hep-ph/0003129](https://arxiv.org/abs/hep-ph/0003129). Standard background for warped bulk fermions and supersymmetry constraints.
+- H. R. Grigoryan and A. V. Radyushkin, *Form Factors and Wave Functions of Vector Mesons in Holographic QCD*, [hep-ph/0703069](https://arxiv.org/abs/hep-ph/0703069). Background for holographic current overlaps; it does not establish our chosen pair of profiles as string sectors.
+- V. Bargmann, *On the Number of Bound States in a Central Field of Force*, PNAS **38**, 961–966 (1952), [DOI 10.1073/pnas.38.11.961](https://doi.org/10.1073/pnas.38.11.961). Used for the scoped no-binding bound in the supporting scalar completion.
+
+The first two arXiv metadata pages and abstracts were retrieved on 12 October; their full texts have not been reviewed in this step. Bargmann's publication metadata was checked previously. The finite-cutoff current formulas and bounds are derived explicitly in the paper rather than attributed as new literature results. See [007](blackboard/007_pointlike_current_mechanism.md) for the calculation's scope.

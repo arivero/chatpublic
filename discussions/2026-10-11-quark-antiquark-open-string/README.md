@@ -2,11 +2,22 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
-**Latest, 12 October:** the user clarified that the fermionic carrier replaces the binding glue, rather than joining an already formed meson, and proposed Seiberg duality. [Blackboard 005](blackboard/005_fermionic_binding_and_seiberg.md) gives an explicit three-fermion contact model with a bound state below breakup, plus a careful SQCD operator dictionary. This is a limited binding result, not yet a string or pointlike-scattering construction. See the concise [progress record](notes/progress.md) and [idea bank](blackboard/ideas.md).
+**Cycle closed, 13 October 2026 (Europe/Madrid), pending new models.** The final physics consolidation is paper v0.5 at commit `210d0b4`; the remaining tasks below are a handoff for a future cycle, not running or scheduled work. The whole-fermion pointlike-scattering mechanism remains unresolved. The [chronological recap](notes/conversation_recap.md) records all 28 available substantive user turns.
+
+Shared conversation links supplied by the user at closure:
+
+- [This research conversation](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91).
+- [Additional shared conversation](https://chatgpt.com/share/6acd8ea8-2e3c-83ed-8797-9c54344755e8).
+
+These links are preserved as supplied; their contents were not newly retrieved or merged into the local transcript during closure. Uploaded originals remain archived separately under `references/`.
+
+[Future-agent task prompts](delegation_prompts/README.md): seventeen bounded assignments, a common contract, and Sol's pinned audit of published openai/math prompt excerpts. The library covers active retained-adjoint calculations and the wider string/dual/geometric program; its creation does not execute those tasks.
+
+**Latest, 13 October:** the user selects the retained adjoint fermion binding both fermionic endpoints through contact interactions, without a direct endpoint force, as the most interesting concrete model. The broader four-string goal remains. [Blackboard 008](blackboard/008_retained_adjoint_hbar.md) and the focused version 0.5 paper give the retained-adjoint results with explicit $\hbar$; [009](blackboard/009_anharmonic_radius.md) derives a positive leading anharmonic radius correction. [010](blackboard/010_endpoints_goldstino_and_b_minus_l.md) records a distinct, conditional scalar-endpoint and supersymmetry branch. The next quantitative task is the anharmonic finite-$Q$ current shape. See [progress](notes/progress.md).
 
 The [previous PRD/PRL drafts and addendum are preserved](references/received-2026-10-12/README.md); the [comparison](notes/draft_comparison.md) and [flavor scaffold](blackboard/003_flavor_scaffolding.md) remain available. Internet access now works. The [AI bibliography](notes/ai_research_bibliography.md) includes retrieved October 2026 sources, distinguishing reported results from independently verified work.
 
-Our [independent PRD-style reconstruction](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), remains the pre-PDF version preserved at commit `333e537`. It was informed by the earlier conversations and is not a blind discovery experiment. The [research workplan](notes/workplan.md) now prioritizes smaller flavor models and meaningful derivations over routine scripted checks. Schwarz's 1971 *Dual quark-gluon model of hadrons* remains the historical anchor; its primary text and related Scherk papers still need verification.
+The [living paper](manuscript/README.md), with [PDF](manuscript/quark_diquark_lepton_meson.pdf) and [LaTeX source](manuscript/quark_diquark_lepton_meson.tex), is now version 0.5. Version 0.2 is preserved in Git at `6b73d29`; the pre-PDF version 0.1 at `333e537`. New calculations keep physical $\hbar$ explicit, and the [workplan](notes/workplan.md) names the next calculation. [Focused source reading](references/literature_2026-10-13.md) documents Rivero prior art and the Volkov–Akulov source; the [1983 Greenberg–Mohapatra–Yasue assessment](references/greenberg_mohapatra_yasue.md) compares a different composite-fermion mass-protection mechanism. A [chronological recap](notes/conversation_recap.md) preserves the available user turns and reconstructed outcomes. Schwarz's 1971 *Dual quark-gluon model of hadrons* remains the historical anchor; its primary text and related Scherk papers still need verification.
 
 The active notebook now has two levels:
 
@@ -15,7 +26,16 @@ The active notebook now has two levels:
 
 These are readable files in the shared checkout and are versioned on the repository's `work` branch. The original notebook checkpoint `2ab95a4` has been pushed to GitHub; [the remote notebook](https://github.com/arivero/chatpublic/tree/work/discussions/2026-10-11-quark-antiquark-open-string) is the publication location. The `main` branch is unchanged. [AGENTS.md](AGENTS.md) records the user's ongoing note-taking convention for future work in this directory. Check local and remote Git status before assuming later edits are already published.
 
-The original question compared ordinary mesonic behavior with a fermionic state's **whole-particle** pointlike scattering. The clarified construction changes the binding carrier itself: two physical fermionic endpoints with adjoint fermionic glue. A retained q qbar λ singlet has an octet endpoint pair; an ordinary meson is not being assumed as a pre-existing constituent.
+The user's controlling four-sector definition is:
+
+| State | SU(3) color string | Endpoints | Selected whole-state color |
+| --- | --- | --- | --- |
+| Meson | Bosonic | q / qbar | 1 |
+| Diquark | Bosonic | q / q | anti-3 |
+| Lepton | Fermionic | q / qbar | 1 |
+| Quark | Fermionic | qbar / qbar | 3 |
+
+The antisymmetric diquark channel is selected here. Color carried internally is distinct from the total state's color. Pointlike constituent scattering, an inert spectator, or a bound contact trimer alone does not answer the whole-string question.
 
 The earlier flat-string assessment remains a conditional benchmark: that specified open-superstring construction does not achieve the desired scattering hierarchy. It does not settle the corrected fermionic-binding construction, Seiberg-dual possibilities, or all confining duals.
 

@@ -1,0 +1,139 @@
+\section{A retained adjoint fermion as binding constituent}
+\label{sec:retained}
+Consider nonrelativistic fermions $q\in\mathbf3$, $\bar q\in\bar{\mathbf3}$ and $\lambda\in\mathbf8$, of masses $m,m,M$. Color is global and constituent numbers are fixed in this first model. The unique singlet has an octet endpoint pair and
+\begin{equation}
+ T_q\cdot T_{\bar q}=\frac16,\qquad
+ T_q\cdot T_\lambda=T_{\bar q}\cdot T_\lambda=-\frac32.
+\end{equation}
+The adjoint fermion is an active constituent, not an inert spectator attached to a pre-existing meson. Define a spin-independent short-range density interaction,
+\begin{equation}
+ V=G[T_q\cdot T_\lambda f_R(x)+T_{\bar q}\cdot T_\lambda f_R(y)],
+ \quad f_R(r)=\frac{e^{-r^2/R^2}}{\pi^{3/2}R^3},\quad G>0,
+ \label{eq:contact-trimer}
+\end{equation}
+with $x=r_q-r_\lambda$, $y=r_{\bar q}-r_\lambda$ and no direct $q\bar q$ force. Each density vertex contains an even number of fermion fields. The Hamiltonian assumes a regulated contact coefficient; it does not derive its ultraviolet origin.
+
+With $\mu=mM/(m+M)$, removal of the center of mass gives
+\begin{equation}
+ H_{\rm rel}=-\frac{\nabla_x^2+\nabla_y^2}{2\mu}
+ -\frac{\nabla_x\cdot\nabla_y}{M}
+ -\frac{3G}{2}[f_R(x)+f_R(y)].
+\end{equation}
+A Gaussian orbital of width $a$ gives dimer trial energy
+\begin{equation}
+ E_2(a)=\frac{3}{4\mu a^2}
+ -\frac{3G}{2\pi^{3/2}(R^2+a^2)^{3/2}}.
+\end{equation}
+Thus $G>3\sqrt3\pi^{3/2}R/(4\mu)$, obtained at $a^2=2R^2$, suffices for a negative exact dimer ground energy $\epsilon_2$. If $u$ is its real normalized orbital, the three-body trial state $u(x)u(y)$ has zero expectation of the recoil cross term, since $\int u\nabla u=0$. Consequently
+\begin{equation}
+ \boxed{E_3\leq2\epsilon_2<\epsilon_2<0.}
+ \label{eq:trimer-proof}
+\end{equation}
+The relevant breakup threshold is $\epsilon_2$, not zero. Bounded short-range potentials and the variational principle therefore establish a three-body bound state. Removing $\lambda$ removes both forces. Coupling the two endpoint spins to zero and retaining the carrier spin gives an odd spin-$1/2$ state; the species are distinct.
+
+This proof assumes the fixed-number global-color model and the chosen spin-independent interaction. Take $mR,MR\gg1$ and binding energies small compared with the masses for nonrelativistic control. It supplies neither a flux tube nor stability against newly allowed relativistic channels. Its size is generally nonzero: in the symmetric Gaussian product and a constituent-current approximation, a charged state with neutral $\lambda$ has
+\begin{equation}
+ \langle r_{\rm ch}^2\rangle_{\rm trial}
+ =\frac{(m+M)^2+m^2}{(2m+M)^2}\frac{3a^2}{2}.
+\end{equation}
+This is a trial-state radius, not an exact hard-scattering prediction.
+
+\section{First completion test: scalar exchange and spin recoupling}
+\label{sec:completion}
+This supporting test asks whether a specified Yukawa theory generates the interaction needed in Eq.~\eqref{eq:trimer-proof}. It does not identify the three-body state with the fermionic string. Take one chiral fundamental scalar per endpoint flavor and a Majorana adjoint, with
+\begin{equation}
+ \Lag_Y=-y\phi^\dagger T^a\psi\lambda^a+\mathrm{h.c.}
+ \label{eq:squark-yukawa}
+\end{equation}
+The endpoint is part of a massive vectorlike Dirac fermion. We use canonically normalized nonrelativistic spinors, for which each massive Weyl particle component is the corresponding spinor divided by $\sqrt2$. Additional chiral scalars must be matched separately. With global color this is a Yukawa completion involving a bosonic scalar. In SQCD, $y=\sqrt2g$ and gauge-boson interactions also remain; neither interpretation is an exclusively fermionic ultraviolet theory.
+
+\subsection{Threshold denominators and the Majorana crossed graph}
+At zero relative velocity define
+\begin{equation}
+ D_s=m_\phi^2-(m+M)^2,\qquad
+ D_u=m_\phi^2-(m-M)^2=D_s+4mM.
+\end{equation}
+Replacing both by $m_\phi^2$ before deciding the mass hierarchy would erase the possible near-threshold enhancement. Let $P_0,P_1$ project the endpoint--carrier spins onto singlet and triplet, and $P_{\rm swap}=P_1-P_0$. The connected threshold potentials, before color projection and multiplying a regulated contact, are
+\begin{equation}
+ V_s=-\frac{|y|^2}{2D_s}(T^bT^a)P_0,\qquad
+ V_u=+\frac{|y|^2}{4D_u}(T^aT^b)P_{\rm swap}.
+\end{equation}
+The $s$ channel annihilates and recreates the pair in spin zero. The relative crossed sign can also be obtained by normal ordering the number-changing Majorana vertex product: its connected four-field part is minus the spin-swap operator. A conserved Dirac-carrier charge can change which diagrams exist, but requires a fresh charge/channel specification.
+
+In the total singlet the endpoint--carrier pair is a $\mathbf3$ or $\bar{\mathbf3}$. The two color tensors have eigenvalues $C_F=4/3$ and $C_F-C_A/2=-1/6$, respectively. The resulting pair potential is
+\begin{align}
+ V_{q\lambda}&=-[g_0P_0+g_1P_1]f_R,\\
+ g_0&=\frac{2|y|^2}{3D_s}-\frac{|y|^2}{24D_u},
+ &g_1&=\frac{|y|^2}{24D_u}.
+ \label{eq:matched-contact}
+\end{align}
+The antiquark endpoint has the same projected coefficients when the masses and couplings agree. For $m_\phi>m+M$, both channels attract, with $g_0\geq15g_1$. Far above threshold,
+\begin{equation}
+ g_0\simeq\frac{5|y|^2}{8m_\phi^2},\qquad
+ g_1\simeq\frac{|y|^2}{24m_\phi^2}.
+\end{equation}
+This is not the spin-independent density interaction originally assumed. Here $f_R$ is an EFT regulator; its Gaussian width is not a derived scalar-exchange range. In particular, the $s$ channel is a conversion channel, not a spatial Yukawa potential of range $m_\phi^{-1}$.
+
+\subsection{A changed three-body spin problem}
+For three spin-$1/2$ constituents,
+\begin{equation}
+ P^0_{q\lambda}+P^0_{\bar q\lambda}
+ =\frac12-\mathbf S_{q\bar q}\cdot\mathbf s_\lambda.
+\end{equation}
+Its eigenvalues in $(S_{q\bar q},J)=(0,1/2),(1,1/2),(1,3/2)$ are $1/2,3/2,0$. For equal spatial overlaps, the strongest attraction therefore selects endpoint spin one and total spin one-half. The common carrier cannot be in a full singlet with both endpoints simultaneously.
+
+Let $\epsilon_2(c)$ be the ground energy of $p^2/(2\mu)-c f_R$. A product orbital with the strongest fixed spin state gives, when that orbital is bound,
+\begin{equation}
+ E_3\leq2\epsilon_2\!\left(\frac{3g_0+g_1}{4}\right),
+ \qquad E_{\rm breakup}=\epsilon_2(g_0).
+ \label{eq:recoupled-trial}
+\end{equation}
+Equation~\eqref{eq:recoupled-trial} does not automatically lie below breakup whenever a dimer binds. Spatially varying pair weights can mix endpoint-spin sectors, so the fixed-spin product is a variational subspace, not an exact diagonalization. The original proof remains correct for its original Hamiltonian; it cannot simply be transplanted into this completion.
+
+\subsection{A sufficient no-binding bound in the weak heavy-scalar regime}
+Failing a sufficient variational binding test would not prove absence of a state. A separate lower bound supplies that conclusion in a restricted regime. For $h_\nu=p^2/(2\nu)-g_0f_R$, the central-potential bound~\cite{Bargmann} gives
+\begin{equation}
+ N_\ell<\frac{2\nu}{2\ell+1}\int_0^\infty r g_0f_R(r)\,dr
+ =\frac{\nu g_0}{(2\ell+1)\pi^{3/2}R}.
+\end{equation}
+If the last expression at $\ell=0$ is below one, $h_\nu$ has no negative-energy spectrum. For the three-body recoil operator and $g_0\geq g_1\geq0$,
+\begin{equation}
+ T_{\rm rel}\geq\frac{p_x^2+p_y^2}{2m},\qquad
+ V\geq-g_0[f_R(x)+f_R(y)].
+\end{equation}
+The kinetic inequality follows from $1/\mu-1/M=1/m$. Hence
+\begin{equation}
+ \boxed{\frac{m g_0}{\pi^{3/2}R}<1
+ \quad\Longrightarrow\quad H_{\rm rel}\geq h_m(x)+h_m(y)\geq0.}
+ \label{eq:no-weak-trimer}
+\end{equation}
+This excludes Borromean binding as well as dimer-assisted binding in this regulated model. Perturbative $y$, $m_\phi\gg m,M$, and a nonrelativistic cutoff $\Lambda_c=R^{-1}\ll\min(m,M)$ satisfy Eq.~\eqref{eq:no-weak-trimer} parametrically. The result concerns the matched weak, far-detuned implementation, not arbitrary running contact coefficients or all scalar completions.
+
+\subsection{The surviving near-threshold question}
+For positive detuning $\delta=m_\phi-m-M$,
+\begin{equation}
+ D_s=2(m+M)\delta+\delta^2,\qquad
+ E\ll\delta\ \Longleftrightarrow\ p\ll\sqrt{2\mu\delta}
+\end{equation}
+is required for an energy-independent contact expansion near threshold. The enhanced coefficient cannot be extrapolated while ignoring this shrinking domain, scalar self-energy dressing, or the $\phi\bar q$ and $\bar\phi q$ conversion channels. Negative detuning puts such a channel below the free three-fermion threshold. A resonant two-channel theory remains a possible continuation of this supporting study; Eq.~\eqref{eq:matched-contact} does not already establish its binding. The main program instead follows the string-current mechanism in Sec.~\ref{sec:current-profiles}.
+
+Relativistic interactions also change constituent numbers. For equal endpoint flavor, $q\bar q\to\lambda\lambda$ can open a three-carrier final sector when masses and charges permit. Choosing distinct exactly conserved endpoint flavors can forbid this annihilation into flavor-neutral carriers. This is a concrete reason to add a second flavor to a completion; it is unrelated to three weak generations. Even after a stable bound pole is obtained, its current and its relation to a super-QCD string remain separate calculations.
+
+\subsection{Seiberg variables and the intended odd operator}
+In vectorlike $\mathcal N=1$ SQCD, the electric meson superfield and its fermion are
+\begin{equation}
+ M_e=\widetilde Q Q,\qquad
+ \psi_{M_e}=\widetilde\phi\psi+\widetilde\psi\phi.
+\end{equation}
+The bilinear $\widetilde\psi\psi$ instead occurs in its auxiliary/top component. Thus the ordinary mesino is not, by definition, the intended two-fermion endpoints plus gluino. The latter admit
+\begin{equation}
+ \mathcal H_\alpha=(\widetilde\psi T^a\psi)\lambda^a_\alpha,
+ \qquad R(\mathcal H)=2r-1=R(\psi_{M_e}),\quad r=1-\frac{N_c}{N_f}.
+\end{equation}
+Flavor and baryon number also match. A relation $\mathcal H\to c_H\Lambda^3\psi_{M_c}+\cdots$, where $M_e\sim\Lambda M_c$, is symmetry-compatible but uncalculated. The source and renormalization prescription matter; an overlap is not a constituent probability. Holomorphic data alone do not determine the needed scattering matrix elements.
+
+Electric $SU(3)$ with $N_f=4$ is an s-confining laboratory~\cite{Seiberg}, with
+\begin{equation}
+ W=\frac{\widetilde B M_e B-\det M_e}{\Lambda^5}.
+\end{equation}
+Its mesons and baryons become free in the infrared; its magnetic gauge group is trivial. At the origin the massless scalar mesons are not already QCD Goldstone pions. With $N_f=5$, magnetic $SU(2)$ instead lies in the interacting conformal window, with $\Delta(M)=6/5$ and $\Delta(\psi_M)=17/10$. Four flavors therefore serve phase control, not a generation count. A useful eventual hierarchy would be $\Lambda_{\had}\ll Q\ll\Lambda$; duality does not establish pointlike scattering above its matching scale, and the lower string/binding scale still needs a deformation.

@@ -1,30 +1,15 @@
-# Independent manuscript reconstruction
+# Living research paper
 
-Version 0.1, 12 October 2026. The preprint drafts mentioned in the uploaded conversations have **not** been supplied. This manuscript is an independent reconstruction from those conversations, the present research discussion, and calculations in this notebook. It is not a transcription or a claim to recover the missing manuscripts.
+**Cycle-closure snapshot, 13 October 2026:** version 0.5 was committed and pushed in `210d0b4`. The user has closed this research cycle pending new models. The source and built PDF remain the final physics result of this run; linking the shared conversations requires no rebuild.
 
-**Subsequent source update:** the previous drafts arrived later on 12 October and are now [preserved as references](../references/received-2026-10-12/README.md). The preceding paragraph describes the circumstances in which version 0.1 was written. Its PDF and LaTeX remain unchanged at the pre-PDF scientific version, commit `333e537`. Read the [comparison](../notes/draft_comparison.md) before making a revision. Because the earlier conversations already contained many of the same results, “independent reconstruction” does not mean a blind rediscovery or a claim of new priority.
+Version 0.5, 13 October 2026: *Retained adjoint-fermion binding with explicit $\hbar$*. The user selects the retained adjoint as the most interesting concrete object: it binds both fermionic endpoints through regulated contact interactions, without a direct endpoint force. The broader four-string and whole-state scattering goals remain open.
 
-- [Read the PDF](quark_diquark_lepton_meson.pdf).
-- [LaTeX source](quark_diquark_lepton_meson.tex).
-- [Research workplan](../notes/workplan.md).
-- [Working derivation of the two branches](../blackboard/002_two_branch_dictionary.md).
+- [Built PDF](quark_diquark_lepton_meson.pdf) and [main source](quark_diquark_lepton_meson.tex).
+- [Focused calculation](retained_adjoint_hbar.tex), [new radius derivation](../blackboard/009_anharmonic_radius.md), and [conditional supersymmetry dictionary](supersymmetry_dictionary.tex).
+- [Workplan](../notes/workplan.md) and [validation record](../notes/validation.md).
 
-The draft develops constraints and candidate mechanisms. It does not claim a completed dual of QCD, a consistent compactification vacuum, or confirmation of a historical model. In particular, an elementary fermion with a small hadronic admixture meets a weaker objective than deriving the entire fermion as a composite string.
+Version 0.2, with the warped-current comparison and scalar-completion appendix, is preserved at Git commit `6b73d29`; version 0.1 at `333e537`. Earlier `pointlike_current.tex`, `current_results.tex`, and `fermionic_binding.tex` remain as historical comparison sources and are not included in the version 0.5 build. The [supplied preprints](../references/received-2026-10-12/README.md) are archived unchanged. Earlier natural-unit formulas should not be mechanically converted into current instructions.
 
-The historical anchor is the user's identification of J. H. Schwarz's 1971 *Dual quark-gluon model of hadrons*. Exact historical claims and the related work with Joel Scherk require primary-text verification. Bibliographic retrieval from INSPIRE was attempted on 12 October and blocked by the network proxy (403); the draft does not present that literature as freshly read.
+The new calculation keeps physical $\hbar$ explicit, uses $c_{\rm light}$ where relevant, distinguishes physical momentum transfer $Q$ from wave number $Q/\hbar$, and assigns the contact coupling $G$ units of energy × length³. It gives a sufficient binding condition, attractive recoil starting at order $(\mu/M)^2$, and deep Gaussian energy and whole-state charge radius through $\hbar^2$. The leading anharmonic radius correction is positive: $r_E^2=r_{E,\mathrm{harm}}^2[1+5S_\eta\varepsilon/8]+O(R^2\varepsilon^3)$. The next quantitative calculation is the anharmonic shape of the finite-$Q$ current. The formal $\pi/K$ scalar assignment passes the charged Dirac multiplet count; exact physical $B-L$ adds a separate conditional constraint. A general $U(6)$ basis can mix the six charged mesons but leaves their zero $B-L$ unchanged. The [1983 source assessment](../references/greenberg_mohapatra_yasue.md) identifies a distinct quasi-Nambu–Goldstone mass-protection mechanism, not a Goldstino or a whole-state form factor. No anharmonic finite-$Q$ current was calculated in this revision.
 
-The source uses the standard LaTeX `article` class in a readable preprint layout; REVTeX is not installed in this environment. It is a PRD-style research draft in scope and organization, not an APS-formatted submission.
-
-The PDF has 13 pages. All 24 calculation check groups passed, the document compiles without warnings or unresolved references, and both original conversation checksums match. See the [validation record](../notes/validation.md) for commands and scope.
-
-Those checks document reproducibility, not 24 research contributions. The [current protocol](../notes/research_protocol.md) reserves new computation for genuine quantitative questions and requests smaller models for routine scripts and extraction.
-
-Build from this directory:
-
-```bash
-latexmk -pdf -interaction=nonstopmode -halt-on-error quark_diquark_lepton_meson.tex
-```
-
-The figure is generated by the existing scattering script. The PDF is committed so that reading the manuscript does not require TeX. Auxiliary build files are ignored locally by this directory's `.gitignore`.
-
-Keep this independent version identifiable in Git before reading the missing preprints. When they arrive, compare operator definitions, equations, historical attributions, and proposed mechanisms explicitly; do not silently rewrite the reconstruction as though their contents were known in advance.
+Build from this directory with `latexmk -pdf -interaction=nonstopmode -halt-on-error quark_diquark_lepton_meson.tex`. The PDF is tracked so it can be read without TeX; auxiliary files are ignored.

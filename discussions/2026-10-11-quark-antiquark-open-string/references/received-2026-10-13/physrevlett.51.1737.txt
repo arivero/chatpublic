@@ -1,0 +1,243 @@
+VOLUME 51, NUMBER 19                PHYSICAL          REVIEW         LETTERS                          7 NOVEMBER 1983
+
+                 Determination of the Number of Generations of Quarks and Leptons
+                                           from Flavor-Color Symmetry
+                               O. W. Greenberg, R. N. Mohapatra, and M. Yasue
+                       Center for Theoretical Physics, Department of Physics and Astronomy,
+                               University of Maryland, College Park, Maryland 20742
+                                                (Received 24 August 1983)
+               It is shown that the fact that there are six flavor-color degrees of freedom (two flavors
+            in each generation, three colors, and lepton number) implies, under plausible assump-
+            tions, that there are three generations of light quarks and leptons. The assumptions in-
+            clude (a) supersymmetry for the preon theory, (b) validity of the chiral group SU(4)X
+            <S> SU(2)X <8) 8X1(4)^ <8> SU(2>£ at the stage prior to the generation of the quark and lepton
+            masses, and (c) chiral symmetry and the supersymmetric Nambu-Goldstone mechanism
+            to protect quarks and leptons from getting large masses.
+            PACS numbers: 12.35.Kw, 11.30.Pb, 11.30.Qe
+
+   Two of the fundamental puzzles in present ele-            then no anomaly-matching conditions need be ap-
+mentary-particle physics are the number of gen-              plied; however, among the models which have
+erations of quarks and leptons and the mechanism             been suggested, 6 " 11 those in which H is anomaly
+which protects the quarks and leptons from a c -             free do not have the group-theory properties to
+quiring masses of the order of the large mass                give the desired chiral structure of the low-en-
+scales which exist. Research in composite mod-               ergy weak interactions. On the other hand, when
+els of quarks and leptons is largely motivated by            H has left-right symmetry, and thus can give
+the hope that such models will shed light on these           rise to the proper chiral structure of the low-en-
+puzzles. 1 't Hooft2 suggested that the mass puz-            ergy weak interactions, H is not anomaly free,
+zle could be solved by using chiral symmetry to              and the matching constraints must be applied.
+protect fermion masses in models in which p r e -               We have studied the anomaly-matching con-
+ons are permanently confined by $V{N)H binding;              straints in a family of supersymmetric preon
+however, he found that the requirement that the              models in which G = S\3(§)L <S SU(6)E <g U(1)F & U(l) x ,
+chiral anomalies match between the preons and                where U(l) x is an instanton-anomaly-free axial
+the composites, together with some other condi-              symmetry, and we take various subgroups for
+tions, was too strong to allow solutions. Since              H.8 Most of these models are not completely sat-
+?
+ t Hooft's work, many attempts have been made                isfactory for one of three reasons: (a) Although
+to find solutions to the anomaly-matching condi-             the weak-interaction structure is correct, anom-
+tions; this work has led to the conclusion that              aly matching forces fermions which do not belong
+simple solutions do not exist in models with only            to one or more generations of quarks and leptons
+spin-1 preons. 3 There are simple solutions in               to be massless; (b) the massless fermions belong
+models with both spin-! and spin-0 preons, 4 but             to one or more generations, but the weak-inter-
+these models do not shed light on the number of              action structure is not guaranteed by the unbro-
+generations; although they do have the virtue that           ken group H; or (c) the weak-interaction struc-
+they provide stimulus to consider supersymmet-               ture is guaranteed by H, and the massless fer-
+ric preon models. 5                                          mions can be assigned to several generations,
+  A second mechanism to protect fermion m a s s -            but the multiplicity of generations has to be in-
+es was suggested recently by Buchmuller, Pec-                serted explicitly [as in the SU(4M + 2JV)-type mod-
+cei, and Yanagida 6 : quarks and leptons are quasi -         el 8 ], thus undermining the economy of the model.
+Nambu-Goldstone partners of Nambu-Goldstone                     The purpose of this Letter is to describe a mod-
+bosons arising from spontaneous breaking of                  el in which (a) the weak-interaction structure is
+global symmetry in a supersymmetric preon the-               guaranteed by the unbroken subgroupH =S\J{A)L
+ory where the confining interaction arises from              <gSU(2)L&SU(4)l2<g>SU(2)jR; (b) all massless fer-
+a supersymmetric SXJ(N)H hypercolor gauge theo-              mions have quantum numbers of quarks and lep-
+ry whose mass scale is AH. If the original global            tons (and the quantum numbers correspond to the
+symmetry group is G, and the spontaneous break-              Nambu-Goldstone sector of the spontaneously bro-
+ing leads to a subgroup//, then the Nambu-Gold-              ken global symmetry) except for quasi-Nambu-
+stone particles have the quantum numbers of the              Goldstone fermions associated with the spontane-
+coset space G/H. If H is an anomaly-free group,              ous breakdown of U(l)'s, which do not enter the
+
+                                                                                                                1737
+VOLUME 51, NUMBER 19                               PHYSICAL                 REVIEW              LETTERS                                        7 NOVEMBER              1983
+
+
+anomaly equation c o n s i d e r e d below; and (c) the                             this s t a g e , G is b r o k e n t o
+r e p e t i t i o n of g e n e r a t i o n s is forced by the a n o m -
+                                                                                          G'=SU(4) x <g>SU(2) x <g>U(l) L
+a l y - m a t c h i n g conditions, r a t h e r than being put in
+from the s t a r t , and the n u m b e r of g e n e r a t i o n s i s                                  <g SXJ(4)R <g> SU(2) i? <g> U(l)a <g> XJ(1)A
+r e q u i r e d to be t h r e e . 1 2
+                                                                                    by c o n d e n s a t e s : C4 (s) *U (5) > = t ; ( s ) d i a g ( l , 1 , 1 , 1 ,
+    We choose a s fundamental m a t t e r p r e o n s two
+                                                                                    - 2 , - 2 ) and                                   (A^A^^^A^A^^A^^O,
+s e t s of c h i r a l s u p e r f i e l d s , $ ( s ) (5 = 1,2), the f i r s t
+                                                                                    w h e r e s u b s c r i p t [ ] s t a n d s for total a n t i s y m m e t r i -
+being the left-handed p r e o n s , and the second b e -
+                                                                                    zation with r e s p e c t to s u b s c r i p t s 1 , 2 , 3 , . . . . We
+ing the c h a r g e conjugates of t h e r i g h t - h a n d e d p r e -
+                                                                                    f u r t h e r a s s u m e spontaneous b r e a k i n g of t h r e e
+o n s , belonging to the N and N* r e p r e s e n t a t i o n of
+                                                                                    U ( l ) ' s in G' by a p p r o p r i a t e condensates such a s
+S\J{N)H, the s u p e r s y m m e t r i c h y p e r c o l o r binding
+                                                                                    (XX) and < A [ 5 ( S ) A 6 ] ^ U [ 5 ( 5 U 6 ] ( S ) A [ 5 ^ ' ) * A 6 ] ^ ^ * ) ,
+gauge t h e o r y , r e s p e c t i v e l y . Both s u p e r f i e l d s a l -
+                                                                                    w h e r e A, (s) = %A{ i8> (* = 5, 6) and s±s'.18                           We a r e
+s o c a r r y Nfc of f l a v o r s : up and down f l a v o r s and
+                                                                                    thus left with
+t h r e e c o l o r s plus lepton n u m b e r (Nfc = 6). At t h i s
+s t a g e , N is a r b i t r a r y . The t h e o r y a l s o , of c o u r s e ,           H = SU(4) L 0 SU(2) X 0 SU(4)* <g> SU(2)„.                                    (4)
+contains the v e c t o r multiplet of the s u p e r s y m m e t -
+r i c S\J(N)H. We call the components of the c h i r a l                            The Nambu-Goldstone phenomenon r e q u i r e s that
+m u l t i p l e t s ^ = (A>ip,F), and t h o s e of the v e c t o r                  there be m a s s l e s s composite fermions t r a n s f o r m -
+multiplet V = ( G ^ , X , D ) .                                                     ing a s ( 4 , 2 , 1 , 1 ) , ( 1 , 1 , 4 * , 2), and four n e u t r a l
+                                                                                    ones a s ( 1 , 1 , 1 , 1 ) under H.
+    The global s y m m e t r y group of our p r e o n t h e o r y
+                                                                                        B e c a u s e t h e r e a r e no U(l) f a c t o r s i n # , and
+is
+                                                                                    SU(2) is an a n o m a l y - f r e e g r o u p , the only a n o m -
+                                                                                    a l y - m a t c h i n g c o n s t r a i n t c o m e s f r o m t h e SU(4)
+      Gcl = U(6)L®TJ(6)R®U(l)x,                                             (1)
+                                                                                    f a c t o r s ; we r e q u i r e left-right s y m m e t r y of the
+                                                                                    t h e o r y and need satisfy only one c o n s t r a i n t :
+w h e r e U(l)x is a n / ? s y m m e t r y . B e c a u s e of the
+instanton of SXJ(N)H, G c l i s b r o k e n to                                            2(l1-l2      + l3) = 6(=N),                                                   (5)
+                                                                                    w h e r e ll9 l2, and l3 a r e the indices for ( 4 , 2 , 1 , 1 )
+      G = SU(6) X ®SU(6)a <g> U(1) F 0 U(1) A ,                              (2)    and ( 1 , 1 , 4 * , 2 ) , ( 4 * , 2 , 1 , 1 ) and ( 1 , 1 , 4 , 2 ) , and
+                                                                                    ( 4 , 1 , 1 , 2 ) and ( 1 , 4 * , 2 , 1 ) , r e s p e c t i v e l y . The
+w h e r e Qv of U ( l ) 7 is + 1 for $ ( 1 ) and - 1 for # ( 2 ) ,                  choice,
+and QA of U(l)^ is JV/6 - 1 for A{s\ iV/6 for ^ ( s ) ,
+                                                                                          I! = 3 and all o t h e r indices = 0 ,                                       (6)
+and - 1 for A. Recent e x t e n s i v e s t u d i e s of the
+spontaneous breakdown of G 13 " 16 s e e m to suggest                               c l e a r l y s a t i s f i e s t h e c o n s t r a i n t . Since l1 i s t h e
+that b i l i n e a r c o n d e n s a t e s like (A(1)A(2))        and (^ ( 1 )      index for the Nambu-Goldstone s e c t o r , t h e r e a r e
+    (2)
+x ^ ) vanish in the m a s s l e s s l i m i t , which is the                        t h r e e g e n e r a t i o n s of q u a r k s and leptons with the
+p r e s e n t c a s e . However, t h e r e is one exception:                        identical quantum n u m b e r s of t h i s s e c t o r . Only
+N=Nfc(=6),           which is the n u m b e r of flavors plus                       one of t h e s e i s a q u a s i - N a m b u - G o l d s t o n e f e r m i -
+c o l o r s including lepton n u m b e r . N=Nfc allows                             on with double m a s s protection. The o t h e r two
+( d e t C ^ 1 ^ ^ 2 ^ ) ) to be independent of the p r e o n                        g e n e r a t i o n s have single m a s s p r o t e c t i o n from c h i -
+m a s s e s , w h e r e i and j specify f l a v o r s . In the                      r a l s y m m e t r y . Other m a s s l e s s f e r m i o n s a r e
+m a s s l e s s l i m i t , ( d e t O ^ ^ A ^ - 7 ' ) ) can a c q u i r e a         four n e u t r a l q u a s i - N a m b u - G o l d s t o n e f e r m i o n s
+nonvanishing value. 1 4 ' 1 5 It i m p l i e s the h y p e r c o l o r -            which have only s u p e r s y m m e t r i c m a s s protection.
+and SU(6) L (gSU(6) i ? -singlet condensates (A<s)AM                                    We have not studied in detail the m a s s and m i x -
+xA(s)A(s)A(s)A(s))            # 0 . 1 4 ' 1 7 The c o n d e n s a t e s b r e a k   ing p a t t e r n which o c c u r s when we b r e a k H to give
+the v e c t o r U ( l ) 7 s y m m e t r y but p r e s e r v e the axial             q u a r k s and leptons m a s s e s . F o r the p r e s e n t we
+V(1)A s y m m e t r y s i n c e by t h i s choice of N, QA = 0                      c l o s e by giving a plausible m a s s m a t r i x among
+for A^s\        T h e r e f o r e , we choose                                       g e n e r a t i o n s which s e e m s compatible with the
+                                                                                    present model:
+      N=Nfc(=6)                                                            (3)
+in o r d e r to support the spontaneous breakdown of
+                                                                                          M = U'          m4       m4 j        (e,ef~m4Ms/AH),                         (7)
+U(1) F , t h e p r e o n - n u m b e r c o n s e r v a t i o n . Other
+                                                                                              \ef         m4       m4/
+c o n d e n s a t e s f r e e from the p r e o n m a s s e s a r e giv-
+en by (A(s)*AM),              which can b r e a k SU(6) L(jR . At                   w h e r e Ms and m4 stand for the m a s s s c a l e s of t h e
+
+1738
+VOLUME 51, N U M B E R 19                              PHYSICAL                   REVIEW             LETTERS                                           7 NOVEMBER            1983
+
+
+
+supersymmetry breaking and the breaking of                                               Bonn, 1981), p . 880; L. L y o n s , Oxford U n i v e r s i t y R e -
+SU(4)X <g>SU(4)a down to SU(4) r , respectively.                                         p o r t No. 5 2 / 8 2 , 1982 (to be p u b l i s h e d ) ; R. D . P e c c e i ,
+This mass matrix is easily obtained by noticing                                          Max P l a n c k Institute for P h y s i c s and A s t r o p h y s i c s at
+                                                                                         Munich R e p o r t No. M P I - P A E / P T h . 6 9 / 8 2 , 1982 (to b e
+that only one generation has a double mass pro-                                          published).
+tection (e - 0 as m 4 or Ms-~ 0), 19 while the other                                         2
+                                                                                               G. ' t Hooft, in Recent Developments                        in Gauge
+two have a single mass protection (ra4 — 0). Fur-                                        Theories,           edited by G. *t Hooft etal. (Plenum, New
+thermore, there will be no mixing between these                                          Y o r k , 1980), p . 135.
+                                                                                             3
+two groups if Ms or m4 vanishes (e' -* 0 as m 4 or                                             T . B a n k s , S. Yankielowicz, and A. S c h w i m m e r ,
+Ms-+0). Diagonalization of this matrix leads to a                                        P h y s . Lett. 96B, 67 (1980); I. B a r s , Nucl. P h y s . B198,
+pattern of masses in qualitative agreement with                                          269 (1982).
+                                                                                             4
+the experimental situation. The masses of the                                                  J . C. P a t i , in Neutrino Physics and                       Astrophysics,
+                                                                                         edited by E. F i o r i n i (Plenum, New Y o r k , 1982), p .
+three generations are given by 0, ~ e, and ~2m 4                                         275; O. W. G r e e n b e r g and J . S u c h e r , P h y s . L e t t . 99B,
+for €,€' «m4 (<AH), which respectively turn out                                          339 (1981); R. B a r b i e r i , R. N. M o h a p a t r a , and
+to be 0, 0(1 GeV), and o(10 GeV) if m 4 ~O(10                                            A. M a s i e r o , P h y s . L e t t . 105B, 369 (1981); R. C a s a l -
+GeV), Ms ~o(100 GeV), and A„ ~o(l TeV). The                                              buoni and R. Gatto, P h y s . L e t t . 103B, 113 (1981);
+four neutral quasi-Nambu-Goldstone fermions                                              M. Yasue and I. Ito, U n i v e r s i t y of Maryland R e p o r t No.
+are also expected to acquire masses of order Ms                                          M d D P - 8 3 - 1 9 2 , 1983 (to be published).
+                                                                                             5
+since they are not protected by the chiral sym-                                                F o r e x a m p l e , R. B a r b i e r i , P h y s . L e t t . 121B, 43
+                                                                                         (1983); J . C. P a t i and A. S a l a m , Nucl. P h y s . B214,
+metry. To discuss the weak mixing pattern needs
+                                                                                         109 (1983). See a l s o H. T e r a z a w a , P r o g . T h e o r . P h y s .
+further study. 20                                                                        64, 1763 (1980). T h i s p a p e r developed the d i s c u s s i o n
+  We summarize our conclusions as follows: Ex-                                           s i m i l a r to that of t h e q u a s i - N a m b u - G o l d s t o n e f e r m i o n s .
+periment shows the existence of six flavors and                                              6
+                                                                                               W. Buchmliller, R. D . P e c c e i , and T . Yanagida,
+colors: the up and down flavors in each genera-                                          P h y s . Lett. 124B, 67 (1983), and Max P l a n c k Institute
+tion, the three colors carried by quarks, and the                                        for P h y s i c s and A s t r o p h y s i c s at Munich, R e p o r t s No.
+lepton number. The spontaneous preon-number                                              M P I - P A E / P T h 2 8 / 8 3 , 1983 and No. M P I - P A E / P T h
+                                                                                         4 1 / 8 3 , 1983 (to be published). See a l s o W. Buchmliller,
+breaking seems to suggest that the number N of
+                                                                                         S. T . L o v e , R. D. P e c c e i , and T . Yanagida, P h y s . L e t t .
+hyper colors equals the number Nfc of flavors plus                                       115B, 233 (1982).
+colors. Implementation of the Buchmuller-Pec-                                                7
+                                                                                               R. B a r b i e r i , A. M a s i e r o , and G. V e n e z i a n o , CERN
+cei-Yanagida mechanism in a model in which the                                           R e p o r t No. TH. 3561-CERN, 1983 (to be published).
+unbroken symmetry group guarantees the correct                                               8
+                                                                                               0 . W. G r e e n b e r g , R. N. M o h a p a t r a , and M. Y a s u e ,
+low-energy weak interactions and all massless                                            P h y s . Lett. 128B, 65 (1983); R. N. M o h a p a t r a ,
+fermions belong to the Nambu-Goldstone sector                                            M. Y a s u e , and O. W. G r e e n b e r g , U n i v e r s i t y of M a r y -
+requires the choice H = SU(4)L 0SU(2)jL 0SU(4) i?                                        land Report No. M d D P - 8 3 - 2 2 0 , 1983 (to b e published).
+                                                                                             9
+                                                                                               F . B o r d i , G. Casalbuoni, D. D o m i n i c i , and R. Gatto,
+(gjSU^)^ and leads to an index for particles in
+                                                                                         U n i v e r s i t e de Geneve R e p o r t No. UGVA-DPT 1 9 8 3 - 0 4 -
+this sector (which is the number Ng of genera-                                           387, 1983 (to b e published).
+tions) which is half the number of flavors plus                                             10
+                                                                                                C. L. Ong, P h y s . Rev. D 21_f 911 (1983), and SLAC
+colors via the intermediate requirement that this                                        R e p o r t No. S L A C - P U B - 3 0 5 8 , 1983 (to be published).
+                                                                                            n
+number agree with the number of hypercolors.                                                   P . H. F r a m p t o n and G. Mandelbaum, L y m a n L a b o -
+In one elementary equation, we find                                                      r a t o r y of P h y s i c s , H a r v a r d U n i v e r s i t y , R e p o r t s No.
+                                                                                         H U T P - 8 3 / A 0 4 2 and No. I F P - 2 0 2 - U N C , 1983 (to b e
+       2Ng = N = Nfc.                                                            (8)     published).
+                                                                                            12
+                                                                                                There is a l s o this suggestion in a p r e o n model with
+  This work was supported in part by the National                                        only s p i n - J p r e o n s . S e e , for e x a m p l e , Y. T o s a and
+Science Foundation.                                                                      R. E. M a r s h a k , P h y s . Rev. D 26, 203 (1982).
+                                                                                            13
+                                                                                                W. B u c h m u l l e r and S. T . L o v e , Nucl. P h y s . B204,
+                                                                                         213 (1982).
+                                                                                             14
+                                                                                                G. Veneziano and S. Yankielowicz, P h y s . Lett. 113B,
+                                                                                         231 (1982); T . R. T a y l o r , G. V e n e z i a n o , and S. Y a n k i e -
+    F o r r e c e n t r e v i e w s , s e e , for e x a m p l e , H. T e r a z a w a ,   lowicz, Nucl. P h y s . B219, 493 (1982); G. Veneziano,
+in Proceedings           of the 1981 INS Symposium                on Lepton              P h y s . L e t t . 124B, 357 (1983).
+                                                                                             15
+and Quark Physics,               Tokyo, 1981, edited by K. Fujikawa                             H. P . N i l l e s , CERN R e p o r t No. T H . 3611-CERN,
+etal. (Institute for N u c l e a r S t u d i e s , Univ. of Tokyo,                       1983 (to b e published), and P h y s . L e t t . 112B, 455 (1983)
+                                                                                             16
+Tokyo, 1981), p . 296; M. E . P e s k i n , in                    Proceedings                   M. E. P e s k i n , SLAC Report No. S L A C - P U B - 3 0 6 1 ,
+of the International            Symposium        on Lepton and Photon                    1983 (to be published); A. C. D a v i s , M. D i n e , and
+Interactions         at High Energies,           Bonn, 1981, edited by                   N. S e i b e r g , to be published.
+                                                                                             17
+W. Pfeil ( P h y s i k a l i s c h e s Institut, U n i v e r s i t a t Bonn,                    T. R. T a y l o r , P h y s . Lett. 125B, 185 (1983), and
+
+                                                                                                                                                                         1739
+VOLUME 51, N U M B E R 19                           PHYSICAL                     REVIEW        LETTERS                                          7 NOVEMBER   1983
+
+
+F e r m i l a b R e p o r t No. F E R M I L A B - P U B - 8 3 / 3 9 - T H Y ,       the m a s s m a t r i x t a k e s the i n t e r e s t i n g f o r m
+1983 (to be published).
+  18
+     The c o n d e n s a t e (XX) m a y not be developed in the
+m a s s l e s s l i m i t (Refs. 14 and 15). Other c o n d e n s a t e s                    e ' m4 / '
+like 0 \ 5 < « > A ^ A ^ A ^ A t f s ' ^ A f f * ^ * ) may be u s e d .
+  % e have a s s u m e d the n o n r e n o r m a l i z a t i o n t h e o r e m      which is s i m i l a r t o that suggested by S. W e i n b e r g , in
+[J. Iliopoulos and B . Zumino, Nucl. P h y s . B76, 310                             Festschrift  for I. I. Rabi, edited by L. Motz (N.Y.
+(1974); S. F e r r a r a , J . Iliopoulos, and B . Zumino,                          Academy of S c i e n c e s , New Y o r k , 1977), and by
+N u c l . P h y s . B77, 413 (1974)] for q u a s i - N a m b u - G o l d -          F . Wilczek and A. Z e e , P h y s . L e t t . 70B, 418 (1977),
+stone f e r m i o n s .                                                             and will imply a value for the Cabibbo angle 6C
+  20
+     F o r t h e c a s e N = 4 o r two g e n e r a t i o n s (N       =N/2),        Mm^/m^)1 .
+
+
+
+
+1740
+

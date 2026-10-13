@@ -1,0 +1,92 @@
+\section{Two tests of a pointlike-current mechanism}
+\label{sec:current-profiles}
+\subsection{A specified observable and effective model}
+The ingredients are standard warped bulk-field and holographic-current tools~\cite{GP,GR}. The present test applies them to a specified pair of sector densities; it does not claim a new localization principle.
+We first test an ingredient of Eq.~\eqref{eq:criterion}: the normalized spacelike elastic current of the \emph{whole effective string mode}. Assuming minimal coupling and no independent Pauli or transition form factor, factoring the ordinary spin kinematics from a process with a single such current insertion gives Born cross-section ratio $|F(Q)|^2$ relative to its matched point-particle reference. We use $|F(Q)|^2\geq0.99$ as an illustrative tolerance, not an experimental bound. Two dressed vertices, inelastic channels, string resonances and radiative corrections require additional calculations.
+
+Take an AdS slice with $z_0=\Lambda_{\rm UV}^{-1}$, $z_1=\Lambda_{\had}^{-1}$ and $\rho=z_1/z_0$. A minimally coupled probe with fixed ultraviolet source and Neumann infrared boundary condition has
+\begin{equation}
+ \mathcal V(Q,z)=\frac{A(Qz)}{A(Qz_0)},\qquad
+ A(t)=t[K_1(t)+bI_1(t)],\qquad b=\frac{K_0(Qz_1)}{I_0(Qz_1)}.
+ \label{eq:probe-profile}
+\end{equation}
+It obeys $\mathcal V(Q,z_0)=1$ and $\partial_z\mathcal V(Q,z_1)=0$. For $Q>0$ it is positive and decreases towards the infrared. The corresponding overlap form factor is
+\begin{equation}
+ F(Q)=\int_{z_0}^{z_1}P(z)\mathcal V(Q,z)\,dz,\qquad
+ \int_{z_0}^{z_1}P(z)\,dz=1,
+ \label{eq:current-overlap}
+\end{equation}
+so charge normalization gives $F(0)=1$.
+
+A five-dimensional Dirac field with \emph{nonzero} mass $m_5=c/\ell_{\rm AdS}$ can support a massless \emph{four-dimensional} zero mode with canonically rescaled profile $f(z)\propto z^{-c}$. Its norm has weight $dz\,|f|^2$. A vectorlike four-dimensional Dirac state can be formed from two bulk fields with opposite-sign masses and complementary chiral boundary conditions, chosen so that the surviving left and right modes share this profile. For $c>1/2$, write $\nu=2c-1$ and take
+\begin{equation}
+ P_F(z)=\frac{\nu z_0^\nu z^{-1-\nu}}{1-\rho^{-\nu}},\qquad
+ P_B(z)=\frac{2z}{z_1^2-z_0^2}.
+ \label{eq:sector-profiles}
+\end{equation}
+The bosonic density is an extended phenomenological comparison, not a derived QCD meson wavefunction. The fermionic density follows from the stated effective Dirac zero mode; identifying that mode with a Ramond or other physical fermionic string remains to be done. A literally massless five-dimensional Dirac field has $c=0$ and does not supply the assumed ultraviolet localization.
+
+The proposed mechanism is different sampling of warped energy scales. In a string realization with a common proper string scale, excitations situated at smaller $z$ have a larger four-dimensional energy scale. This motivates the profile test but does not derive the two profiles from one string background. In particular, unbroken supersymmetry constrains actual partner spectra and matrix elements; independently assigning Eq.~\eqref{eq:sector-profiles} requires compatible boundary dynamics or supersymmetry breaking.
+
+\subsection{Test 1: finite-momentum separation of the currents}
+Let $x=Qz_0$ and $y=Qz_1$. For fixed $0<\nu<2$ and $x\ll1\ll y$, integration by parts gives
+\begin{equation}
+ C_\nu=\nu\int_0^\infty t^{-1-\nu}[1-tK_1(t)]\,dt
+ =\int_0^\infty t^{1-\nu}K_0(t)\,dt
+ =2^{-\nu}\Gamma(1-\nu/2)^2.
+\end{equation}
+The boundary terms vanish within that range of $\nu$. It follows that
+\begin{align}
+ 1-F_F(Q)&\simeq
+ \frac{C_\nu(Q/\Lambda_{\rm UV})^\nu-\rho^{-\nu}}
+ {1-\rho^{-\nu}},
+ \label{eq:localized-current}\\
+ F_B(Q)&\simeq4(\Lambda_{\had}/Q)^2.
+\end{align}
+The fermionic expansion has corrections of order
+$x^2|\log x|/(1-\rho^{-\nu})$ and exponentially small infrared terms. It is not uniform as $\nu\to2$ or $\nu\to0$; those limits require the finite-cutoff expression. These are current overlaps, not the radial average of a flat-string four-point amplitude used later in this paper.
+
+For $c=1$, $\nu=1$ and $C_1=\pi/2$. At $Q=10\Lambda_{\had}$,
+\begin{equation}
+ 1-F_F\simeq\frac{5\pi-1}{\rho-1}.
+\end{equation}
+The leading estimate for the one-current tolerance is therefore $\rho$ of order $3\times10^3$, while $F_B\simeq0.04$. The finite-momentum calculation below evaluates Eq.~\eqref{eq:current-overlap} rather than treating the asymptotic estimate as an exact threshold.
+
+\input{current_results}
+
+There is an exact ordering behind the effect: $P_F/P_B\propto z^{-2-\nu}$ decreases, whereas $\mathcal V$ also decreases. The normalized fermionic distribution is more ultraviolet concentrated, giving $F_F\geq F_B$. Identical normalized densities instead give identical form factors in this minimal overlap model. Spin statistics alone do not generate the difference.
+
+\subsection{Test 2: the localization and normalizability discriminator}
+At the marginal value $c=1/2$, $P_{1/2}(z)=1/(z\log\rho)$. Its current can be integrated exactly:
+\begin{equation}
+ F_{1/2}(Q)=\frac{K_0(x)-bI_0(x)}{\log\rho\, A(x)}.
+\end{equation}
+For $x\ll1\ll y$ this becomes
+\begin{equation}
+ 1-F_{1/2}\simeq
+ \frac{\log(Q/\Lambda_{\had})+\gamma_E-\log2}{\log\rho}.
+ \label{eq:marginal-current}
+\end{equation}
+At $Q=10\Lambda_{\had}$, the same one-percent cross-section tolerance requires $\log\rho\gtrsim436$, or a hierarchy of order $10^{189}$--$10^{190}$. This is an analytic scale estimate, not a numerical fit to data.
+
+For $c<1/2$ define $\alpha=1-2c>0$. The normalized density is
+$P_\alpha=\alpha z^{\alpha-1}/(z_1^\alpha-z_0^\alpha)$. For fixed $\alpha>0$ and $x\ll1\ll y$, keeping the leading cutoff dependence gives
+\begin{equation}
+ F_\alpha(Q)\simeq
+ \frac{2^\alpha\Gamma(1+\alpha/2)^2 y^{-\alpha}-\rho^{-\alpha}}
+ {1-\rho^{-\alpha}}.
+\end{equation}
+Dropping $\rho^{-\alpha}$ requires $\alpha\log\rho\gg1$; doing so before taking $\alpha\to0$ would miss Eq.~\eqref{eq:marginal-current}. More strongly, $P_\alpha/P_{1/2}\propto z^\alpha$ increases, so at fixed $Q,\rho$ the exact overlaps obey
+\begin{equation}
+ F_{c<1/2}(Q)\leq F_{c=1/2}(Q).
+\end{equation}
+No subcritical member of this family improves on the marginal tolerance requirement.
+
+Finally the unnormalized mode has
+\begin{equation}
+ \|f\|^2\propto\int_{z_0}^{z_1}z^{-2c}\,dz.
+\end{equation}
+This diverges when $z_0\to0$ for every $c\geq1/2$. The efficient profiles thus require a physical ultraviolet boundary or completion; they are not ordinary bulk-normalizable modes after removing that cutoff. Holographically, ultraviolet localization often represents substantial elementary-source admixture. The norm test does not force that interpretation uniquely, but it prevents presenting the mechanism as an established extended composite string made pointlike merely by its fermionic statistics.
+
+\subsection{What the two tests establish}
+The calculation supplies a conditional mechanism for a hierarchy of whole-mode elastic currents. It also identifies the ingredient a stronger construction must explain: the ultraviolet localization and its boundary degrees of freedom. A candidate common string or Seiberg-dual theory must derive those ingredients, implement the four endpoint assignments and their charges, and control other probes, transition amplitudes and string excitations. The present extended bosonic profile is not yet a standard meson's spectrum or pion dynamics. These are explicit remaining construction tasks, rather than consequences silently assumed from the form-factor calculation.

@@ -1,0 +1,410 @@
+{
+  "description": "Finite-Q hard-wall current average for assumed radial profiles; conditional toy-model calculation.",
+  "conventions": {
+    "z_IR": 1,
+    "z_UV": "epsilon=1/r",
+    "t": "Q/Lambda_had",
+    "b": "K_0(t)/I_0(t)",
+    "V": "tz[K_1(tz)+b I_1(tz)]/{t epsilon[K_1(t epsilon)+b I_1(t epsilon)]}",
+    "P_R": "nu epsilon^nu z^(-nu-1)/(1-epsilon^nu), nu=1 (c=1)",
+    "P_B": "2z/(1-epsilon^2)",
+    "F": "integral_epsilon^1 dz P(z)V(Q,z)",
+    "marginal": "nu=0 (c=1/2), P=1/[z log(r)]",
+    "squared_quantity": "F_R^2, interpreted only as the square of this real toy current average"
+  },
+  "scan_constraint": "t/r <= 0.1",
+  "scan": [
+    {
+      "r": 100,
+      "t": 1,
+      "t_over_r": 0.01,
+      "F_R": 0.9937621225825665,
+      "F_B": 0.8407963295983516,
+      "F_R_squared": 0.9875631562798078,
+      "asymptotic_1_minus_F_R": 0.005765619462574714,
+      "actual_1_minus_F_R": 0.006237877417433535,
+      "quadrature_error_estimates": {
+        "R": 1.556004082685318e-14,
+        "B": 3.441992139738105e-13
+      }
+    },
+    {
+      "r": 100,
+      "t": 3,
+      "t_over_r": 0.03,
+      "F_R": 0.9668111486396904,
+      "F_B": 0.353975603679944,
+      "F_R_squared": 0.9347237971339976,
+      "asymptotic_1_minus_F_R": 0.037498878589744336,
+      "actual_1_minus_F_R": 0.03318885136030958,
+      "quadrature_error_estimates": {
+        "R": 1.1128625128035066e-14,
+        "B": 3.929917960207828e-15
+      }
+    },
+    {
+      "r": 100,
+      "t": 10,
+      "t_over_r": 0.1,
+      "F_R": 0.8841560687913965,
+      "F_B": 0.040482245150840736,
+      "F_R_squared": 0.7817319539806566,
+      "asymptotic_1_minus_F_R": 0.14856528553483803,
+      "actual_1_minus_F_R": 0.11584393120860348,
+      "quadrature_error_estimates": {
+        "R": 6.986662174627461e-14,
+        "B": 5.171584752605398e-14
+      }
+    },
+    {
+      "r": 1000,
+      "t": 1,
+      "t_over_r": 0.001,
+      "F_R": 0.9993359806180637,
+      "F_B": 0.8406096037796522,
+      "F_R_squared": 0.998672402157867,
+      "asymptotic_1_minus_F_R": 0.0005713676944893861,
+      "actual_1_minus_F_R": 0.0006640193819362761,
+      "quadrature_error_estimates": {
+        "R": 2.1136968391605734e-13,
+        "B": 9.332642506424859e-15
+      }
+    },
+    {
+      "r": 1000,
+      "t": 3,
+      "t_over_r": 0.003,
+      "F_R": 0.9963653178880342,
+      "F_B": 0.3533941124291249,
+      "F_R_squared": 0.9927438466901234,
+      "asymptotic_1_minus_F_R": 0.00371610508547016,
+      "actual_1_minus_F_R": 0.0036346821119658257,
+      "quadrature_error_estimates": {
+        "R": 6.742860456200594e-14,
+        "B": 1.480426173743657e-12
+      }
+    },
+    {
+      "r": 1000,
+      "t": 10,
+      "t_over_r": 0.01,
+      "F_R": 0.9858460496197919,
+      "F_B": 0.03999527526585938,
+      "F_R_squared": 0.9718924335509492,
+      "asymptotic_1_minus_F_R": 0.014722685953902869,
+      "actual_1_minus_F_R": 0.014153950380208058,
+      "quadrature_error_estimates": {
+        "R": 1.1762917967209796e-13,
+        "B": 6.563566621312656e-16
+      }
+    },
+    {
+      "r": 1000,
+      "t": 30,
+      "t_over_r": 0.03,
+      "F_R": 0.9579147390529342,
+      "F_B": 0.004451709426171228,
+      "F_R_squared": 0.917600647294851,
+      "asymptotic_1_minus_F_R": 0.0461700598637106,
+      "actual_1_minus_F_R": 0.04208526094706577,
+      "quadrature_error_estimates": {
+        "R": 1.0651852023149702e-14,
+        "B": 1.0630547109082923e-13
+      }
+    },
+    {
+      "r": 1000,
+      "t": 100,
+      "t_over_r": 0.1,
+      "F_R": 0.8761906582229966,
+      "F_B": 0.00040492654102605366,
+      "F_R_squared": 0.767710069557248,
+      "asymptotic_1_minus_F_R": 0.1562358685480377,
+      "actual_1_minus_F_R": 0.12380934177700342,
+      "quadrature_error_estimates": {
+        "R": 1.0289611690124474e-14,
+        "B": 1.7448006453798756e-13
+      }
+    },
+    {
+      "r": 3000,
+      "t": 1,
+      "t_over_r": 0.0003333333333333333,
+      "F_R": 0.9997772219492527,
+      "F_B": 0.8406071101239896,
+      "F_R_squared": 0.9995544935285652,
+      "asymptotic_1_minus_F_R": 0.00019032888522670772,
+      "actual_1_minus_F_R": 0.00022277805074732981,
+      "quadrature_error_estimates": {
+        "R": 3.1804414656138414e-13,
+        "B": 1.880264672587272e-14
+      }
+    },
+    {
+      "r": 3000,
+      "t": 3,
+      "t_over_r": 0.001,
+      "F_R": 0.9987765444545734,
+      "F_B": 0.3533858089892272,
+      "F_R_squared": 0.9975545857526185,
+      "asymptotic_1_minus_F_R": 0.0012378756186677859,
+      "actual_1_minus_F_R": 0.0012234555454265772,
+      "quadrature_error_estimates": {
+        "R": 1.3922613359190946e-13,
+        "B": 3.9233803424725845e-15
+      }
+    },
+    {
+      "r": 3000,
+      "t": 10,
+      "t_over_r": 0.0033333333333333335,
+      "F_R": 0.9951713308486835,
+      "F_B": 0.039987091288629706,
+      "F_R_squared": 0.9903659777431398,
+      "asymptotic_1_minus_F_R": 0.00490428918571156,
+      "actual_1_minus_F_R": 0.0048286691513165225,
+      "quadrature_error_estimates": {
+        "R": 1.1345997427400097e-14,
+        "B": 4.623606759610199e-15
+      }
+    },
+    {
+      "r": 3000,
+      "t": 30,
+      "t_over_r": 0.01,
+      "F_R": 0.9851885957677966,
+      "F_B": 0.004445494377843593,
+      "F_R_squared": 0.970596569230923,
+      "asymptotic_1_minus_F_R": 0.01537975652012234,
+      "actual_1_minus_F_R": 0.014811404232203396,
+      "quadrature_error_estimates": {
+        "R": 1.366727226320178e-14,
+        "B": 9.835016441116402e-15
+      }
+    },
+    {
+      "r": 3000,
+      "t": 100,
+      "t_over_r": 0.03333333333333333,
+      "F_R": 0.9528713723114701,
+      "F_B": 0.0004007836566930551,
+      "F_R_squared": 0.9079638521707443,
+      "asymptotic_1_minus_F_R": 0.05204389219056007,
+      "actual_1_minus_F_R": 0.04712862768852988,
+      "quadrature_error_estimates": {
+        "R": 1.3626943715414587e-14,
+        "B": 1.436891692356886e-13
+      }
+    },
+    {
+      "r": 10000,
+      "t": 1,
+      "t_over_r": 0.0001,
+      "F_R": 0.9999329891758673,
+      "F_B": 0.8406067790080736,
+      "F_R_squared": 0.9998659828421851,
+      "asymptotic_1_minus_F_R": 5.708534121361101e-05,
+      "actual_1_minus_F_R": 6.701082413274051e-05,
+      "quadrature_error_estimates": {
+        "R": 3.8824869715494196e-13,
+        "B": 3.4407722297849286e-13
+      }
+    },
+    {
+      "r": 10000,
+      "t": 3,
+      "t_over_r": 0.0003,
+      "F_R": 0.9996314752782235,
+      "F_B": 0.35338468492117264,
+      "F_R_squared": 0.9992630863669175,
+      "asymptotic_1_minus_F_R": 0.000371276025641033,
+      "actual_1_minus_F_R": 0.00036852472177650863,
+      "quadrature_error_estimates": {
+        "R": 2.1854252058230445e-13,
+        "B": 3.931186498804339e-15
+      }
+    },
+    {
+      "r": 10000,
+      "t": 10,
+      "t_over_r": 0.001,
+      "F_R": 0.9985370755893758,
+      "F_B": 0.039985934845733845,
+      "F_R_squared": 0.9970762913265827,
+      "asymptotic_1_minus_F_R": 0.0014709434211370102,
+      "actual_1_minus_F_R": 0.0014629244106242334,
+      "quadrature_error_estimates": {
+        "R": 1.9566858706467611e-13,
+        "B": 5.0955269299845605e-14
+      }
+    },
+    {
+      "r": 10000,
+      "t": 30,
+      "t_over_r": 0.003,
+      "F_R": 0.995449347223316,
+      "F_B": 0.004444562994112463,
+      "F_R_squared": 0.9909194028873259,
+      "asymptotic_1_minus_F_R": 0.00461285026541123,
+      "actual_1_minus_F_R": 0.004550652776683983,
+      "quadrature_error_estimates": {
+        "R": 1.1450383083812904e-14,
+        "B": 1.2483707833443293e-15
+      }
+    },
+    {
+      "r": 10000,
+      "t": 100,
+      "t_over_r": 0.01,
+      "F_R": 0.9849586954387511,
+      "F_B": 0.000400094453552436,
+      "F_R_squared": 0.9701436317204065,
+      "asymptotic_1_minus_F_R": 0.015609524220371004,
+      "actual_1_minus_F_R": 0.015041304561248858,
+      "quadrature_error_estimates": {
+        "R": 2.3335007928768228e-14,
+        "B": 2.376070472442774e-13
+      }
+    },
+    {
+      "r": 100000,
+      "t": 1,
+      "t_over_r": 1e-05,
+      "F_R": 0.9999932907572907,
+      "F_B": 0.8406067411794157,
+      "F_R_squared": 0.9999865815595954,
+      "asymptotic_1_minus_F_R": 5.708020348152448e-06,
+      "actual_1_minus_F_R": 6.709242709290741e-06,
+      "quadrature_error_estimates": {
+        "R": 1.4427006589838445e-12,
+        "B": 9.338378691886717e-15
+      }
+    },
+    {
+      "r": 100000,
+      "t": 3,
+      "t_over_r": 3e-05,
+      "F_R": 0.9999630782479462,
+      "F_B": 0.3533845543988237,
+      "F_R_squared": 0.9999261578591081,
+      "asymptotic_1_minus_F_R": 3.7124261046457365e-05,
+      "actual_1_minus_F_R": 3.692175205383119e-05,
+      "quadrature_error_estimates": {
+        "R": 1.102074574585279e-12,
+        "B": 4.11308128962376e-14
+      }
+    },
+    {
+      "r": 100000,
+      "t": 10,
+      "t_over_r": 0.0001,
+      "F_R": 0.9998530221925539,
+      "F_B": 0.039985795893566135,
+      "F_R_squared": 0.9997060659875837,
+      "asymptotic_1_minus_F_R": 0.00014708110349052455,
+      "actual_1_minus_F_R": 0.00014697780744610256,
+      "quadrature_error_estimates": {
+        "R": 1.2194504169854974e-14,
+        "B": 5.470531621280583e-16
+      }
+    },
+    {
+      "r": 100000,
+      "t": 30,
+      "t_over_r": 0.0003,
+      "F_R": 0.9995395868024491,
+      "F_B": 0.004444446090415812,
+      "F_R_squared": 0.9990793855852108,
+      "asymptotic_1_minus_F_R": 0.0004612435104735736,
+      "actual_1_minus_F_R": 0.0004604131975508574,
+      "quadrature_error_estimates": {
+        "R": 4.7081691574048696e-14,
+        "B": 6.762248185422968e-16
+      }
+    },
+    {
+      "r": 100000,
+      "t": 100,
+      "t_over_r": 0.001,
+      "F_R": 0.9984472059538265,
+      "F_B": 0.00040000140478304474,
+      "F_R_squared": 0.9968968230770029,
+      "asymptotic_1_minus_F_R": 0.0015608119349142457,
+      "actual_1_minus_F_R": 0.001552794046173478,
+      "quadrature_error_estimates": {
+        "R": 2.9489067255560996e-13,
+        "B": 5.118367917880164e-14
+      }
+    }
+  ],
+  "threshold": {
+    "t": 10,
+    "target_F_R_squared": 0.99,
+    "r": 2888.495673439503,
+    "F_R": 0.9949874371066194,
+    "F_B": 0.039987184305470914,
+    "t_over_r": 0.0034620096862019553
+  },
+  "independent_precision_checks": [
+    {
+      "t": 10,
+      "r": 2888.495673439503,
+      "profile": "R",
+      "scipy": 0.9949874371066194,
+      "scipy_error_estimate": 1.1336981829267459e-14,
+      "mpmath_bessels_40dps_gauss24_float": 0.9949874371066196,
+      "mpmath_bessels_60dps_gauss36_float": 0.9949874371066191,
+      "scipy_minus_fixed_gauss36": 3.3306690738754696e-16,
+      "fixed_gauss24_minus_gauss36": 5.551115123125783e-16
+    },
+    {
+      "t": 10,
+      "r": 2888.495673439503,
+      "profile": "B",
+      "scipy": 0.039987184305470914,
+      "scipy_error_estimate": 4.275824427618957e-15,
+      "mpmath_bessels_40dps_gauss24_float": 0.03998718430547091,
+      "mpmath_bessels_60dps_gauss36_float": 0.039987184305470914,
+      "scipy_minus_fixed_gauss36": 0.0,
+      "fixed_gauss24_minus_gauss36": -6.938893903907228e-18
+    },
+    {
+      "t": 100,
+      "r": 10000,
+      "profile": "R",
+      "scipy": 0.9849586954387511,
+      "scipy_error_estimate": 2.3335007928768228e-14,
+      "mpmath_bessels_40dps_gauss24_float": 0.9849586954387516,
+      "mpmath_bessels_60dps_gauss36_float": 0.9849586954387513,
+      "scipy_minus_fixed_gauss36": -1.1102230246251565e-16,
+      "fixed_gauss24_minus_gauss36": 3.3306690738754696e-16
+    },
+    {
+      "t": 100,
+      "r": 10000,
+      "profile": "B",
+      "scipy": 0.000400094453552436,
+      "scipy_error_estimate": 2.376070472442774e-13,
+      "mpmath_bessels_40dps_gauss24_float": 0.000400094453552436,
+      "mpmath_bessels_60dps_gauss36_float": 0.00040009445355243604,
+      "scipy_minus_fixed_gauss36": -5.421010862427522e-20,
+      "fixed_gauss24_minus_gauss36": -5.421010862427522e-20
+    }
+  ],
+  "marginal_localization_discriminator": {
+    "t": 10,
+    "r": 3000,
+    "F_exact": 0.726913573979943,
+    "F_log_quadrature": 0.7269135739799433,
+    "difference": 2.220446049250313e-16,
+    "quadrature_error_estimate": 7.098789643657099e-13,
+    "F_R_nu_1": 0.9951713308486835,
+    "exact_formula": "[K_0(x)-b I_0(x)]/[log(r) x(K_1(x)+b I_1(x))], x=t/r"
+  },
+  "methods": {
+    "scipy": "adaptive Gauss-Kronrod integration in log(z), absolute/relative tolerance 2e-12; Brent root",
+    "cross_check": "mpmath Bessel evaluation at 40/60 decimal digits with fixed Gauss-Legendre orders 24/36 on short log(z) subintervals; nodes and weights originate in double-precision scipy.roots_legendre; returned results are floats. Agreement checks the two quadrature methods near double precision and does not certify 40/60-digit integral accuracy.",
+    "asymptotic": "[(pi/2)(t/r)-1/r]/(1-1/r); comparison only, not substituted for finite-Q integral"
+  },
+  "scope": "Assumed radial profiles and hard-wall probe only; no string amplitudes, dynamical localization mechanism, or experimental limits established."
+}
