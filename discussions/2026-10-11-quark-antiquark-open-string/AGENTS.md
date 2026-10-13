@@ -1,5 +1,7 @@
 # Research handoff for this discussion
 
+**Cycle closed by the user on 13 October 2026, pending new models.** Paper v0.5 and the physics consolidation are preserved at `210d0b4`. The task library and workplan are future candidates, not authorization to keep this closed cycle running. Resume research when the user reopens the work. Shared conversation links and the 28-turn recap are in [README.md](README.md) and [notes/conversation_recap.md](notes/conversation_recap.md).
+
 This directory contains user-requested, readable research notes for an active physics conversation. Maintain two levels:
 
 - `notes/`: the current research state, user clarifications, supported results, and clearly labeled conditional conclusions.

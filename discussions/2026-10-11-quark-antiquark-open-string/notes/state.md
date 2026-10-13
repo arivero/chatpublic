@@ -1,5 +1,7 @@
 # Current research state
 
+**Closed cycle, 13 October 2026 (Europe/Madrid):** the user ends this run pending new models. Paper v0.5 and its physics/source consolidation were committed and pushed as `210d0b4`. The proposed finite-$Q$ task remains unperformed; no further research or wake-up is scheduled. [Shared conversation links](../README.md) and the [28-turn recap](conversation_recap.md) complete the handoff.
+
 **13 October update:** the user explicitly superseded the five-hour deferral, bringing the start forward from approximately 01:40 to 01:15 Europe/Madrid. The anharmonic-radius calculation is complete in [009](../blackboard/009_anharmonic_radius.md) and paper v0.5. The next calculation is the anharmonic finite-$Q$ current shape.
 
 Last updated 13 October 2026 for the conversation begun on 11 October. This is a handoff summary, not a verbatim transcript.

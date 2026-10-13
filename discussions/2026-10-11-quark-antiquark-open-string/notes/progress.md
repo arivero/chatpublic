@@ -1,8 +1,10 @@
 # Research checkpoints
 
+**Cycle closed on 13 October 2026, pending new models.** Physics consolidation and paper v0.5 were pushed as `210d0b4`. The closure adds shared conversation links and the completed recap; it does not add a physics result or rerun the unchanged paper build.
+
 13 October 2026. One active physical target per checkpoint; supporting source recovery and housekeeping are recorded separately. A gate is crossed by a result with stated assumptions, not by another checklist. No percentages or passing-script counts.
 
-**Latest selection:** retained adjoint fermion binding both endpoints by contact interactions, no direct endpoint force. Version 0.4 uses explicit $\hbar$ in new calculations; the broader four-string objective remains. The earlier warped-current checkpoints below are historical.
+**Latest selection:** retained adjoint fermion binding both endpoints by contact interactions, no direct endpoint force. Version 0.5 uses explicit $\hbar$ in new calculations; the broader four-string objective remains. The earlier warped-current checkpoints below are historical.
 
 | Checkpoint | Status and evidence | Next consequence |
 | --- | --- | --- |

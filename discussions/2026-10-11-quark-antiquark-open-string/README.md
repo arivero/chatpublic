@@ -2,6 +2,15 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
+**Cycle closed, 13 October 2026 (Europe/Madrid), pending new models.** The final physics consolidation is paper v0.5 at commit `210d0b4`; the remaining tasks below are a handoff for a future cycle, not running or scheduled work. The whole-fermion pointlike-scattering mechanism remains unresolved. The [chronological recap](notes/conversation_recap.md) records all 28 available substantive user turns.
+
+Shared conversation links supplied by the user at closure:
+
+- [This research conversation](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91).
+- [Additional shared conversation](https://chatgpt.com/share/6acd8ea8-2e3c-83ed-8797-9c54344755e8).
+
+These links are preserved as supplied; their contents were not newly retrieved or merged into the local transcript during closure. Uploaded originals remain archived separately under `references/`.
+
 [Future-agent task prompts](delegation_prompts/README.md): seventeen bounded assignments, a common contract, and Sol's pinned audit of published openai/math prompt excerpts. The library covers active retained-adjoint calculations and the wider string/dual/geometric program; its creation does not execute those tasks.
 
 **Latest, 13 October:** the user selects the retained adjoint fermion binding both fermionic endpoints through contact interactions, without a direct endpoint force, as the most interesting concrete model. The broader four-string goal remains. [Blackboard 008](blackboard/008_retained_adjoint_hbar.md) and the focused version 0.5 paper give the retained-adjoint results with explicit $\hbar$; [009](blackboard/009_anharmonic_radius.md) derives a positive leading anharmonic radius correction. [010](blackboard/010_endpoints_goldstino_and_b_minus_l.md) records a distinct, conditional scalar-endpoint and supersymmetry branch. The next quantitative task is the anharmonic finite-$Q$ current shape. See [progress](notes/progress.md).

@@ -1,5 +1,7 @@
 # Living research paper
 
+**Cycle-closure snapshot, 13 October 2026:** version 0.5 was committed and pushed in `210d0b4`. The user has closed this research cycle pending new models. The source and built PDF remain the final physics result of this run; linking the shared conversations requires no rebuild.
+
 Version 0.5, 13 October 2026: *Retained adjoint-fermion binding with explicit $\hbar$*. The user selects the retained adjoint as the most interesting concrete object: it binds both fermionic endpoints through regulated contact interactions, without a direct endpoint force. The broader four-string and whole-state scattering goals remain open.
 
 - [Built PDF](quark_diquark_lepton_meson.pdf) and [main source](quark_diquark_lepton_meson.tex).
