@@ -4,13 +4,13 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,booktabs,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.5: anharmonic radius, representation count and source comparison}}
+\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.7: 2024 sBootstrap and the SO(30) to SO(32) completion}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \title{Retained adjoint-fermion binding with explicit $\hbar$:\\
 recoil, quantum corrections and the whole-state current}
-\author{Research-notebook draft, version 0.5}
-\date{13 October 2026}
+\author{Research-notebook draft, version 0.7}
+\date{14 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -24,9 +24,11 @@ This focused revision develops that selection. It does not identify a contact tr
 
 \input{retained_adjoint_hbar}
 \input{supersymmetry_dictionary}
+\input{partial_compositeness_comparison}
+\input{sbootstrap_so32}
 
 \section*{Reproducibility and review scope}
-The new radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Earlier recoil, energy and harmonic-current results were unchanged and not rereviewed in this revision. These scoped checks do not establish experimental correctness, novelty or a completed supersymmetric model.
+The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
 
 The living source and PDF are in
 \begin{quote}\small
@@ -35,6 +37,19 @@ The living source and PDF are in
 The research notebook records the model assumptions, source exposure, prior results and next task. The historical motivations include Schwarz's dual quark--gluon model~\cite{Schwarz}, with Seiberg duality~\cite{Seiberg} retained as a possible later connection. Neither reference proves the contact interaction or its intended string interpretation.
 
 \begin{thebibliography}{9}
+\bibitem{Rivero2024} A. Rivero,
+\emph{An interpretation of scalars in SO(32)},
+Eur. Phys. J. C \textbf{84}, 1058 (2024),
+\href{https://doi.org/10.1140/epjc/s10052-024-13368-3}{doi:10.1140/epjc/s10052-024-13368-3}.
+Supplied original PDF; representation and discussion sections reviewed.
+\bibitem{ARS2025} K. Agashe, L. Ricci and R. Sundrum,
+\emph{Partial Compositeness: from Anarchy to Symmetry},
+\href{https://arxiv.org/abs/2507.05332v1}{arXiv:2507.05332v1} (2025).
+Supplied LaTeX source, especially Sections 2--4.
+\bibitem{AGRS2026} K. Agashe, G. F. Giudice, R. Rattazzi and R. Sundrum,
+\emph{The Super-Composite Higgs},
+\href{https://arxiv.org/abs/2609.26413v1}{arXiv:2609.26413v1} (2026).
+Supplied LaTeX source; construction, hidden-SQCD toy and summary reviewed.
 \bibitem{Schwarz} J. H. Schwarz, \emph{Dual quark-gluon model of hadrons},
 Phys. Lett. B \textbf{37}, 315--319 (1971),
 \href{https://doi.org/10.1016/0370-2693(71)90028-1}{doi:10.1016/0370-2693(71)90028-1}.

@@ -1,5 +1,9 @@
 # Living research paper
 
+**14 October 2026, version 0.7:** the uploaded 2024 sBootstrap paper corrects the identification with ordinary QCD hadrons. A [new section](sbootstrap_so32.tex) analyzes the neutral-singlet completion from SO(30) to SO(32), its 61 additional adjoint components, and the physical selection condition still needed. See [blackboard 011](../blackboard/011_so30_so32_neutral_completion.md). No binding/current calculation was changed.
+
+**14 October 2026, version 0.6:** the user reopened the source-comparison question with arXiv:2507.05332 and arXiv:2609.26413. The [new section](partial_compositeness_comparison.tex) distinguishes emergent flavor symmetry from supersymmetric scale separation and compares both to sBootstrap. See the [source record](../references/literature_2026-10-14.md). Earlier binding/current calculations remain unchanged; no finite-Q calculation or new fit was performed.
+
 **Cycle-closure snapshot, 13 October 2026:** version 0.5 was committed and pushed in `210d0b4`. The user has closed this research cycle pending new models. The source and built PDF remain the final physics result of this run; linking the shared conversations requires no rebuild.
 
 Version 0.5, 13 October 2026: *Retained adjoint-fermion binding with explicit $\hbar$*. The user selects the retained adjoint as the most interesting concrete object: it binds both fermionic endpoints through regulated contact interactions, without a direct endpoint force. The broader four-string and whole-state scattering goals remain open.

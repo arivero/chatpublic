@@ -2,6 +2,10 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
+**2024 sBootstrap follow-up, 14 October 2026:** [SO(30), SO(32) and the missing neutral-sector selection](blackboard/011_so30_so32_neutral_completion.md), based on the user's supplied EPJC paper, corrects the earlier comparison's identification with QCD-scale hadrons. Paper v0.7 incorporates this source correction and conditional representation analysis.
+
+**Targeted follow-up, 14 October 2026:** [comparison of the supplied partial-compositeness papers with sBootstrap](references/literature_2026-10-14.md), incorporated in paper v0.6. The user reopened this source question; the finite-momentum calculation remains deferred. [Original source archives and extracted files](references/received-2026-10-14/README.md).
+
 **Cycle closed, 13 October 2026 (Europe/Madrid), pending new models.** The final physics consolidation is paper v0.5 at commit `210d0b4`; the remaining tasks below are a handoff for a future cycle, not running or scheduled work. The whole-fermion pointlike-scattering mechanism remains unresolved. The [chronological recap](notes/conversation_recap.md) records all 28 available substantive user turns.
 
 Shared conversation links supplied by the user at closure:
