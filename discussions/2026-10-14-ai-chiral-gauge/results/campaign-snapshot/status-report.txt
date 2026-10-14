@@ -1,0 +1,41 @@
+{
+  "observed_utc": "2026-10-14T07:29:43.220437+00:00",
+  "run_state": "budget_exhausted",
+  "elapsed_seconds": 18000.0,
+  "remaining_seconds": 0.0,
+  "case_counts": {
+    "completed": 42,
+    "timed_out": 2
+  },
+  "completed_N27_grids": 42,
+  "complete_level_rows": 130,
+  "N27_abs_chiral_range": [
+    1.5240461042906031e-12,
+    7.857535635957602e-11
+  ],
+  "N27_cancellation_ratio_range": [
+    8.799206080868412e-10,
+    6.14469888875364e-05
+  ],
+  "N27_max_abs_vectorlike": 2.391581644704756e-17,
+  "max_dirac_weyl_log_error": 3.552713678800501e-14,
+  "max_dirac_weyl_phase_error": 2.4158453015843406e-13,
+  "minimum_sampled_gap": 0.9988388067857921,
+  "incomplete_levels": [
+    {
+      "case": "00000042",
+      "execution_state": "timed_out",
+      "N": 27,
+      "momenta_done": 423936,
+      "momenta_total": 531441
+    },
+    {
+      "case": "00000043",
+      "execution_state": "timed_out",
+      "N": 27,
+      "momenta_done": 338944,
+      "momenta_total": 531441
+    }
+  ],
+  "scope": "Fixed-frame homogeneous 4D backgrounds, not Craig full current or theorem; arithmetic proxies are not error bounds."
+}

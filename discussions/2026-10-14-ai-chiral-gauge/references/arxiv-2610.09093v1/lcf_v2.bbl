@@ -1,0 +1,304 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{GlashowElectroweak}
+S.L.~Glashow, \emph{{Partial-symmetries of weak interactions}}, \href{https://doi.org/10.1016/0029-5582(61)90469-2}{\emph{Nucl.\ Phys.} {\bfseries 22} (1961) 579}.
+
+\bibitem{WeinbergLeptons}
+S.~Weinberg, \emph{{A Model of Leptons}}, \href{https://doi.org/10.1103/PhysRevLett.19.1264}{\emph{Phys.\ Rev.\ Lett.} {\bfseries 19} (1967) 1264}.
+
+\bibitem{SalamElectroweak}
+A.~Salam, \emph{{Weak and Electromagnetic Interactions}},  in \emph{Elementary Particle Theory: Relativistic Groups and Analyticity}, N.~Svartholm, ed., (Stockholm), pp.~367--377, Almqvist and Wiksell, 1968, \href{https://inspirehep.net/literature/53083}{https://inspirehep.net/literature/53083}.
+
+\bibitem{FritzschGellMannLeutwyler}
+H.~Fritzsch, M.~Gell-Mann and H.~Leutwyler, \emph{{Advantages of the color octet gluon picture}}, \href{https://doi.org/10.1016/0370-2693(73)90625-4}{\emph{Phys.\ Lett.\ B} {\bfseries 47} (1973) 365}.
+
+\bibitem{HucksGlobal}
+J.~Hucks, \emph{{Global structure of the standard model, anomalies, and charge quantization}}, \href{https://doi.org/10.1103/PhysRevD.43.2709}{\emph{Phys.\ Rev.\ D} {\bfseries 43} (1991) 2709}.
+
+\bibitem{TongGlobal}
+D.~Tong, \emph{{Line operators in the Standard Model}}, {\emph{JHEP} {\bfseries 07} (2017) 104} [\href{https://arxiv.org/abs/1705.01853}{{\ttfamily 1705.01853}}].
+
+\bibitem{NielsenNinomiya}
+H.B.~Nielsen and M.~Ninomiya, \emph{{A no-go theorem for regularizing chiral fermions}}, \href{https://doi.org/10.1016/0370-2693(81)91026-1}{\emph{Phys.\ Lett.\ B} {\bfseries 105} (1981) 219}.
+
+\bibitem{WilsonFermions}
+K.G.~Wilson, \emph{{Quarks and Strings on a Lattice}},  in \emph{New Phenomena in Subnuclear Physics: Part A}, A.~Zichichi, ed., vol.~13 of \emph{The Subnuclear Series}, (New York), pp.~69--142, Plenum Press (1977), \href{https://doi.org/10.1007/978-1-4613-4208-3_6}{DOI}.
+
+\bibitem{NarayananNeuberger}
+R.~Narayanan and H.~Neuberger, \emph{{Chiral determinant as an overlap of two vacua}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 412} (1994) 574} [\href{https://arxiv.org/abs/hep-lat/9307006}{{\ttfamily hep-lat/9307006}}].
+
+\bibitem{NarayananNeubergerConstruction}
+R.~Narayanan and H.~Neuberger, \emph{{A construction of lattice chiral gauge theories}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 443} (1995) 305} [\href{https://arxiv.org/abs/hep-th/9411108}{{\ttfamily hep-th/9411108}}].
+
+\bibitem{Neuberger}
+H.~Neuberger, \emph{{Exactly massless quarks on the lattice}}, {\emph{Phys.\ Lett.\ B} {\bfseries 417} (1998) 141} [\href{https://arxiv.org/abs/hep-lat/9707022}{{\ttfamily hep-lat/9707022}}].
+
+\bibitem{GinspargWilson}
+P.H.~Ginsparg and K.G.~Wilson, \emph{{A remnant of chiral symmetry on the lattice}}, \href{https://doi.org/10.1103/PhysRevD.25.2649}{\emph{Phys.\ Rev.\ D} {\bfseries 25} (1982) 2649}.
+
+\bibitem{NeubergerGW}
+H.~Neuberger, \emph{{More about exactly massless quarks on the lattice}}, {\emph{Phys.\ Lett.\ B} {\bfseries 427} (1998) 353} [\href{https://arxiv.org/abs/hep-lat/9801031}{{\ttfamily hep-lat/9801031}}].
+
+\bibitem{LuscherExactChiral}
+M.~L{\"u}scher, \emph{{Exact chiral symmetry on the lattice and the Ginsparg--Wilson relation}}, {\emph{Phys.\ Lett.\ B} {\bfseries 428} (1998) 342} [\href{https://arxiv.org/abs/hep-lat/9802011}{{\ttfamily hep-lat/9802011}}].
+
+\bibitem{HJL}
+P.~Hern{\'a}ndez, K.~Jansen and M.~L{\"u}scher, \emph{{Locality properties of Neuberger's lattice Dirac operator}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 552} (1999) 363} [\href{https://arxiv.org/abs/hep-lat/9808010}{{\ttfamily hep-lat/9808010}}].
+
+\bibitem{LuscherAbelian}
+M.~L{\"u}scher, \emph{{Abelian chiral gauge theories on the lattice with exact gauge invariance}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 549} (1999) 295} [\href{https://arxiv.org/abs/hep-lat/9811032}{{\ttfamily hep-lat/9811032}}].
+
+\bibitem{WittenSU2}
+E.~Witten, \emph{{An SU(2) anomaly}}, \href{https://doi.org/10.1016/0370-2693(82)90728-6}{\emph{Phys.\ Lett.\ B} {\bfseries 117} (1982) 324}.
+
+\bibitem{BarCampos}
+O.~B{\"a}r and I.~Campos, \emph{{Global anomalies in chiral gauge theories on the lattice}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 581} (2000) 499} [\href{https://arxiv.org/abs/hep-lat/0001025}{{\ttfamily hep-lat/0001025}}].
+
+\bibitem{LuscherAbelianTopology}
+M.~L{\"u}scher, \emph{{Topology and the axial anomaly in abelian lattice gauge theories}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 538} (1999) 515} [\href{https://arxiv.org/abs/hep-lat/9808021}{{\ttfamily hep-lat/9808021}}].
+
+\bibitem{LuscherPerturbative}
+M.~L{\"u}scher, \emph{{Lattice regularization of chiral gauge theories to all orders of perturbation theory}}, {\emph{JHEP} {\bfseries 06} (2000) 028} [\href{https://arxiv.org/abs/hep-lat/0006014}{{\ttfamily hep-lat/0006014}}].
+
+\bibitem{SuzukiReal}
+H.~Suzuki, \emph{{Real representation in chiral gauge theories on the lattice}}, {\emph{JHEP} {\bfseries 10} (2000) 039} [\href{https://arxiv.org/abs/hep-lat/0009036}{{\ttfamily hep-lat/0009036}}].
+
+\bibitem{KadohKikukawaEW}
+D.~Kadoh and Y.~Kikukawa, \emph{{A construction of the Glashow--Weinberg--Salam model on the lattice with exact gauge invariance}}, {\emph{JHEP} {\bfseries 05} (2008) 095} [\href{https://arxiv.org/abs/0709.3658}{{\ttfamily 0709.3658}}].
+
+\bibitem{KadohKikukawaErratum}
+D.~Kadoh and Y.~Kikukawa, \emph{{Erratum: A construction of the Glashow--Weinberg--Salam model on the lattice with exact gauge invariance}}, \href{https://doi.org/10.1007/JHEP03(2011)095}{\emph{JHEP} {\bfseries 03} (2011) 095}.
+
+\bibitem{KikukawaSpinTen}
+Y.~Kikukawa, \emph{{On the gauge invariant path-integral measure for the overlap Weyl fermions in \(\mathbf{16}\) of SO(10)}}, {\emph{PTEP} {\bfseries 2019} (2019) 113B03} [\href{https://arxiv.org/abs/1710.11618}{{\ttfamily 1710.11618}}].
+
+\bibitem{Swift1984}
+P.V.D.~Swift, \emph{{The Electroweak Theory on the Lattice}}, \href{https://doi.org/10.1016/0370-2693(84)90350-2}{\emph{Phys. Lett. B} {\bfseries 145} (1984) 256}.
+
+\bibitem{Smit1986}
+J.~Smit, \emph{{Fermions on a Lattice}}, {\emph{Acta Phys. Polon. B} {\bfseries 17} (1986) 531}.
+
+\bibitem{EichtenPreskill1986}
+E.~Eichten and J.~Preskill, \emph{{Chiral Gauge Theories on the Lattice}}, \href{https://doi.org/10.1016/0550-3213(86)90207-5}{\emph{Nucl. Phys. B} {\bfseries 268} (1986) 179}.
+
+\bibitem{Montvay1987}
+I.~Montvay, \emph{{A chiral $SU(2)_L\otimes SU(2)_R$ gauge model on the lattice}}, \href{https://doi.org/10.1016/0370-2693(87)91468-7}{\emph{Phys. Lett. B} {\bfseries 199} (1987) 89}.
+
+\bibitem{CreutzTytgatRebbiXue1997}
+M.~Creutz, M.~Tytgat, C.~Rebbi and S.-S.~Xue, \emph{{Lattice formulation of the standard model}}, \href{https://doi.org/10.1016/S0370-2693(97)00463-2}{\emph{Phys. Lett. B} {\bfseries 402} (1997) 341} [\href{https://arxiv.org/abs/hep-lat/9612017}{{\ttfamily hep-lat/9612017}}].
+
+\bibitem{Xue1997}
+S.-S.~Xue, \emph{{A Possible scaling region of chiral fermions on a lattice}}, \href{https://doi.org/10.1016/S0550-3213(96)00641-4}{\emph{Nucl. Phys. B} {\bfseries 486} (1997) 282} [\href{https://arxiv.org/abs/hep-lat/9605005}{{\ttfamily hep-lat/9605005}}].
+
+\bibitem{BorrelliEtAl1990}
+A.~Borrelli, L.~Maiani, G.C.~Rossi, R.~Sisto and M.~Testa, \emph{{Neutrinos on the Lattice: The Regularization of a Chiral Gauge Theory}}, \href{https://doi.org/10.1016/0550-3213(90)90041-B}{\emph{Nucl. Phys. B} {\bfseries 333} (1990) 335}.
+
+\bibitem{Vink1994}
+J.C.~Vink, \emph{{Almost gauge invariant lattice actions for chiral gauge theories, using Laplacian gauge fixing}}, \href{https://doi.org/10.1016/0370-2693(94)90471-5}{\emph{Phys. Lett. B} {\bfseries 321} (1994) 239} [\href{https://arxiv.org/abs/hep-lat/9310002}{{\ttfamily hep-lat/9310002}}].
+
+\bibitem{Shamir1998Phase}
+Y.~Shamir, \emph{{The Standard model from a new phase transition on the lattice}}, \href{https://doi.org/10.1103/PhysRevD.57.132}{\emph{Phys. Rev. D} {\bfseries 57} (1998) 132} [\href{https://arxiv.org/abs/hep-lat/9512019}{{\ttfamily hep-lat/9512019}}].
+
+\bibitem{GoltermanShamir1997}
+M.F.L.~Golterman and Y.~Shamir, \emph{{A Gauge fixing action for lattice gauge theories}}, \href{https://doi.org/10.1016/S0370-2693(97)00277-3}{\emph{Phys. Lett. B} {\bfseries 399} (1997) 148} [\href{https://arxiv.org/abs/hep-lat/9608116}{{\ttfamily hep-lat/9608116}}].
+
+\bibitem{BockGoltermanShamir1998}
+W.~Bock, M.F.L.~Golterman and Y.~Shamir, \emph{{Lattice chiral fermions through gauge fixing}}, \href{https://doi.org/10.1103/PhysRevLett.80.3444}{\emph{Phys. Rev. Lett.} {\bfseries 80} (1998) 3444} [\href{https://arxiv.org/abs/hep-lat/9709154}{{\ttfamily hep-lat/9709154}}].
+
+\bibitem{GoltermanShamir2004}
+M.~Golterman and Y.~Shamir, \emph{{SU(N) chiral gauge theories on the lattice}}, \href{https://doi.org/10.1103/PhysRevD.70.094506}{\emph{Phys. Rev. D} {\bfseries 70} (2004) 094506} [\href{https://arxiv.org/abs/hep-lat/0404011}{{\ttfamily hep-lat/0404011}}].
+
+\bibitem{Smit1992Staggered}
+J.~Smit, \emph{{Staggered fermion approach to chiral gauge theories}}, \href{https://doi.org/10.1016/0920-5632(92)90309-G}{\emph{Nucl. Phys. B Proc. Suppl.} {\bfseries 26} (1992) 480}.
+
+\bibitem{BockSmitVink1994}
+W.~Bock, J.~Smit and J.C.~Vink, \emph{{Nongauge fixing approach to chiral gauge theories using staggered fermions}}, \href{https://doi.org/10.1016/0550-3213(94)90326-3}{\emph{Nucl. Phys. B} {\bfseries 416} (1994) 645} [\href{https://arxiv.org/abs/hep-lat/9308009}{{\ttfamily hep-lat/9308009}}].
+
+\bibitem{AlonsoEtAl1992}
+J.L.~Alonso, J.L.~Cort{\'e}s, F.~Lesmes, P.~Boucaud and E.~Rivas, \emph{{Massless decoupled doublers: Chiral Yukawa models and chiral gauge theories}}, \href{https://doi.org/10.1016/0920-5632(92)90018-N}{\emph{Nucl. Phys. B Proc. Suppl.} {\bfseries 29} (1992) 171} [\href{https://arxiv.org/abs/hep-lat/9206005}{{\ttfamily hep-lat/9206005}}].
+
+\bibitem{DrellWeinsteinYankielowicz1976}
+S.D.~Drell, M.~Weinstein and S.~Yankielowicz, \emph{{Strong Coupling Field Theories. 2. Fermions and Gauge Fields on a Lattice}}, \href{https://doi.org/10.1103/PhysRevD.14.1627}{\emph{Phys. Rev. D} {\bfseries 14} (1976) 1627}.
+
+\bibitem{QuinnWeinstein1986}
+H.R.~Quinn and M.~Weinstein, \emph{{Lattice Theories of Chiral Fermions}}, \href{https://doi.org/10.1103/PhysRevD.34.2440}{\emph{Phys. Rev. D} {\bfseries 34} (1986) 2440}.
+
+\bibitem{Rebbi1987}
+C.~Rebbi, \emph{{Chiral Invariant Regularization of Fermions on the Lattice}}, \href{https://doi.org/10.1016/0370-2693(87)90280-2}{\emph{Phys. Lett. B} {\bfseries 186} (1987) 200}.
+
+\bibitem{BietenholzWiese1996}
+W.~Bietenholz and U.J.~Wiese, \emph{{A Perturbative construction of lattice chiral fermions}}, \href{https://doi.org/10.1016/0370-2693(96)00381-4}{\emph{Phys. Lett. B} {\bfseries 378} (1996) 222} [\href{https://arxiv.org/abs/hep-lat/9503022}{{\ttfamily hep-lat/9503022}}].
+
+\bibitem{FrolovSlavnov1994}
+S.A.~Frolov and A.A.~Slavnov, \emph{{Removing fermion doublers in chiral gauge theories on the lattice}}, \href{https://doi.org/10.1016/0550-3213(94)90465-0}{\emph{Nucl. Phys. B} {\bfseries 411} (1994) 647} [\href{https://arxiv.org/abs/hep-lat/9303004}{{\ttfamily hep-lat/9303004}}].
+
+\bibitem{Slavnov1995}
+A.A.~Slavnov, \emph{{Generalized Pauli-Villars regularization for undoubled lattice fermions}}, \href{https://doi.org/10.1016/0370-2693(95)00202-V}{\emph{Phys. Lett. B} {\bfseries 348} (1995) 553} [\href{https://arxiv.org/abs/hep-th/9412233}{{\ttfamily hep-th/9412233}}].
+
+\bibitem{GockelerSchierholz1992}
+M.~G{\"o}ckeler and G.~Schierholz, \emph{{A Proposal for simulating chiral fermions}}, \href{https://doi.org/10.1016/0920-5632(92)90013-I}{\emph{Nucl. Phys. B Proc. Suppl.} {\bfseries 29} (1992) 114} [\href{https://arxiv.org/abs/hep-lat/9207012}{{\ttfamily hep-lat/9207012}}].
+
+\bibitem{tHooft1995}
+G.~'t~Hooft, \emph{{Lattice regularization of gauge theories without loss of chiral symmetry}}, \href{https://doi.org/10.1016/0370-2693(95)00251-F}{\emph{Phys. Lett. B} {\bfseries 349} (1995) 491} [\href{https://arxiv.org/abs/hep-th/9411228}{{\ttfamily hep-th/9411228}}].
+
+\bibitem{Hsu1995}
+S.D.H.~Hsu, \emph{{Regularization of chiral gauge theories}},  \href{https://arxiv.org/abs/hep-th/9503058}{{\ttfamily hep-th/9503058}}.
+
+\bibitem{Kronfeld1995}
+A.S.~Kronfeld, \emph{{Chiral fermions coupled to lattice gauge fields}},  \href{https://arxiv.org/abs/hep-lat/9504007}{{\ttfamily hep-lat/9504007}}.
+
+\bibitem{HernandezSundrumChiral}
+P.~Hern{\'a}ndez and R.~Sundrum, \emph{{A lattice construction of chiral gauge theories}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 455} (1995) 287} [\href{https://arxiv.org/abs/hep-ph/9506331}{{\ttfamily hep-ph/9506331}}].
+
+\bibitem{Bodwin1996}
+G.T.~Bodwin, \emph{{A Lattice formulation of chiral gauge theories}}, \href{https://doi.org/10.1103/PhysRevD.54.6497}{\emph{Phys. Rev. D} {\bfseries 54} (1996) 6497} [\href{https://arxiv.org/abs/hep-lat/9510002}{{\ttfamily hep-lat/9510002}}].
+
+\bibitem{Kaplan1992}
+D.B.~Kaplan, \emph{{A Method for simulating chiral fermions on the lattice}}, \href{https://doi.org/10.1016/0370-2693(92)91112-M}{\emph{Phys. Lett. B} {\bfseries 288} (1992) 342} [\href{https://arxiv.org/abs/hep-lat/9206013}{{\ttfamily hep-lat/9206013}}].
+
+\bibitem{Shamir1993}
+Y.~Shamir, \emph{{Chiral fermions from lattice boundaries}}, \href{https://doi.org/10.1016/0550-3213(93)90162-I}{\emph{Nucl. Phys. B} {\bfseries 406} (1993) 90} [\href{https://arxiv.org/abs/hep-lat/9303005}{{\ttfamily hep-lat/9303005}}].
+
+\bibitem{GoltermanJansenPetcherVink1994}
+M.F.L.~Golterman, K.~Jansen, D.N.~Petcher and J.C.~Vink, \emph{{Investigation of the domain wall fermion approach to chiral gauge theories on the lattice}}, \href{https://doi.org/10.1103/PhysRevD.49.1606}{\emph{Phys. Rev. D} {\bfseries 49} (1994) 1606} [\href{https://arxiv.org/abs/hep-lat/9309015}{{\ttfamily hep-lat/9309015}}].
+
+\bibitem{Kikukawa2002}
+Y.~Kikukawa, \emph{{Domain wall fermion and chiral gauge theories on the lattice with exact gauge invariance}}, \href{https://doi.org/10.1103/PhysRevD.65.074504}{\emph{Phys. Rev. D} {\bfseries 65} (2002) 074504} [\href{https://arxiv.org/abs/hep-lat/0105032}{{\ttfamily hep-lat/0105032}}].
+
+\bibitem{GrabowskaKaplan2016Regulator}
+D.M.~Grabowska and D.B.~Kaplan, \emph{{Nonperturbative Regulator for Chiral Gauge Theories?}}, \href{https://doi.org/10.1103/PhysRevLett.116.211602}{\emph{Phys. Rev. Lett.} {\bfseries 116} (2016) 211602} [\href{https://arxiv.org/abs/1511.03649}{{\ttfamily 1511.03649}}].
+
+\bibitem{GrabowskaKaplan2016Chiral}
+D.M.~Grabowska and D.B.~Kaplan, \emph{{Chiral solution to the Ginsparg-Wilson equation}}, \href{https://doi.org/10.1103/PhysRevD.94.114504}{\emph{Phys. Rev. D} {\bfseries 94} (2016) 114504} [\href{https://arxiv.org/abs/1610.02151}{{\ttfamily 1610.02151}}].
+
+\bibitem{FukayaEtAl2017}
+H.~Fukaya, T.~Onogi, S.~Yamamoto and R.~Yamamura, \emph{{Six-dimensional regularization of chiral gauge theories}}, \href{https://doi.org/10.1093/ptep/ptx017}{\emph{PTEP} {\bfseries 2017} (2017) 033B06} [\href{https://arxiv.org/abs/1607.06174}{{\ttfamily 1607.06174}}].
+
+\bibitem{Kaplan2024}
+D.B.~Kaplan, \emph{{Chiral Gauge Theory at the Boundary between Topological Phases}}, \href{https://doi.org/10.1103/PhysRevLett.132.141603}{\emph{Phys. Rev. Lett.} {\bfseries 132} (2024) 141603} [\href{https://arxiv.org/abs/2312.01494}{{\ttfamily 2312.01494}}].
+
+\bibitem{KaplanSen2026}
+D.B.~Kaplan and S.~Sen, \emph{{Regulated chiral gauge theory and the strong CP problem}}, \href{https://doi.org/10.1103/wld4-f12c}{\emph{Phys. Rev. D} {\bfseries 114} (2026) 014508} [\href{https://arxiv.org/abs/2412.02024}{{\ttfamily 2412.02024}}].
+
+\bibitem{BhattacharyaMartinPoppitz2006}
+T.~Bhattacharya, M.R.~Martin and E.~Poppitz, \emph{{Chiral lattice gauge theories from warped domain walls and Ginsparg-Wilson fermions}}, \href{https://doi.org/10.1103/PhysRevD.74.085028}{\emph{Phys. Rev. D} {\bfseries 74} (2006) 085028} [\href{https://arxiv.org/abs/hep-lat/0605003}{{\ttfamily hep-lat/0605003}}].
+
+\bibitem{PoppitzShang2007}
+E.~Poppitz and Y.~Shang, \emph{{Lattice chirality and the decoupling of mirror fermions}}, \href{https://doi.org/10.1088/1126-6708/2007/08/081}{\emph{JHEP} {\bfseries 08} (2007) 081} [\href{https://arxiv.org/abs/0706.1043}{{\ttfamily 0706.1043}}].
+
+\bibitem{Wen2013}
+X.-G.~Wen, \emph{{A lattice non-perturbative definition of an SO(10) chiral gauge theory and its induced standard model}}, \href{https://doi.org/10.1088/0256-307X/30/11/111101}{\emph{Chin. Phys. Lett.} {\bfseries 30} (2013) 111101} [\href{https://arxiv.org/abs/1305.1045}{{\ttfamily 1305.1045}}].
+
+\bibitem{YouBenTovXu2014}
+Y.~You, Y.~BenTov and C.~Xu, \emph{{Interacting Topological Superconductors and possible Origin of $16n$ Chiral Fermions in the Standard Model}},  \href{https://arxiv.org/abs/1402.4151}{{\ttfamily 1402.4151}}.
+
+\bibitem{YouXu2015}
+Y.-Z.~You and C.~Xu, \emph{{Interacting Topological Insulator and Emergent Grand Unified Theory}}, \href{https://doi.org/10.1103/PhysRevB.91.125147}{\emph{Phys. Rev. B} {\bfseries 91} (2015) 125147} [\href{https://arxiv.org/abs/1412.4784}{{\ttfamily 1412.4784}}].
+
+\bibitem{WangWen2020}
+J.~Wang and X.-G.~Wen, \emph{{Nonperturbative definition of the standard models}}, \href{https://doi.org/10.1103/PhysRevResearch.2.023356}{\emph{Phys. Rev. Res.} {\bfseries 2} (2020) 023356} [\href{https://arxiv.org/abs/1809.11171}{{\ttfamily 1809.11171}}].
+
+\bibitem{Catterall2021}
+S.~Catterall, \emph{{Chiral lattice fermions from staggered fields}}, \href{https://doi.org/10.1103/PhysRevD.104.014503}{\emph{Phys. Rev. D} {\bfseries 104} (2021) 014503} [\href{https://arxiv.org/abs/2010.02290}{{\ttfamily 2010.02290}}].
+
+\bibitem{Catterall2024}
+S.~Catterall, \emph{{Lattice regularization of reduced K{\"a}hler-Dirac fermions and connections to chiral fermions}}, \href{https://doi.org/10.21468/SciPostPhys.16.4.108}{\emph{SciPost Phys.} {\bfseries 16} (2024) 108} [\href{https://arxiv.org/abs/2311.02487}{{\ttfamily 2311.02487}}].
+
+\bibitem{ThorngrenPreskillFidkowski2026}
+R.~Thorngren, J.~Preskill and L.~Fidkowski, \emph{{Chiral lattice gauge theories from symmetry disentanglers}}, \href{https://doi.org/10.1007/JHEP07(2026)271}{\emph{JHEP} {\bfseries 07} (2026) 271} [\href{https://arxiv.org/abs/2601.04304}{{\ttfamily 2601.04304}}].
+
+\bibitem{Zenkin1993}
+S.V.~Zenkin, \emph{{Reflection positive formulation of chiral gauge theories on a lattice}}, \href{https://doi.org/10.1016/0370-2693(93)91723-Z}{\emph{Phys. Lett. B} {\bfseries 298} (1993) 159} [\href{https://arxiv.org/abs/hep-lat/9205012}{{\ttfamily hep-lat/9205012}}].
+
+\bibitem{AoyamaKikukawa2019}
+T.~Aoyama and Y.~Kikukawa, \emph{{A lattice implementation of the $\eta$-invariant and effective action for chiral fermions on the lattice}}, \href{https://doi.org/10.1093/ptep/ptz122}{\emph{PTEP} {\bfseries 2019} (2019) 113B06} [\href{https://arxiv.org/abs/hep-lat/9905003}{{\ttfamily hep-lat/9905003}}].
+
+\bibitem{PedersenKikukawa2023}
+J.W.~Pedersen and Y.~Kikukawa, \emph{{Reformulation of anomaly inflow on the lattice and construction of lattice chiral gauge theories}}, \href{https://doi.org/10.22323/1.430.0381}{\emph{PoS} {\bfseries LATTICE2022} (2023) 381}.
+
+\bibitem{GoltermanPetcher1989}
+M.F.L.~Golterman and D.N.~Petcher, \emph{{The Decoupling of Right-Handed Neutrinos in Chiral Lattice Gauge Theories}}, \href{https://doi.org/10.1016/0370-2693(89)91028-9}{\emph{Phys. Lett. B} {\bfseries 225} (1989) 159}.
+
+\bibitem{GoltermanPetcherRivas1993}
+M.F.L.~Golterman, D.N.~Petcher and E.~Rivas, \emph{{Absence of chiral fermions in the Eichten-Preskill model}}, \href{https://doi.org/10.1016/0550-3213(93)90049-U}{\emph{Nucl. Phys. B} {\bfseries 395} (1993) 596} [\href{https://arxiv.org/abs/hep-lat/9206010}{{\ttfamily hep-lat/9206010}}].
+
+\bibitem{BockGoltermanShamir1998Perturbation}
+W.~Bock, M.F.L.~Golterman and Y.~Shamir, \emph{{Chiral fermions on the lattice through gauge fixing: Perturbation theory}}, \href{https://doi.org/10.1103/PhysRevD.58.034501}{\emph{Phys. Rev. D} {\bfseries 58} (1998) 034501} [\href{https://arxiv.org/abs/hep-lat/9801018}{{\ttfamily hep-lat/9801018}}].
+
+\bibitem{BockGoltermanLeungShamir2000}
+W.~Bock, K.C.~Leung, M.F.L.~Golterman and Y.~Shamir, \emph{{The Phase diagram and spectrum of gauge fixed Abelian lattice gauge theory}}, \href{https://doi.org/10.1103/PhysRevD.62.034507}{\emph{Phys. Rev. D} {\bfseries 62} (2000) 034507} [\href{https://arxiv.org/abs/hep-lat/9911005}{{\ttfamily hep-lat/9911005}}].
+
+\bibitem{GoltermanShamir2003}
+M.~Golterman and Y.~Shamir, \emph{{Fermion number violation in regularizations that preserve fermion number symmetry}}, \href{https://doi.org/10.1103/PhysRevD.67.014501}{\emph{Phys. Rev. D} {\bfseries 67} (2003) 014501} [\href{https://arxiv.org/abs/hep-th/0202162}{{\ttfamily hep-th/0202162}}].
+
+\bibitem{FurmanShamir1995}
+V.~Furman and Y.~Shamir, \emph{{Axial symmetries in lattice QCD with Kaplan fermions}}, \href{https://doi.org/10.1016/0550-3213(95)00031-M}{\emph{Nucl. Phys. B} {\bfseries 439} (1995) 54} [\href{https://arxiv.org/abs/hep-lat/9405004}{{\ttfamily hep-lat/9405004}}].
+
+\bibitem{GockelerKronfeldSchierholzWiese}
+M.~G{\"o}ckeler, A.S.~Kronfeld, G.~Schierholz and U.-J.~Wiese, \emph{{Continuum gauge fields from lattice gauge fields}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 404} (1993) 839} [\href{https://arxiv.org/abs/hep-lat/9208006}{{\ttfamily hep-lat/9208006}}].
+
+\bibitem{Kronfeld1996}
+A.S.~Kronfeld, \emph{{Desperately seeking chiral fermions}}, \href{https://doi.org/10.1016/0920-5632(96)00127-2}{\emph{Nucl. Phys. B Proc. Suppl.} {\bfseries 47} (1996) 587} [\href{https://arxiv.org/abs/hep-lat/9601008}{{\ttfamily hep-lat/9601008}}].
+
+\bibitem{GoltermanJansenKaplan1993}
+M.F.L.~Golterman, K.~Jansen and D.B.~Kaplan, \emph{{Chern-Simons currents and chiral fermions on the lattice}}, \href{https://doi.org/10.1016/0370-2693(93)90692-B}{\emph{Phys. Lett. B} {\bfseries 301} (1993) 219} [\href{https://arxiv.org/abs/hep-lat/9209003}{{\ttfamily hep-lat/9209003}}].
+
+\bibitem{KaplanSchmaltz1996}
+D.B.~Kaplan and M.~Schmaltz, \emph{{Domain wall fermions and the eta invariant}}, \href{https://doi.org/10.1016/0370-2693(95)01485-3}{\emph{Phys. Lett. B} {\bfseries 368} (1996) 44} [\href{https://arxiv.org/abs/hep-th/9510197}{{\ttfamily hep-th/9510197}}].
+
+\bibitem{KaplanSen2024}
+D.B.~Kaplan and S.~Sen, \emph{{Weyl Fermions on a Finite Lattice}}, \href{https://doi.org/10.1103/PhysRevLett.132.141604}{\emph{Phys. Rev. Lett.} {\bfseries 132} (2024) 141604} [\href{https://arxiv.org/abs/2312.04012}{{\ttfamily 2312.04012}}].
+
+\bibitem{ClancyKaplan2025}
+M.~Clancy and D.B.~Kaplan, \emph{{Chiral edge states on spheres for lattice domain wall fermions}}, \href{https://doi.org/10.1103/PhysRevD.111.L031503}{\emph{Phys. Rev. D} {\bfseries 111} (2025) L031503} [\href{https://arxiv.org/abs/2410.23065}{{\ttfamily 2410.23065}}].
+
+\bibitem{LuscherNonabelian}
+M.~L{\"u}scher, \emph{{Weyl fermions on the lattice and the non-abelian gauge anomaly}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 568} (2000) 162} [\href{https://arxiv.org/abs/hep-lat/9904009}{{\ttfamily hep-lat/9904009}}].
+
+\bibitem{AdamsFamilies}
+D.H.~Adams, \emph{{Families index theory for Overlap lattice Dirac operator. I}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 624} (2002) 469} [\href{https://arxiv.org/abs/hep-lat/0109019}{{\ttfamily hep-lat/0109019}}].
+
+\bibitem{Kato1950}
+T.~Kato, \emph{{On the adiabatic theorem of quantum mechanics}}, \href{https://doi.org/10.1143/JPSJ.5.435}{\emph{J.\ Phys.\ Soc.\ Jpn.} {\bfseries 5} (1950) 435}.
+
+\bibitem{HernandezSundrumInterpolation}
+P.~Hern{\'a}ndez and R.~Sundrum, \emph{{Interpolation of non-abelian lattice gauge fields}}, {\emph{Nucl.\ Phys.\ B} {\bfseries 472} (1996) 334} [\href{https://arxiv.org/abs/hep-lat/9602017}{{\ttfamily hep-lat/9602017}}].
+
+\bibitem{vanRitbergenGroupTheory}
+T.~van Ritbergen, A.N.~Schellekens and J.A.M.~Vermaseren, \emph{{Group theory factors for Feynman diagrams}}, \href{https://doi.org/10.1142/S0217751X99000038}{\emph{Int.\ J.\ Mod.\ Phys.\ A} {\bfseries 14} (1999) 41} [\href{https://arxiv.org/abs/hep-ph/9802376}{{\ttfamily hep-ph/9802376}}].
+
+\bibitem{GarciaEtxebarriaMontero}
+I.~Garc{\'i}a-Etxebarria and M.~Montero, \emph{{Dai-Freed anomalies in particle physics}}, \href{https://doi.org/10.1007/JHEP08(2019)003}{\emph{JHEP} {\bfseries 08} (2019) 003} [\href{https://arxiv.org/abs/1808.00009}{{\ttfamily 1808.00009}}].
+
+\bibitem{Hirsch}
+M.W.~Hirsch, \emph{{Differential Topology}}, vol.~33 of \emph{Graduate Texts in Mathematics}, Springer, New York (1976), \href{https://doi.org/10.1007/978-1-4684-9449-5}{10.1007/978-1-4684-9449-5}.
+
+\bibitem{GeorgiGlashow}
+H.~Georgi and S.L.~Glashow, \emph{{Unity of all elementary-particle forces}}, \href{https://doi.org/10.1103/PhysRevLett.32.438}{\emph{Phys.\ Rev.\ Lett.} {\bfseries 32} (1974) 438}.
+
+\bibitem{ShiShrock2015}
+Y.-L.~Shi and R.~Shrock, \emph{{$A_k \bar F$ Chiral Gauge Theories}}, \href{https://doi.org/10.1103/PhysRevD.92.105032}{\emph{Phys. Rev. D} {\bfseries 92} (2015) 105032} [\href{https://arxiv.org/abs/1510.07663}{{\ttfamily 1510.07663}}].
+
+\bibitem{SaganDragonsOfEden}
+C.~Sagan, \emph{The Dragons of Eden: Speculations on the Evolution of Human Intelligence}, Random House, New York (1977).
+
+\bibitem{CreutzPositivity}
+M.~Creutz, \emph{Positivity and topology in lattice gauge theory}, \href{https://doi.org/10.1103/PhysRevD.70.091501}{\emph{Phys. Rev. D} {\bfseries 70} (2004) 091501} [\href{https://arxiv.org/abs/hep-lat/0409017}{{\ttfamily hep-lat/0409017}}].
+
+\bibitem{BietenholzTopology}
+W.~Bietenholz, K.~Jansen, K.-I.~Nagai, S.~Necco, L.~Scorzato and S.~Shcheredin, \emph{Exploring topology conserving gauge actions for lattice {QCD}}, \href{https://doi.org/10.1088/1126-6708/2006/03/017}{\emph{JHEP} {\bfseries 03} (2006) 017} [\href{https://arxiv.org/abs/hep-lat/0511016}{{\ttfamily hep-lat/0511016}}].
+
+\bibitem{PhillipsStone1986}
+A.~Phillips and D.~Stone, \emph{{Lattice gauge fields, principal bundles and the calculation of topological charge}}, \href{https://doi.org/10.1007/BF01211167}{\emph{Commun.\ Math.\ Phys.} {\bfseries 103} (1986) 599}.
+
+\bibitem{ManuilovYou}
+V.~Manuilov and C.~You, \emph{{Vector bundles from generalized pairs of cocycles}}, \href{https://doi.org/10.1142/S0129167X1450061X}{\emph{Int.\ J.\ Math.} {\bfseries 25} (2014) 1450061} [\href{https://arxiv.org/abs/1312.0247}{{\ttfamily 1312.0247}}].
+
+\bibitem{ScoccolaPerea}
+L.~Scoccola and J.A.~Perea, \emph{{Approximate and discrete Euclidean vector bundles}}, \href{https://doi.org/10.1017/fms.2023.16}{\emph{Forum Math.\ Sigma} {\bfseries 11} (2023) e20} [\href{https://arxiv.org/abs/2104.07563}{{\ttfamily 2104.07563}}].
+
+\bibitem{LeupoldWeigert}
+S.~Leupold and H.~Weigert, \emph{{Radial propagators and Wilson loops}}, {\emph{Phys.\ Rev.\ D} {\bfseries 54} (1996) 7695} [\href{https://arxiv.org/abs/hep-th/9604015}{{\ttfamily hep-th/9604015}}].
+
+\end{thebibliography}\endgroup

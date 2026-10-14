@@ -1,0 +1,991 @@
+{
+  "3_to_9_abs_residual_increases_case_ids": [],
+  "9_to_27_abs_residual_increases_case_ids": [],
+  "N27_absolute_residual_to_arithmetic_proxy": {
+    "max": 3182.8115939219965,
+    "median": 862.7376238540005,
+    "min": 63.73137722100659
+  },
+  "N27_absolute_residual_to_sum_abs_components": {
+    "max": 3.072443840588085e-05,
+    "median": 1.0475052135465332e-08,
+    "min": 4.3996030423698566e-10
+  },
+  "N27_completed_cases": 42,
+  "N27_residual_at_or_below_100_times_proxy_count": 2,
+  "N27_residual_at_or_below_10_times_proxy_count": 0,
+  "N27_residual_at_or_below_proxy_case_ids": [],
+  "calibration_count": 42,
+  "calibration_maxima": {
+    "clifford": 0.0,
+    "constant_gauge_covariance": 1.66e-17,
+    "link_derivative": 9.28e-11,
+    "point_dirac_log": 1.78e-14,
+    "point_dirac_phase": 9.95e-14,
+    "vectorlike_pair": 2.44e-18
+  },
+  "cases": [
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 69.49913688495313,
+      "N27_absolute_residual_to_sum_abs_components": 4.3996030423698566e-10,
+      "N27_arithmetic_proxy": 2.8399860786169915e-14,
+      "case_id": 0,
+      "chiral_signed_by_N": {
+        "27": 1.9737658122916357e-12,
+        "3": -1.1181879087126278e-05,
+        "9": 4.7410445558367156e-07
+      },
+      "elapsed_seconds": 745.8865626610022,
+      "max_accumulated_background_subtracted_logabs_difference": 2.01201545e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.163145460975949e-06,
+      "ratio_abs_chiral_9_to_3": 0.0423993545172125,
+      "seed": 1164141600026475572
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 550.2004961575431,
+      "N27_absolute_residual_to_sum_abs_components": 3.8204888968476345e-09,
+      "N27_arithmetic_proxy": 2.738741312430569e-14,
+      "case_id": 1,
+      "chiral_signed_by_N": {
+        "27": 1.5068568289464598e-11,
+        "3": 4.627805159191518e-05,
+        "9": 4.255878482843226e-06
+      },
+      "elapsed_seconds": 760.6734715130005,
+      "max_accumulated_background_subtracted_logabs_difference": 2.00975103e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 3.5406481529514287e-06,
+      "ratio_abs_chiral_9_to_3": 0.09196321661015504,
+      "seed": 6664649430764747547
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 333.52595090870136,
+      "N27_absolute_residual_to_sum_abs_components": 4.472316429152733e-09,
+      "N27_arithmetic_proxy": 2.6019907283213065e-14,
+      "case_id": 2,
+      "chiral_signed_by_N": {
+        "27": -8.678314319189881e-12,
+        "3": -3.635104094996946e-05,
+        "9": -2.4033533302095738e-06
+      },
+      "elapsed_seconds": 1033.4589256990002,
+      "max_accumulated_background_subtracted_logabs_difference": 2.05440598e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 3.6109190480257545e-06,
+      "ratio_abs_chiral_9_to_3": 0.06611511713013525,
+      "seed": 1593989769185688903
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1570.3510795871232,
+      "N27_absolute_residual_to_sum_abs_components": 1.2226271511022943e-08,
+      "N27_arithmetic_proxy": 2.6390916910326698e-14,
+      "case_id": 3,
+      "chiral_signed_by_N": {
+        "27": -4.1443004861425596e-11,
+        "3": -0.00010643077510833301,
+        "9": -9.102686378348545e-06
+      },
+      "elapsed_seconds": 1056.7409811500002,
+      "max_accumulated_background_subtracted_logabs_difference": 2.02550465e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.552832333101252e-06,
+      "ratio_abs_chiral_9_to_3": 0.0855268259493851,
+      "seed": 2495606131312476643
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1103.591388070629,
+      "N27_absolute_residual_to_sum_abs_components": 2.0151670674381654e-08,
+      "N27_arithmetic_proxy": 2.7359739776045973e-14,
+      "case_id": 4,
+      "chiral_signed_by_N": {
+        "27": -3.019397319669777e-11,
+        "3": -7.886532526727385e-05,
+        "9": -7.174507704970577e-06
+      },
+      "elapsed_seconds": 1004.4966087009998,
+      "max_accumulated_background_subtracted_logabs_difference": 2.0328309e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.208508017320695e-06,
+      "ratio_abs_chiral_9_to_3": 0.09097163652918741,
+      "seed": 7016283539186371404
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 200.5888250351603,
+      "N27_absolute_residual_to_sum_abs_components": 5.967313971845686e-09,
+      "N27_arithmetic_proxy": 2.8091525892553358e-14,
+      "case_id": 5,
+      "chiral_signed_by_N": {
+        "27": 5.634846172232061e-12,
+        "3": 1.8922222038259536e-05,
+        "9": 1.4470242227336638e-06
+      },
+      "elapsed_seconds": 1147.5823654689993,
+      "max_accumulated_background_subtracted_logabs_difference": 2.04342931e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 3.89409249942404e-06,
+      "ratio_abs_chiral_9_to_3": 0.0764722145109529,
+      "seed": 7243893504166697543
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1074.074249574393,
+      "N27_absolute_residual_to_sum_abs_components": 1.7705666450015508e-08,
+      "N27_arithmetic_proxy": 2.6428892722045047e-14,
+      "case_id": 6,
+      "chiral_signed_by_N": {
+        "27": -2.8386593117512673e-11,
+        "3": -6.849877083799122e-05,
+        "9": -6.013505988902542e-06
+      },
+      "elapsed_seconds": 1176.2510993600008,
+      "max_accumulated_background_subtracted_logabs_difference": 2.04773499e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.7204730767538815e-06,
+      "ratio_abs_chiral_9_to_3": 0.08778998389803651,
+      "seed": 1337069511841408523
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 346.95592519183543,
+      "N27_absolute_residual_to_sum_abs_components": 3.70903038626447e-09,
+      "N27_arithmetic_proxy": 2.6743821865471102e-14,
+      "case_id": 7,
+      "chiral_signed_by_N": {
+        "27": 9.278927458500165e-12,
+        "3": 1.0175629873596684e-05,
+        "9": 7.636823644755415e-07
+      },
+      "elapsed_seconds": 1293.4192825519967,
+      "max_accumulated_background_subtracted_logabs_difference": 2.07541661e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 1.21502445128119e-05,
+      "ratio_abs_chiral_9_to_3": 0.0750501319291412,
+      "seed": 7157811454456697004
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1540.1799636073831,
+      "N27_absolute_residual_to_sum_abs_components": 4.81605205662975e-07,
+      "N27_arithmetic_proxy": 2.6497555323225494e-14,
+      "case_id": 8,
+      "chiral_signed_by_N": {
+        "27": 4.081100379341006e-11,
+        "3": 9.932953780793413e-05,
+        "9": 8.343042922549014e-06
+      },
+      "elapsed_seconds": 1130.2412211169976,
+      "max_accumulated_background_subtracted_logabs_difference": 2.02752181e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.891620979571954e-06,
+      "ratio_abs_chiral_9_to_3": 0.08399357438550971,
+      "seed": 2392609304138527070
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1269.9376634646374,
+      "N27_absolute_residual_to_sum_abs_components": 1.7083614219950222e-08,
+      "N27_arithmetic_proxy": 2.7432641625639476e-14,
+      "case_id": 9,
+      "chiral_signed_by_N": {
+        "27": -3.4837744808727346e-11,
+        "3": -8.911849362735603e-05,
+        "9": -7.282491174910717e-06
+      },
+      "elapsed_seconds": 955.459187995999,
+      "max_accumulated_background_subtracted_logabs_difference": 2.03856277e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.783767528445299e-06,
+      "ratio_abs_chiral_9_to_3": 0.08171694648881796,
+      "seed": 5940614011899815899
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 851.0132791443948,
+      "N27_absolute_residual_to_sum_abs_components": 1.2263089963578146e-07,
+      "N27_arithmetic_proxy": 2.4744861217186003e-14,
+      "case_id": 10,
+      "chiral_signed_by_N": {
+        "27": 2.1058205486410422e-11,
+        "3": 5.4637802517701705e-05,
+        "9": 4.644869627699942e-06
+      },
+      "elapsed_seconds": 921.7660177860016,
+      "max_accumulated_background_subtracted_logabs_difference": 2.03197248e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.533648341996216e-06,
+      "ratio_abs_chiral_9_to_3": 0.08501201391097463,
+      "seed": 3254784575886785930
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 120.09759584894444,
+      "N27_absolute_residual_to_sum_abs_components": 1.5242276996968715e-09,
+      "N27_arithmetic_proxy": 2.644814638864139e-14,
+      "case_id": 11,
+      "chiral_signed_by_N": {
+        "27": -3.176358795936773e-12,
+        "3": -1.8576248616042255e-06,
+        "9": -1.72484572634086e-07
+      },
+      "elapsed_seconds": 662.9789028500018,
+      "max_accumulated_background_subtracted_logabs_difference": 2.00967532e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 1.84153211352716e-05,
+      "ratio_abs_chiral_9_to_3": 0.09285220939879654,
+      "seed": 4490851783853880098
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 431.4845507670819,
+      "N27_absolute_residual_to_sum_abs_components": 2.2071406347980464e-08,
+      "N27_arithmetic_proxy": 2.6120747536514536e-14,
+      "case_id": 12,
+      "chiral_signed_by_N": {
+        "27": -1.1270699016493335e-11,
+        "3": -2.950180768272029e-05,
+        "9": -2.766451035812126e-06
+      },
+      "elapsed_seconds": 503.41840752200005,
+      "max_accumulated_background_subtracted_logabs_difference": 2.04645578e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.074064160396275e-06,
+      "ratio_abs_chiral_9_to_3": 0.09377225509582869,
+      "seed": 8802162339289411861
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 440.6343336211053,
+      "N27_absolute_residual_to_sum_abs_components": 5.7437376417747186e-09,
+      "N27_arithmetic_proxy": 2.8263154473521408e-14,
+      "case_id": 13,
+      "chiral_signed_by_N": {
+        "27": -1.2453716237470467e-11,
+        "3": -3.0289434498084414e-05,
+        "9": -2.5414992936223088e-06
+      },
+      "elapsed_seconds": 691.894697521002,
+      "max_accumulated_background_subtracted_logabs_difference": 2.04636108e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.900145464813656e-06,
+      "ratio_abs_chiral_9_to_3": 0.08390712259032237,
+      "seed": 6822309263043902880
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 809.4074310593925,
+      "N27_absolute_residual_to_sum_abs_components": 8.957731463391594e-09,
+      "N27_arithmetic_proxy": 2.8704763239437044e-14,
+      "case_id": 14,
+      "chiral_signed_by_N": {
+        "27": -2.3233848672800824e-11,
+        "3": -5.3064751265317655e-05,
+        "9": -4.642055155961354e-06
+      },
+      "elapsed_seconds": 663.8977968730032,
+      "max_accumulated_background_subtracted_logabs_difference": 2.01816486e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 5.0050781156625814e-06,
+      "ratio_abs_chiral_9_to_3": 0.08747907123415338,
+      "seed": 928691950208323968
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 882.2721396771575,
+      "N27_absolute_residual_to_sum_abs_components": 2.8641151378712103e-08,
+      "N27_arithmetic_proxy": 2.6842716947205117e-14,
+      "case_id": 15,
+      "chiral_signed_by_N": {
+        "27": 2.3682581315758957e-11,
+        "3": 6.053792845540165e-05,
+        "9": 4.8736391700597715e-06
+      },
+      "elapsed_seconds": 596.8764283290002,
+      "max_accumulated_background_subtracted_logabs_difference": 2.03186279e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 1.9e-09,
+      "ratio_abs_chiral_27_to_9": 4.85932185157411e-06,
+      "ratio_abs_chiral_9_to_3": 0.08050554907325885,
+      "seed": 5134974232554679310
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 456.030353935811,
+      "N27_absolute_residual_to_sum_abs_components": 3.741095168027883e-09,
+      "N27_arithmetic_proxy": 2.7034914703939607e-14,
+      "case_id": 16,
+      "chiral_signed_by_N": {
+        "27": -1.232874172106204e-11,
+        "3": -3.421031642025811e-05,
+        "9": -3.1888048692012297e-06
+      },
+      "elapsed_seconds": 544.2702461320005,
+      "max_accumulated_background_subtracted_logabs_difference": 2.03153783e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 3.866257807160929e-06,
+      "ratio_abs_chiral_9_to_3": 0.09321179114592856,
+      "seed": 5115402907894214087
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 861.8249284198375,
+      "N27_absolute_residual_to_sum_abs_components": 1.0746898751140308e-08,
+      "N27_arithmetic_proxy": 2.7366849149789515e-14,
+      "case_id": 17,
+      "chiral_signed_by_N": {
+        "27": 2.358543280959384e-11,
+        "3": 5.4517734100445085e-05,
+        "9": 4.294832539411263e-06
+      },
+      "elapsed_seconds": 564.0322714209979,
+      "max_accumulated_background_subtracted_logabs_difference": 2.07890894e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 5.491583802898853e-06,
+      "ratio_abs_chiral_9_to_3": 0.07877863249962547,
+      "seed": 332010256436487938
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1117.5808665633758,
+      "N27_absolute_residual_to_sum_abs_components": 7.402833881796731e-09,
+      "N27_arithmetic_proxy": 2.6137104632562888e-14,
+      "case_id": 18,
+      "chiral_signed_by_N": {
+        "27": 2.921032804471726e-11,
+        "3": 6.829779642128671e-05,
+        "9": 5.907840087302278e-06
+      },
+      "elapsed_seconds": 668.7624654550018,
+      "max_accumulated_background_subtracted_logabs_difference": 2.00780936e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.944332888681098e-06,
+      "ratio_abs_chiral_9_to_3": 0.08650118154413768,
+      "seed": 5325474946323919835
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1030.8210072071624,
+      "N27_absolute_residual_to_sum_abs_components": 9.865344492948778e-09,
+      "N27_arithmetic_proxy": 2.6826161642843075e-14,
+      "case_id": 19,
+      "chiral_signed_by_N": {
+        "27": -2.7652970964177643e-11,
+        "3": -7.475488634046684e-05,
+        "9": -6.4677854493914344e-06
+      },
+      "elapsed_seconds": 588.9193978309995,
+      "max_accumulated_background_subtracted_logabs_difference": 2.08930651e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.275492930393905e-06,
+      "ratio_abs_chiral_9_to_3": 0.08651990212297664,
+      "seed": 8303766951926398993
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1806.0831119122286,
+      "N27_absolute_residual_to_sum_abs_components": 7.895291938170998e-09,
+      "N27_arithmetic_proxy": 2.5823297528465787e-14,
+      "case_id": 20,
+      "chiral_signed_by_N": {
+        "27": -4.663902156004685e-11,
+        "3": -0.00012178488864496726,
+        "9": -1.0310299548049767e-05
+      },
+      "elapsed_seconds": 619.1761113100001,
+      "max_accumulated_background_subtracted_logabs_difference": 1.98326766e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.523537007115259e-06,
+      "ratio_abs_chiral_9_to_3": 0.084659925075818,
+      "seed": 6782882590914152306
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1169.794988226904,
+      "N27_absolute_residual_to_sum_abs_components": 4.836034964891289e-07,
+      "N27_arithmetic_proxy": 2.9575312983043583e-14,
+      "case_id": 21,
+      "chiral_signed_by_N": {
+        "27": -3.459705290280647e-11,
+        "3": -8.518983143902622e-05,
+        "9": -7.142335800023643e-06
+      },
+      "elapsed_seconds": 784.9117043749975,
+      "max_accumulated_background_subtracted_logabs_difference": 1.99473971e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.8439409559393645e-06,
+      "ratio_abs_chiral_9_to_3": 0.08384023866904466,
+      "seed": 7885977585373532690
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 173.53412814918104,
+      "N27_absolute_residual_to_sum_abs_components": 2.0099606595346158e-08,
+      "N27_arithmetic_proxy": 2.6250202788123352e-14,
+      "case_id": 22,
+      "chiral_signed_by_N": {
+        "27": -4.555306054576187e-12,
+        "3": -1.4598771156220843e-05,
+        "9": -1.373397985016468e-06
+      },
+      "elapsed_seconds": 1164.979854784,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06397877e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 3.316814284186944e-06,
+      "ratio_abs_chiral_9_to_3": 0.09407627329175815,
+      "seed": 697466630676556169
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1301.1775449567945,
+      "N27_absolute_residual_to_sum_abs_components": 3.5256293081946976e-08,
+      "N27_arithmetic_proxy": 2.579392619152416e-14,
+      "case_id": 23,
+      "chiral_signed_by_N": {
+        "27": 3.3562477556684164e-11,
+        "3": 7.505214681268453e-05,
+        "9": 6.469673882914594e-06
+      },
+      "elapsed_seconds": 1179.9461508860004,
+      "max_accumulated_background_subtracted_logabs_difference": 2.05019013e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 5.187661412937283e-06,
+      "ratio_abs_chiral_9_to_3": 0.08620238271213793,
+      "seed": 7555735832950053814
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 581.7079566295783,
+      "N27_absolute_residual_to_sum_abs_components": 7.122243043993267e-09,
+      "N27_arithmetic_proxy": 2.6403220936059984e-14,
+      "case_id": 24,
+      "chiral_signed_by_N": {
+        "27": -1.5358963699154756e-11,
+        "3": -4.082535342113866e-05,
+        "9": -3.2481344981205403e-06
+      },
+      "elapsed_seconds": 628.6885715360004,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06377926e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.728549174315865e-06,
+      "ratio_abs_chiral_9_to_3": 0.07956169943255685,
+      "seed": 4285629993110971281
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1559.2028175797539,
+      "N27_absolute_residual_to_sum_abs_components": 1.1499785868199511e-08,
+      "N27_arithmetic_proxy": 2.5664754906991794e-14,
+      "case_id": 25,
+      "chiral_signed_by_N": {
+        "27": 4.001655816347542e-11,
+        "3": 0.00011042763624927549,
+        "9": 9.239558379128522e-06
+      },
+      "elapsed_seconds": 653.2270727870018,
+      "max_accumulated_background_subtracted_logabs_difference": 2.01056161e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.331003336032798e-06,
+      "ratio_abs_chiral_9_to_3": 0.08367070683530223,
+      "seed": 1160415760369264540
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 3182.8115939219965,
+      "N27_absolute_residual_to_sum_abs_components": 1.3849236236232367e-08,
+      "N27_arithmetic_proxy": 2.4687404215073914e-14,
+      "case_id": 26,
+      "chiral_signed_by_N": {
+        "27": 7.857535635957602e-11,
+        "3": 0.00020234970191710462,
+        "9": 1.699601561832787e-05
+      },
+      "elapsed_seconds": 532.3192450399983,
+      "max_accumulated_background_subtracted_logabs_difference": 2.02494787e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.623163341580086e-06,
+      "ratio_abs_chiral_9_to_3": 0.0839932822104701,
+      "seed": 6679433082415184849
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 174.0157609134304,
+      "N27_absolute_residual_to_sum_abs_components": 2.935682192380341e-09,
+      "N27_arithmetic_proxy": 2.4758305339179764e-14,
+      "case_id": 27,
+      "chiral_signed_by_N": {
+        "27": 4.308335342524413e-12,
+        "3": 6.78938239420191e-06,
+        "9": 6.907740234057823e-07
+      },
+      "elapsed_seconds": 905.7689678649986,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06659567e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 6.236967802122405e-06,
+      "ratio_abs_chiral_9_to_3": 0.10174327844542959,
+      "seed": 2957681741365748798
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 628.7240899847837,
+      "N27_absolute_residual_to_sum_abs_components": 2.1128603070027535e-08,
+      "N27_arithmetic_proxy": 2.7879890247369934e-14,
+      "case_id": 28,
+      "chiral_signed_by_N": {
+        "27": -1.7528758624653308e-11,
+        "3": -4.7409889170470807e-05,
+        "9": -3.7153561088454605e-06
+      },
+      "elapsed_seconds": 526.026807682003,
+      "max_accumulated_background_subtracted_logabs_difference": 1.98231975e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 1.9e-09,
+      "ratio_abs_chiral_27_to_9": 4.717921542680961e-06,
+      "ratio_abs_chiral_9_to_3": 0.07836669044903749,
+      "seed": 8661425006414747210
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 2706.525404160316,
+      "N27_absolute_residual_to_sum_abs_components": 2.5693305990858885e-08,
+      "N27_arithmetic_proxy": 2.5617902331383277e-14,
+      "case_id": 29,
+      "chiral_signed_by_N": {
+        "27": -6.933550346118663e-11,
+        "3": -0.0001755804027791164,
+        "9": -1.4891892160509854e-05
+      },
+      "elapsed_seconds": 700.2322108339977,
+      "max_accumulated_background_subtracted_logabs_difference": 2.0266715e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.655923015951573e-06,
+      "ratio_abs_chiral_9_to_3": 0.0848152295176367,
+      "seed": 71713069469072582
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 243.95408603594942,
+      "N27_absolute_residual_to_sum_abs_components": 5.902811000844571e-09,
+      "N27_arithmetic_proxy": 2.6836078979105215e-14,
+      "case_id": 30,
+      "chiral_signed_by_N": {
+        "27": 6.546771120136167e-12,
+        "3": 3.921538593115573e-07,
+        "9": 3.506088764423881e-07
+      },
+      "elapsed_seconds": 1253.7310321179975,
+      "max_accumulated_background_subtracted_logabs_difference": 2.0272557e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 1.8672576651697892e-05,
+      "ratio_abs_chiral_9_to_3": 0.8940594823110929,
+      "seed": 865980255907066395
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 63.73137722100659,
+      "N27_absolute_residual_to_sum_abs_components": 2.137241067319832e-09,
+      "N27_arithmetic_proxy": 2.3913591244161285e-14,
+      "case_id": 31,
+      "chiral_signed_by_N": {
+        "27": -1.5240461042906031e-12,
+        "3": -2.021387943618308e-05,
+        "9": -2.27762881986046e-06
+      },
+      "elapsed_seconds": 1132.1254955580007,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06241024e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 6.691371706404622e-07,
+      "ratio_abs_chiral_9_to_3": 0.11267648187232569,
+      "seed": 7667530343574833925
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1324.8855083590765,
+      "N27_absolute_residual_to_sum_abs_components": 3.072443840588085e-05,
+      "N27_arithmetic_proxy": 2.5809818398818975e-14,
+      "case_id": 32,
+      "chiral_signed_by_N": {
+        "27": -3.4195054369974724e-11,
+        "3": -7.716581795494744e-05,
+        "9": -6.672695213480137e-06
+      },
+      "elapsed_seconds": 813.7094550430047,
+      "max_accumulated_background_subtracted_logabs_difference": 2.0298e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 5.1246240500980905e-06,
+      "ratio_abs_chiral_9_to_3": 0.0864721633272381,
+      "seed": 8876627631036194918
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 700.5046794390395,
+      "N27_absolute_residual_to_sum_abs_components": 4.954587106242977e-09,
+      "N27_arithmetic_proxy": 3.2672687885494186e-14,
+      "case_id": 33,
+      "chiral_signed_by_N": {
+        "27": -2.2887370753639892e-11,
+        "3": -4.7703452029162406e-05,
+        "9": -4.091180905738712e-06
+      },
+      "elapsed_seconds": 885.914222929001,
+      "max_accumulated_background_subtracted_logabs_difference": 2.01434414e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 5.594318921838853e-06,
+      "ratio_abs_chiral_9_to_3": 0.08576278511747248,
+      "seed": 7391927218868177240
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1311.5728287887532,
+      "N27_absolute_residual_to_sum_abs_components": 7.68772636725656e-07,
+      "N27_arithmetic_proxy": 2.556495002271903e-14,
+      "case_id": 34,
+      "chiral_signed_by_N": {
+        "27": -3.3530293819140695e-11,
+        "3": -7.469305317663884e-05,
+        "9": -6.11248097078535e-06
+      },
+      "elapsed_seconds": 763.1770141200032,
+      "max_accumulated_background_subtracted_logabs_difference": 2.0303641e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 5.485545718571394e-06,
+      "ratio_abs_chiral_9_to_3": 0.08183466481588549,
+      "seed": 8531899515045531333
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1326.0723005170585,
+      "N27_absolute_residual_to_sum_abs_components": 1.268377663680262e-08,
+      "N27_arithmetic_proxy": 2.6118355970070875e-14,
+      "case_id": 35,
+      "chiral_signed_by_N": {
+        "27": 3.463482838695533e-11,
+        "3": 0.00010298961421395483,
+        "9": 7.850493438318288e-06
+      },
+      "elapsed_seconds": 645.1590190579955,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06073114e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.411802730501322e-06,
+      "ratio_abs_chiral_9_to_3": 0.07622606898992118,
+      "seed": 988090661788943087
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 318.31872238890475,
+      "N27_absolute_residual_to_sum_abs_components": 8.215291891534405e-09,
+      "N27_arithmetic_proxy": 2.5877121457722066e-14,
+      "case_id": 36,
+      "chiral_signed_by_N": {
+        "27": -8.2371722415246e-12,
+        "3": -7.622193198293261e-06,
+        "9": -1.0615990815336397e-06
+      },
+      "elapsed_seconds": 837.0126211929964,
+      "max_accumulated_background_subtracted_logabs_difference": 2.01688511e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 7.759211914185875e-06,
+      "ratio_abs_chiral_9_to_3": 0.13927737777249596,
+      "seed": 8616580540396426549
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 630.8001218632122,
+      "N27_absolute_residual_to_sum_abs_components": 1.4384505004803023e-08,
+      "N27_arithmetic_proxy": 2.692456139165357e-14,
+      "case_id": 37,
+      "chiral_signed_by_N": {
+        "27": 1.698401660696861e-11,
+        "3": 3.717783721402774e-05,
+        "9": 3.3612778618031176e-06
+      },
+      "elapsed_seconds": 639.1409889319984,
+      "max_accumulated_background_subtracted_logabs_difference": 2.05465589e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 1.9e-09,
+      "ratio_abs_chiral_27_to_9": 5.052845169383806e-06,
+      "ratio_abs_chiral_9_to_3": 0.09041079615397472,
+      "seed": 5959531919027021312
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 987.1725836509011,
+      "N27_absolute_residual_to_sum_abs_components": 1.0203205519790355e-08,
+      "N27_arithmetic_proxy": 2.7225079373014587e-14,
+      "case_id": 38,
+      "chiral_signed_by_N": {
+        "27": -2.6875851944759662e-11,
+        "3": -6.531496651561539e-05,
+        "9": -5.483620790133499e-06
+      },
+      "elapsed_seconds": 726.1881694660042,
+      "max_accumulated_background_subtracted_logabs_difference": 2.00746897e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.901114240633946e-06,
+      "ratio_abs_chiral_9_to_3": 0.08395657354922603,
+      "seed": 6876102475039370081
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 863.6503192881634,
+      "N27_absolute_residual_to_sum_abs_components": 8.860600421567394e-09,
+      "N27_arithmetic_proxy": 2.53026351605821e-14,
+      "case_id": 39,
+      "chiral_signed_by_N": {
+        "27": -2.185262893526864e-11,
+        "3": -5.8684950437596704e-05,
+        "9": -4.563696044475429e-06
+      },
+      "elapsed_seconds": 750.003292274996,
+      "max_accumulated_background_subtracted_logabs_difference": 2.04964168e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+      "ratio_abs_chiral_27_to_9": 4.788362047407229e-06,
+      "ratio_abs_chiral_9_to_3": 0.07776603729653458,
+      "seed": 1170531885201000782
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 1896.752233648556,
+      "N27_absolute_residual_to_sum_abs_components": 1.852578209172065e-08,
+      "N27_arithmetic_proxy": 2.5586287297506588e-14,
+      "case_id": 40,
+      "chiral_signed_by_N": {
+        "27": -4.8530847582319296e-11,
+        "3": -0.00013832621173513773,
+        "9": -1.0781220158800291e-05
+      },
+      "elapsed_seconds": 860.6812767830052,
+      "max_accumulated_background_subtracted_logabs_difference": 2.06511675e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.501424409064261e-06,
+      "ratio_abs_chiral_9_to_3": 0.07794054375929704,
+      "seed": 5388450379317525820
+    },
+    {
+      "N27_abs_residual_to_arithmetic_proxy": 865.6496772450386,
+      "N27_absolute_residual_to_sum_abs_components": 4.969302861212657e-09,
+      "N27_arithmetic_proxy": 2.93944469501668e-14,
+      "case_id": 41,
+      "chiral_signed_by_N": {
+        "27": 2.5445293515208298e-11,
+        "3": 6.976585429552639e-05,
+        "9": 5.377364635808509e-06
+      },
+      "elapsed_seconds": 899.4259216850041,
+      "max_accumulated_background_subtracted_logabs_difference": 1.99546923e-09,
+      "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+      "ratio_abs_chiral_27_to_9": 4.73192636886944e-06,
+      "ratio_abs_chiral_9_to_3": 0.07707731368170637,
+      "seed": 2914271658982977436
+    }
+  ],
+  "closest_to_proxy_case": {
+    "N27_abs_residual_to_arithmetic_proxy": 63.73137722100659,
+    "N27_absolute_residual_to_sum_abs_components": 2.137241067319832e-09,
+    "N27_arithmetic_proxy": 2.3913591244161285e-14,
+    "case_id": 31,
+    "chiral_signed_by_N": {
+      "27": -1.5240461042906031e-12,
+      "3": -2.021387943618308e-05,
+      "9": -2.27762881986046e-06
+    },
+    "elapsed_seconds": 1132.1254955580007,
+    "max_accumulated_background_subtracted_logabs_difference": 2.06241024e-09,
+    "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+    "ratio_abs_chiral_27_to_9": 6.691371706404622e-07,
+    "ratio_abs_chiral_9_to_3": 0.11267648187232569,
+    "seed": 7667530343574833925
+  },
+  "completed_cases": 42,
+  "completed_four_momentum_points": 22599486,
+  "completed_representation_point_eigensystems": 45198972,
+  "finite_and_consistency_errors": [],
+  "largest_residual_case": {
+    "N27_abs_residual_to_arithmetic_proxy": 3182.8115939219965,
+    "N27_absolute_residual_to_sum_abs_components": 1.3849236236232367e-08,
+    "N27_arithmetic_proxy": 2.4687404215073914e-14,
+    "case_id": 26,
+    "chiral_signed_by_N": {
+      "27": 7.857535635957602e-11,
+      "3": 0.00020234970191710462,
+      "9": 1.699601561832787e-05
+    },
+    "elapsed_seconds": 532.3192450399983,
+    "max_accumulated_background_subtracted_logabs_difference": 2.02494787e-09,
+    "max_accumulated_dirac_weyl_logabs_difference": 2e-09,
+    "ratio_abs_chiral_27_to_9": 4.623163341580086e-06,
+    "ratio_abs_chiral_9_to_3": 0.0839932822104701,
+    "seed": 6679433082415184849
+  },
+  "manifest_finished_states": {
+    "completed": 42
+  },
+  "manifest_sha256_at_snapshot": "9cd52c0d99a9642063e14c9fe8598acb2a897c0acabaffd4066d1f6e5a94026d",
+  "max_accumulated_background_subtracted_logabs_difference": 2.08930651e-09,
+  "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+  "nonempty_completed_stderr_case_ids": [],
+  "observed_utc": "2026-10-14T07:26:16.681676+00:00",
+  "per_level": {
+    "27": {
+      "absolute_10_component": {
+        "max": 0.0029535970483112886,
+        "median": 0.0010600980038795891,
+        "min": 5.564968274126558e-07
+      },
+      "absolute_anti5_component": {
+        "max": 0.002953597001672267,
+        "median": 0.0010600980131472504,
+        "min": 5.564626323582858e-07
+      },
+      "absolute_chiral_sum": {
+        "max": 7.857535635957602e-11,
+        "median": 2.3409640741197332e-11,
+        "min": 1.5240461042906031e-12
+      },
+      "absolute_vectorlike_sum_max": 2.391581644704756e-17,
+      "count": 42,
+      "minimum_wilson_gap_10": 0.9988388067857921,
+      "minimum_wilson_gap_anti5": 0.9989792582708577,
+      "plaquette_Frobenius_10": {
+        "max": 0.00375308991,
+        "median": 0.0028381940600000002,
+        "min": 0.00223498648
+      },
+      "plaquette_Frobenius_anti5": {
+        "max": 0.00216684748,
+        "median": 0.001638632125,
+        "min": 0.00129037006
+      },
+      "point_dirac_phase_max": 1.1368683772161603e-13,
+      "point_dirac_weyl_logabs_error_max": 3.552713678800501e-14,
+      "point_dirac_weyl_phase_error_max": 2.4158453015843406e-13,
+      "point_vectorlike_error_max": 4.5020028621234515e-19,
+      "signed_chiral_sum": {
+        "max": 7.857535635957602e-11,
+        "median": -8.457743280357241e-12,
+        "min": -6.933550346118663e-11
+      },
+      "sum_arithmetic_scale_proxy_not_error_bound": {
+        "max": 3.2672687885494186e-14,
+        "median": 2.643851955534322e-14,
+        "min": 2.3913591244161285e-14
+      }
+    },
+    "3": {
+      "absolute_10_component": {
+        "max": 0.0004513697458933745,
+        "median": 0.00011653269057161362,
+        "min": 3.296213729454322e-05
+      },
+      "absolute_anti5_component": {
+        "max": 0.0002501141618108599,
+        "median": 9.34387277048408e-05,
+        "min": 6.501085444673516e-06
+      },
+      "absolute_chiral_sum": {
+        "max": 0.00020234970191710462,
+        "median": 5.6661376477649204e-05,
+        "min": 3.921538593115573e-07
+      },
+      "absolute_vectorlike_sum_max": 1.803825813477242e-17,
+      "count": 42,
+      "minimum_wilson_gap_10": 1.3865442402605066,
+      "minimum_wilson_gap_anti5": 1.5549824612933356,
+      "plaquette_Frobenius_10": {
+        "max": 0.29741307,
+        "median": 0.226211137,
+        "min": 0.179140924
+      },
+      "plaquette_Frobenius_anti5": {
+        "max": 0.171718235,
+        "median": 0.13061356400000002,
+        "min": 0.103434377
+      },
+      "point_dirac_phase_max": 1.4598013956061316e-16,
+      "point_dirac_weyl_logabs_error_max": 2.842170943040401e-14,
+      "point_dirac_weyl_phase_error_max": 1.4212199413792463e-13,
+      "point_vectorlike_error_max": 3.373401356668857e-18,
+      "signed_chiral_sum": {
+        "max": 0.00020234970191710462,
+        "median": -2.4857843559451684e-05,
+        "min": -0.0001755804027791164
+      },
+      "sum_arithmetic_scale_proxy_not_error_bound": {
+        "max": 2.4190003391223924e-16,
+        "median": 2.0165571247870725e-16,
+        "min": 1.890354009873802e-16
+      }
+    },
+    "9": {
+      "absolute_10_component": {
+        "max": 0.0028187393174872455,
+        "median": 0.0010153009451355148,
+        "min": 2.9624559821860463e-06
+      },
+      "absolute_anti5_component": {
+        "max": 0.0028084290179391956,
+        "median": 0.0010175346036915374,
+        "min": 9.635151195666183e-06
+      },
+      "absolute_chiral_sum": {
+        "max": 1.699601561832787e-05,
+        "median": 4.643462391830648e-06,
+        "min": 1.72484572634086e-07
+      },
+      "absolute_vectorlike_sum_max": 2.458502541493766e-17,
+      "count": 42,
+      "minimum_wilson_gap_10": 1.0008458192909224,
+      "minimum_wilson_gap_anti5": 1.004877257387152,
+      "plaquette_Frobenius_10": {
+        "max": 0.0337040835,
+        "median": 0.02550271505,
+        "min": 0.0200939354
+      },
+      "plaquette_Frobenius_anti5": {
+        "max": 0.0194590711,
+        "median": 0.0147240142,
+        "min": 0.0116012492
+      },
+      "point_dirac_phase_max": 9.947598300641403e-14,
+      "point_dirac_weyl_logabs_error_max": 3.197442310920451e-14,
+      "point_dirac_weyl_phase_error_max": 1.9184653865522705e-13,
+      "point_vectorlike_error_max": 2.0685603363134082e-18,
+      "signed_chiral_sum": {
+        "max": 1.699601561832787e-05,
+        "median": -2.340491075035017e-06,
+        "min": -1.4891892160509854e-05
+      },
+      "sum_arithmetic_scale_proxy_not_error_bound": {
+        "max": 3.608239404594269e-15,
+        "median": 2.974978341740649e-15,
+        "min": 2.698988311647488e-15
+      }
+    }
+  },
+  "ratio_abs_chiral_27_to_9": {
+    "max": 1.8672576651697892e-05,
+    "median": 4.730237771592653e-06,
+    "min": 6.691371706404622e-07
+  },
+  "ratio_abs_chiral_9_to_3": {
+    "max": 0.8940594823110929,
+    "median": 0.08473757729672735,
+    "min": 0.0423993545172125
+  },
+  "run_directory": "/workspace/work/craig/campaign/run-5h-20261014T022855Z",
+  "scope_caveats": [
+    "This is a snapshot of cases whose completed manifest event existed at observation time; active cases and their partial momentum sums are excluded.",
+    "Random homogeneous noncommuting backgrounds and homogeneous tangent sources are a restricted smooth fixed-frame family. Fourier reduction is exact for that family, but does not sample generic spatial variation, topology sectors, original-link reconstruction, or inherited-frame derivatives.",
+    "The observable is projector curvature Omega_h. It is not Craig's comparison current B_n, the infinite refinement sum, its all-loop holonomy, or the original-link Ward identity.",
+    "Large 9-to-27 residual suppression is an observation for this family, not a fitted universal convergence exponent. Homogeneity or source choices can suppress leading coefficients; only three grids were used.",
+    "The arithmetic-scale proxy is epsilon times absolute internal curvature summands. It is not a bound on eigensolver/derivative/accumulation error and is not a validated numerical noise floor. Near-proxy residuals cannot establish asymptotic scaling without higher-precision or independent error-controlled calculations.",
+    "Vectorlike cancellation and Dirac/Weyl reconstruction are algebraic implementation controls; both use the same kernel eigensystem, so their small discrepancies do not independently prove the chiral construction.",
+    "Individual anomalous representation curvatures remain nonzero while their sum decreases. This supports the anomaly cancellation mechanism on these backgrounds; it does not prove a globally consistent interacting chiral gauge measure.",
+    "Observed spectral gaps cover sampled background/momentum points only; coarse plaquette deviations are measured, not certified to satisfy a uniform admissibility theorem."
+  ],
+  "slowest_9_to_27_decrease_case": {
+    "N27_abs_residual_to_arithmetic_proxy": 243.95408603594942,
+    "N27_absolute_residual_to_sum_abs_components": 5.902811000844571e-09,
+    "N27_arithmetic_proxy": 2.6836078979105215e-14,
+    "case_id": 30,
+    "chiral_signed_by_N": {
+      "27": 6.546771120136167e-12,
+      "3": 3.921538593115573e-07,
+      "9": 3.506088764423881e-07
+    },
+    "elapsed_seconds": 1253.7310321179975,
+    "max_accumulated_background_subtracted_logabs_difference": 2.0272557e-09,
+    "max_accumulated_dirac_weyl_logabs_difference": 2.1e-09,
+    "ratio_abs_chiral_27_to_9": 1.8672576651697892e-05,
+    "ratio_abs_chiral_9_to_3": 0.8940594823110929,
+    "seed": 865980255907066395
+  },
+  "status_snapshot": {
+    "active": [
+      {
+        "case_id": 42,
+        "elapsed_seconds": 604.6872880470037,
+        "pid": 10084,
+        "seed": 631162605526908726
+      },
+      {
+        "case_id": 43,
+        "elapsed_seconds": 456.44440717199905,
+        "pid": 10239,
+        "seed": 5720024897421210104
+      }
+    ],
+    "counts": {
+      "completed": 42
+    },
+    "elapsed_seconds": 17836.929485530003,
+    "next_case_id": 44,
+    "remaining_seconds": 163.07051446999685,
+    "scientific_interpretation": "Execution status only; inspect worker results and controls.",
+    "state": "running",
+    "supervisor_pid": 7819,
+    "total_budget_seconds": 18000.0,
+    "updated_utc": "2026-10-14T07:26:12.451356+00:00"
+  }
+}

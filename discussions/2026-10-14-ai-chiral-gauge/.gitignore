@@ -1,0 +1,6 @@
+/build/
+/runs/
+/pilot.json*
+__pycache__/
+*.pyc
+/scripts/runner-selftest-*/
