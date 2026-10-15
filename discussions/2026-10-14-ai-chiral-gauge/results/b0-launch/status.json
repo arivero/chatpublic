@@ -1,0 +1,25 @@
+{
+  "state": "running",
+  "completed_cases": [],
+  "interrupted_cases": [],
+  "active": {
+    "case": 0,
+    "pid": 1740,
+    "config": {
+      "mesh": 2,
+      "quadrature": 4,
+      "a": 0.0,
+      "b": 0.0,
+      "purpose": "base_convergence",
+      "source_step": 0.01,
+      "seed": 261009093,
+      "amplitude": 0.4,
+      "weight_nodes": 96
+    }
+  },
+  "errors": [],
+  "elapsed_seconds": 160.28318543099988,
+  "remaining_seconds": 17839.716808843,
+  "supervisor_pid": 1737,
+  "updated_utc": "2026-10-15T10:27:30.806665+00:00"
+}
