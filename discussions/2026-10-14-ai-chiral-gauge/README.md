@@ -6,6 +6,8 @@ This notebook records the Craig-focused part of a discussion begun on 13 October
 
 **Final status:** the independent 4D background-field campaign ran on 14 October from 02:28:55 to 07:28:55 UTC (04:28:55–09:28:55 Madrid), reaching its 18,000-second wall-time budget. **42 cases completed all grids through N=27; two cases were interrupted at the deadline.** Their completed N=3 and N=9 levels are retained separately from their incomplete N=27 momentum sums. The committed snapshot records the final execution state, `budget_exhausted`.
 
+**Resumed inspection, 15 October:** the original calculation remains finished. The credit interruption occurred after the follow-up feasibility analyses were written, before any B0 pilot code or new experiment was saved or launched. Those analyses are now archived below as proposals, with no pilot timing or numerical result claimed.
+
 ## Contents
 
 - [Conversation recap and corrections](notes/conversation.md)
@@ -17,6 +19,9 @@ This notebook records the Craig-focused part of a discussion begun on 13 October
 - [User-uploaded arXiv submission](references/arxiv-2610.09093v1/), [provenance](references/README.md), and [SHA-256 manifest](references/submission-manifest.json)
 - [4D C source](scripts/physics4d.c), [finite-check C source](scripts/finite_checks.c), [bounded supervisor](scripts/runner.py), and [status reader](scripts/status.py)
 - [Committed campaign snapshot](results/campaign-snapshot/README.md) and [numerical audit](notes/completed-results-audit.md)
+- [Interpretation of the finished run and next-test priorities](notes/next-experiment-audit.md)
+- [Proposed literal B0 reconstruction and resource assessment](notes/next-experiment-main.md), with [supplement-based algorithms and controls](notes/next-experiment-supplements.md)
+- [Timestamped actual progress reports](results/hourly-reports/)
 - [Measured cloud resource limits](results/cloud-resources.json)
 
 ## What the experiment measures
