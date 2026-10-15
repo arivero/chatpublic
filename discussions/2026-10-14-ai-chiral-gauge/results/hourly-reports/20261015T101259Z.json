@@ -1,0 +1,112 @@
+{
+  "observed_utc": "2026-10-15T10:12:59.242232+00:00",
+  "conversation_id": "01a136ff-1cb1-7630-9ebf-a2cadf002050",
+  "status": {
+    "active": [],
+    "counts": {
+      "completed": 42,
+      "timed_out": 2
+    },
+    "elapsed_seconds": 18000.0,
+    "next_case_id": 44,
+    "remaining_seconds": 0.0,
+    "scientific_interpretation": "Execution status only; inspect worker results and controls.",
+    "state": "budget_exhausted",
+    "supervisor_pid": 7819,
+    "total_budget_seconds": 18000.0,
+    "updated_utc": "2026-10-14T07:28:55.526903+00:00"
+  },
+  "original_process_checks": [
+    {
+      "pid": 7819,
+      "present": false,
+      "executing": false
+    },
+    {
+      "pid": 10084,
+      "present": false,
+      "executing": false
+    },
+    {
+      "pid": 10239,
+      "present": false,
+      "executing": false
+    }
+  ],
+  "last_events": [
+    {
+      "case_id": 42,
+      "elapsed_seconds": 767.7591468190003,
+      "event": "case_finished",
+      "result_exists": false,
+      "returncode": -9,
+      "seed": 631162605526908726,
+      "state": "timed_out",
+      "utc": "2026-10-14T07:28:55.523236+00:00"
+    },
+    {
+      "case_id": 43,
+      "elapsed_seconds": 619.5185854899973,
+      "event": "case_finished",
+      "result_exists": false,
+      "returncode": -9,
+      "seed": 5720024897421210104,
+      "state": "timed_out",
+      "utc": "2026-10-14T07:28:55.525564+00:00"
+    },
+    {
+      "counts": {
+        "completed": 42,
+        "timed_out": 2
+      },
+      "event": "supervisor_finished",
+      "state": "budget_exhausted",
+      "utc": "2026-10-14T07:28:55.527388+00:00"
+    }
+  ],
+  "completed_N27_grids": 42,
+  "complete_case_level_rows": 126,
+  "N27_abs_chiral_range": [
+    1.5240461042906031e-12,
+    7.857535635957602e-11
+  ],
+  "N27_max_abs_vectorlike": 2.391581644704756e-17,
+  "max_point_dirac_weyl_log_error": 3.552713678800501e-14,
+  "max_point_dirac_weyl_phase_error": 2.4158453015843406e-13,
+  "interrupted_cases": [
+    {
+      "case": "00000042",
+      "state": "timed_out",
+      "completed_N": [
+        3,
+        9
+      ],
+      "incomplete_levels": [
+        {
+          "N": 27,
+          "momenta_done": 423936,
+          "momenta_total": 531441
+        }
+      ]
+    },
+    {
+      "case": "00000043",
+      "state": "timed_out",
+      "completed_N": [
+        3,
+        9
+      ],
+      "incomplete_levels": [
+        {
+          "N": 27,
+          "momenta_done": 338944,
+          "momenta_total": 531441
+        }
+      ]
+    }
+  ],
+  "nonempty_worker_stderr": [],
+  "new_B0_pilot_files": [],
+  "scope": "Completed prescribed homogeneous 4D backgrounds only; no full reconstructed measure or theorem test. Incomplete momentum sums excluded from observables.",
+  "monitoring_note": "Actual resumed inspection; no report backdated. No new run started."
+}
