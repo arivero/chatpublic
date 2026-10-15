@@ -1,0 +1,11 @@
+{
+  "mesh": 16,
+  "quadrature": 32,
+  "a": 0.0,
+  "b": 0.0,
+  "source_step": 0.005,
+  "purpose": "finer_error_controls",
+  "seed": 261009093,
+  "amplitude": 0.4,
+  "weight_nodes": 96
+}

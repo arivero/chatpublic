@@ -1,0 +1,45 @@
+{
+  "observed_utc": "2026-10-15T10:28:58.253660+00:00",
+  "status": {
+    "state": "running",
+    "completed_cases": [],
+    "interrupted_cases": [],
+    "active": {
+      "case": 0,
+      "pid": 1740,
+      "config": {
+        "mesh": 2,
+        "quadrature": 4,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    "errors": [],
+    "elapsed_seconds": 246.41228984399993,
+    "remaining_seconds": 17753.587703803,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T10:28:56.935769+00:00"
+  },
+  "process_checks": [
+    {
+      "pid": 1737,
+      "state": "S",
+      "executing": true,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/supervise.py --run /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z --seconds 18000"
+    },
+    {
+      "pid": 1740,
+      "state": "R",
+      "executing": true,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/worker.py --config /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0000/config.json --output /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0000"
+    }
+  ],
+  "memory_current_bytes": 739143680,
+  "partial_quadratures_are_observables": false,
+  "scope": "Finite numerically approximated 4D B0; no infinite current or theorem certificate."
+}

@@ -1,5 +1,10 @@
 # Launched finite B0 experiment
 
+**Final update:** this campaign ended at its deadline with 16 completed cases and
+one interrupted case. See the [final results](b0-final-results.md) and
+[raw archive](../results/b0-final/README.md). The launch details below are retained
+as the original experiment specification.
+
 The user authorized launching the follow-up on 15 October 2026. This is a new
 experiment, separate from the completed homogeneous momentum campaign.
 

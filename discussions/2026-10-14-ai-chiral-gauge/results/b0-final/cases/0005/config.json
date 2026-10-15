@@ -1,0 +1,11 @@
+{
+  "mesh": 8,
+  "quadrature": 16,
+  "a": 0.0,
+  "b": 0.0,
+  "purpose": "base_convergence",
+  "source_step": 0.01,
+  "seed": 261009093,
+  "amplitude": 0.4,
+  "weight_nodes": 96
+}
