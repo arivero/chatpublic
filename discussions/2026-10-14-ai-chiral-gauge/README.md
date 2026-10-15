@@ -8,6 +8,8 @@ This notebook records the Craig-focused part of a discussion begun on 13 October
 
 **Resumed inspection, 15 October:** the original calculation remains finished. The credit interruption occurred after the follow-up feasibility analyses were written, before any B0 pilot code or new experiment was saved or launched. Those analyses are now archived below as proposals, with no pilot timing or numerical result claimed.
 
+**New B0 launch, 15 October:** after the user authorized the follow-up, the reconstruction, inherited-frame derivatives and full position-space first comparison were implemented and passed preflight checks. A separate bounded campaign started at **12:24:50 Madrid**, with a hard deadline of **17:24:50 Madrid**. See the [implementation, controls and limitations](notes/b0-experiment.md), [source](scripts/b0/) and [launch-time snapshot](results/b0-launch/). This launch statement is not a completed B0 result.
+
 ## Contents
 
 - [Conversation recap and corrections](notes/conversation.md)

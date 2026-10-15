@@ -1,0 +1,39 @@
+{
+  "representation_derivative_anti5": 1.1511523057025188e-11,
+  "representation_derivative_10": 1.993693795337275e-11,
+  "clifford_error": 0.0,
+  "spectral_vs_direct_projector_curvature_error": 2.0469026473790564e-10,
+  "geometric_frame_gauge_covariance_error": 6.623534863249343e-16,
+  "generic_geometry": {
+    "frame_count": 1,
+    "max_projector_residual": 6.358979403298707e-15,
+    "max_unselected_norm_bound": 0.04268884672633645,
+    "min_selected_eigenvalue": 0.9997003939763245,
+    "max_selected_eigenvalue": 1.0,
+    "max_weight_error": 2.220446049250313e-16,
+    "max_frame_orthogonality": 3.8688157099732075e-15,
+    "min_phase_real": 0.9999999999999707,
+    "min_overlap_singular_value": 1.0,
+    "max_iterations": 7.0,
+    "min_short_average_singular_value": 0.8442239513866634,
+    "max_short_determinant_phase": 0.005693931480891572
+  },
+  "flat_nontrivial_holonomy_error": 4.742874840267547e-16,
+  "free_comparison": {
+    "s": 0.5,
+    "minimum_gap": 0.8660254037844282,
+    "dimension": 1620,
+    "negative_rank": 810,
+    "embedding_isometry_error": 0.0,
+    "eigenpair_residual": 8.376485039278986e-15,
+    "currents": {
+      "zero": -0.0
+    },
+    "right_currents": {
+      "zero": -0.0
+    },
+    "seconds": 2.472219629000051
+  },
+  "passed": true,
+  "seconds": 7.888841146000004
+}
