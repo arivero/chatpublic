@@ -1,0 +1,25 @@
+{
+  "s": 0.9722875115366163,
+  "minimum_gap": 0.996003438526943,
+  "dimension": 1620,
+  "negative_rank": 810,
+  "embedding_isometry_error": 0.0,
+  "eigenpair_residual": 5.435137064796749e-15,
+  "currents": {
+    "x": -2.1534931412749554e-07,
+    "x_half": -2.1534922712616575e-07,
+    "x_half_frozen_inherited": -2.153374366461465e-07,
+    "y_half": -3.7324642266113635e-07
+  },
+  "right_currents": {
+    "x": 2.1534931412749554e-07,
+    "x_half": 2.1534922712616575e-07,
+    "x_half_frozen_inherited": 2.153374366461465e-07,
+    "y_half": 3.7324642266113635e-07
+  },
+  "gauge_integrand": 2.0438934682099915e-07,
+  "seconds": 5.227240372001688,
+  "index": 14,
+  "weight": 0.031126761969323728,
+  "representation": "anti5"
+}

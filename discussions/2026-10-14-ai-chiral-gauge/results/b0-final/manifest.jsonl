@@ -1,0 +1,36 @@
+{"event": "supervisor_started", "utc": "2026-10-15T10:24:50.526457+00:00", "budget": 18000}
+{"event": "case_started", "utc": "2026-10-15T10:24:50.530939+00:00", "case": 0, "pid": 1740, "config": {"mesh": 2, "quadrature": 4, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T10:30:01.063924+00:00", "case": 0, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T10:30:01.078824+00:00", "case": 1, "pid": 2014, "config": {"mesh": 2, "quadrature": 8, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T10:40:42.583513+00:00", "case": 1, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T10:40:42.596526+00:00", "case": 2, "pid": 2090, "config": {"mesh": 2, "quadrature": 16, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T10:59:37.002347+00:00", "case": 2, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T10:59:37.010746+00:00", "case": 3, "pid": 2111, "config": {"mesh": 4, "quadrature": 8, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T11:10:08.975504+00:00", "case": 3, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T11:10:08.983394+00:00", "case": 4, "pid": 2123, "config": {"mesh": 4, "quadrature": 16, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T11:26:07.625821+00:00", "case": 4, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T11:26:07.633691+00:00", "case": 5, "pid": 2139, "config": {"mesh": 8, "quadrature": 16, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T11:42:37.877571+00:00", "case": 5, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T11:42:37.885105+00:00", "case": 6, "pid": 2240, "config": {"mesh": 8, "quadrature": 32, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T12:06:50.315654+00:00", "case": 6, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T12:06:50.323149+00:00", "case": 7, "pid": 2264, "config": {"mesh": 16, "quadrature": 32, "a": 0.0, "b": 0.0, "purpose": "base_convergence", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T12:39:46.610359+00:00", "case": 7, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T12:39:46.619367+00:00", "case": 8, "pid": 2368, "config": {"mesh": 8, "quadrature": 16, "a": 0.01, "b": 0, "purpose": "curl_step_0.01", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T12:59:15.942604+00:00", "case": 8, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T12:59:15.959793+00:00", "case": 9, "pid": 2388, "config": {"mesh": 8, "quadrature": 16, "a": -0.01, "b": 0, "purpose": "curl_step_0.01", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T13:16:16.413672+00:00", "case": 9, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T13:16:16.421008+00:00", "case": 10, "pid": 2404, "config": {"mesh": 8, "quadrature": 16, "a": 0, "b": 0.01, "purpose": "curl_step_0.01", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T13:37:03.660474+00:00", "case": 10, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T13:37:03.667466+00:00", "case": 11, "pid": 2496, "config": {"mesh": 8, "quadrature": 16, "a": 0, "b": -0.01, "purpose": "curl_step_0.01", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T13:53:05.876651+00:00", "case": 11, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T13:53:05.883421+00:00", "case": 12, "pid": 2512, "config": {"mesh": 8, "quadrature": 16, "a": 0.005, "b": 0, "purpose": "curl_step_0.005", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T14:13:58.226155+00:00", "case": 12, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T14:13:58.235387+00:00", "case": 13, "pid": 2532, "config": {"mesh": 8, "quadrature": 16, "a": -0.005, "b": 0, "purpose": "curl_step_0.005", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T14:31:52.659599+00:00", "case": 13, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T14:31:52.666124+00:00", "case": 14, "pid": 2627, "config": {"mesh": 8, "quadrature": 16, "a": 0, "b": 0.005, "purpose": "curl_step_0.005", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T14:48:47.239860+00:00", "case": 14, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T14:48:47.260509+00:00", "case": 15, "pid": 2643, "config": {"mesh": 8, "quadrature": 16, "a": 0, "b": -0.005, "purpose": "curl_step_0.005", "source_step": 0.01, "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T15:05:38.414244+00:00", "case": 15, "state": "completed", "returncode": 0}
+{"event": "case_started", "utc": "2026-10-15T15:05:38.424248+00:00", "case": 16, "pid": 2663, "config": {"mesh": 16, "quadrature": 32, "a": 0.0, "b": 0.0, "source_step": 0.005, "purpose": "finer_error_controls", "seed": 261009093, "amplitude": 0.4, "weight_nodes": 96}}
+{"event": "case_finished", "utc": "2026-10-15T15:24:50.548419+00:00", "case": 16, "state": "timed_out", "returncode": -9}
+{"event": "supervisor_finished", "utc": "2026-10-15T15:24:50.553087+00:00", "status": {"state": "budget_exhausted", "completed_cases": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "interrupted_cases": [{"case": 16, "state": "timed_out"}], "active": null, "errors": [], "elapsed_seconds": 18000, "remaining_seconds": 0.0, "supervisor_pid": 1737, "updated_utc": "2026-10-15T15:24:50.550506+00:00"}}

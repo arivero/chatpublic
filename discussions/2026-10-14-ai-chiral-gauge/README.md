@@ -10,6 +10,8 @@ This notebook records the Craig-focused part of a discussion begun on 13 October
 
 **New B0 launch, 15 October:** after the user authorized the follow-up, the reconstruction, inherited-frame derivatives and full position-space first comparison were implemented and passed preflight checks. A separate bounded campaign started at **12:24:50 Madrid**, with a hard deadline of **17:24:50 Madrid**. See the [implementation, controls and limitations](notes/b0-experiment.md), [source](scripts/b0/) and [launch-time snapshot](results/b0-launch/). This launch statement is not a completed B0 result.
 
+**Final B0 status:** the campaign stopped at **17:24:50 Madrid**, with **16 completed cases and one interrupted case**. Both matching nongauge curl tests completed; their endpoint discrepancy fell from **0.0556% to 0.0151%** on halving the outer step. The inherited-frame control changes the tested Bx coefficient by about **36%**. See the [final analysis and limitations](notes/b0-final-results.md) and [complete raw archive](results/b0-final/README.md). The interrupted finer source-step case is excluded from full-current comparisons.
+
 ## Contents
 
 - [Conversation recap and corrections](notes/conversation.md)

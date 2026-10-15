@@ -1,0 +1,496 @@
+{
+  "observed_utc": "2026-10-15T11:27:06.274660+00:00",
+  "conversation_id": "01a136ff-1cb1-7630-9ebf-a2cadf002050",
+  "status": {
+    "state": "running",
+    "completed_cases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "interrupted_cases": [],
+    "active": {
+      "case": 5,
+      "pid": 2139,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    "errors": [],
+    "elapsed_seconds": 3735.17520506,
+    "remaining_seconds": 14264.824789291,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T11:27:05.698683+00:00"
+  },
+  "process_checks": [
+    {
+      "role": "supervisor",
+      "pid": 1737,
+      "state": "S",
+      "executing": true,
+      "cpu_ticks": 390,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/supervise.py --run /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z --seconds 18000"
+    },
+    {
+      "role": "worker",
+      "pid": 2139,
+      "state": "R",
+      "executing": true,
+      "cpu_ticks": 5888,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/worker.py --config /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0005/config.json --output /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0005"
+    }
+  ],
+  "completed_cases": [
+    {
+      "case": 0,
+      "config": {
+        "mesh": 2,
+        "quadrature": 4,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "elapsed_seconds": 309.78615268400006,
+      "chiral_currents": {
+        "x": 9.079701540172816e-09,
+        "x_half": 9.089626164846486e-09,
+        "x_half_frozen_inherited": 5.147214929506555e-09,
+        "y_half": -1.6002022151048276e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": -1.0633838702743938e-09,
+      "representations": {
+        "anti5": {
+          "integrals": {
+            "x": 2.9661658599551245e-06,
+            "x_half": 2.9661881290678834e-06,
+            "x_half_frozen_inherited": 2.9669672200095255e-06,
+            "y_half": 4.8063681030184495e-06
+          },
+          "gauge_integral": -2.42079427199709e-06,
+          "endpoint_moments": {
+            "coarse": -6.337537136746896e-07,
+            "fine": 1.8588726275192702e-06,
+            "difference": -2.4926263411939598e-06
+          },
+          "ward_residual": 7.183206919686958e-08,
+          "endpoint_curvatures": {
+            "coarse": 7.040447796213968e-06,
+            "fine": -2.0481106850712664e-05,
+            "difference": 2.7521554646926633e-05
+          }
+        },
+        "10": {
+          "integrals": {
+            "x": -2.9570861584149517e-06,
+            "x_half": -2.957098502903037e-06,
+            "x_half_frozen_inherited": -2.961820005080019e-06,
+            "y_half": -4.822370125169498e-06
+          },
+          "gauge_integral": 2.506771612449345e-06,
+          "endpoint_moments": {
+            "coarse": 6.221479259063689e-07,
+            "fine": -1.95751913961012e-06,
+            "difference": 2.579667065516489e-06
+          },
+          "ward_residual": -7.289545306714398e-08,
+          "endpoint_curvatures": {
+            "coarse": -6.91632661093811e-06,
+            "fine": 2.1507567862105675e-05,
+            "difference": -2.8423894473043785e-05
+          }
+        }
+      },
+      "geometry_gauge_covariance_error": 7.340051254880861e-15
+    },
+    {
+      "case": 1,
+      "config": {
+        "mesh": 2,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "elapsed_seconds": 640.538897827,
+      "chiral_currents": {
+        "x": 1.112097043279893e-08,
+        "x_half": 1.1131077905516506e-08,
+        "x_half_frozen_inherited": 7.137451560165666e-09,
+        "y_half": -1.6318722280695813e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 3.653263775393482e-12,
+      "representations": {
+        "anti5": {
+          "integrals": {
+            "x": 3.0463227438351986e-06,
+            "x_half": 3.0463453936299856e-06,
+            "x_half_frozen_inherited": 3.0469988012687796e-06,
+            "y_half": 4.946281548074085e-06
+          },
+          "gauge_integral": -2.4926179714826543e-06,
+          "endpoint_moments": {
+            "coarse": -6.337537136746896e-07,
+            "fine": 1.8588726275192702e-06,
+            "difference": -2.4926263411939598e-06
+          },
+          "ward_residual": 8.369711305417765e-12,
+          "endpoint_curvatures": {
+            "coarse": 7.040447796213968e-06,
+            "fine": -2.0481106850712664e-05,
+            "difference": 2.7521554646926633e-05
+          }
+        },
+        "10": {
+          "integrals": {
+            "x": -3.0352017734023997e-06,
+            "x_half": -3.035214315724469e-06,
+            "x_half_frozen_inherited": -3.039861349708614e-06,
+            "y_half": -4.962600270354781e-06
+          },
+          "gauge_integral": 2.579662349068959e-06,
+          "endpoint_moments": {
+            "coarse": 6.221479259063689e-07,
+            "fine": -1.95751913961012e-06,
+            "difference": 2.579667065516489e-06
+          },
+          "ward_residual": -4.716447530024283e-12,
+          "endpoint_curvatures": {
+            "coarse": -6.91632661093811e-06,
+            "fine": 2.1507567862105675e-05,
+            "difference": -2.8423894473043785e-05
+          }
+        }
+      },
+      "geometry_gauge_covariance_error": 7.340051254880861e-15
+    },
+    {
+      "case": 2,
+      "config": {
+        "mesh": 2,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "elapsed_seconds": 1133.047922179,
+      "chiral_currents": {
+        "x": 1.1114672889504931e-08,
+        "x_half": 1.1124780358638711e-08,
+        "x_half_frozen_inherited": 7.131132474311519e-09,
+        "y_half": -1.6320451357670592e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 8.19859397622883e-14,
+      "representations": {
+        "anti5": {
+          "integrals": {
+            "x": 3.046334026341794e-06,
+            "x_half": 3.0463566761869242e-06,
+            "x_half_frozen_inherited": 3.0470101091923493e-06,
+            "y_half": 4.946297408171778e-06
+          },
+          "gauge_integral": -2.4926263187102766e-06,
+          "endpoint_moments": {
+            "coarse": -6.337537136746896e-07,
+            "fine": 1.8588726275192702e-06,
+            "difference": -2.4926263411939598e-06
+          },
+          "ward_residual": 2.2483683209499616e-14,
+          "endpoint_curvatures": {
+            "coarse": 7.040447796213968e-06,
+            "fine": -2.0481106850712664e-05,
+            "difference": 2.7521554646926633e-05
+          }
+        },
+        "10": {
+          "integrals": {
+            "x": -3.035219353452289e-06,
+            "x_half": -3.0352318958282855e-06,
+            "x_half_frozen_inherited": -3.0398789767180377e-06,
+            "y_half": -4.962617859529448e-06
+          },
+          "gauge_integral": 2.5796671250187454e-06,
+          "endpoint_moments": {
+            "coarse": 6.221479259063689e-07,
+            "fine": -1.95751913961012e-06,
+            "difference": 2.579667065516489e-06
+          },
+          "ward_residual": 5.950225655278868e-14,
+          "endpoint_curvatures": {
+            "coarse": -6.91632661093811e-06,
+            "fine": 2.1507567862105675e-05,
+            "difference": -2.8423894473043785e-05
+          }
+        }
+      },
+      "geometry_gauge_covariance_error": 7.340051254880861e-15
+    },
+    {
+      "case": 3,
+      "config": {
+        "mesh": 4,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "elapsed_seconds": 631.0359841909999,
+      "chiral_currents": {
+        "x": 1.1137493166800842e-08,
+        "x_half": 1.1147604936933723e-08,
+        "x_half_frozen_inherited": 7.1414899786939995e-09,
+        "y_half": -1.6317795303012933e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 3.61695272443587e-12,
+      "representations": {
+        "anti5": {
+          "integrals": {
+            "x": 3.046445151474332e-06,
+            "x_half": 3.046467797388213e-06,
+            "x_half_frozen_inherited": 3.0471265656741393e-06,
+            "y_half": 4.946385703066287e-06
+          },
+          "gauge_integral": -2.4926104452749293e-06,
+          "endpoint_moments": {
+            "coarse": -6.337537136746896e-07,
+            "fine": 1.8588650633130643e-06,
+            "difference": -2.492618776987754e-06
+          },
+          "ward_residual": 8.33171282464527e-12,
+          "endpoint_curvatures": {
+            "coarse": 7.040447796213968e-06,
+            "fine": -2.048102122229117e-05,
+            "difference": 2.7521469018505138e-05
+          }
+        },
+        "10": {
+          "integrals": {
+            "x": -3.035307658307531e-06,
+            "x_half": -3.035320192451279e-06,
+            "x_half_frozen_inherited": -3.0399850756954453e-06,
+            "y_half": -4.9627034983693e-06
+          },
+          "gauge_integral": 2.579654362479682e-06,
+          "endpoint_moments": {
+            "coarse": 6.221479259063689e-07,
+            "fine": -1.957511151333413e-06,
+            "difference": 2.579659077239782e-06
+          },
+          "ward_residual": -4.7147601002094e-12,
+          "endpoint_curvatures": {
+            "coarse": -6.91632661093811e-06,
+            "fine": 2.150747462798905e-05,
+            "difference": -2.842380123892716e-05
+          }
+        }
+      },
+      "geometry_gauge_covariance_error": 8.964739349296092e-15
+    },
+    {
+      "case": 4,
+      "config": {
+        "mesh": 4,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "elapsed_seconds": 957.1523806790001,
+      "chiral_currents": {
+        "x": 1.1131196118805124e-08,
+        "x_half": 1.1141307903936418e-08,
+        "x_half_frozen_inherited": 7.13517140555906e-09,
+        "y_half": -1.6319523862334538e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 4.6284392537696527e-14,
+      "representations": {
+        "anti5": {
+          "integrals": {
+            "x": 3.0464564342225364e-06,
+            "x_half": 3.0464790802003126e-06,
+            "x_half_frozen_inherited": 3.0471378738809673e-06,
+            "y_half": 4.9464015637044185e-06
+          },
+          "gauge_integral": -2.492618793014167e-06,
+          "endpoint_moments": {
+            "coarse": -6.337537136746896e-07,
+            "fine": 1.8588650633130643e-06,
+            "difference": -2.492618776987754e-06
+          },
+          "ward_residual": -1.602641308643413e-14,
+          "endpoint_curvatures": {
+            "coarse": 7.040447796213968e-06,
+            "fine": -2.048102122229117e-05,
+            "difference": 2.7521469018505138e-05
+          }
+        },
+        "10": {
+          "integrals": {
+            "x": -3.0353252381037313e-06,
+            "x_half": -3.035337772296376e-06,
+            "x_half_frozen_inherited": -3.0400027024754082e-06,
+            "y_half": -4.962721087566753e-06
+          },
+          "gauge_integral": 2.5796591395505877e-06,
+          "endpoint_moments": {
+            "coarse": 6.221479259063689e-07,
+            "fine": -1.957511151333413e-06,
+            "difference": 2.579659077239782e-06
+          },
+          "ward_residual": 6.231080562413066e-14,
+          "endpoint_curvatures": {
+            "coarse": -6.91632661093811e-06,
+            "fine": 2.150747462798905e-05,
+            "difference": -2.842380123892716e-05
+          }
+        }
+      },
+      "geometry_gauge_covariance_error": 8.964739349296092e-15
+    }
+  ],
+  "active_progress": {
+    "case": 5,
+    "stage": "geometry",
+    "completed_nodes": 0,
+    "geometry_evaluations": 1,
+    "note": "No partial current or representation sum treated as full B0."
+  },
+  "completed_paired_quadratures": 5,
+  "completed_case_nodes": 104,
+  "all_saved_nodes_including_partial": 104,
+  "minimum_sampled_comparison_gap": 0.9874946778662416,
+  "max_eigenpair_residual": 2.278952969414017e-14,
+  "convergence": {
+    "source_step_0.01_to_0.005": {
+      "Bx_change": 1.0111785131293487e-11,
+      "relative_to_Bx": 0.0009075940830717746
+    },
+    "inherited_frozen_control": {
+      "Bx_full": 1.1141307903936418e-08,
+      "Bx_frozen": 7.13517140555906e-09,
+      "difference": 4.006136498377358e-09,
+      "relative_change": 0.35957506362084474
+    },
+    "mesh4_quadrature8_to16": {
+      "Bx_change": -6.297032997305569e-12,
+      "relative_to_q16": 0.0005651969276498245
+    },
+    "quadrature16_mesh2_to4": {
+      "Bx_change": 1.6527545297706714e-11,
+      "relative_to_mesh4": 0.0014834474946938004
+    }
+  },
+  "nongauge_curl": "Not evaluated: no complete set of four matching shifted cases.",
+  "nonempty_stderr": [],
+  "source_hash_errors": [],
+  "last_manifest_events": [
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T11:10:08.975504+00:00",
+      "case": 3,
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "event": "case_started",
+      "utc": "2026-10-15T11:10:08.983394+00:00",
+      "case": 4,
+      "pid": 2123,
+      "config": {
+        "mesh": 4,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T11:26:07.625821+00:00",
+      "case": 4,
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "event": "case_started",
+      "utc": "2026-10-15T11:26:07.633691+00:00",
+      "case": 5,
+      "pid": 2139,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    }
+  ],
+  "scope": "Finite first comparison only; transport and source derivatives approximated numerically; no infinite-current tail bound or theorem proof."
+}

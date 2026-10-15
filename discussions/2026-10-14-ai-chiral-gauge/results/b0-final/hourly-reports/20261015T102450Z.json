@@ -1,0 +1,18 @@
+{
+  "observed_utc": "2026-10-15T10:24:50.527617+00:00",
+  "status": {
+    "state": "running",
+    "completed_cases": [],
+    "interrupted_cases": [],
+    "active": null,
+    "errors": [],
+    "elapsed_seconds": 0.0034444670000084443,
+    "remaining_seconds": 17999.996553472,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T10:24:50.526913+00:00"
+  },
+  "supervisor_executing": true,
+  "worker_executing": false,
+  "scope": "Finite literal reconstructed 4D B0 only, no infinite current/theorem certificate.",
+  "note": "Worker liveness checked by the supervisor; unfinished quadratures are not observables."
+}

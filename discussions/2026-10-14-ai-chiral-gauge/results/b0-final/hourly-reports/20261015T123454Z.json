@@ -1,0 +1,375 @@
+{
+  "observed_utc": "2026-10-15T12:34:54.241268+00:00",
+  "conversation_id": "01a136ff-1cb1-7630-9ebf-a2cadf002050",
+  "status": {
+    "state": "running",
+    "completed_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "interrupted_cases": [],
+    "active": {
+      "case": 7,
+      "pid": 2264,
+      "config": {
+        "mesh": 16,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    "errors": [],
+    "elapsed_seconds": 7803.390759664,
+    "remaining_seconds": 10196.609233637,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T12:34:53.914241+00:00"
+  },
+  "process_checks": [
+    {
+      "role": "supervisor",
+      "pid": 1737,
+      "state": "S",
+      "executing": true,
+      "cpu_ticks": 696,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/supervise.py --run /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z --seconds 18000"
+    },
+    {
+      "role": "worker",
+      "pid": 2264,
+      "state": "R",
+      "executing": true,
+      "cpu_ticks": 244851,
+      "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 /workspace/work/craig/b0-pilot/worker.py --config /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0007/config.json --output /workspace/work/craig/b0-campaign/run-5h-20261015T102450Z/cases/0007"
+    }
+  ],
+  "completed_cases": [
+    {
+      "case": 0,
+      "config": {
+        "mesh": 2,
+        "quadrature": 4,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 9.079701540172816e-09,
+        "x_half": 9.089626164846486e-09,
+        "x_half_frozen_inherited": 5.147214929506555e-09,
+        "y_half": -1.6002022151048276e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": -1.0633838702743938e-09,
+      "per_representation_ward_residual": {
+        "anti5": 7.183206919686958e-08,
+        "10": -7.289545306714398e-08
+      },
+      "chiral_endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 1,
+      "config": {
+        "mesh": 2,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.112097043279893e-08,
+        "x_half": 1.1131077905516506e-08,
+        "x_half_frozen_inherited": 7.137451560165666e-09,
+        "y_half": -1.6318722280695813e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 3.653263775393482e-12,
+      "per_representation_ward_residual": {
+        "anti5": 8.369711305417765e-12,
+        "10": -4.716447530024283e-12
+      },
+      "chiral_endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 2,
+      "config": {
+        "mesh": 2,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.1114672889504931e-08,
+        "x_half": 1.1124780358638711e-08,
+        "x_half_frozen_inherited": 7.131132474311519e-09,
+        "y_half": -1.6320451357670592e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 8.19859397622883e-14,
+      "per_representation_ward_residual": {
+        "anti5": 2.2483683209499616e-14,
+        "10": 5.950225655278868e-14
+      },
+      "chiral_endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 3,
+      "config": {
+        "mesh": 4,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.1137493166800842e-08,
+        "x_half": 1.1147604936933723e-08,
+        "x_half_frozen_inherited": 7.1414899786939995e-09,
+        "y_half": -1.6317795303012933e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 3.61695272443587e-12,
+      "per_representation_ward_residual": {
+        "anti5": 8.33171282464527e-12,
+        "10": -4.7147601002094e-12
+      },
+      "chiral_endpoint_curvature_difference": -9.023322204220225e-07
+    },
+    {
+      "case": 4,
+      "config": {
+        "mesh": 4,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.1131196118805124e-08,
+        "x_half": 1.1141307903936418e-08,
+        "x_half_frozen_inherited": 7.13517140555906e-09,
+        "y_half": -1.6319523862334538e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 4.6284392537696527e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.602641308643413e-14,
+        "10": 6.231080562413066e-14
+      },
+      "chiral_endpoint_curvature_difference": -9.023322204220225e-07
+    },
+    {
+      "case": 5,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.11352682848176e-08,
+        "x_half": 1.1145381137884646e-08,
+        "x_half_frozen_inherited": 7.13616859477279e-09,
+        "y_half": -1.6319297144183822e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 4.758331544472863e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.090205137334343e-14,
+        "10": 5.848536681807206e-14
+      },
+      "chiral_endpoint_curvature_difference": -9.023302647588216e-07
+    },
+    {
+      "case": 6,
+      "config": {
+        "mesh": 8,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_integrals": {
+        "x": 1.1135268388851034e-08,
+        "x_half": 1.1145381232679915e-08,
+        "x_half_frozen_inherited": 7.1361686957882455e-09,
+        "y_half": -1.631929717428568e-08
+      },
+      "vectorlike_integrals": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "chiral_ward_residual": 4.7787831126326705e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.0957877620831067e-14,
+        "10": 5.874570874715777e-14
+      },
+      "chiral_endpoint_curvature_difference": -9.023302647588216e-07
+    }
+  ],
+  "active_progress": [
+    {
+      "case": "0007",
+      "stage": "comparison",
+      "saved_nodes": 58,
+      "geometry_evaluations": 8,
+      "note": "Partial sums excluded from currents and convergence."
+    }
+  ],
+  "complete_paired_quadratures": 7,
+  "completed_case_nodes": 200,
+  "saved_nodes_including_partial": 258,
+  "minimum_sampled_gap": 0.9874946778662416,
+  "max_eigenpair_residual": 2.2845327775470554e-14,
+  "convergence": {
+    "best_complete_case": 6,
+    "source_step_0.01_to_0.005": {
+      "change": 1.0112843828880415e-11,
+      "relative": 0.0009073573723281939
+    },
+    "frozen_inherited_control": {
+      "full": 1.1145381232679915e-08,
+      "frozen": 7.1361686957882455e-09,
+      "difference": 4.009212536891669e-09,
+      "relative": 0.35971964109545773
+    },
+    "quadrature16_to32_mesh8": {
+      "change": 9.47952687754914e-17,
+      "relative": 8.505341073263387e-09
+    },
+    "mesh4_to8_quadrature16": {
+      "change": 4.0732339482282755e-12,
+      "relative": 0.0003654638542941171
+    },
+    "mesh2_to4_quadrature16": {
+      "change": 1.6527545297706714e-11,
+      "relative": 0.0014834474946938004
+    }
+  },
+  "complete_nongauge_curls": [],
+  "nongauge_curl_note": "No curl reported unless four matching shifted cases and matching base are complete.",
+  "nonempty_worker_stderr": [],
+  "source_hash_mismatches": [],
+  "last_manifest_events": [
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T11:42:37.877571+00:00",
+      "case": 5,
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "event": "case_started",
+      "utc": "2026-10-15T11:42:37.885105+00:00",
+      "case": 6,
+      "pid": 2240,
+      "config": {
+        "mesh": 8,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T12:06:50.315654+00:00",
+      "case": 6,
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "event": "case_started",
+      "utc": "2026-10-15T12:06:50.323149+00:00",
+      "case": 7,
+      "pid": 2264,
+      "config": {
+        "mesh": 16,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    }
+  ],
+  "scope": "Finite first comparison with approximate transports and source derivatives; no infinite-current tail bound or full theorem."
+}

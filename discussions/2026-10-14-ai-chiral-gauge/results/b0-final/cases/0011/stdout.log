@@ -1,0 +1,27 @@
+{
+  "config": {
+    "mesh": 8,
+    "quadrature": 16,
+    "a": 0,
+    "b": -0.01,
+    "purpose": "curl_step_0.01",
+    "source_step": 0.01,
+    "seed": 261009093,
+    "amplitude": 0.4,
+    "weight_nodes": 96
+  },
+  "elapsed_seconds": 960.3278092380006,
+  "chiral_integrals": {
+    "x": 1.3226919673470034e-08,
+    "x_half": 1.3237194143692115e-08,
+    "x_half_frozen_inherited": 9.2962807612875e-09,
+    "y_half": -1.6837439474780984e-08
+  },
+  "vectorlike_integrals": {
+    "x": 0.0,
+    "x_half": 0.0,
+    "x_half_frozen_inherited": 0.0,
+    "y_half": 0.0
+  },
+  "chiral_gauge_ward_residual": 3.0370207081608855e-14
+}

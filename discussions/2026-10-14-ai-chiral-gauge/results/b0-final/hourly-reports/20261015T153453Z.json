@@ -1,0 +1,773 @@
+{
+  "observed_utc": "2026-10-15T15:34:53.406299+00:00",
+  "conversation_id": "01a136ff-1cb1-7630-9ebf-a2cadf002050",
+  "status": {
+    "state": "budget_exhausted",
+    "completed_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "interrupted_cases": [
+      {
+        "case": 16,
+        "state": "timed_out"
+      }
+    ],
+    "active": null,
+    "errors": [],
+    "elapsed_seconds": 18000,
+    "remaining_seconds": 0.0,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T15:24:50.550506+00:00"
+  },
+  "process_checks": [
+    {
+      "role": "supervisor",
+      "pid": 1737,
+      "state": "Z",
+      "executing": false,
+      "command": ""
+    },
+    {
+      "role": "last_worker",
+      "pid": 2663,
+      "executing": false,
+      "present": false
+    }
+  ],
+  "completed_cases": [
+    {
+      "case": 0,
+      "config": {
+        "mesh": 2,
+        "quadrature": 4,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 9.079701540172816e-09,
+        "x_half": 9.089626164846486e-09,
+        "x_half_frozen_inherited": 5.147214929506555e-09,
+        "y_half": -1.6002022151048276e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -1.0633838702743938e-09,
+      "per_representation_ward_residual": {
+        "anti5": 7.183206919686958e-08,
+        "10": -7.289545306714398e-08
+      },
+      "endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 1,
+      "config": {
+        "mesh": 2,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.112097043279893e-08,
+        "x_half": 1.1131077905516506e-08,
+        "x_half_frozen_inherited": 7.137451560165666e-09,
+        "y_half": -1.6318722280695813e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 3.653263775393482e-12,
+      "per_representation_ward_residual": {
+        "anti5": 8.369711305417765e-12,
+        "10": -4.716447530024283e-12
+      },
+      "endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 2,
+      "config": {
+        "mesh": 2,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.1114672889504931e-08,
+        "x_half": 1.1124780358638711e-08,
+        "x_half_frozen_inherited": 7.131132474311519e-09,
+        "y_half": -1.6320451357670592e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 8.19859397622883e-14,
+      "per_representation_ward_residual": {
+        "anti5": 2.2483683209499616e-14,
+        "10": 5.950225655278868e-14
+      },
+      "endpoint_curvature_difference": -9.023398261171524e-07
+    },
+    {
+      "case": 3,
+      "config": {
+        "mesh": 4,
+        "quadrature": 8,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.1137493166800842e-08,
+        "x_half": 1.1147604936933723e-08,
+        "x_half_frozen_inherited": 7.1414899786939995e-09,
+        "y_half": -1.6317795303012933e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 3.61695272443587e-12,
+      "per_representation_ward_residual": {
+        "anti5": 8.33171282464527e-12,
+        "10": -4.7147601002094e-12
+      },
+      "endpoint_curvature_difference": -9.023322204220225e-07
+    },
+    {
+      "case": 4,
+      "config": {
+        "mesh": 4,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.1131196118805124e-08,
+        "x_half": 1.1141307903936418e-08,
+        "x_half_frozen_inherited": 7.13517140555906e-09,
+        "y_half": -1.6319523862334538e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 4.6284392537696527e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.602641308643413e-14,
+        "10": 6.231080562413066e-14
+      },
+      "endpoint_curvature_difference": -9.023322204220225e-07
+    },
+    {
+      "case": 5,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.11352682848176e-08,
+        "x_half": 1.1145381137884646e-08,
+        "x_half_frozen_inherited": 7.13616859477279e-09,
+        "y_half": -1.6319297144183822e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 4.758331544472863e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.090205137334343e-14,
+        "10": 5.848536681807206e-14
+      },
+      "endpoint_curvature_difference": -9.023302647588216e-07
+    },
+    {
+      "case": 6,
+      "config": {
+        "mesh": 8,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.1135268388851034e-08,
+        "x_half": 1.1145381232679915e-08,
+        "x_half_frozen_inherited": 7.1361686957882455e-09,
+        "y_half": -1.631929717428568e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 4.7787831126326705e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.0957877620831067e-14,
+        "10": 5.874570874715777e-14
+      },
+      "endpoint_curvature_difference": -9.023302647588216e-07
+    },
+    {
+      "case": 7,
+      "config": {
+        "mesh": 16,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "purpose": "base_convergence",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.113628319997791e-08,
+        "x_half": 1.1146396307264954e-08,
+        "x_half_frozen_inherited": 7.136417545019296e-09,
+        "y_half": -1.631924032966742e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 6.234731316767379e-14,
+      "per_representation_ward_residual": {
+        "anti5": 2.1588833134790443e-14,
+        "10": 4.075848003288335e-14
+      },
+      "endpoint_curvature_difference": -9.023297813412282e-07
+    },
+    {
+      "case": 8,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.01,
+        "b": 0,
+        "purpose": "curl_step_0.01",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.412258473649491e-08,
+        "x_half": 1.4132679493229467e-08,
+        "x_half_frozen_inherited": 1.02088965914289e-08,
+        "y_half": -2.7678587527682153e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -8.729644797696645e-15,
+      "per_representation_ward_residual": {
+        "anti5": 3.427556937547153e-16,
+        "10": -9.07240049145136e-15
+      },
+      "endpoint_curvature_difference": -9.211218551321995e-07
+    },
+    {
+      "case": 9,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": -0.01,
+        "b": 0,
+        "purpose": "curl_step_0.01",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 8.313777010397213e-09,
+        "x_half": 8.32390726090012e-09,
+        "x_half_frozen_inherited": 4.223732299996206e-09,
+        "y_half": -5.180940577882583e-09
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -8.248190846960827e-16,
+      "per_representation_ward_residual": {
+        "anti5": -6.976379346987967e-16,
+        "10": -1.2718114999728594e-16
+      },
+      "endpoint_curvature_difference": -8.84212019009815e-07
+    },
+    {
+      "case": 10,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0,
+        "b": 0.01,
+        "purpose": "curl_step_0.01",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 8.786233554686045e-09,
+        "x_half": 8.796184081850435e-09,
+        "x_half_frozen_inherited": 4.714496314800004e-09,
+        "y_half": -1.5704434694122648e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 3.533753142737745e-14,
+      "per_representation_ward_residual": {
+        "anti5": 1.7482594012871097e-14,
+        "10": 1.7854937414506352e-14
+      },
+      "endpoint_curvature_difference": -8.881853965206781e-07
+    },
+    {
+      "case": 11,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0,
+        "b": -0.01,
+        "purpose": "curl_step_0.01",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.3226919673470034e-08,
+        "x_half": 1.3237194143692115e-08,
+        "x_half_frozen_inherited": 9.2962807612875e-09,
+        "y_half": -1.6837439474780984e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 3.0370207081608855e-14,
+      "per_representation_ward_residual": {
+        "anti5": 8.838382228783942e-15,
+        "10": 2.1531824852824913e-14
+      },
+      "endpoint_curvature_difference": -9.178597290796872e-07
+    },
+    {
+      "case": 12,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0.005,
+        "b": 0,
+        "purpose": "curl_step_0.005",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.2608515781574841e-08,
+        "x_half": 1.2618619680111112e-08,
+        "x_half_frozen_inherited": 8.652808826234407e-09,
+        "y_half": -2.1970832526309882e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -9.674906038261658e-15,
+      "per_representation_ward_residual": {
+        "anti5": -6.0347489131513596e-15,
+        "10": -3.640157125110299e-15
+      },
+      "endpoint_curvature_difference": -9.116422455810668e-07
+    },
+    {
+      "case": 13,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": -0.005,
+        "b": 0,
+        "purpose": "curl_step_0.005",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 9.703480578957619e-09,
+        "x_half": 9.713602210900287e-09,
+        "x_half_frozen_inherited": 5.659604482605709e-09,
+        "y_half": -1.0722996614684764e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": 4.859232184380516e-14,
+      "per_representation_ward_residual": {
+        "anti5": -1.6334971095492874e-15,
+        "10": 5.0225818953354446e-14
+      },
+      "endpoint_curvature_difference": -8.931866147592627e-07
+    },
+    {
+      "case": 14,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0,
+        "b": 0.005,
+        "purpose": "curl_step_0.005",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 9.991589278720207e-09,
+        "x_half": 1.0001621055063667e-08,
+        "x_half_frozen_inherited": 5.956678178030445e-09,
+        "y_half": -1.6024083231034743e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -7.465330809856407e-15,
+      "per_representation_ward_residual": {
+        "anti5": -1.2643745506959667e-14,
+        "10": 5.17841469710326e-15
+      },
+      "endpoint_curvature_difference": -8.950844318782276e-07
+    },
+    {
+      "case": 15,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": 0,
+        "b": -0.005,
+        "purpose": "curl_step_0.005",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "chiral_currents": {
+        "x": 1.2214599375650412e-08,
+        "x_half": 1.22247931231532e-08,
+        "x_half_frozen_inherited": 8.250266901550314e-09,
+        "y_half": -1.659032848079331e-08
+      },
+      "vectorlike_currents": {
+        "x": 0.0,
+        "x_half": 0.0,
+        "x_half_frozen_inherited": 0.0,
+        "y_half": 0.0
+      },
+      "ward_residual": -5.569404682039371e-15,
+      "per_representation_ward_residual": {
+        "anti5": 5.3788167631929965e-15,
+        "10": -1.0948221445232368e-14
+      },
+      "endpoint_curvature_difference": -9.099222498644226e-07
+    }
+  ],
+  "interrupted_cases": [
+    {
+      "case": 16,
+      "state": "timed_out",
+      "returncode": -9,
+      "config": {
+        "mesh": 16,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "source_step": 0.005,
+        "purpose": "finer_error_controls",
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "stage": "comparison",
+      "saved_nodes": 40,
+      "expected_nodes": 64,
+      "representation_completion": {
+        "anti5": true,
+        "10": false
+      },
+      "excluded_from_observables": true
+    }
+  ],
+  "complete_paired_quadratures": 16,
+  "completed_case_nodes": 520,
+  "saved_nodes_including_interrupted": 560,
+  "convergence": {
+    "best_complete_base_case": 7,
+    "source_step_halving": {
+      "change": 1.0113107287043713e-11,
+      "relative": 0.0009072983777234112
+    },
+    "frozen_inherited_control": {
+      "full": 1.1146396307264954e-08,
+      "frozen": 7.136417545019296e-09,
+      "difference": 4.009978762245658e-09,
+      "relative": 0.35975562430272195
+    },
+    "mesh8_to16_q32": {
+      "change": 1.015074585038791e-12,
+      "relative": 9.10675124997296e-05
+    },
+    "mesh4_to8_q16": {
+      "change": 4.0732339482282755e-12,
+      "relative": 0.0003654638542941171
+    },
+    "mesh2_to4_q16": {
+      "change": 1.6527545297706714e-11,
+      "relative": 0.0014834474946938004
+    },
+    "q16_to32_mesh8": {
+      "change": 9.47952687754914e-17,
+      "relative": 8.505341073263387e-09
+    },
+    "curl_outer_step_halving": {
+      "residual_shrink_factor": 3.6848452277713917,
+      "curl_change": 3.6546004433591934e-10
+    }
+  },
+  "complete_curls": [
+    {
+      "delta": 0.01,
+      "case_ids": {
+        "ap": 8,
+        "am": 9,
+        "bp": 10,
+        "bm": 11
+      },
+      "matching_base_case": 5,
+      "settings": {
+        "mesh": 8,
+        "quadrature": 16,
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "curl": -9.028318443978945e-07,
+      "target": -9.023302647588216e-07,
+      "residual": -5.0157963907296e-10,
+      "relative_residual": 0.0005558714571177818,
+      "per_representation": {
+        "anti5": {
+          "curl": 2.752129339500971e-05,
+          "target": 2.752144691645812e-05,
+          "residual": -1.535214484089443e-10
+        },
+        "10": {
+          "curl": -2.8424125239407604e-05,
+          "target": -2.842377718121694e-05,
+          "residual": -3.4805819066401566e-10
+        }
+      }
+    },
+    {
+      "delta": 0.005,
+      "case_ids": {
+        "ap": 12,
+        "am": 13,
+        "bp": 14,
+        "bm": 15
+      },
+      "matching_base_case": 5,
+      "settings": {
+        "mesh": 8,
+        "quadrature": 16,
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      },
+      "curl": -9.024663843535586e-07,
+      "target": -9.023302647588216e-07,
+      "residual": -1.3611959473704062e-10,
+      "relative_residual": 0.00015085340706534232,
+      "per_representation": {
+        "anti5": {
+          "curl": 2.752140459847418e-05,
+          "target": 2.752144691645812e-05,
+          "residual": -4.231798393896833e-11
+        },
+        "10": {
+          "curl": -2.842387098282774e-05,
+          "target": -2.842377718121694e-05,
+          "residual": -9.380161079976636e-11
+        }
+      }
+    }
+  ],
+  "minimum_sampled_gap": 0.9874946778662416,
+  "max_eigenpair_residual": 2.3400613281880685e-14,
+  "source_hash_mismatches": [],
+  "nonempty_worker_stderr": [],
+  "last_manifest_events": [
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T15:05:38.414244+00:00",
+      "case": 15,
+      "state": "completed",
+      "returncode": 0
+    },
+    {
+      "event": "case_started",
+      "utc": "2026-10-15T15:05:38.424248+00:00",
+      "case": 16,
+      "pid": 2663,
+      "config": {
+        "mesh": 16,
+        "quadrature": 32,
+        "a": 0.0,
+        "b": 0.0,
+        "source_step": 0.005,
+        "purpose": "finer_error_controls",
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    {
+      "event": "case_finished",
+      "utc": "2026-10-15T15:24:50.548419+00:00",
+      "case": 16,
+      "state": "timed_out",
+      "returncode": -9
+    },
+    {
+      "event": "supervisor_finished",
+      "utc": "2026-10-15T15:24:50.553087+00:00",
+      "status": {
+        "state": "budget_exhausted",
+        "completed_cases": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "interrupted_cases": [
+          {
+            "case": 16,
+            "state": "timed_out"
+          }
+        ],
+        "active": null,
+        "errors": [],
+        "elapsed_seconds": 18000,
+        "remaining_seconds": 0.0,
+        "supervisor_pid": 1737,
+        "updated_utc": "2026-10-15T15:24:50.550506+00:00"
+      }
+    }
+  ],
+  "scope": "Finite numerically approximated B0 only; no infinite-current tail bound or theorem proof. Interrupted quadratures and incomplete representation sums excluded."
+}

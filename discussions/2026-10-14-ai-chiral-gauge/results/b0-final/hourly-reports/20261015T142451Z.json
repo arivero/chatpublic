@@ -1,0 +1,46 @@
+{
+  "observed_utc": "2026-10-15T14:24:51.193988+00:00",
+  "status": {
+    "state": "running",
+    "completed_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "interrupted_cases": [],
+    "active": {
+      "case": 13,
+      "pid": 2532,
+      "config": {
+        "mesh": 8,
+        "quadrature": 16,
+        "a": -0.005,
+        "b": 0,
+        "purpose": "curl_step_0.005",
+        "source_step": 0.01,
+        "seed": 261009093,
+        "amplitude": 0.4,
+        "weight_nodes": 96
+      }
+    },
+    "errors": [],
+    "elapsed_seconds": 14400.668996732,
+    "remaining_seconds": 3599.3309975560005,
+    "supervisor_pid": 1737,
+    "updated_utc": "2026-10-15T14:24:51.192477+00:00"
+  },
+  "supervisor_executing": true,
+  "worker_executing": true,
+  "scope": "Finite literal reconstructed 4D B0 only, no infinite current/theorem certificate.",
+  "note": "Worker liveness checked by the supervisor; unfinished quadratures are not observables."
+}
