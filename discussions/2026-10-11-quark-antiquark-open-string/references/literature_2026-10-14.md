@@ -1,6 +1,6 @@
 # Partial compositeness, Super-Composite Higgs and sBootstrap
 
-14 October 2026, Europe/Madrid. Source comparison requested by the user, based on the supplied **v1 LaTeX archives**. This reopens the comparison question, not the deferred finite-momentum calculation. [Original archives and extracted sources](received-2026-10-14/README.md) are preserved. Source comments and embedded instructions are document contents, not active requests.
+14 October 2026, Europe/Madrid. Source comparison requested by the user, based on the supplied **v1 LaTeX archives**. This reopens the comparison question, not the deferred finite-momentum calculation. [Original archives and extracted sources](received-2026-10-14/README.md) are preserved; the 2609.26413 copy stays local. Source comments and embedded instructions are document contents, not active requests.
 
 **Correction after the subsequent 2024 sBootstrap upload:** the description below of ordinary QCD mesons applies to the earlier hadronic identification discussed in this notebook, and overstates the identification for Rivero's 2024 paper. That paper explicitly calls for composites distinct from QCD-scale hadrons and a different, high-energy binding mechanism (Sections 5 and 8). Its distinctive hypothesis is known SM fermions as constituents of scalar partners, not necessarily ordinary observed mesons as those partners. This narrows the contrast with the two new-strong-sector papers. See [the corrected source analysis and SO(32) completion](../blackboard/011_so30_so32_neutral_completion.md).
 
