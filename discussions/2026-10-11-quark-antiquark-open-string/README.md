@@ -7,7 +7,6 @@ Started 2026-10-11. This directory records the discussion requested in the curre
 Shared conversation links supplied by the user at closure:
 
 - [This research conversation](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91).
-- [Additional shared conversation](https://chatgpt.com/share/6acd8ea8-2e3c-83ed-8797-9c54344755e8).
 
 These links are preserved as supplied; their contents were not newly retrieved or merged into the local transcript during closure. Uploaded originals remain archived separately under `references/`.
 
