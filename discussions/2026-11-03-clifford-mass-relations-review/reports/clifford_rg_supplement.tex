@@ -1,0 +1,93 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=18mm]{geometry}
+\usepackage{lmodern,amsmath,amssymb,graphicx,booktabs,microtype,hyperref,xcolor}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\newcommand{\MS}{\overline{\mathrm{MS}}}
+\newcommand{\eps}{\varepsilon}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+\title{Scale and renormalization-group audit of\\\emph{Clifford Geometry and Mass Relations}, v13}
+\author{Computational supplement \quad 3 November 2026}
+\date{}
+\begin{document}
+\maketitle\vspace{-2em}
+\begin{abstract}
+The manuscript uses the Thomson-limit fine-structure constant with physical lepton pole masses. We test whether the lepton and proton relations prefer a different electromagnetic momentum scale, and run charged-lepton masses to a common $\MS$ scale at one loop. The three formulas require mutually different effective momenta when pole masses are held fixed. The internally motivated geometric momenta, $1/r_e$ and $E_*$, worsen the agreement. A consistent running-mass comparison produces no intersection at a common scale above $m_\tau$; the Koide relation is closer to $2/3$ for pole than for running masses. These are one-loop tests, not a complete electroweak/QCD precision calculation.
+\end{abstract}
+\section*{1. What is being evolved?}
+The manuscript states three \emph{pole-mass} relations in terms of $x=\alpha^{-1}(0)$:
+\begin{equation}
+ R_\mu=\frac32x+\frac{17}{14},\qquad
+ R_\tau=\frac{51}{2}x-17,\qquad
+ R_p=\frac{27}{2}x-\frac{83}{6}+\frac{1}{3x(x-1)}.
+\end{equation}
+The fixed inputs are $x_0=137.035999177$, $m_ec^2=0.51099895069$ MeV, $R_\mu^{\rm obs}=206.7682827$, $m_\tau c^2=1776.93$ MeV, and $R_p^{\rm obs}=1836.152673426$. The tau figure is the PDG comparison employed in the earlier audit. We compare two distinct operations: (i) substituting a spacelike effective charge while keeping pole masses fixed, which is only a phenomenological diagnostic, and (ii) consistently evolving running masses and the coupling in a common renormalization scheme.
+\section*{2. Phenomenological substitution of the spacelike effective charge}
+At one-loop with lepton vacuum polarization only, the momentum-subtracted inverse effective coupling is
+\begin{equation}
+ x_{\rm eff}(Q)=x_0-\frac{2}{\pi}\sum_{\ell=e,\mu,\tau}\int_0^1dt\;t(1-t)
+ \ln\left[1+\frac{Q^2t(1-t)}{m_\ell^2}\right],\qquad Q^2>0\ \text{(spacelike)}.
+\end{equation}
+The $Q$ values in the next table are the separate solutions of $R_j(x_{\rm eff}(Q))=R_j^{\rm obs}$. At these small scales, lepton vacuum polarization dominates and hadronic corrections are negligible.
+\begin{center}\begin{tabular}{lrrr}\toprule
+Target formula & Required $x=\alpha^{-1}$ & $x_0-x$ & Inferred $Q$\\\midrule
+Proton & 137.035999176178 & $8.22\times10^{-10}$ & $0.1006$ keV\\
+Muon & 137.035997990476 & $1.187\times10^{-6}$ & $3.821$ keV\\
+Tau & 137.033931839465 & $0.00206734$ & $160.33$ keV\\\bottomrule
+\end{tabular}\end{center}
+The proton shift in $x$ is substantially below the stated input standard uncertainty $2.1\times10^{-8}$; its inferred $Q$ is therefore not resolved. The three preferred central scales are not a common scale. For the model's \emph{own} lepton outputs to satisfy exact Koide, the required $x$ is $137.045540384>x_0$. Spacelike vacuum polarization moves $x$ downward, so no $Q>0$ achieves exact Koide by this substitution.
+\begin{center}\includegraphics[width=0.88\linewidth]{clifford_rg_1_onshell_scale.pdf}\end{center}
+\section*{3. The energy scales supplied by the manuscript itself}
+The prescribed reference radius is $r_e=\alpha\hbar/(m_ec)$, hence
+\begin{equation}
+Q_r\equiv\frac{\hbar c}{r_e}=\frac{m_ec^2}{\alpha}=70.0253\ \text{MeV},\qquad
+E_*\equiv\frac{3\hbar c}{2r_e}=105.0379\ \text{MeV}.
+\end{equation}
+Substitution of the spacelike $x_{\rm eff}(Q)$ alone gives the following \emph{diagnostic}, not a consistent full RG improvement:
+\begin{center}\begin{tabular}{lrrrr}\toprule
+$Q$ & $x_{\rm eff}(Q)$ & $R_\mu$ & $m_\tau c^2$ [MeV] & $R_p$\\\midrule
+Thomson limit & 137.0359992 & 206.7682845 & 1776.95694 & 1836.1526734\\
+$\hbar c/r_e$ & 136.1597542 & 205.4539170 & 1765.53905 & 1824.3233662\\
+$E_*$ & 136.0635681 & 205.3096379 & 1764.28570 & 1823.0248544\\
+Target & --- & 206.7682827 & 1776.93000 & 1836.1526734\\\bottomrule
+\end{tabular}\end{center}
+The physically distinguished momenta of the model therefore \emph{worsen} all three numerical agreements if only the electromagnetic coupling is replaced.
+\section*{4. Running masses in a common $\MS$ scheme}
+Use one-loop electromagnetic beta and mass anomalous dimensions, with $S(\mu)=\sum_{f\,\mathrm{active}}N_c Q_f^2$:
+\begin{equation}
+\frac{d\alpha}{d\ln\mu}=\frac{2S\alpha^2}{3\pi},\qquad
+\frac{d\ln\bar m_\ell}{d\ln\mu}=-\frac{3\alpha}{2\pi}\quad (\ell=e,\mu,\tau).
+\end{equation}
+For each lepton, one-loop pole--$\MS$ matching at its own mass and piecewise integration are used:
+\begin{equation}
+\frac{m_\ell^{\rm pole}}{\bar m_\ell(\mu)}=1+\frac{\alpha(\mu)}{\pi}\left(1+\frac34\ln\frac{\mu^2}{(m_\ell^{\rm pole})^2}\right)+O(\alpha^2).
+\end{equation}
+The weakly constrained low-energy hadronic contribution is represented by one \emph{effective} common light-quark threshold, fixed to reproduce the PDG 2022 $\MS$ electromagnetic charge $\hat\alpha^{-1}(m_\tau)=133.471$. The resulting effective threshold is $0.1209$ GeV; it is a computational surrogate, not a constituent or current quark mass. Above this threshold, charm and bottom thresholds are included. Pure one-loop electromagnetic running above a few GeV omits electroweak matching and higher-order effects; it is sufficient to check whether order-unity changes in the required inverse coupling are avoided.
+
+At $\mu=m_\tau$, the result is:
+\begin{equation}
+R_\mu^{\MS}=210.657394,\qquad R_\tau^{\MS}=3578.226230,\qquad
+x^{\MS}_{\rm EM}=133.471.
+\end{equation}
+To satisfy the manuscript's unchanged equations, these ratios would instead demand
+\begin{equation}
+ x^{\rm needed}_\mu=\frac23(R_\mu^{\MS}-17/14)=139.628739,\quad
+ x^{\rm needed}_\tau=\frac2{51}(R_\tau^{\MS}+17)=140.989264.
+\end{equation}
+Neither agrees with $133.471$, nor with each other. Since at one loop all three leptons have the same electromagnetic mass anomalous dimension, their $\MS$ mass ratios are constant above $m_\tau$, whereas $\alpha(\mu)$ keeps running. Thus the mismatch grows above $m_\tau$; there is no crossing in the region scanned. Small lepton-Yukawa effects at electroweak scales do not alter this conclusion.
+\begin{center}\includegraphics[width=0.9\linewidth]{clifford_rg_2_common_scale.pdf}\end{center}
+\section*{5. Koide under RG}
+Using the tau central value above, the observed pole-mass Koide combination is
+\begin{equation}
+K^{\rm pole}=0.6666644634,\qquad
+K^{\MS}_{\text{one-loop, }\mu\ge m_\tau}=0.6678258296,
+\end{equation}
+compared with $2/3=0.6666666667$. Its proximity to $2/3$ is a property of the pole-mass boundary data, not of the corresponding common-scale $\MS$ masses. At one-loop QED, the ratios are exactly scale-invariant above the tau threshold; consequently $K$ is flat, not driven back toward $2/3$. This agrees qualitatively with Xing--Zhang (2006), who find a roughly $0.2\%$ difference between Koide using running and pole masses at the weak scale. Differences of order $10^{-4}$ in the illustrative $K^{\MS}$ estimate are within the scope of omitted higher-order electroweak and threshold effects; the sign and magnitude of the displacement are robust.
+\begin{center}\includegraphics[width=0.89\linewidth]{clifford_rg_3_koide.pdf}\end{center}
+\section*{6. RG covariance of the proposed structural law}
+An equation like $R_\mu=3/[2\alpha(\mu)]+17/14$ cannot be RG invariant over an interval when $R_\mu$ is (approximately) invariant but $\alpha(\mu)$ runs. If one introduces an additional radius multiplier $\lambda(\mu)$, requiring fixed ratios and finite offsets forces $[\alpha(\mu)\lambda(\mu)]^{-1}=\mathrm{constant}$, i.e. $\lambda(\mu)\propto\alpha(\mu)^{-1}$. This cancels the electromagnetic coupling in the radius $r=\lambda\alpha\hbar/(m_ec)$, changing the original H1 prescription. It is a new postulate, not an RG prediction of the paper.
+
+The proton pole mass is RG invariant: it does not obey the perturbative current-quark mass anomalous dimension. A consistent hadronic calculation would need QCD dynamics, including $\Lambda_{\rm QCD}$, matrix elements and a specified QED/QCD separation. Replacing $\alpha(0)$ by $\alpha(Q)$ in the proton formula is therefore only a diagnostic.
+\paragraph{Conclusion.} No special nonzero energy emerges from these tests. The original mass relations are most naturally read as \emph{Thomson-limit pole-mass phenomenology}. Ordinary electromagnetic RG flow does not improve their simultaneous common-scale realization, and Koide becomes less accurate for running masses.
+\paragraph{References.} Kritov, \emph{Clifford Geometry and Mass Relations}, v13 (supplied manuscript). PDG 2022, \emph{Electroweak Model and Constraints on New Physics}, section 10.2.2, \url{https://pdgaws.lbl.gov/2022/reviews/rpp2022-rev-standard-model.pdf}. Z.-z. Xing and H. Zhang, \emph{Phys. Lett. B} \textbf{635} (2006) 107, \url{https://doi.org/10.1016/j.physletb.2006.02.051}. S. Antusch, K. Hinze, S. Saad, \emph{Phys. Rev. D} \textbf{113} (2026) 095011, \url{https://doi.org/10.1103/fdcc-ycph}.
+\end{document}

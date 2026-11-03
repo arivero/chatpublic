@@ -1,0 +1,214 @@
+\documentclass[10.5pt,a4paper]{article}
+\usepackage[margin=22mm,headheight=14pt,headsep=12pt,footskip=15pt]{geometry}
+\usepackage{lmodern,microtype}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{graphicx,booktabs,array,multirow}
+\usepackage{xcolor,hyperref,fancyhdr}
+\hypersetup{colorlinks=true,linkcolor=blue!35!black,urlcolor=blue!35!black}
+\definecolor{navy}{HTML}{19364C}
+\definecolor{teal}{HTML}{36775B}
+\definecolor{amber}{HTML}{AD7026}
+\definecolor{muted}{HTML}{566575}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\me}{m_e}
+\newcommand{\rmu}{\rho_\mu}
+\newcommand{\rtau}{\rho_\tau}
+\newcommand{\rp}{\rho_p}
+\newcommand{\kappaC}{\kappa}
+\newcommand{\one}{\mathbf 1}
+\newcommand{\fig}[2][]{\begin{center}\includegraphics[width=0.975\linewidth,#1]{#2}\end{center}}
+\newcommand{\comment}[1]{\par\noindent\textcolor{teal}{\textbf{Inference.}}~#1\par}
+\newcommand{\scope}[1]{\par\noindent\textcolor{amber}{\textbf{Status.}}~#1\par}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{muted} Integer-constrained mass-relation audit}
+\fancyhead[R]{\footnotesize\color{muted} Kritov v13 / 3 Nov 2026}
+\fancyfoot[C]{\footnotesize\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\parskip}{5pt}
+\setlength{\parindent}{0pt}
+\setlength{\floatsep}{7pt}
+\setlength{\textfloatsep}{8pt}
+\begin{document}
+
+\thispagestyle{fancy}
+{\large\color{teal}\textbf{Independent mathematical / phenomenological audit}}\\[7pt]
+{\LARGE\color{navy}\textbf{Integer-Constrained Parameter Scans}}\\[3pt]
+{\Large\color{navy} Lepton masses, proton mass, and the Koide cone}\\[8pt]
+\rule{\linewidth}{0.7pt}
+\textbf{Source:} Alexander Kritov, \emph{Clifford Geometry and Mass Relations: From Charged Leptons to the Proton}, English manuscript v13, 31 pp.\\
+\textbf{Purpose:} Identify which inputs are structural integers, which are real coefficients, and how the observable predictions change when \emph{explicitly specified assumptions} are relaxed.
+
+\vspace{4pt}
+\colorbox{blue!5}{\begin{minipage}{0.965\linewidth}
+\textbf{Crucial rule.} An integer delivered by the matrix dimension, Clifford trace, or colour representation is \emph{not} treated as a continuously adjustable coefficient. The strict H1--H2 construction fixes \(14\), \(17\), and \(9\); it also fixes its real normalizations to unity. Plots labelled \emph{diagnostic} change a physical postulate, not a mathematical identity.
+\end{minipage}}
+
+\subsection*{Principal numerical findings}
+\begin{itemize}\setlength{\itemsep}{4pt}
+\item \textbf{Strict original model:} zero tunable parameters after the empirical \(\me\) and Thomson \(\alpha\) are supplied. It predicts two lepton ratios and one proton ratio conditionally on its prescriptions.
+\item \textbf{Integer lepton weight:} restricting a diagnostic response weight \(n=1+16g\) to \(n\in\mathbb Z\), with complete correction \(\eta=1\), singles out \(n=17\). The neighbouring integers miss the tau target by about \(104\) MeV after fitting the muon.
+\item \textbf{Continuous lepton diagnostics at \(n=17\):} the two ratios determine \((\lambda,\eta)=(1.000008277,1.001399651)\) at their quoted central values. The original \((1,1)\) is already inside their measurement tolerances.
+\item \textbf{Koide:} exact \(Q_K=2/3\) together with the central muon ratio gives \((\lambda,\eta)=(0.999996291,0.999370730)\), predicting \(m_\tau c^2=1776.9690\) MeV, only \(0.43\) PDG standard deviations above its central value.
+\item \textbf{Proton:} the integer coefficient choice \((u,q)=(1,1)\) is close to the measured ratio; among tested integer \(q\), it is preferred by reference-only errors, but several choices survive when the quoted uncertainty of the \(\alpha^{-1}\) input is propagated.
+\end{itemize}
+
+\subsection*{Fixed numerical inputs and conventions}
+\begin{center}\small
+\begin{tabular}{@{}lrl@{}}\toprule
+Quantity & Central value & Quoted standard uncertainty\\\midrule
+\(\alpha^{-1}\) (CODATA 2022) & \(137.035999177\) & \(2.1\times10^{-8}\)\\
+\(\me c^2\) (CODATA 2022) & \(0.51099895069\) MeV & \(1.6\times10^{-10}\) MeV\\
+\(m_\mu/\me\) (CODATA 2022) & \(206.7682827\) & \(4.6\times10^{-6}\)\\
+\(m_\tau c^2\) (PDG 2026 as quoted) & \(1776.93\) MeV & \(0.09\) MeV\\
+\(m_p/\me\) (CODATA 2022) & \(1836.152673426\) & \(3.2\times10^{-8}\)\\\bottomrule
+\end{tabular}
+\end{center}
+\textbf{Important:} CODATA recommended constants can be correlated. Combined errors in the following proton figures use an \emph{illustrative independent-input approximation}, not the full CODATA adjustment covariance. All confidence contours are conditional on the diagnostic family and Gaussian error convention.
+
+\clearpage
+\section*{1. The invariant integers: no smooth tuning of 14 or 17}
+For the manuscript's fixed complex Clifford module, \(\dim W=16\). Its two distinguished lines leave a \(14\)-dimensional harmonic block. With the ordinary trace and the unit graph weight in H1,
+\[
+ (d_e,d_\mu,d_\tau)=(1,14,1),\qquad A=P_\mu+17P_\tau.
+\]
+Thus \(14\) and \(17=1+16\) are \textbf{fixed integers}, not two free real fitting parameters. Section 11.1 separately proposes a diagnostic \(A_g=P_\mu+(1+16g)P_\tau\) with real \(g>0\). To impose an additional integrality rule on that \emph{modified} response, set \(n=1+16g\in\mathbb Z_{\ge2}\). This does not preserve the unit graph normalization of H1 except at \(n=17\).
+
+The diagnostic lepton mass law becomes
+\[
+ \rmu=\frac{\kappaC}{\lambda}+\frac{\eta n}{14},\qquad
+ \rtau=n\left(\frac{\kappaC}{\lambda}-\eta\right),\qquad
+ \kappaC=\frac3{2\alpha}.
+\]
+Holding the complete correction at \(\eta=1\) and choosing the \emph{real} radius multiplier \(\lambda\) to match the muon gives the exact reduction
+\[
+ \lambda_\mu(n)=\frac{\kappaC}{\rmu^{\rm obs}-n/14},\qquad
+ \rtau(n\mid\mu,\eta=1)=n\rmu^{\rm obs}-n\left(1+\frac n{14}\right).
+\]
+\fig[height=83mm,keepaspectratio]{fig1_integer_weight.pdf}
+\comment{With one continuous adjustment (\(\lambda\)) to fit the muon, the integer alternatives \(n=16\) and \(18\) miss the tau by \(-103.916\) and \(+103.897\) MeV respectively. The original \(n=17\) gives \(+0.026923\) MeV, well inside the \(0.09\)-MeV PDG band. The discrete separation is genuine \emph{within this constructed integer family}.}
+\scope{In the strict original H1 graph norm, even the integer variation is disallowed: the only admitted weight is \(17\).}
+
+\clearpage
+\section*{2. What if the correction is also allowed to vary?}
+With integer \(n\), but \emph{two} continuous diagnostic parameters \(\lambda\) and \(\eta\), the muon and tau central targets can be fitted exactly for every admissible integer \(n\). The inversion is elementary:
+\[
+ x_n=\frac{\rtau^{\rm obs}+14\rmu^{\rm obs}}{n+14},\qquad
+ \lambda_n=\frac{\kappaC}{x_n},\qquad
+ \eta_n=\frac{14}{n}\bigl(\rmu^{\rm obs}-x_n\bigr).
+\]
+\fig[height=87mm,keepaspectratio]{fig2_integer_eta.pdf}
+\begin{center}\small
+\begin{tabular}{@{}rrrr@{}}\toprule
+Integer \(n\) & \(\lambda_n\) & \(\eta_n\) & Interpretation\\\midrule
+16 & 0.967749945 & -4.931288 & Negative correction multiplier\\
+\textbf{17} & \textbf{1.000008277} & \textbf{1.001399651} & \textbf{Near the complete-response rule}\\
+18 & 1.032266609 & 5.941829 & Correction about six times stronger\\\bottomrule
+\end{tabular}
+\end{center}
+\comment{Integrality alone does not yield algebraic uniqueness if both real multipliers can be freely fitted. But \(n=17\) is exceptionally distinguished by \(\lambda\simeq1\) and \(\eta\simeq1\). In the manuscript, \(\eta=1\) is part of H2, not a prior inferred from data.}
+
+\clearpage
+\section*{3. Local output constraint: how narrow is the lepton fit?}
+Now keep \(n=17\) \emph{exactly}. The active diagnostic domain is two-dimensional, \((\lambda,\eta)\). Let
+\[
+\lambda_\mu(\eta)=\frac{\kappaC}{\rmu^{\rm obs}-17\eta/14},\quad
+\chi^2=\left(\frac{\rmu-\rmu^{\rm obs}}{4.6\times10^{-6}}\right)^2+
+\left(\frac{\rtau-\rtau^{\rm obs}}{0.09/\me}\right)^2.
+\]
+The muon measurement makes the fit corridor almost invisible on ordinary \(\lambda\) scales. Consequently, the ordinate below is the displacement \(10^6[\lambda-\lambda_\mu(\eta)]\), in parts per million, rather than \(\lambda\) itself.
+\fig[height=98mm,keepaspectratio]{fig3_lepton_local_chi2.pdf}
+The solid curves denote the conventional two-parameter Gaussian increments \(\Delta\chi^2=2.30\) and \(6.18\), under the stated uncertainty model. The central exact-fit point is \((\lambda,\eta)=(1.0000082770,1.0013996507)\). The original postulates are at \((1,1)\); their combined residual is about \(\chi^2\simeq0.24\), so no parameter adjustment is \emph{required} by the reported uncertainties.
+
+\comment{At exactly matched muon ratio, the tau ratio varies as \(\rtau=17\rmu^{\rm obs}-\frac{527}{14}\eta\). Its PDG uncertainty corresponds to roughly \(\sigma_\eta\simeq0.00468\) if \(\lambda\) is simultaneously adjusted. The two ratios strongly constrain one combination, but do not establish \(\lambda=\eta=1\) as fundamental constants.}
+
+\clearpage
+\section*{4. Koide in the same integer-constrained space}
+Use the normalized Koide expression
+\[
+Q_K=\frac{1+\rmu+\rtau}{(1+\sqrt{\rmu}+\sqrt{\rtau})^2},\qquad
+ \mathcal K=10^6\left(\frac{Q_K}{2/3}-1\right).
+\]
+The original integer \(n=17\), \(\lambda=\eta=1\) predicts \(\mathcal K=-1.024877\) ppm. The selected muon and PDG tau central values give \(\mathcal K=-3.304890\) ppm. Fix \(\rmu\) to its measured central value by adjusting \(\lambda=\lambda_\mu(\eta)\); then \(Q_K\) is a one-variable function of the real multiplier \(\eta\), without changing any integer.
+\fig[height=90mm,keepaspectratio]{fig4_koide.pdf}
+Exact Koide is \(\mathcal K=0\). Solving its positive large-\(\tau\) branch and the muon equation gives
+\[
+ \eta_K=0.999370729841,\quad \lambda_K=0.999996291334,\quad
+ m_\tau c^2=1776.969027\;\mathrm{MeV}.
+\]
+The central two-mass fit instead has \(\eta=1.001399651\), \(\lambda=1.000008277\). The difference in tau mass between exact Koide and the central PDG value is \(0.0390\) MeV, only \(0.43\) PDG standard deviations. No separate integer condition forces this point: exact Koide is an \emph{additional continuous mass constraint}. It is also not statistically independent of the two masses used to calculate it.
+
+\comment{The cone-angle picture \(Q_K=2/3\Leftrightarrow\theta=45^\circ\) is geometric, but the Clifford response postulates do not enforce that angle. The measured tau uncertainty presently accommodates exact Koide and the author's nearly exact Koide simultaneously.}
+
+\clearpage
+\section*{5. Proton: enforce integer coefficients as a discrete test}
+The manuscript fixes the colour-singlet response \(K_c=9\) and a \(3^3=27\)-dimensional colour carrier. Those are \emph{not scanned}. It also postulates a positive \(2\times2\) return matrix
+\[
+M_\alpha=\begin{pmatrix}1&-\alpha\\-\alpha&1-\alpha\end{pmatrix}.
+\]
+To probe coefficient freedom while implementing a strict integer rule, consider the \textbf{counterfactual integer ansatz}
+\[
+M_{u,q}=\begin{pmatrix}1&-u\alpha\\-u\alpha&1-q\alpha\end{pmatrix},
+\qquad u\in\mathbb Z_{\ge0},\quad q\in\mathbb Z,
+\]
+with positivity \(1-q\alpha-u^2\alpha^2>0\). The colour algebra, singlet, \(9\) and \(27\) all stay fixed; the resulting conditional mass ratio is
+\[
+\rp(u,q)=\frac{27}{2\alpha}-\frac{83}{6}+
+\frac{u^2\alpha^2}{3(1-q\alpha)}.
+\]
+\fig[height=95mm,keepaspectratio]{fig5_proton_integer_lattice.pdf}
+Numbers in the cells are \((\rho_p-\rho_p^{\rm obs})/\sigma_{\rm comb}\), where \(\sigma_{\rm comb}\) is the illustrative combined error described next; ``\(\gg1\)'' marks large failures. The red square is \((u,q)=(1,1)\). Integer \(u=0\) eliminates screening and misses the measured ratio by about 63 combined standard deviations; \(u=2,3\) overshoot much more strongly.
+
+\scope{The matrix coefficients are \emph{not} representation-theoretic integer invariants. Requiring them to take integer values is an added discrete hypothesis made here at the reader's request, not a theorem of the manuscript.}
+
+\clearpage
+\section*{6. The fine proton comparison is input-limited}
+At integer \(u=1\), the coefficient \(q\) changes the small screening correction by about \(1.3\times10^{-7}\) per unit. This is several times the stated CODATA reference uncertainty \(\sigma_p=3.2\times10^{-8}\), but \emph{smaller} than the uncertainty propagated from the input \(\alpha^{-1}\). Let \(x=\alpha^{-1}\). Then
+\[
+\rp(1,1)=\frac{27x}{2}-\frac{83}{6}+\frac{1}{3x(x-1)},\quad
+\frac{\partial\rp}{\partial x}=\frac{27}{2}-\frac{2x-1}{3x^2(x-1)^2}.
+\]
+From \(\sigma_x=2.1\times10^{-8}\) one obtains \(\sigma_{\rm input}\simeq2.8350\times10^{-7}\). Treating input and reference errors as independent for illustration gives \(\sigma_{\rm comb}=\sqrt{\sigma_p^2+\sigma_{\rm input}^2}\simeq2.8530\times10^{-7}\).
+\fig[height=91mm,keepaspectratio]{fig6_proton_q_uncertainty.pdf}
+\begin{center}\small
+\begin{tabular}{@{}rrr@{}}\toprule
+Integer \(q\), \(u=1\) & Reference-only \(z\) & Illustrative combined \(z\)\\\midrule
+-1 & -7.75 & -0.87\\
+0 & -3.73 & -0.42\\
+\textbf{1} & \textbf{+0.35} & \textbf{+0.04}\\
+2 & +4.48 & +0.50\\
+3 & +8.68 & +0.97\\\bottomrule
+\end{tabular}
+\end{center}
+\comment{With reference-only errors the observed central match favours the integer \(q=1\). Under the illustrative propagation of the input \(\alpha\) uncertainty, \(q=-1,0,1,2,3\) all lie within one combined standard deviation. Since CODATA adjusts correlated constants, a proper joint covariance calculation is needed before assigning rigorous statistical probabilities.}
+
+\clearpage
+\section*{7. A real coupling scan with every integer fixed}
+An alternative that does \emph{not} scan integer coefficients at all is to multiply the \emph{real} return strength \(\alpha\) by a continuous \(\beta>0\). Retain the colour Hilbert space, \(K_c=9\), and the integer coefficients of Eq.~(10.8):
+\[
+ M_{\alpha,\beta}=\begin{pmatrix}1&-\beta\alpha\\-\beta\alpha&1-\beta\alpha\end{pmatrix},\quad
+ \rp(\beta)=\frac{27}{2\alpha}-\frac{83}{6}+
+ \frac{\beta^2\alpha^2}{3(1-\beta\alpha)}.
+\]
+Here \(\beta=1\) recovers the exact manuscript. Changing \(\beta\) modifies its physical return-strength prescription; it is \emph{not} an extra parameter of the stated theory.
+\fig[height=83mm,keepaspectratio]{fig7_proton_beta.pdf}
+The central-value fit is \(\beta_*=0.999690654\). Near \(\beta\simeq1\), the reference-only uncertainty is equivalent to \(\sigma_\beta\simeq0.000892\); illustrative propagation of the \(\alpha^{-1}\) uncertainty increases this to approximately \(0.00795\). Hence the seemingly ultra-precise proton agreement does not tightly measure the underlying continuous return strength.
+
+\subsection*{Comparison of constrained parameter spaces}
+\begin{center}\small
+\begin{tabular}{@{}p{32mm}p{45mm}p{66mm}@{}}\toprule
+Regime & Free parameters & Meaning of its apparent fit\\\midrule
+Original H1--H2 + original colour ansatz & None (\(m_e,\alpha\) are empirical inputs) & Conditional numerical agreement; no tunable residual parameters\\
+Lepton, integer weight diagnostic & \(n\in\mathbb Z\), \(\lambda\in\mathbb R_+\); \(\eta=1\) & Strong selection of \(n=17\) near the original geometry\\
+Lepton, integers fixed & \(\lambda,\eta\in\mathbb R\) & A unique exact central-value fit near \((1,1)\); Koide exact selects a different nearby point\\
+Proton, integer coefficient ansatz & \(u,q\in\mathbb Z\), positivity & \(u=1\) selected strongly; \(q\) poorly distinguished after input-error propagation\\
+Proton, real strength diagnostic & \(\beta\in\mathbb R_+\), positivity & Data constrain a continuous coupling combination, not its physical origin\\\bottomrule
+\end{tabular}
+\end{center}
+\textbf{Conclusion.} The discrete Clifford weight \(17\) is robust against nearest-integer substitutions \emph{once} a particular diagnostic prescription is chosen. The main explanatory underdetermination is elsewhere: the original choice of response, scale and mass matching, plus the independently prescribed proton return matrix. Integer-constrained plots sharpen the critique; they do not establish that these prescriptions follow from underlying dynamics.
+
+\vspace{4pt}\hrule\vspace{5pt}
+{\footnotesize\color{muted}\textbf{Reproducibility and provenance.} All plotted equations originate in manuscript v13, especially Eqs.~(2.6), (3.3), (5.5), (6.13), (7.4), (8.3), (10.1)--(10.12), and (11.1). The integer \(n\) family and the \((u,q)\), \(\beta\) colour tests are explicitly labelled counterfactual diagnostic extensions. The program \texttt{scan\_figures.py} generates the figures and numerical values.}
+\end{document}

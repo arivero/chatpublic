@@ -20,6 +20,26 @@ from a Clifford carrier on a round three-sphere of radius $r_e$ and two postulat
 4. **Running.** No energy scale suits the relations better than the infrared. In an on-shell scheme the needed offsets equal the manuscript's values only below about 6 keV (muon), 300 keV (τ) and 0.5 keV (proton). In MS-bar the lepton mass ratios freeze above the τ while α keeps running, and the needed offsets never approach 17/14 or −17.
 5. **Koide.** At the manuscript's point Koide holds to $10^{-6}$ because the formulas reproduce the measured masses. Exact Koide inside the model needs a τ weight of 17.000115, not a simple ratio. For masses linear in 1/α relative to a fixed electron, the electron term enters at order √α and prevents Koide from holding for all α; a Z₃-circulant square-root mass operator gives it identically.
 
+## Companion analysis
+
+The user also supplied a second, independent analysis of the same manuscript, prepared in a separate conversation, as `chatpublic_clifford_bundle.zip` (SHA-256 `07579b4ba62f81f716628d2ef84b96657b48c846f3f3a7cc2772654d6d2fdfd3`). Its files are added here unchanged; only its README was renamed, to avoid replacing this one.
+
+- [Overview](companion_analysis.md) (the bundle's README).
+- Notes: [mathematical audit and GIGO ledger](notes/audit.md), [what the geometric drawing shows](notes/geometry.md), [parameters, integer constraints and Koide](notes/parameter-koide.md), [RG and radiative-mass history](notes/rg-history.md).
+- Reports: [integer-constrained scan, 8 pages](reports/clifford_integer_constrained_scan_report.pdf) ([LaTeX](reports/clifford_integer_scan_report.tex)); [RG supplement, 4 pages](reports/clifford_rg_supplement.pdf) ([LaTeX](reports/clifford_rg_supplement.tex)).
+- [Figures](figures/): seven parameter and Koide plots, three RG plots, two infographics.
+- Scripts: [clifford_integer_scan_figures.py](calculations/clifford_integer_scan_figures.py), [clifford_rg_scan.py](calculations/clifford_rg_scan.py).
+
+**Agreement with this review.** Both analyses find the finite algebra correct given the postulates, 17 = 1 + 16 from the unnormalized trace, a Spin(4) commutant of dimension 10, the same domain qualification for the return map, and a proton uncertainty from α of 2.8×10⁻⁷ against the 3.2×10⁻⁸ quoted. The running results match: MS-bar ratios 210.657 and 3578.2 above the τ, Koide shifted by +1.74×10⁻³, and on-shell central-value scales of 0.10 keV (proton), 3.8 keV (muon) and 160 keV (τ), consistent with the 1σ upper scales found here.
+
+**Content not in this review.** The two-parameter exact fit $(\lambda,\eta) = (1.000008277, 1.001399651)$; integer τ weights with λ fitted to the muon, where 16 and 18 miss the τ by −104 and +104 MeV; the Koide-exact point $(\lambda,\eta) = (0.999996, 0.999371)$ with $m_\tau = 1776.969$ MeV; a counterfactual integer lattice $(u,q)$ and a real scale β for the proton's return matrix; the observation that the same finite spectrum follows on an abstract $\mathbb C^{16}$ without Clifford multiplication; and radiative-mass references not cited here (Barr–Zee 1977, Phys. Rev. D 15, 2652; Barr 1980, Phys. Rev. D 21, 1424; Ma 1989, Phys. Rev. Lett. 62, 1228), checked against INSPIRE.
+
+**Read with care.**
+
+- The two PNG infographics draw the sphere of radius $\ell_e$ smaller than the sphere of radius $r_e$. In fact $r_e = \alpha\ell_e$ is 137 times smaller. The companion's [geometry note](notes/geometry.md) says the drawings are not to scale.
+- `clifford_rg_scan.py` writes its outputs to `/mnt/data`, the path of the environment where it ran; set `OUT` before running it elsewhere. The integer-scan report names its script `scan_figures.py`; the file here is `clifford_integer_scan_figures.py`, which writes next to itself.
+- The reports' LaTeX includes figures by bare file name; the figures are in `figures/`.
+
 ## Reproduction
 
 The scripts use `numpy`, `scipy` and `mpmath`; the PDF renderer uses Node with Playwright and Chromium. From this directory:
