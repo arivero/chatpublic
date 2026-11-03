@@ -153,6 +153,11 @@ verified GitHub mirror has been found; GitHub connector searches in this
 session timed out. Do not describe this campaign as reproduction of an
 author-provided implementation.
 
+Correction, 3 November 2026: Zenodo records 23196101 and 23196062 were
+created on 18 October 2026, open access under CC BY 4.0, after this design
+was written. The paragraph above records what could be checked at the time.
+See [Source availability](../README.md#source-availability).
+
 ## Checkpoints and stopping
 
 The source's checkpoint is tied to version, seed and maximum grid. To resume

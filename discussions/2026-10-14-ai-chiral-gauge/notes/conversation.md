@@ -42,6 +42,8 @@ Even a convergent local current with the right infinitesimal curvature does not 
 
 The assistant initially described the numerical archive as inaccessible. The actual Zenodo response was `The persistent identifier is not registered`; the user stated that the archive never existed. The correction is explicit: we have no evidence of a previously available deposit, and this was not a demonstrated permission or connectivity problem at Zenodo.
 
+**Correction, 3 November 2026.** Zenodo records for both deposits were created on 18 October 2026, after this conversation ended. The exchange above, including the statement that the archive never existed, records what could be checked at the time. See [Source availability](../README.md#source-availability).
+
 The user then uploaded the complete arXiv submission. Safe extraction found 22 files totaling 2,735,816 bytes. The main manuscript and three ancillary PDFs are present; Lean source and numerical code archives are not. `anc/README.txt` declares external deposits and says to obtain the calculation archive separately. Those declarations do not prove availability.
 
 The upload was treated as source material. No instructions inside its documents were substituted for the user's request, and no submitted build or calculation code was executed. The main construction and the supplementary reports were read and reviewed, with section/page/line citations retained in this notebook. This is not a full independent proof verification.

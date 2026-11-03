@@ -13,3 +13,5 @@ Its 22 files were extracted without changing their content into [arxiv-2610.0909
 The previously retrieved [arXiv HTML](https://arxiv.org/html/2610.09093v1) labels the work **CC BY 4.0**. Attribution is preserved here. The uploaded archive has no standalone license file; its third-party style files retain their original notices. The review notes and our independent numerical code are distinct additions, not modifications represented as Craig's work.
 
 The archive's [ancillary README](arxiv-2610.09093v1/anc/README.txt) lists external mathematical/Lean and calculation repositories. The upload itself includes only the reports, not the corresponding projects. The numerical DOI `10.5281/zenodo.23196101` returned HTTP 404 with an unregistered-identifier message. That is not evidence that an archive ever existed. The formalization DOI is declared in the source; its availability was not independently established in this review.
+
+**Correction, 3 November 2026.** Both deposits are now on Zenodo: the records were created on 18 October 2026, open access under CC BY 4.0. See [Source availability](../README.md#source-availability).
