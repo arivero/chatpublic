@@ -6,7 +6,7 @@ $$\frac{m_\mu}{m_e} = \frac{3}{2\alpha}+\frac{17}{14},\qquad \frac{m_\tau}{m_e} 
 
 from a Clifford carrier on a round three-sphere of radius $r_e$ and two postulates.
 
-- [Review report (PDF, 22 pages)](review/clifford_mass_relations_review.pdf), with all figures and table views. Figures G1 and G2 draw the construction: the round S³ and its lowest Dirac level, the 16-dimensional carrier and the operator C, the response weights and their minimum, the resulting masses, and the proton's two radii and colour singlet. Figure G3 shows how the weights 0, 1, 17 arise and compares other splits of the 16 directions.
+- [Review report (PDF, 23 pages)](review/clifford_mass_relations_review.pdf), with all figures and table views. Figures G1 and G2 draw the construction: the round S³ and its lowest Dirac level, the 16-dimensional carrier and the operator C, the response weights and their minimum, the resulting masses, and the proton's two radii and colour singlet. Figure G3 shows how the weights 0, 1, 17 arise and compares other splits of the 16 directions.
 - [Review page source (HTML)](review/clifford_mass_relations_review.html). It loads MathJax and fonts from public CDNs and embeds its plot data; open it in a browser. GitHub shows only the source.
 - [Chronological recap](notes/conversation_recap.md) of the user's requests and outcomes.
 - [Koide's ratio for masses linear in 1/α](notes/koide_linear_alpha.md): the expansion in √α behind the user's last remark.
