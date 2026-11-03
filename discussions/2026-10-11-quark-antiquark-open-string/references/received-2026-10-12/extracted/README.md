@@ -1,5 +1,7 @@
 # Native PDF text extractions
 
+**3 November 2026:** the text files described here stay in the local working tree with their PDFs; see the [parent README](../README.md).
+
 Extraction by the `gpt-6-luna` sub-agent, 12 October 2026. Parent review visually checked PRL page 2, PRD page 4, and addendum page 3. In particular, addendum Eq. (111) contains **absolute-value bars around the Mellin function** that the extracted text loses. The PDF's positive coefficient is correct; do not turn this extraction artifact into a claimed sign error.
 
 Each PDF was extracted with `pdftotext -layout` (Poppler); page counts were read with `pdfinfo`. The source PDFs were left unchanged. Text preserves approximate columns and spacing; equations are present as linearized text and may have lost two-dimensional structure, superscripts, subscripts, or alignment. No OCR was needed for the text inspected: the documents contain readable native text. Figures and their visual content are not transcribed.

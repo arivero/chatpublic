@@ -4,7 +4,7 @@ Scope: original Volkov–Akulov upload and targeted search for **explicit three-
 
 ## The supplied 1973 source
 
-- **D. V. Volkov and V. P. Akulov**, [“Is the Neutrino a Goldstone Particle?”](https://doi.org/10.1016/0370-2693(73)90490-5), *Physics Letters B* **46** (1973), 109–110; [archived original](received-2026-10-13/volkov_akulov_1973.pdf). The two-page original was read. The hypothesis is that a neutrino is a fermionic Goldstone particle. Equations (6)–(8) construct its self-interaction; Eq. (9) couples the nonlinear field to a generic Dirac field. The closing paragraphs discuss other leptons and weak gauge interactions. The paper contains **no pion, muon, charged-lepton/meson superpartner assignment, generation count, or interpretation of π → μν as π → μ + Goldstino**. Any such link is a separate conjecture.
+- **D. V. Volkov and V. P. Akulov**, [“Is the Neutrino a Goldstone Particle?”](https://doi.org/10.1016/0370-2693(73)90490-5), *Physics Letters B* **46** (1973), 109–110. The two-page original was read. The hypothesis is that a neutrino is a fermionic Goldstone particle. Equations (6)–(8) construct its self-interaction; Eq. (9) couples the nonlinear field to a generic Dirac field. The closing paragraphs discuss other leptons and weak gauge interactions. The paper contains **no pion, muon, charged-lepton/meson superpartner assignment, generation count, or interpretation of π → μν as π → μ + Goldstino**. Any such link is a separate conjecture.
 
 ## Direct prior art found
 

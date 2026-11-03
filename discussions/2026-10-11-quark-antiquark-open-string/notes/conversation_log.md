@@ -106,7 +106,7 @@ The user then supplied the Greenberg–Mohapatra–Yasue 1983 PRL. [Original-sou
 
 ## 14. Shared links and cycle closure — 13 October 2026
 
-Following publication of the v0.5 physics consolidation as `210d0b4`, the user supplied [this research-chat link](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91) and [an additional shared conversation](https://chatgpt.com/share/6acd8ea8-2e3c-83ed-8797-9c54344755e8), requested commit and push, and explicitly closed the cycle pending new models. Both links are preserved in the repository and discussion READMEs; their contents were not newly fetched. The [recap](conversation_recap.md) now covers 28 substantive user turns. Handoffs mark the research as paused; the finite-$Q$ correction and other proposals remain unperformed. This is an archival closure, with no new physics result and no rebuild of the unchanged v0.5 paper.
+Following publication of the v0.5 physics consolidation as `210d0b4`, the user supplied [this research-chat link](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91) and an additional shared conversation, requested commit and push, and explicitly closed the cycle pending new models. The research-chat link is preserved in the repository and discussion READMEs; the second link was withdrawn from the repository on 3 November 2026. Their contents were not newly fetched. The [recap](conversation_recap.md) now covers 28 substantive user turns. Handoffs mark the research as paused; the finite-$Q$ correction and other proposals remain unperformed. This is an archival closure, with no new physics result and no rebuild of the unchanged v0.5 paper.
 
 ## 15. Requested modern-paper comparison — 14 October 2026
 
