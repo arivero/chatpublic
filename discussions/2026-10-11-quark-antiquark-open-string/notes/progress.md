@@ -31,3 +31,5 @@ Paper v0.10 built the same way on 10 November. The step it records is blackboard
 Paper v0.11 built the same way on 10 November (19 pages). The log has no LaTeX warnings, unresolved references or overfull boxes; three underfull lines in the bibliography are also present in a rebuild of v0.10. The page with the new table was checked as an image. The step it records is blackboard 015 (nine dimensions: labels, winding and exceptional groups), done at the session's own initiative as a follow-up of 014.
 
 Paper v0.12 built the same way on 10 November. It adds one paragraph for blackboard 016 (strings that are points in the noncompact directions), which answers a question of the user.
+
+Paper v0.13 built the same way on 11 November. It rewrites the closing sentences of the paragraph added in v0.12, after the user's objection on size recorded in the conversation log.

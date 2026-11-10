@@ -2,7 +2,7 @@
 
 10 November 2026. Blackboard entry: answer to a question of the user, built from recalled string-theory facts and two lattice checks. Unreviewed.
 
-**Provenance.** Written by Claude (model Fable 5.2) in the same Claude Code session as [012](012_so32_gauge_field_scalars.md)–[015](015_nine_dimensions_labels_and_winding.md). The user asked whether some compactification forces one fermionic string to have its three spatial dimensions "as if it were a dot", needed only for the charged-lepton fermionic strings, and wanted it treated in a note separate from 015. The user added that the property could be introduced ad hoc on the worldsheet by setting three of the coordinates equal along the string, and expected that better methods exist after forty years. The D-brane statements of section 3 are quoted from memory. Two web searches confirmed the abstracts of two of the references; no paper was re-read. The lattice statements are computed by the script of section 6. No second model reviewed this entry.
+**Provenance.** Written by Claude (model Fable 5.2) in the same Claude Code session as [012](012_so32_gauge_field_scalars.md)–[015](015_nine_dimensions_labels_and_winding.md). The user asked whether some compactification forces one fermionic string to have its three spatial dimensions "as if it were a dot", needed only for the charged-lepton fermionic strings, and wanted it treated in a note separate from 015. The user added that the property could be introduced ad hoc on the worldsheet by setting three of the coordinates equal along the string, and expected that better methods exist after forty years. The D-brane statements of section 3 are quoted from memory. Two web searches confirmed the abstracts of two of the references; no paper was re-read. The lattice statements are computed by the script of section 6. No second model reviewed this entry. The paragraphs on size were rewritten on 11 November, after the user objected that size is no issue for a string that is a point in the three spatial dimensions.
 
 **Units.** Masses appear through α′M² with ħ = c = 1, and radii through r = R²/α′, as in 015.
 
@@ -13,9 +13,9 @@ Can a compactification, or a consistent worldsheet construction, force a fermion
 ## 2. Two meanings of "a dot"
 
 - **(a) Shape.** The string has no classical extension and no position or momentum of its own in the noncompact directions. Its length lies in the internal space, and its location is that of the object it ends on.
-- **(b) Size.** Its measured size is far below the hadronic string length.
+- **(b) Size.** Its measured size in the noncompact directions.
 
-Boundary conditions and compactification give (a). They give (b) only if a second scale enters.
+Boundary conditions and compactification give (a). For a string with property (a), the size (b) is its quantum spread, which depends on the tension of the string alone (section 3, "Size").
 
 The ad hoc constraint X^i(σ,τ) = x^i(τ) for three coordinates removes oscillators that the cancellation of the conformal anomaly needs. I know no consistent string with that constraint on the whole worldsheet. The consistent substitutes act on the ends of the string or on the background.
 
@@ -70,7 +70,8 @@ Take A = (3/2)Q on the sixteen labels. Its folded values are 0 for the six (u,c)
 
 ### What these mechanisms leave open
 
-- **Size.** In a flat internal space a pinned or stretched string still has the string length as its size in the noncompact directions, the same as its bosonic partner. A gap between a hadronic size and a lepton size needs the string to sit where its effective tension is large, as in a warped throat (Polchinski and Strassler, recalled), or a confining potential on the worldsheet, as in plane-wave backgrounds. This is the open problem of [007](007_pointlike_current_mechanism.md) and of the state file, unchanged.
+- **Size.** A string that is a point in the noncompact directions keeps a quantum spread there, ⟨(X − x)²⟩ = α′ Σ_{n ≤ N} 1/n per direction, with α′ the slope of that string and N the number of modes the probe resolves. The spread is the same for a stretched, a wound and a pinned string, and the internal length of the string does not enter. For the fundamental string of this setting the spread is far below any measured bound, so these states are point-like for every practical purpose. The user made this point against the first wording of this entry, which called the size an open problem. The size becomes a problem only if the same string is required to have the hadronic slope, α′ ≈ 0.9 GeV⁻²: the spread is then about 0.2 fm, some 10⁴ times the length of about 2 × 10⁻⁵ fm that corresponds to the limits on contact interactions of charged leptons, near 10 TeV as I recall.
+- **The hadronic length.** With a fundamental string every massless state is point-like, the scalar partners included. The size of the mesons, 0.66 fm for the charged pion, has to enter somewhere, and for the bosonic states only. This is the problem of [007](007_pointlike_current_mechanism.md) and of the state file seen from the other side. The pinned string of P1 has the right asymmetry, since its only light state is fermionic. The stretched string of S1 does not, since both partners are stretched.
 - **Partners.** With sixteen supercharges each state above is a full multiplet. The string of P1 is fermionic as a string, and the D-particle it sits on carries both statistics.
 - **Masses.** At these points the stretched states have string-scale masses. Light charged states need a small separation of the two stacks, away from the points of maximal symmetry.
 - **Dimension.** Everything here is in nine dimensions. A reduction to four keeps these statements while the D-particle stays a particle and the D8-branes fill the three noncompact directions.
@@ -79,14 +80,14 @@ Take A = (3/2)Q on the sixteen labels. Its folded values are 0 for the six (u,c)
 
 1. A fermionic string that is a dot exists in this setting as a one-label object: one end on a label brane, the other on a point. For the fifteen coloured labels it is quark-like, and for n it is charged-lepton-like. The notebook's working picture of a lepton is a two-label fermionic string, so this is a different assignment, closer to 012 R6, where n was read as a lepton-like label.
 2. For two-label states, stretching selects the charged ones. A Wilson line that follows charge lifts the twelve charged slepton-like labels and leaves the twelve neutral ones, with no further input.
-3. Both mechanisms give the dot in sense (a). Sense (b) stays open. The new element is that the fermionic string is pinned, so its size is tied to that of the object it ends on.
+3. Both mechanisms give a state that is a point in the noncompact directions, with a spread set by the fundamental string length. What stays open is the origin of the hadronic length of the bosonic partners.
 
 ## 5. Open points
 
 - Check the statements of P1 against the sources, in particular the fermionic spectrum of the strings between a D-particle and a D8-brane and its relation to the single-label states of P2.
 - As I recall, a D-particle in a region of Romans mass k must carry |k| strings, and between two orientifold planes holding m and 16 − m D8-branes the Romans mass is m − 8. That would give one string in a (7 | 9) vacuum and two in a (6 | 10) vacuum. Not verified and not compared with the lattice.
 - A supersymmetry breaking that keeps the fermionic member light and lifts its partners.
-- A background in which the pinned or stretched string sits at large effective tension.
+- Where the hadronic length enters for the bosonic partners. If one insists instead on a single string with the hadronic slope, a background is needed in which the pinned or stretched string sits at large effective tension (a warped throat, or a plane-wave potential on the worldsheet).
 - The reduction to four dimensions on the five-dimensional space the user expects, CP² × S¹: which wrapped branes are particles there, and how many mixed directions their strings have.
 - The charge and statistics of the single-label states at the SU(18) point as members of vector multiplets.
 
@@ -99,4 +100,4 @@ Take A = (3/2)Q on the sixteen labels. Its folded values are 0 for the six (u,c)
 - **Known, recalled and unchecked here:** the spectrum of strings with eight mixed directions; D-particles of type I′ as heterotic winding states (Bachas, Green and Schwimmer, JHEP 01 (1998) 006, arXiv:hep-th/9712086; Bergman, Gaberdiel and Lifschytz, Nucl. Phys. B 524 (1998) 524, arXiv:hep-th/9711098; abstracts confirmed by search); the baryon vertex; Wilson lines as brane separation; warping as the source of point-like hard scattering.
 - **New in this notebook, unreviewed:** the observation that A = (3/2)Q lifts exactly the states with odd 3Q, the 12 + 12 split of the meson-like labels, and its identification with the E7 × SO(20) and E8 × SO(18) points; the table of single-label wound states at the SU(18) point with the traceless charge.
 - **Conditional:** every identification of labels with flavour, colour and charge, and the type I′ reading.
-- **Open:** the size, sense (b).
+- **Open:** where the hadronic length enters for the bosonic partners.

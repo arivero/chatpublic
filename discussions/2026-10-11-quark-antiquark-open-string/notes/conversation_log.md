@@ -175,6 +175,8 @@ Same session. The user asked whether some compactification forces one fermionic 
 
 Paper v0.12 adds one paragraph to the section on nine dimensions.
 
+**Correction, 11 November.** The session's summary called the size of these states an open problem. The user objected that size is no issue for strings that are points in the three spatial dimensions. Accepted for the fundamental string of this setting: the residual spread is α′ Σ 1/n per direction, depends on the slope alone and is far below any bound. The caveat applies only to a string with the hadronic slope, the framing of the earlier entries. Blackboard 016 and the paper (v0.13) were rewritten accordingly; the open point is now the origin of the hadronic length of the bosonic partners.
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026

@@ -1,5 +1,7 @@
 # Living research paper
 
+**11 November 2026, version 0.13:** the closing sentences of the paragraph added in version 0.12 are rewritten. A string that is a point in the noncompact directions has a spread set by its slope alone, negligible for the fundamental string of this setting; the open question is the origin of the hadronic length of the bosonic partners. The change follows an objection of the user.
+
 **10 November 2026, version 0.12:** one paragraph added to the [section on nine dimensions](nine_dimensions.tex), on strings that are points in the noncompact directions: stretched strings from a Wilson line proportional to charge, and single-label strings pinned to a winding label. See [blackboard 016](../blackboard/016_strings_as_points_pinned_and_stretched.md). It answers a question of the user; conditional and unreviewed.
 
 **10 November 2026, version 0.11:** a [section on nine dimensions](nine_dimensions.tex): the charge lattice of the heterotic string on a circle in SO(32) labels, exceptional groups from at most seven labels and the circle, the nine labels of E8 as seven SO(32) labels and two winding labels, a lemma on colour, the points of maximal symmetry whose Wilson line depends only on electric charge, and the massive three-label states at the E8 × SO(18) and SU(18) points. See [blackboard 015](../blackboard/015_nine_dimensions_labels_and_winding.md). Same session and model as versions 0.8 to 0.10; written at the session's own initiative; conditional and unreviewed.
