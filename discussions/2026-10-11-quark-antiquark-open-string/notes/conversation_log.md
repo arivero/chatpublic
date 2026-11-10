@@ -177,6 +177,8 @@ Paper v0.12 adds one paragraph to the section on nine dimensions.
 
 **Correction, 11 November.** The session's summary called the size of these states an open problem. The user objected that size is no issue for strings that are points in the three spatial dimensions. Accepted for the fundamental string of this setting: the residual spread is α′ Σ 1/n per direction, depends on the slope alone and is far below any bound. The caveat applies only to a string with the hadronic slope, the framing of the earlier entries. Blackboard 016 and the paper (v0.13) were rewritten accordingly; the open point is now the origin of the hadronic length of the bosonic partners.
 
+**Two clarifications, 11 November.** The user asked what the "quantum spread" of the summary meant, and then how it differs from zitterbewegung. Blackboard 016 now derives the spread as zero-point motion of the vibration modes, ⟨q_n²⟩ = ħc/(πTn) independent of the length, and adds the comparison: zitterbewegung belongs to the spin part of a structureless particle and shows up only through loops, while the shape modes of a string are single-particle excitations exchanged at tree level. The criterion for a physical size is the tower of excited states at spacing 1/α′.
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026
