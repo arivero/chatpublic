@@ -25,3 +25,5 @@ For each research step, update the living paper and PDF, then record **question 
 Paper v0.8 built with three `pdflatex` passes on 10 November (15 pages); the final log has no warnings, unresolved references or overfull boxes, and the page with the new table was checked as an image. The step it records is blackboard 012 (gauge-field origin of the 2024 scalars), outside the retained-adjoint checkpoints above.
 
 Paper v0.9 built the same way on 10 November (16 pages, clean log). The step it records is blackboard 013 (colour from an 't Hooft twist), a continuation of 012.
+
+Paper v0.10 built the same way on 10 November. The step it records is blackboard 014 (three-label states and baryon labels in E8).

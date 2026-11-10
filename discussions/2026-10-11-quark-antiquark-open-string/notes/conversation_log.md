@@ -142,6 +142,17 @@ In the same Claude Code session the user cited Connes, Douglas and Schwarz (hep-
 
 Paper v0.9 adds Section "Colour from an 't Hooft twist".
 
+## 19. Three-label states: baryon labels in E8 — 10 November 2026
+
+Still in the same Claude Code session, the user remarked that the relation between SO(32) and E8 × E8 has to be understood and guessed that a chirality-like distinction lives there, as between the two type II theories. The session's reply included the observation that E8 ⊃ SU(9) holds a three-index tensor containing baryon decuplet labels. The user called the idea new and asked for it to be worked out and pushed, adding during the work that the three-index structure is also that of the M5-brane and its dual.
+
+- **Question.** What does E8 hold where SO(32) holds diquark-like states, and where are three-label states on the SO(32) side?
+- **Result.** [Blackboard 014](../blackboard/014_three_label_states_baryons_in_e8.md). With nine labels read as three flavours times three colours, 84 = (10,1) ⊕ (8,8) ⊕ (1,10) and 80 = (8,1) ⊕ (1,8) ⊕ (8,8); for (u,d,s) the charge is a generator of E8 and the colour singlets have the decuplet and octet charges. The classic Z₃ orbifold with SU(9) × SO(14) × U(1) carries three copies of the 84 and 27 copies of the 9bar. In SO(32) the three-label states are in the massive spinor class: colour singlets 1, 35, 175, 175, 35, 1 at baryon number 0 to 5, the sixteenth label present exactly at odd baryon number, and integer charges exactly when that label has charge −1.
+- **Evidence and assumptions.** Exact script: root system and weight-multiset comparison, singlet counts, orbifold spectrum with SU(9) anomaly cancellation. The classic model, the non-BPS D-particle and the U-duality decomposition are quoted from memory. The label readings are assumptions. The earlier remark that nine SO(32) labels could enhance to E8 in nine dimensions is withdrawn in the entry.
+- **Next test.** The explicit duality map between the two heterotic frames in nine dimensions; the role and masses of the multi-baryon tower; a realization of the baryon octet with spin labels.
+
+Paper v0.10 adds Section "Three-label states: baryon labels in E8 and in the spinor class".
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026
