@@ -4,12 +4,12 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,booktabs,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.10: three-label states and baryon labels in E8}}
+\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.11: nine dimensions, winding labels and exceptional groups}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \title{Retained adjoint-fermion binding with explicit $\hbar$:\\
 recoil, quantum corrections and the whole-state current}
-\author{Research-notebook draft, version 0.10}
+\author{Research-notebook draft, version 0.11}
 \date{10 November 2026}
 \begin{document}
 \maketitle
@@ -29,9 +29,10 @@ This focused revision develops that selection. It does not identify a contact tr
 \input{so32_gauge_field_scalars}
 \input{colour_from_twist}
 \input{three_label_states}
+\input{nine_dimensions}
 
 \section*{Reproducibility and review scope}
-The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Version 0.8 adds Section~\ref{sec:gaugefieldscalars}. It was written on 10 November 2026 by Claude (model Fable 5.2) in a separate session, after reading Refs.~\cite{Rivero2024,Rivero2005,Rivero2009}, a 2007 preprint of the same program and Section~\ref{sec:so32completion}. Its enumeration of orbifold shifts and its twisted spectra use exact-arithmetic scripts in \path{scripts/so32_gauge_scalars/}, written and run by the same model, with outputs in \path{calculations/so32_gauge_scalars/}. The independent consistency criteria are the reproduction of the $\mathbb Z_3$ series of gauge groups and the cancellation of cubic anomalies between sectors computed by different rules. No second model reviewed that section, and it was built with \texttt{pdflatex} because \texttt{latexmk} was unavailable. Version 0.9 adds Section~\ref{sec:colortwist}, written the same day by the same model after the user pointed to Ref.~\cite{CDS}; only the abstract of that reference was retrieved, and the standard results it relies on are quoted from memory and rederived in blackboard~013. Its sanity checks, tables and bounded flux scan come from \path{scripts/so32_gauge_scalars/flux_twist.py}. Version 0.10 adds Section~\ref{sec:threelabel}, same day, model and session, after the user asked for the observation on baryon labels in $E_8$ to be worked out; its decompositions, singlet counts and orbifold spectrum come from \path{scripts/e8_baryons/e8_baryons.py}, with weight-multiset comparison and anomaly cancellation as consistency checks. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
+The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Version 0.8 adds Section~\ref{sec:gaugefieldscalars}. It was written on 10 November 2026 by Claude (model Fable 5.2) in a separate session, after reading Refs.~\cite{Rivero2024,Rivero2005,Rivero2009}, a 2007 preprint of the same program and Section~\ref{sec:so32completion}. Its enumeration of orbifold shifts and its twisted spectra use exact-arithmetic scripts in \path{scripts/so32_gauge_scalars/}, written and run by the same model, with outputs in \path{calculations/so32_gauge_scalars/}. The independent consistency criteria are the reproduction of the $\mathbb Z_3$ series of gauge groups and the cancellation of cubic anomalies between sectors computed by different rules. No second model reviewed that section, and it was built with \texttt{pdflatex} because \texttt{latexmk} was unavailable. Version 0.9 adds Section~\ref{sec:colortwist}, written the same day by the same model after the user pointed to Ref.~\cite{CDS}; only the abstract of that reference was retrieved, and the standard results it relies on are quoted from memory and rederived in blackboard~013. Its sanity checks, tables and bounded flux scan come from \path{scripts/so32_gauge_scalars/flux_twist.py}. Version 0.10 adds Section~\ref{sec:threelabel}, same day, model and session, after the user asked for the observation on baryon labels in $E_8$ to be worked out; its decompositions, singlet counts and orbifold spectrum come from \path{scripts/e8_baryons/e8_baryons.py}, with weight-multiset comparison and anomaly cancellation as consistency checks. Version 0.11 adds Section~\ref{sec:ninedim}, same day, model and session, written at the session's own initiative as a follow-up of an open point of blackboard~014 and not separately requested by the user; its lattice enumerations come from \path{scripts/nine_dim_frames/nine_dim_frames.py}, with the agreement between the diagram and a direct enumeration of roots at 80 points, and the dimensions of the multiplets found, as consistency checks. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
 
 The living source and PDF are in
 \begin{quote}\small
@@ -50,6 +51,11 @@ Supplied original PDF; representation and discussion sections reviewed.
 JHEP \textbf{02} (1998) 003,
 \href{https://arxiv.org/abs/hep-th/9711162}{arXiv:hep-th/9711162}.
 Metadata and abstract retrieved; the full text was not re-read for this version.
+\bibitem{FFGNP} A. Font, B. Fraiman, M. Gra\~na, C. A. N\'u\~nez and H. Parra De Freitas,
+\emph{Exploring the landscape of heterotic strings on $T^d$},
+JHEP \textbf{10} (2020) 194,
+\href{https://arxiv.org/abs/2007.10358}{arXiv:2007.10358}.
+Located by a search; the text was not re-read for this version.
 \bibitem{ARS2025} K. Agashe, L. Ricci and R. Sundrum,
 \emph{Partial Compositeness: from Anarchy to Symmetry},
 \href{https://arxiv.org/abs/2507.05332v1}{arXiv:2507.05332v1} (2025).

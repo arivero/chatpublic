@@ -153,6 +153,17 @@ Still in the same Claude Code session, the user remarked that the relation betwe
 
 Paper v0.10 adds Section "Three-label states: baryon labels in E8 and in the spinor class".
 
+## 20. Nine dimensions: labels, winding and the exceptional groups — 10 November 2026
+
+Same Claude Code session. The user made no new request for this step. The session used a pause to take up the first "next test" of entry 19, the nine-dimensional map between the two heterotic frames, which blackboard 014 had argued without computing. The step is recorded here as the session's initiative.
+
+- **Question.** Where do the nine labels of E8 ⊃ SU(9) sit in SO(32) variables, and which nine-dimensional vacua keep the labels, colour and charge of blackboard 012?
+- **Result.** [Blackboard 015](../blackboard/015_nine_dimensions_labels_and_winding.md). The nineteen simple roots of the charge lattice are written in SO(32) labels; two carry winding. E_(m+1) × SO(32−2m) arises from m ≤ 7 labels at Wilson-line value 1/2 and the circle. In E8 the nine labels are seven SO(32) labels and two winding labels, 84 = 35 + 21 + 21 + 7 by winding, and the diquark-like states of SO(32) are three-label states whose third label carries winding. The colour of the decuplet reading of 014 carries winding in every SO(32) frame (lemma), whereas the colour of 012 sits at zero winding and has singlets G2 × SU(3) in E8. Of the 44 points of maximal symmetry, 24 keep the colour of 012 and 11 have a Wilson line that depends only on charge; among those, exceptional groups appear only as E7 or E8 on the up-type block. At the SU(18) point label number is a multiple of three and the lightest massive states are the three-label states Λ³(18); at the E8 × SO(18) point the (d,s,b) decuplet labels are massive winding-one states.
+- **Evidence and assumptions.** Exact script: Gram matrix of the nineteen roots, enumeration of all roots at 80 points in agreement with the diagram, the count 44, multiplet dimensions 84, 256 and 816, the root system G2 + A2 of the colour-singlet weights, 6000 other duality frames. The type I′ dictionary and the completeness of the diagram (Vinberg) are quoted from memory; the main reference (Font et al. 2020) was located by search and not re-read. The label readings are assumptions.
+- **Next test.** Check the type I′ D-particle description against the literature; fix the charge of winding states; examine the three colourless labels of E8 and SU(18).
+
+Paper v0.11 adds Section "Nine dimensions: winding labels and the exceptional groups". Blackboard 014 B8 is replaced by the computation.
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026

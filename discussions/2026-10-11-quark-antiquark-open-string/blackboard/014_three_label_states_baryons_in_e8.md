@@ -99,6 +99,8 @@ This is the same complex algebra in a different real form and a different role: 
 
 Before this entry the session suggested that in nine dimensions the U(9) of nine SO(32) labels could enhance either to SO(18) or to E8. The first is right. The second is wrong as stated: an E8 containing that SU(9) would have the same rank, so its roots would lie in the span of the nine-label root lattice, and those roots are absent from the lattice of the SO(32) frame at zero winding. The two heterotic theories are one theory on a circle, but the duality between the frames mixes gauge labels with the circle direction and does not carry nine labels to nine labels. In the SO(32) frame the three-label states are the spinor class of B6. This is lattice reasoning and was not computed.
 
+*Follow-up, same day:* [015](015_nine_dimensions_labels_and_winding.md) computes the nine-dimensional relation (its sections N4 and N5).
+
 ## 3. Reading for the sBootstrap
 
 - SO(32) holds mesons and diquarks as massless two-label states and baryons as massive spinor-class states. E8 holds mesons and baryons as massless states and has no diquarks.

@@ -27,3 +27,5 @@ Paper v0.8 built with three `pdflatex` passes on 10 November (15 pages); the fin
 Paper v0.9 built the same way on 10 November (16 pages, clean log). The step it records is blackboard 013 (colour from an 't Hooft twist), a continuation of 012.
 
 Paper v0.10 built the same way on 10 November. The step it records is blackboard 014 (three-label states and baryon labels in E8).
+
+Paper v0.11 built the same way on 10 November (19 pages). The log has no LaTeX warnings, unresolved references or overfull boxes; three underfull lines in the bibliography are also present in a rebuild of v0.10. The page with the new table was checked as an image. The step it records is blackboard 015 (nine dimensions: labels, winding and exceptional groups), done at the session's own initiative as a follow-up of 014.

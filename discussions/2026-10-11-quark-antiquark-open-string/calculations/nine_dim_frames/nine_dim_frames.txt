@@ -1,0 +1,183 @@
+A. the nineteen simple roots in SO(32) labels, vectors (pi; n, w), norm pi^2 + 2nw
+   g1 = (0; -1, -1)   a0 = (-e1-e2; 1, 0)   a_i = (e_i - e_(i+1); 0, 0), i = 1..15
+   a16 = (e15+e16; 0, 0)   g2 = ((-1/2)^16; 1, -1)
+   all nineteen in the lattice: True ; all of norm 2: True
+   Gram matrix is the diagram: chain of 17 (g1-a0-a2-a3-...-a14-a16-g2), a1 attached to a2, a15 attached to a14: True
+   rank of the nineteen vectors: 18 (the lattice has rank 18)
+   dropping one node leaves a basis of the whole lattice (Gram determinant -1 or +1) for: a7, a9
+   affine E8 on the left (g1,a0,a2..a7 with a1): null vector z = (-1^8 0^8; n=2, w=-2) norm 0
+   affine E8 on the right (a9..a14,a16,g2 with a15): null vector (-1^8 0^8; n=2, w=-2) ; equal to the left one: True
+   affine D16 (a0..a16): null vector k = (0^16; n=1, w=0) norm 0 -> pure momentum
+   z has winding -2 and k.z = -2
+
+B. the E8 x E8 cusp: z-perp / z
+   classes of norm 2: 224 with w = 0 (two copies of the SO(16) roots), 256 with w = 1 mod 2
+   root system of z-perp/z: E8 x E8 (480 roots)
+   so the SO(32) frame sees the E8 x E8 decompactification limit as a state of winding 2,
+   and the spinor roots of each E8 as states of odd winding
+
+C. exceptional groups from m labels and the circle: A = ((-1/2)^m, 0^(16-m)), R^2 = 2 - m/4 (alpha' = 2)
+    m  R^2/alpha'  gauge group                 zero winding            roots by |w| = 0,1,2
+    0  1          SO(32) x SU(2)              SO(32)                  480, 2, 0
+    1  7/8        SO(30) x SU(2)              SO(30)                  420, 2, 0
+    2  3/4        SO(28) x SU(3) x SU(2)      SO(28) x SU(2) x SU(2)  368, 4, 0
+    3  5/8        SO(26) x SU(5)              SO(26) x SU(4)          324, 8, 0
+    4  1/2        SO(24) x SO(10)             SO(24) x SO(8)          288, 16, 0
+    5  3/8        E6 x SO(22)                 SO(22) x SO(10)         260, 32, 0
+    6  1/4        E7 x SO(20)                 SO(20) x SO(12)         240, 64, 2
+    7  1/8        E8 x SO(18)                 SO(18) x SO(14)         228, 128, 28
+   (E_1 = SU(2), E_2 = SU(2) x U(1), E_3 = SU(3) x SU(2), E_4 = SU(5), E_5 = SO(10))
+   m = 8 is the cusp of B (R -> 0); m = 9 is m = 7 with the two blocks exchanged, by the lattice shift (1/2)^16
+
+D. E8 at the E8 x SO(18) point: A = ((-1/2)^7, 0^9), R^2/alpha' = 1/8
+   components: [144, 240] ; the 144 roots all have w = 0 and labels 8..16 only: True
+   E8 by winding number: {'-2': 14, '-1': 64, '0': 84, '1': 64, '2': 14} -> 14 + 64 + (84 roots + 8 Cartan) + 64 + 14
+   zero winding: SO(14) on labels 1..7: True
+   winding 1: pi is a subset of the seven labels: True ; subset sizes: {0: 1, 2: 21, 4: 35, 6: 7} ; momentum n = 1 - |S|/2: True
+   physical label charges p_L = pi + w A of the winding-1 states are (+-1/2)^7: True (the spinor of SO(14))
+   winding 2: p_L = pi + 2A is plus or minus a single label: [7, 7] (the vector of SO(14))
+   with label 1 = n and labels 2..7 = (u,c) x colour, the winding-1 states are:
+      0 coloured labels    :  1 states, colour singlets: 1
+      1 coloured labels + n:  6 states, colour singlets: 0
+      2 coloured labels    : 15 states, colour singlets: 0
+      3 coloured labels + n: 20 states, colour singlets: 4
+      4 coloured labels    : 15 states, colour singlets: 0
+      5 coloured labels + n:  6 states, colour singlets: 0
+      6 coloured labels    :  1 states, colour singlets: 1
+      so three coloured labels come with n, and the colour singlets are 1 + 4 + 1
+   colour singlets in the 248 of E8 by winding (colour = the SO(32) colour on labels 2..7): {'-2': 2, '-1': 6, '0': 6, '1': 6, '2': 2} total 22
+   same for the 133 of E7 at the E7 x SO(20) point (labels 1..6 = (u,c) x colour): {'-2': 1, '-1': 2, '0': 5, '1': 2, '2': 1} total 11
+   norm-2 vectors with v.t = -1/4 (p_R^2 = 1/4, alpha' M^2 = 1/2): 256 ; windings ['1'] ; neutral under E8 (sample): True
+      label charges on labels 8..16 are (+-1/2)^9, the spinor of SO(18): True ; number of + signs: {1: 9, 3: 84, 5: 126, 7: 36, 9: 1}
+      3 of the nine labels (d,s,b) x colour: 84 states, colour singlets: 10
+      9 of the nine labels (d,s,b) x colour: 1 states, colour singlets: 1
+   norm-2 vectors with v.t = 1/2 (p_R^2 = 1, alpha' M^2 = 2): 4992 ; windings ['-1', '-2', '-3', '-4', '0'] ; neutral under E8 (sample): False
+   SU(9) chain g1, a0, a2..a6, -theta with -theta = (0^9 1^6 2^1; n=-2, w=2) : roots of E8 forming A8: True
+   winding carried by the nine labels of this SU(9) (traceless): ['-2/3', '1/3', '1/3', '1/3', '1/3', '1/3', '1/3', '1/3', '-5/3']
+   E8 roots by SU(9) class: adjoint 72 , three-label 84 , anti-three-label 84
+      adjoint (72 roots): by winding {'-2': 7, '-1': 8, '0': 42, '1': 8, '2': 7}
+      84: by winding {'-2': 7, '-1': 21, '0': 21, '1': 35}
+      84bar: by winding {'-1': 35, '0': 21, '1': 21, '2': 7}
+      zero-winding part of the 84 in SO(32) labels: {'e_i + e_j, both coloured': 15, 'e_i - e_n, i coloured': 6}
+      winding-1 part of the 84, subset sizes (coloured labels, n): {(2, 0): 15, (3, 1): 20}
+   vectors of norm 4 in E8, written in nine labels: 2160 ; by multiplicities of equal entries: {(5, 2, 2): 756, (4, 4, 1): 1260, (7, 1, 1): 144}
+   so the nine labels split by winding as 7+1+1, 4+4+1 or 5+2+2, and never in triples
+      pattern 7+1+1: three-label states by winding {'-2': 7, '-1': 21, '0': 21, '1': 35} ; E8 roots at zero winding: 84
+      pattern 4+4+1: three-label states by winding {'-2': 6, '-1': 20, '0': 30, '1': 24, '2': 4} ; E8 roots at zero winding: 84
+      pattern 5+2+2: three-label states by winding {'-2': 5, '-1': 22, '0': 30, '1': 22, '2': 5} ; E8 roots at zero winding: 84
+   E8 roots orthogonal to a colour-blind direction (a,a,a,b,b,b,d,d,d), a+b+d = 0, all integers up to 6: {'E7': 24, 'E6': 108, 'E6 x SU(2)': 36}
+   E8 in nine labels with the SO(32) colour (two coloured flavours, three colourless labels):
+      colour singlets in the 248: 22 ; with zero weight: 4 ; non-zero weights: 18 each once: True
+      component with 12 weights of rank 2, squared lengths {'2/3': 6, '2': 6} -> G2
+      component with 6 weights of rank 2, squared lengths {'2': 6} -> A2
+      long roots of the G2: three-label states of one flavour or of the three colourless labels, and conjugates: 6
+   colour lemma: roots of an E8 at zero winding embed in the roots of Gamma16, which are those of D16;
+   D16 has no subsystem of type E, so the winding functional on E8 is never colour-blind in 9 = 3 x 3
+
+E. maximal enhancements: delete two nodes, keep finite type; cross-check by enumerating roots at the point
+   pairs of deleted nodes with finite type: 80 ; diagram and enumeration agree at every one: True
+   the diagram has a left-right symmetry; up to it the number of maximal enhancements is 44 ( 8 symmetric )
+   mirror partners have the same group, radius, zero-winding roots and colour test: True
+   colour test: the sixteen Wilson-line values, folded to [0, 1/2], contain five disjoint triples of equal values
+   deleted    R^2/alpha'  gauge group                      zero-winding roots              max|w|  folded Wilson line        colour
+   a7/a9      1/16        E8 x E8 x SU(2)                  SO(14) x SO(14) x SU(2)         2       0^7 1/4^2 1/2^7           no
+   a7/a10     1/12        E8 x E7 x SU(3)                  SO(14) x SO(12) x SU(3)         2       0^6 1/6^3 1/2^7           yes
+   a7/a11     3/32        E8 x E6 x SU(4)                  SO(14) x SO(10) x SU(4)         2       0^5 1/8^4 1/2^7           no
+   a7/g2      1/8         E8 x SO(18)                      SO(18) x SO(14)                 2       0^9 1/2^7                 yes
+   a7/a12     1/10        E8 x SO(10) x SU(5)              SO(14) x SO(8) x SU(5)          2       0^4 1/10^5 1/2^7          no
+   a7/a15     5/49        E8 x SU(10)                      SO(14) x SU(9)                  2       1/14^9 1/2^7              yes
+   a7/a16     1/9         E8 x SU(9) x SU(2)               SO(14) x SU(9)                  2       1/18^9 1/2^7              yes
+   a7/a14     3/28        E8 x SU(7) x SU(3) x SU(2)       SO(14) x SU(7) x SU(2) x SU(2)  2       0^2 1/14^7 1/2^7          no
+   a7/a13     5/48        E8 x SU(6) x SU(5)               SO(14) x SU(6) x SU(4)          2       0^3 1/12^6 1/2^7          yes
+   a6/a10     1/8         E7 x E7 x SU(4)                  SO(12) x SO(12) x SU(4)         2       0^6 1/4^4 1/2^6           yes
+   a6/a11     3/20        E7 x E6 x SU(5)                  SO(12) x SO(10) x SU(5)         2       0^5 1/5^5 1/2^6           no
+   a6/g2      1/4         E7 x SO(20)                      SO(20) x SO(12)                 2       0^10 1/2^6                yes
+   a6/a12     1/6         E7 x SO(10) x SU(6)              SO(12) x SO(8) x SU(6)          2       0^4 1/6^6 1/2^6           yes
+   a6/a15     11/64       E7 x SU(11)                      SO(12) x SU(10)                 2       1/8^10 1/2^6              yes
+   a6/a16     1/5         E7 x SU(10) x SU(2)              SO(12) x SU(10)                 2       1/10^10 1/2^6             yes
+   a6/a14     3/16        E7 x SU(8) x SU(3) x SU(2)       SO(12) x SU(8) x SU(2) x SU(2)  2       0^2 1/8^8 1/2^6           no
+   a6/a13     5/28        E7 x SU(7) x SU(5)               SO(12) x SU(7) x SU(4)          2       0^3 1/7^7 1/2^6           yes
+   a5/a11     3/16        E6 x E6 x SU(6)                  SO(10) x SO(10) x SU(6)         1       0^5 1/4^6 1/2^5           no
+   a5/g2      3/8         E6 x SO(22)                      SO(22) x SO(10)                 1       0^11 1/2^5                no
+   a5/a12     3/14        E6 x SO(10) x SU(7)              SO(10) x SO(8) x SU(7)          1       0^4 3/14^7 1/2^5          no
+   a5/a15     2/9         E6 x SU(12)                      SO(10) x SU(11)                 1       1/6^11 1/2^5              no
+   a5/a16     3/11        E6 x SU(11) x SU(2)              SO(10) x SU(11)                 1       3/22^11 1/2^5             no
+   a5/a14     1/4         E6 x SU(9) x SU(3) x SU(2)       SO(10) x SU(9) x SU(2) x SU(2)  1       0^2 1/6^9 1/2^5           no
+   a5/a13     15/64       E6 x SU(8) x SU(5)               SO(10) x SU(8) x SU(4)          1       0^3 3/16^8 1/2^5          no
+   g2/a1      1/2         SO(34)                           SO(32)                          1       0^16                      yes
+   a0/g2      1           SO(32) x SU(2)                   SO(32)                          1       0^16                      yes
+   a2/g2      3/4         SO(28) x SU(3) x SU(2)           SO(28) x SU(2) x SU(2)          1       0^14 1/2^2                no
+   a3/g2      5/8         SO(26) x SU(5)                   SO(26) x SU(4)                  1       0^13 1/2^3                yes
+   a4/g2      1/2         SO(24) x SO(10)                  SO(24) x SO(8)                  1       0^12 1/2^4                yes
+   a4/a12     1/4         SO(10) x SO(10) x SU(8)          SO(8) x SO(8) x SU(8)           1       0^4 1/4^8 1/2^4           no
+   a4/a15     13/50       SO(10) x SU(13)                  SO(8) x SU(12)                  1       1/5^12 1/2^4              yes
+   a4/a16     1/3         SO(10) x SU(12) x SU(2)          SO(8) x SU(12)                  1       1/6^12 1/2^4              yes
+   a4/a14     3/10        SO(10) x SU(10) x SU(3) x SU(2)  SO(8) x SU(10) x SU(2) x SU(2)  1       0^2 1/5^10 1/2^4          no
+   a4/a13     5/18        SO(10) x SU(9) x SU(5)           SO(8) x SU(9) x SU(4)           1       0^3 2/9^9 1/2^4           yes
+   a1/a15     1/4         SU(18)                           SU(16)                          2       1/4^16                    yes
+   a16/a1     17/49       SU(17) x SU(2)                   SU(16)                          1       3/14^16                   yes
+   a0/a16     1/2         SU(16) x SU(2) x SU(2)           SU(16)                          1       1/4^16                    yes
+   a2/a15     5/16        SU(15) x SU(3) x SU(2)           SU(14) x SU(2) x SU(2)          1       1/4^14 1/2^2              no
+   a3/a15     35/121      SU(14) x SU(5)                   SU(13) x SU(4)                  1       5/22^13 1/2^3             yes
+   a2/a16     3/7         SU(14) x SU(3) x SU(2) x SU(2)   SU(14) x SU(2) x SU(2)          1       3/14^14 1/2^2             no
+   a3/a16     5/13        SU(13) x SU(5) x SU(2)           SU(13) x SU(4)                  1       5/26^13 1/2^3             yes
+   a2/a14     3/8         SU(12) x SU(3) x SU(3) x SU(2) x SU(2)  SU(12) x SU(2) x SU(2) x SU(2) x SU(2)  1       0^2 1/4^12 1/2^2          no
+   a3/a14     15/44       SU(11) x SU(5) x SU(3) x SU(2)   SU(11) x SU(4) x SU(2) x SU(2)  1       0^2 5/22^11 1/2^3         no
+   a3/a13     5/16        SU(10) x SU(5) x SU(5)           SU(10) x SU(4) x SU(4)          1       0^3 1/4^10 1/2^3          yes
+   colour-compatible points: 24 of 44
+   charge test: the Wilson line is constant on six labels (u,c) and on nine labels (d,s,b); n is free
+   points passing the charge test: 11 ; all of them pass the colour test: True
+      E8 x SO(18)                R^2/alpha' = 1/8    labels by folded Wilson line: 0^9 1/2^7
+      E8 x SU(10)                R^2/alpha' = 5/49   labels by folded Wilson line: 1/14^9 1/2^7
+      E8 x SU(9) x SU(2)         R^2/alpha' = 1/9    labels by folded Wilson line: 1/18^9 1/2^7
+      E7 x SO(20)                R^2/alpha' = 1/4    labels by folded Wilson line: 0^10 1/2^6
+      E7 x SU(11)                R^2/alpha' = 11/64  labels by folded Wilson line: 1/8^10 1/2^6
+      E7 x SU(10) x SU(2)        R^2/alpha' = 1/5    labels by folded Wilson line: 1/10^10 1/2^6
+      SO(34)                     R^2/alpha' = 1/2    labels by folded Wilson line: 0^16
+      SO(32) x SU(2)             R^2/alpha' = 1      labels by folded Wilson line: 0^16
+      SU(18)                     R^2/alpha' = 1/4    labels by folded Wilson line: 1/4^16
+      SU(17) x SU(2)             R^2/alpha' = 17/49  labels by folded Wilson line: 3/14^16
+      SU(16) x SU(2) x SU(2)     R^2/alpha' = 1/2    labels by folded Wilson line: 1/4^16
+   colour-compatible points with an exceptional factor (Wilson line unfolded):
+      E8 x E7 x SU(3)              R^2/alpha' = 1/12  A = -1/2^7 -1/6^3 0^6
+      E8 x SO(18)                  R^2/alpha' = 1/8   A = -1/2^7 0^9
+      E8 x SU(10)                  R^2/alpha' = 5/49  A = -1/2^7 -1/14^8 1/14^1
+      E8 x SU(9) x SU(2)           R^2/alpha' = 1/9   A = -1/2^7 -1/18^9
+      E8 x SU(6) x SU(5)           R^2/alpha' = 5/48  A = -1/2^7 -1/12^6 0^3
+      E7 x E7 x SU(4)              R^2/alpha' = 1/8   A = -1/2^6 -1/4^4 0^6
+      E7 x SO(20)                  R^2/alpha' = 1/4   A = -1/2^6 0^10
+      E7 x SO(10) x SU(6)          R^2/alpha' = 1/6   A = -1/2^6 -1/6^6 0^4
+      E7 x SU(11)                  R^2/alpha' = 11/64 A = -1/2^6 -1/8^9 1/8^1
+      E7 x SU(10) x SU(2)          R^2/alpha' = 1/5   A = -1/2^6 -1/10^10
+      E7 x SU(7) x SU(5)           R^2/alpha' = 5/28  A = -1/2^6 -1/7^7 0^3
+
+F. the SU(18) point
+   deleted nodes: ('a1', 'a15') ; Wilson line: -3/4^1 -1/4^14 1/4^1 ; R^2/alpha' = 1/4
+   roots by winding: {'-2': 1, '-1': 32, '0': 240, '1': 32, '2': 1} ; zero winding: SU(16)
+   winding carried by the eighteen labels of SU(18) (traceless): {'-1': 1, '0': 16, '1': 1}
+   winding-1 states, physical label charges p_L = pi + A:
+      2 states with p_L entries -1/4^1 1/4^14 3/4^1
+      14 states with p_L entries -1/4^13 1/4^2 3/4^1
+      2 states with p_L entries -3/4^1 -1/4^14 1/4^1
+      14 states with p_L entries -3/4^1 -1/4^2 1/4^13
+   SU(18) class (label number mod 18) of the two deleted simple roots a1, a15: 15 3 ; of the seventeen chain roots: [0]
+   the nineteen roots span the lattice, so every state has label number divisible by 3: the group is SU(18)/Z3
+   norm-2 vectors with v.t = 1/4 (p_R^2 = 1/8 in units alpha' = 2): 0 ; by SU(18) class: {}
+   norm-2 vectors with v.t = 1/2 (p_R^2 = 1/2 in units alpha' = 2): 1632 ; by SU(18) class: {3: 816, 15: 816}
+   norm-2 vectors with v.t = 3/4 (p_R^2 = 9/8 in units alpha' = 2): 0 ; by SU(18) class: {}
+   the three-label class at v.t = 1/2: 816 states (Lambda^3 of 18 has 816); by winding: {'-2': 120, '-1': 576, '0': 120}
+   its zero-winding members are SO(32) two-label states: |pi| entries {'0^14 1^2': 120} ; {'same sign in the frame of the unbroken U(16)': 120}
+   for comparison SO(34): deleted ('g1', 'a15') , Wilson line -1/2^15 1/2^1 , R^2/alpha' = 1/2 , zero winding SO(32)
+
+G. other duality frames: null vectors k' obtained from k = (0; 1, 0) by reflections in the nineteen roots
+   6000 frames examined; each is of SO(32) type; "winding" in the frame k' is v.k'
+   frames   zero-winding part of E8    E8 roots by |winding|
+     3377   SO(14)                     {0: 84, 1: 128, 2: 28}
+     1935   SU(8)                      {0: 56, 1: 112, 2: 56, 3: 16}
+      598   SO(12)                     {0: 60, 1: 88, 2: 66, 3: 24, 4: 2}
+       64   SU(7) x SU(2)              {0: 44, 1: 84, 2: 70, 3: 28, 4: 14}
+       25   SU(7)                      {0: 42, 1: 84, 2: 56, 3: 42, 4: 14, 5: 2}
+        1   SO(10) x SU(3)             {0: 46, 1: 96, 2: 60, 3: 32, 4: 6}
+   SO(14) is the frame of parts C and D; with SU(8) eight of the nine labels of an SU(9) in E8 are
+   SO(32) labels of that frame and the ninth differs from them by three units of winding
+   no frame has all of E8 at zero winding, and none has a zero-winding part of type E (colour lemma)

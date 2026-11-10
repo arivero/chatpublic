@@ -16,6 +16,7 @@ This is the exploratory level of the notebook. It contains user motivations, exp
 - [012 — Scalars as internal components of the ten-dimensional SO(32) gauge field: nine-dimensional count, orbifold projections, the sixteenth label](012_so32_gauge_field_scalars.md)
 - [013 — Colour from an 't Hooft twist: 15 = 5 × 3 on a torus with flux, the noncommutative-torus reading, and two obstructions](013_colour_from_thooft_twist.md)
 - [014 — Three-label states: baryon labels in E8, the multi-baryon tower in the spinor class of SO(32), and the charge of the sixteenth label](014_three_label_states_baryons_in_e8.md)
+- [015 — Nine dimensions: SO(32) labels, winding labels and the exceptional groups; the nine labels of E8 in SO(32) variables, colour, and the vacua that respect charge](015_nine_dimensions_labels_and_winding.md)
 - [Idea bank — hypotheses, objections, next tests and revival conditions](ideas.md)
 
 Earlier exploratory constructions remain in [dual_qcd_cp2_s1.md](../dual_qcd_cp2_s1.md); the distinction between checked ingredients and an unconstructed model is recorded in [notes/state.md](../notes/state.md).
