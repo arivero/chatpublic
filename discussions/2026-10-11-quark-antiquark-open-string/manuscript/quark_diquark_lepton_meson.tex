@@ -4,12 +4,12 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,booktabs,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.8: scalars as internal components of the SO(32) gauge field}}
+\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.9: color from an 't Hooft twist}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \title{Retained adjoint-fermion binding with explicit $\hbar$:\\
 recoil, quantum corrections and the whole-state current}
-\author{Research-notebook draft, version 0.8}
+\author{Research-notebook draft, version 0.9}
 \date{10 November 2026}
 \begin{document}
 \maketitle
@@ -27,9 +27,10 @@ This focused revision develops that selection. It does not identify a contact tr
 \input{partial_compositeness_comparison}
 \input{sbootstrap_so32}
 \input{so32_gauge_field_scalars}
+\input{colour_from_twist}
 
 \section*{Reproducibility and review scope}
-The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Version 0.8 adds Section~\ref{sec:gaugefieldscalars}. It was written on 10 November 2026 by Claude (model Fable 5.2) in a separate session, after reading Refs.~\cite{Rivero2024,Rivero2005,Rivero2009}, a 2007 preprint of the same program and Section~\ref{sec:so32completion}. Its enumeration of orbifold shifts and its twisted spectra use exact-arithmetic scripts in \path{scripts/so32_gauge_scalars/}, written and run by the same model, with outputs in \path{calculations/so32_gauge_scalars/}. The independent consistency criteria are the reproduction of the $\mathbb Z_3$ series of gauge groups and the cancellation of cubic anomalies between sectors computed by different rules. No second model reviewed that section, and it was built with \texttt{pdflatex} because \texttt{latexmk} was unavailable. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
+The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Version 0.8 adds Section~\ref{sec:gaugefieldscalars}. It was written on 10 November 2026 by Claude (model Fable 5.2) in a separate session, after reading Refs.~\cite{Rivero2024,Rivero2005,Rivero2009}, a 2007 preprint of the same program and Section~\ref{sec:so32completion}. Its enumeration of orbifold shifts and its twisted spectra use exact-arithmetic scripts in \path{scripts/so32_gauge_scalars/}, written and run by the same model, with outputs in \path{calculations/so32_gauge_scalars/}. The independent consistency criteria are the reproduction of the $\mathbb Z_3$ series of gauge groups and the cancellation of cubic anomalies between sectors computed by different rules. No second model reviewed that section, and it was built with \texttt{pdflatex} because \texttt{latexmk} was unavailable. Version 0.9 adds Section~\ref{sec:colourtwist}, written the same day by the same model after the user pointed to Ref.~\cite{CDS}; only the abstract of that reference was retrieved, and the standard results it relies on are quoted from memory and rederived in blackboard~013. Its sanity checks, tables and bounded flux scan come from \path{scripts/so32_gauge_scalars/flux_twist.py}. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
 
 The living source and PDF are in
 \begin{quote}\small
@@ -37,12 +38,17 @@ The living source and PDF are in
 \end{quote}
 The research notebook records the model assumptions, source exposure, prior results and next task. The historical motivations include Schwarz's dual quark--gluon model~\cite{Schwarz}, with Seiberg duality~\cite{Seiberg} retained as a possible later connection. Neither reference proves the contact interaction or its intended string interpretation.
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{99}
 \bibitem{Rivero2024} A. Rivero,
 \emph{An interpretation of scalars in SO(32)},
 Eur. Phys. J. C \textbf{84}, 1058 (2024),
 \href{https://doi.org/10.1140/epjc/s10052-024-13368-3}{doi:10.1140/epjc/s10052-024-13368-3}.
 Supplied original PDF; representation and discussion sections reviewed.
+\bibitem{CDS} A. Connes, M. R. Douglas and A. Schwarz,
+\emph{Noncommutative geometry and matrix theory: compactification on tori},
+JHEP \textbf{02} (1998) 003,
+\href{https://arxiv.org/abs/hep-th/9711162}{arXiv:hep-th/9711162}.
+Metadata and abstract retrieved; the full text was not re-read for this version.
 \bibitem{ARS2025} K. Agashe, L. Ricci and R. Sundrum,
 \emph{Partial Compositeness: from Anarchy to Symmetry},
 \href{https://arxiv.org/abs/2507.05332v1}{arXiv:2507.05332v1} (2025).

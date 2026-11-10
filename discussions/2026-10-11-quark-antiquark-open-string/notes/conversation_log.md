@@ -131,6 +131,17 @@ The user reopened the 2024 sBootstrap thread in a Claude Code session (model Fab
 
 Paper v0.8 adds Section "Scalars as internal components of the ten-dimensional gauge field". The earlier retained-adjoint calculations are unchanged.
 
+## 18. Colour from an 't Hooft twist — 10 November 2026
+
+In the same Claude Code session the user cited Connes, Douglas and Schwarz (hep-th/9711162) and asked the session to work on its remark that a U(15) bundle with flux on a torus, reducing to U(3) with a five-fold degeneracy, addresses the first open point of blackboard 012.
+
+- **Question.** Can a flux background make 15 = 5 × 3 physical, with colour as the unbroken group, and what happens to the flavour counting?
+- **Result.** [Blackboard 013](../blackboard/013_colour_from_thooft_twist.md). A U(15) bundle with flux 3m′ leaves exactly U(3). The meson-like fields become U(3) fields on a noncommutative torus with θ = s/5; flavour symmetry is reduced to Z₅ × Z₅ and the 24 non-singlet classes become massive with pattern 4, 4, 4, 8, 4 on a square torus. Diquark multiplicities become index numbers, 6m′ antitriplets and 4m′ sextets. A commutant argument shows that no flavour-valued background keeps one colour group together with a flavour-dependent charge; the charge-preserving version has two stacks with wrapping numbers 2 and 3 and two colour groups, reproduces the three antitriplets of the 4/3 sector and misses the counts 6 and 6.
+- **Evidence and assumptions.** Algebra derived in the entry; commutants and the noncommutative relation checked numerically as sanity checks; index numbers from Chern classes; a bounded scan of factorized fluxes on T⁶ (flux numbers −4 to 4) finds no assignment with the paper's ratio and none cancelling the tadpoles with three stacks. Standard results on Morita equivalence and magnetized branes are quoted from memory; only the abstract of the cited paper was retrieved.
+- **Next test.** A background outside the flavour directions or a non-Higgs mechanism that evades the commutant obstruction; magnetized orbifolds; the noncommutative description of the diquark-like sector.
+
+Paper v0.9 adds Section "Colour from an 't Hooft twist".
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026

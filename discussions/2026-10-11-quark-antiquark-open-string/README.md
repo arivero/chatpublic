@@ -2,6 +2,8 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
+**Flux follow-up, 10 November 2026:** [Colour from an 't Hooft twist](blackboard/013_colour_from_thooft_twist.md) works on the first open point of blackboard 012 in the setting of Connes, Douglas and Schwarz. A flux background does single out SU(3) colour and turns the meson matrix into U(3) fields on a noncommutative torus with θ = s/5, but it replaces the flavour multiplicities by index numbers and cannot keep one colour group together with a flavour-dependent charge. Conditional and unreviewed; same session and model as 012. Paper v0.9.
+
 **Gauge-field follow-up, 10 November 2026:** [Are the sBootstrap scalars internal components of the ten-dimensional SO(32) gauge field?](blackboard/012_so32_gauge_field_scalars.md) tests that hypothesis: the nine-dimensional adjoint scalar reproduces the paper's count, an exact scan of colour-blind orbifold shifts finds models with single copies of the diquark-like labels, and a charge-trace condition gives the sixteenth label charge −1. Conditional and unreviewed; written by Claude (Fable 5.2) in a separate session. Paper v0.8 adds the corresponding section. Scripts and outputs: [`scripts/so32_gauge_scalars/`](scripts/so32_gauge_scalars/), [`calculations/so32_gauge_scalars/`](calculations/so32_gauge_scalars/).
 
 **2024 sBootstrap follow-up, 14 October 2026:** [SO(30), SO(32) and the missing neutral-sector selection](blackboard/011_so30_so32_neutral_completion.md), based on the user's supplied EPJC paper, corrects the earlier comparison's identification with QCD-scale hadrons. Paper v0.7 incorporates this source correction and conditional representation analysis.
