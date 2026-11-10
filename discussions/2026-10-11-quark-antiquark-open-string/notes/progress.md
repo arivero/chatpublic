@@ -29,3 +29,5 @@ Paper v0.9 built the same way on 10 November (16 pages, clean log). The step it 
 Paper v0.10 built the same way on 10 November. The step it records is blackboard 014 (three-label states and baryon labels in E8).
 
 Paper v0.11 built the same way on 10 November (19 pages). The log has no LaTeX warnings, unresolved references or overfull boxes; three underfull lines in the bibliography are also present in a rebuild of v0.10. The page with the new table was checked as an image. The step it records is blackboard 015 (nine dimensions: labels, winding and exceptional groups), done at the session's own initiative as a follow-up of 014.
+
+Paper v0.12 built the same way on 10 November. It adds one paragraph for blackboard 016 (strings that are points in the noncompact directions), which answers a question of the user.

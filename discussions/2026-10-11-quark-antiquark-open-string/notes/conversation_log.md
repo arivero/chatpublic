@@ -164,6 +164,17 @@ Same Claude Code session. The user made no new request for this step. The sessio
 
 Paper v0.11 adds Section "Nine dimensions: winding labels and the exceptional groups". Blackboard 014 B8 is replaced by the computation.
 
+## 21. Can a compactification make a fermionic string a point? — 10 November 2026
+
+Same session. The user asked whether some compactification forces one fermionic string to have its three spatial dimensions as if it were a dot, needed only for the charged-lepton fermionic strings, and asked for a note separate from entry 20. The user added that the property could be imposed ad hoc on the worldsheet by setting three coordinates equal and expected that better methods exist. The user also restated the expectation that the reduction from nine to four dimensions uses CP² × S¹, as a separate topic.
+
+- **Question.** Is there a consistent construction in which a fermionic string has no extension in the noncompact directions, and can it single out the charged-lepton labels?
+- **Result.** [Blackboard 016](../blackboard/016_strings_as_points_pinned_and_stretched.md). The consistent substitute for the ad hoc constraint is a boundary condition. A string between a D-particle and a D8-brane has eight mixed directions, no position of its own and a purely fermionic massless spectrum (recalled); it carries one label. At the SU(18) point of entry 20 the 32 massless states of winding one are single labels attached to a winding label, one of them the label n with charge −1. A Wilson line A = (3/2)Q has holonomy (−1)^(3Q) and lifts exactly the two-label states with odd 3Q: the 12 charged slepton-like labels are stretched strings and the 12 neutral ones are not. In a flat internal space the size of all these states remains the string length.
+- **Evidence and assumptions.** Exact script for the Wilson line and for the single-label states. The D-brane statements are quoted from memory; two abstracts were confirmed by search. Label readings are assumptions.
+- **Next test.** Verify the recalled statements; look for a background in which the pinned or stretched string sits at large effective tension; repeat the count of mixed directions for branes wrapped on CP² × S¹.
+
+Paper v0.12 adds one paragraph to the section on nine dimensions.
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026

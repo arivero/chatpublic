@@ -1,0 +1,34 @@
+A. Wilson line proportional to electric charge: A = (3/2) Q
+   q_n = -1: A = (3/2)q = -3/2^1 -1/2^9 1^6; folded: 0^6 1/2^10
+      at R^2/alpha' = 1/4: gauge group SO(20) x E7 (306 roots); at zero winding: SO(20) x SO(12)
+   q_n = 0: A = (3/2)q = -1/2^9 0^1 1^6; folded: 0^7 1/2^9
+      at R^2/alpha' = 1/8: gauge group SO(18) x E8 (384 roots); at zero winding: SO(18) x SO(14)
+   holonomy on a state of charge Q is exp(3 pi i Q) = (-1)^(3Q); two-label states (the 480 roots of SO(32)), q_n = -1:
+      |Q|     states  status     (v.t)^2 = r alpha' M^2
+      0         102  massless   0
+      1/3       120  lifted     1/4
+      2/3        90  massless   0
+      1         108  lifted     1/4
+      4/3        48  massless   0
+      5/3        12  lifted     1/4
+      lifted exactly when 3Q is odd: True
+   colour-singlet meson-like labels of five flavours, the (24,1): 12 neutral (massless) + 12 of charge +-1 (lifted)
+   common mass of the lifted two-label states: alpha' M^2 = 1/(4r), equal to 1 at the E7 x SO(20) point r = 1/4
+
+B. single-label states with winding
+   SU(18) point: A = -3/4^1 -1/4^14 1/4^1 , R^2/alpha' = 1/4; gauge group SU(18)
+   chain of seventeen simple roots reproduces the A17 Cartan matrix: True ; all are roots at this point: True
+   charge generator diag(0; sixteen label charges; 0) is traceless: True
+   massless states of winding +1 at the SU(18) point (32 in all):
+       6 states: one anti-label, coloured, charge -2/3
+       9 states: one anti-label, coloured, charge 1/3
+       1 states: one anti-label, colourless (n), charge 1
+       9 states: one label, coloured, charge -1/3
+       6 states: one label, coloured, charge 2/3
+       1 states: one label, colourless (n), charge -1
+   every one of them is a root l_a - l_b with exactly one of a, b a winding label
+   E7 x SO(20) point: A = -1/2^6 0^10 , R^2/alpha' = 1/4
+   norm-2 vectors with v.t = 1/4 (alpha' M^2 = 1/4): 0
+   norm-2 vectors with v.t = -1/2 (alpha' M^2 = 1): 1632
+      neutral under E7 with label charges (+-1/2)^10 on the ten labels (the spinor of SO(20)): 512; windings {'1': 512} ; number of + signs {0: 1, 2: 45, 4: 210, 6: 210, 8: 45, 10: 1}
+      two-label states of zero winding among them: 240 (one label in each block: True)
