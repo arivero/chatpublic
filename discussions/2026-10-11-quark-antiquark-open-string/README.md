@@ -2,6 +2,8 @@
 
 Started 2026-10-11. This directory records the discussion requested in the current chat.
 
+**Gauge-field follow-up, 10 November 2026:** [Are the sBootstrap scalars internal components of the ten-dimensional SO(32) gauge field?](blackboard/012_so32_gauge_field_scalars.md) tests that hypothesis: the nine-dimensional adjoint scalar reproduces the paper's count, an exact scan of colour-blind orbifold shifts finds models with single copies of the diquark-like labels, and a charge-trace condition gives the sixteenth label charge −1. Conditional and unreviewed; written by Claude (Fable 5.2) in a separate session. Paper v0.8 adds the corresponding section. Scripts and outputs: [`scripts/so32_gauge_scalars/`](scripts/so32_gauge_scalars/), [`calculations/so32_gauge_scalars/`](calculations/so32_gauge_scalars/).
+
 **2024 sBootstrap follow-up, 14 October 2026:** [SO(30), SO(32) and the missing neutral-sector selection](blackboard/011_so30_so32_neutral_completion.md), based on the user's supplied EPJC paper, corrects the earlier comparison's identification with QCD-scale hadrons. Paper v0.7 incorporates this source correction and conditional representation analysis.
 
 **Targeted follow-up, 14 October 2026:** [comparison of the supplied partial-compositeness papers with sBootstrap](references/literature_2026-10-14.md), incorporated in paper v0.6. The user reopened this source question; the finite-momentum calculation remains deferred. [Original source archives and extracted files](references/received-2026-10-14/README.md).

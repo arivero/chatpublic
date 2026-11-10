@@ -4,13 +4,13 @@
 \usepackage{lmodern}
 \usepackage{amsmath,amssymb,bm,booktabs,microtype}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
-\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.7: 2024 sBootstrap and the SO(30) to SO(32) completion}}
+\hypersetup{pdftitle={Retained adjoint-fermion binding with explicit hbar},pdfauthor={Research notebook},pdfsubject={Version 0.8: scalars as internal components of the SO(32) gauge field}}
 \setlength{\parskip}{3pt}
 \setlength{\emergencystretch}{2em}
 \title{Retained adjoint-fermion binding with explicit $\hbar$:\\
 recoil, quantum corrections and the whole-state current}
-\author{Research-notebook draft, version 0.7}
-\date{14 October 2026}
+\author{Research-notebook draft, version 0.8}
+\date{10 November 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -26,9 +26,10 @@ This focused revision develops that selection. It does not identify a contact tr
 \input{supersymmetry_dictionary}
 \input{partial_compositeness_comparison}
 \input{sbootstrap_so32}
+\input{so32_gauge_field_scalars}
 
 \section*{Reproducibility and review scope}
-The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
+The radius derivation is analytic; no numerical physics script was required. A research agent derived the leading anharmonic radius and the parent independently checked only that new mathematics. The parent analyzed the conceptual $B-L$ ledger and linear-multiplet constraint. Earlier source reading and document builds were delegated to Sol. The subsequent representation-count clarification and 1983 source comparison add no finite-$Q$ calculation. Version 0.6 added the parent's reading of supplied 2025/2026 LaTeX sources and the scoped comparison in Section~\ref{sec:partialcomparison}. Version 0.7 corrects the source interpretation using the supplied 2024 paper and adds the dimensionless representation analysis in Section~\ref{sec:so32completion}. Sol extracted that PDF and validates the document; the parent checked consequential passages on original page images. Version 0.8 adds Section~\ref{sec:gaugefieldscalars}. It was written on 10 November 2026 by Claude (model Fable 5.2) in a separate session, after reading Refs.~\cite{Rivero2024,Rivero2005,Rivero2009}, a 2007 preprint of the same program and Section~\ref{sec:so32completion}. Its enumeration of orbifold shifts and its twisted spectra use exact-arithmetic scripts in \path{scripts/so32_gauge_scalars/}, written and run by the same model, with outputs in \path{calculations/so32_gauge_scalars/}. The independent consistency criteria are the reproduction of the $\mathbb Z_3$ series of gauge groups and the cancellation of cubic anomalies between sectors computed by different rules. No second model reviewed that section, and it was built with \texttt{pdflatex} because \texttt{latexmk} was unavailable. Earlier recoil, energy and current calculations are unchanged. These checks do not establish experimental correctness, novelty or a completed supersymmetric model.
 
 The living source and PDF are in
 \begin{quote}\small

@@ -13,6 +13,7 @@ This is the exploratory level of the notebook. It contains user motivations, exp
 - [009 — Leading anharmonic charge-radius correction](009_anharmonic_radius.md)
 - [010 — Endpoint statistics, Goldstino and B−L hypotheses](010_endpoints_goldstino_and_b_minus_l.md)
 - [011 — SO(30), SO(32), and the missing neutral-sector selection](011_so30_so32_neutral_completion.md)
+- [012 — Scalars as internal components of the ten-dimensional SO(32) gauge field: nine-dimensional count, orbifold projections, the sixteenth label](012_so32_gauge_field_scalars.md)
 - [Idea bank — hypotheses, objections, next tests and revival conditions](ideas.md)
 
 Earlier exploratory constructions remain in [dual_qcd_cp2_s1.md](../dual_qcd_cp2_s1.md); the distinction between checked ingredients and an unconstructed model is recorded in [notes/state.md](../notes/state.md).

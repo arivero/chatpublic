@@ -120,6 +120,17 @@ The user supplied Alejandro Rivero's *An interpretation of scalars in SO(32)*, E
 
 [Blackboard 011](../blackboard/011_so30_so32_neutral_completion.md) gives the analytic completion: five colored flavors give 15 complex/30 real internal labels; one extra complex singlet gives 32. The adjoint difference is 61=60+1, including mixed colored composites. A sterile-neutrino-like endpoint is a conjecture, not the familiar one-family 15+1 counting result. The U(3) color action already embeds into SO(30), so this enlargement by itself does not force 32. Standard ten-dimensional anomaly/tadpole cancellation is a possible external selector, subject to actually constructing the appropriate theory. Paper v0.7 includes this source correction and analysis. No physical neutral particle, full symmetry realization or binding mechanism was derived, and no numerical physics scripts were run.
 
+## 17. Gauge-field origin of the scalars and the sixteenth label — 10 November 2026
+
+The user reopened the 2024 sBootstrap thread in a Claude Code session (model Fable 5.2), separate from the earlier GPT conversations. After that session read the EPJC paper, the 2005/2007/2009 preprints and the March 2026 draft `sbootstrap_v4d.tex` (repository `physres2`), the user asked it to work on its remark that compactifying the ten-dimensional gauge field gives adjoint scalars with the paper's labels, then asked what explains the room between SO(30) and SO(32) and whether it could hold "tt, tu, tc" states for the charge-4/3 sector, and finally asked for the work to be filed as blackboard 012, committed and pushed.
+
+- **Question.** Can the scalars be the internal components of the ten-dimensional SO(32) gauge field, and which projections keep which labels?
+- **Result.** [Blackboard 012](../blackboard/012_so32_gauge_field_scalars.md). (i) In nine dimensions the single real adjoint scalar, restricted to (24,1)+(15,3bar)+(15bar,3), has exactly the paper's 114 real components. (ii) In the heterotic fermionic formulation the scalars are bilinears of label-carrying worldsheet fermions, and central charge 16 gives 5×3+1 labels. (iii) The paper's self-energy formula has the Wilson-line form if read as M². (iv) An exact scan of colour-blind shifts in nine Z_N orbifolds finds single-copy models, including a Z7 model with every charged label once, and shows that abelian projections cannot isolate the 54 selected states. (v) If charge is traceless on the sixteen labels the extra label has charge −1; three one-label states then carry the colour, charge and B−L of the uu-type states.
+- **Evidence and assumptions.** Exact-arithmetic scripts with outputs on disk; the Z3 series of gauge groups is reproduced and cubic anomalies cancel in six models. Heterotic consistency conditions without Wilson lines; twisted sectors only for Z3 and Z7. Every physical identification of labels and charges is an assumption. No second model reviewed the entry and no literature search for prior statements was made.
+- **Next test.** A mechanism that leaves SU(3) colour gauged and flavour global inside U(15) or U(6)×U(9); twisted sectors and abelian anomalies of the Z8-I and Z12-I single-copy models; a reason for the charge-trace condition.
+
+Paper v0.8 adds Section "Scalars as internal components of the ten-dimensional gauge field". The earlier retained-adjoint calculations are unchanged.
+
 ## Ongoing note-taking convention
 
 ### Deferred radius calculation — historical request, 12 October 2026

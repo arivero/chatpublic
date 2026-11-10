@@ -1,0 +1,145 @@
+\section{Scalars as internal components of the ten-dimensional gauge field}
+\label{sec:gaugefieldscalars}
+Section~\ref{sec:so32completion} left two questions open: what removes
+the adjoint components outside the selected channels, and why a scalar
+multiplet with 496 entries should obey a condition on the
+ten-dimensional gauge sector. This section tests one hypothesis that
+addresses both: the scalars of Ref.~\cite{Rivero2024} are the components
+of the ten-dimensional $SO(32)$ gauge field along compact directions.
+All statements are conditional on that identification. Except for
+Eq.~\eqref{eq:wilsonmass}, they are dimensionless representation
+statements. Details, scripts and outputs are in blackboard~012 of the
+research notebook.
+
+\paragraph{Labels.}
+Fifteen of the sixteen Cartan directions carry a pair (flavor, color),
+with flavor in $\{u,c,d,s,b\}$; the sixteenth, $n$, is colorless.
+The roots $\pm e_a\pm e_b$ then split into meson-like roots
+$e_{(i,c)}-e_{(j,d)}$, diquark-like roots $e_{(i,c)}+e_{(j,d)}$, which
+carry $(15,\bar3)+(10,6)$, and one-label roots $e_{(i,c)}\pm e_n$.
+Electric charge is the Cartan generator $Q=\sum_a q_aH_a$ with the quark
+charges on the colored labels; it reproduces the charges of
+Ref.~\cite{Rivero2024} on the selected channels.
+
+\paragraph{Nine dimensions.}
+The nine-dimensional $N=1$ vector multiplet contains one real scalar.
+For a string theory on a circle it is the gauge-field component $A_9$,
+in the 496. Restricted to $(24,1)+(15,\bar3)+(\overline{15},3)$ it has
+$24+2\times45=114$ real components: twelve for charged and twelve for
+neutral slepton-like states, and, per color, six complex states of
+charge $1/3$, six of charge $2/3$ and three of charge $4/3$. This is the
+count of two scalars per Dirac fermion of Ref.~\cite{Rivero2024} with no
+additional copies. Each further compact dimension adds one real scalar
+per generator. Reference~\cite{Rivero2009} had singled out nine
+dimensions as the non-chiral stage. Under the hypothesis the scalar
+multiplet is the gauge sector, so the ten-dimensional anomaly condition
+of Section~\ref{sec:so32completion} becomes the selector of $SO(32)$
+over $SO(30)$.
+
+\paragraph{Label symmetry.}
+In the fermionic formulation of the heterotic string the 32 labels are
+carried by left-moving worldsheet fermions $\lambda^I$, and the adjoint
+states are the bilinears $\lambda^I_{-1/2}\lambda^J_{-1/2}|0\rangle$,
+antisymmetric by worldsheet statistics. Space-time spin comes from the
+right-movers. The channel $(15,\bar3)=S^2(5)\otimes\Lambda^2(3)$ is
+therefore a bilinear of two label-carrying fermions with no constraint
+from space-time statistics. The left-moving internal central charge 16
+corresponds to sixteen complex labels, $5\times3+1$.
+
+\paragraph{Mass formula.}
+With a Wilson line $a$ on a circle of radius $R$, a state on root $p$
+has, at the lowest Kaluza--Klein level,
+\begin{equation}
+M=\frac{\hbar\,|p\cdot a|}{R\,c_{\rm light}},\qquad
+M^2\propto(a_a\mp a_b)^2
+\label{eq:wilsonmass}
+\end{equation}
+for meson-like and diquark-like roots respectively. The self-energy
+formula $E\propto(q_a+q_b)^2$ of Ref.~\cite{Rivero2024} has this form if
+$E$ is read as $M^2$, with the condition $z_1+z_2+z_3=0$ a Wilson line in
+the Cartan subalgebra of the $SU(3)$ acting on $(d,s,b)$. The second
+condition of that formula is an additional input. A label reflection
+$e_a\to-e_a$ is a Weyl reflection and exchanges meson-like and
+diquark-like sectors. In nine dimensions a scalar on a root with
+$p\cdot a\neq0$ is absorbed by the massive vector.
+
+\paragraph{Orbifold projections.}
+For $T^6/\mathbb Z_N$ orbifolds preserving four-dimensional $N=1$, with
+heterotic consistency conditions, no Wilson lines and color-blind shifts
+$V=(w_u^3,w_c^3,w_d^3,w_s^3,w_b^3,w_n)$, a root gives a gauge boson if
+$p\cdot V\in\mathbb Z$, one chiral multiplet from $A_{z_k}$ if
+$p\cdot V=v_k$ mod 1, and is projected out otherwise. An exact
+enumeration gives the following.
+\begin{itemize}
+\item $\mathbb Z_3$ reproduces the series $U(3k)\times SO(32-6k)$.
+Its member with gauge group $U(15)\times SO(2)$ has untwisted matter
+$3\,[\overline{105}+15_{+1}+15_{-1}]$ and twisted matter
+$27\,[15_{-1/2}+3\cdot1]$: three copies of the diquark-like multiplet,
+one per complex plane.
+\item Single copies occur. With the split $(u,c\,|\,d,s,b)$, shifts in
+$\mathbb Z_8$-I and $\mathbb Z_{12}$-I give $U(6)\times U(9)\times U(1)$
+with every diquark-like label as one chiral multiplet and the charged
+meson-like labels projected out.
+\item The $\mathbb Z_7$ shift $V=(1^6,2^9,0)/7$ gives
+$U(6)\times U(9)\times SO(2)$ with every charged label exactly once
+(Table~\ref{tab:z7}); the twelve neutral meson-like labels are gauge
+bosons of the flavor subgroup.
+\item No admissible shift isolates the selected channels: $(10,6)$
+accompanies $(15,\bar3)$ and $(24,8)$ accompanies $(24,1)$. Among the
+96 shifts that make all fifteen diquark-like labels chiral with one
+orientation, none keeps a meson-like label as matter.
+\end{itemize}
+Cubic non-abelian anomalies cancel between untwisted and twisted sectors
+in the five non-trivial $\mathbb Z_3$ models and in the $\mathbb Z_7$
+model, which fixes the orientation convention. Twisted sectors of the
+non-prime orbifolds were not computed.
+
+\begin{table}[ht]
+\centering
+\caption{Massless charged spectrum of the $\mathbb Z_7$ orbifold with
+$V=(1^6,2^9,0)/7$. Untwisted states are internal components of the
+ten-dimensional gauge field.}
+\label{tab:z7}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Sector & Copies & $U(6)\times U(9)$, $SO(2)$ charge & Labels \\
+\midrule
+untwisted, plane 1 & 1 & $(\bar6,9)$ & charged mesons $d\bar u$ \\
+untwisted, plane 1 & $1+1$ & $(6,1)_{\pm1}$ & $u\,n$, $u\,\bar n$ \\
+untwisted, plane 2 & 1 & $(15,1)$ & $uu$, charge $4/3$ \\
+untwisted, plane 2 & $1+1$ & $(1,9)_{\pm1}$ & $d\,n$, $d\,\bar n$ \\
+untwisted, plane 3 & 1 & $(1,36)$ & $dd$, charge $-2/3$ \\
+untwisted, plane 3 & 1 & $(\bar6,\bar9)$ & $\bar u\bar d$, charge $-1/3$ \\
+twisted $\theta$ & 21 & singlets & \\
+twisted $\theta^2$ & 7, 7, 21 & $(6,1)$, $(1,\bar9)$, singlets & \\
+twisted $\theta^4$ & 7, 7 & $(6,1)$, singlets & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{The sixteenth label.}
+The 61 generators that distinguish $SO(32)$ from $SO(30)$ are the
+states with exactly one colored label and one singlet. With
+$\mathfrak{so}(32)=\mathfrak k\oplus\mathfrak p$,
+$\mathfrak k=\mathfrak{so}(30)\oplus\mathfrak{so}(2)$ and
+$\mathfrak p=(30,2)$, one has
+$[\mathfrak p,\mathfrak p]\subset\mathfrak k$: two one-label states
+compose into a meson-like or diquark-like label. The charge formula of
+Ref.~\cite{Rivero2024} gives the new label charge zero. If instead $Q$
+is required to be traceless on the sixteen complex labels, the colored
+labels sum to $3(2/3+2/3-1/3-1/3-1/3)=1$ and the new label has charge
+$-1$. The one-label states are then leptoquark-like. Three of them,
+$\bar d\ell^+$, $\bar s\ell^+$, $\bar b\ell^+$, have color $\bar3$,
+charge $4/3$ and $B-L=2/3$, the quantum numbers of the three $uu$-type
+states, and would complete that sector to six. A colored top would
+instead require eighteen labels. The tracelessness requirement is an
+assumption, and the same label adds two states of charge $1/3$, three
+of charge $2/3$ and two of charge $5/3$ in color $\bar3$.
+
+\paragraph{What is missing.}
+The gauge groups found are $U(15)$ or $U(6)\times U(9)$; the product
+structure $15=5\times3$ is a choice of basis, and no mechanism here
+leaves $SU(3)$ color gauged with flavor global. Ordinary supersymmetry
+pairs each scalar with a fermion of the same labels, whereas the
+sBootstrap pairs a two-label scalar with a one-label fermion. Abelian
+anomalies, Wilson lines and couplings were not analyzed.
