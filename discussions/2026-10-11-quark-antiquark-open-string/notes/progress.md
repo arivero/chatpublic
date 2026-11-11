@@ -21,3 +21,15 @@
 Paper v0.5 built with `latexmk` on 13 October (10 pages); final LaTeX log has no warnings, unresolved references or overfull boxes. Changed equations, charge table and citations were checked in extracted text and rendered pages 7–9. Build log: `/tmp/chatpublic_v05_latexmk.log`.
 
 For each research step, update the living paper and PDF, then record **question → result → evidence/assumptions → next test** in the conversation log. An explicit counterexample or scoped failure counts when it changes the construction. A repeated objection with no new premise does not. After two unchanged attempts, park the idea with a revival trigger in the [idea bank](../blackboard/ideas.md). Literature retrieval is useful support, not a physics discovery.
+
+Paper v0.8 built with three `pdflatex` passes on 10 November (15 pages); the final log has no warnings, unresolved references or overfull boxes, and the page with the new table was checked as an image. The step it records is blackboard 012 (gauge-field origin of the 2024 scalars), outside the retained-adjoint checkpoints above.
+
+Paper v0.9 built the same way on 10 November (16 pages, clean log). The step it records is blackboard 013 (colour from an 't Hooft twist), a continuation of 012.
+
+Paper v0.10 built the same way on 10 November. The step it records is blackboard 014 (three-label states and baryon labels in E8).
+
+Paper v0.11 built the same way on 10 November (19 pages). The log has no LaTeX warnings, unresolved references or overfull boxes; three underfull lines in the bibliography are also present in a rebuild of v0.10. The page with the new table was checked as an image. The step it records is blackboard 015 (nine dimensions: labels, winding and exceptional groups), done at the session's own initiative as a follow-up of 014.
+
+Paper v0.12 built the same way on 10 November. It adds one paragraph for blackboard 016 (strings that are points in the noncompact directions), which answers a question of the user.
+
+Paper v0.13 built the same way on 11 November. It rewrites the closing sentences of the paragraph added in v0.12, after the user's objection on size recorded in the conversation log.

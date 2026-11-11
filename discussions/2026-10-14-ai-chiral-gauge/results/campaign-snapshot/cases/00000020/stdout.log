@@ -1,0 +1,8 @@
+calibration seed=6782882590914152306 Clifford=0 dU=5.86e-11 gauge_curvature=3.57e-18 Dirac_Weyl_log=3.55e-15 phase=2.13e-14 pair=5.67e-19
+level N=3 nodes=81 plaquette_Frobenius_anti5=0.141253454 10=0.244651724
+complete N=3 omega_anti5=0.000250114161811 omega10=-0.000371899050456 chiral=-0.000121784888645 vectorlike=-5.24e-18 Dirac_Weyl_max=2.49e-14 CPU=0.1
+level N=9 nodes=6561 plaquette_Frobenius_anti5=0.0159449876 10=0.0276175197
+complete N=9 omega_anti5=0.00280842901794 omega10=-0.00281873931749 chiral=-1.0310299548e-05 vectorlike=2.34e-18 Dirac_Weyl_max=2.84e-14 CPU=7.0
+level N=27 nodes=531441 plaquette_Frobenius_anti5=0.00177477778 10=0.00307400527
+complete N=27 omega_anti5=0.00295359700167 omega10=-0.00295359704831 chiral=-4.663902156e-11 vectorlike=-7.92e-18 Dirac_Weyl_max=3.2e-14 CPU=615.5
+finished seed=6782882590914152306 CPU_seconds=615.462

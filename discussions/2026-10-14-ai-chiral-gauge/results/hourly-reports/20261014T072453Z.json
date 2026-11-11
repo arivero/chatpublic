@@ -1,0 +1,51 @@
+{
+  "observed_utc": "2026-10-14T07:24:53.776474+00:00",
+  "status": {
+    "active": [
+      {
+        "case_id": 42,
+        "elapsed_seconds": 524.370128802002,
+        "pid": 10084,
+        "seed": 631162605526908726
+      },
+      {
+        "case_id": 43,
+        "elapsed_seconds": 376.1272480749976,
+        "pid": 10239,
+        "seed": 5720024897421210104
+      }
+    ],
+    "counts": {
+      "completed": 42
+    },
+    "elapsed_seconds": 17756.612277303,
+    "next_case_id": 44,
+    "remaining_seconds": 243.38772269699984,
+    "scientific_interpretation": "Execution status only; inspect worker results and controls.",
+    "state": "running",
+    "supervisor_pid": 7819,
+    "total_budget_seconds": 18000.0,
+    "updated_utc": "2026-10-14T07:24:52.134159+00:00"
+  },
+  "process_verification": [
+    {
+      "pid": 7819,
+      "process_state": "S",
+      "alive": true,
+      "command": "python3 /workspace/work/craig/campaign/runner.py --seconds 18000 --workers 2 --seed 261009093 --output /workspace/work/craig/campaign/run-5h-20261014T022855Z --code /workspace/work/craig/campaign/physics4d.c --worker /workspace/work/craig/campaign/physics4d --nmax 27 "
+    },
+    {
+      "pid": 10084,
+      "process_state": "R",
+      "alive": true,
+      "command": "/workspace/work/craig/campaign/physics4d --nmax 27 --seed 631162605526908726 --output /workspace/work/craig/campaign/run-5h-20261014T022855Z/cases/00000042/result.json "
+    },
+    {
+      "pid": 10239,
+      "process_state": "R",
+      "alive": true,
+      "command": "/workspace/work/craig/campaign/physics4d --nmax 27 --seed 5720024897421210104 --output /workspace/work/craig/campaign/run-5h-20261014T022855Z/cases/00000043/result.json "
+    }
+  ],
+  "missed_checks": "Earlier scheduled prompts arrived but were not executed while model usage was exhausted. This report is a current observation, not a backfilled hourly check."
+}

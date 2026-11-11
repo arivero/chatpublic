@@ -1,0 +1,23 @@
+4D gap scan: 432 matrices of size 324; minimum 0.499999999999998 at p=(3.14159265,0,0,0), s=0.5
+4D inclusion max |sum w^2-1| = 1.33e-15
+4D omitted-rank-correction control at p=0,s=1/2: gap 0
+2D orientation calibration: -0.5 (expected -0.5)
+2D analytic flat-spectrum max discrepancy 1.78e-15; comparison derivative finite-difference discrepancy 6.12e-12
+2D loop: a=0.23+0.17 cos(t), b=0.37+0.17 sin(t), AP/AP; 1x1 -> 3x3
+nt,ns,current,coarse_phase_minus_fine_phase,residual,coarse_phase,fine_phase
+128,16,-0.520627681929073,-0.520289875007218,-0.000337807,-0.833032980151256,-0.312743105144038
+256,24,-0.520627668029097,-0.520543211025154,-8.4457e-05,-0.833368665697306,-0.312825454672152
+512,40,-0.520627668040521,-0.520606553239434,-2.11148e-05,-0.833452596090262,-0.312846042850828
+2D Richardson endpoint estimate -0.520627667310861; current discrepancy -7.2966e-10
+2D missing-coarse-derivative control -1.01548631665352; discrepancy -0.494859
+2D minimum sampled comparison gap 0.474740466510293
+2D parameter Chern numbers: N,spin_x,spin_y,anti5,right10,physical,extra_anti5,random_frame_change
+32,-1,-1,30,-90,3.41061e-13,30,1.42e-14
+32,-1,1,30,-90,3.69482e-13,30,3.55e-15
+32,1,-1,30,-90,3.55271e-13,30,1.07e-14
+32,1,1,30,-90,3.83693e-13,30,3.55e-15
+64,-1,-1,30,-90,-6.25278e-13,30,1.42e-14
+64,-1,1,30,-90,-4.54747e-13,30,3.2e-14
+64,1,-1,30,-90,-5.25802e-13,30,-1.42e-14
+64,1,1,30,-90,-4.40536e-13,30,-7.11e-15
+CPU seconds 26.886

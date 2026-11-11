@@ -1,0 +1,598 @@
+Eur. Phys. J. C (2024) 84:1058
+https://doi.org/10.1140/epjc/s10052-024-13368-3
+
+ Letter
+
+
+
+An interpretation of scalars in SO(32)
+Alejandro Riveroa
+Institute for Biocomputation and Physics of Complex Systems (BIFI), Universidad de Zaragoza, Zaragoza, Spain
+
+
+
+
+Received: 13 August 2024 / Accepted: 12 September 2024 / Published online: 15 October 2024
+© The Author(s) 2024
+
+
+
+
+Abstract We propose an interpretation for the adjoint rep-             of this classification, where they obtain the decomposition
+resentation of the S O(32) group to classify the scalars of            S O(n 1 ) ⊗ SU (n 2 ) ⊗ SU (3) ⊗ U1 (1) with 2n = n 1 + 6n 2 .
+a generic Supersymmetric Standard Model having just three              Our case of interest is S O(32) with the maximal SU (n 2 ),
+generations of particles, via a flavour group SU (5). We show          this is n 2 = 5. The representations intended for fermions
+that this same interpretation arises from a simple postulate of        are not very useful, as the group is of kind S O(4k), without
+self-consistence of composites for these scalars. The model            complex representations. But we are interested on the adjoint
+looks only for colour and electric charge, and it pays the cost        as a place for scalars. The stated result gives us
+of an additional chiral +4/3 quark per generation.
+                                                                        496 =
+                                                                                                       ¯ 3c] +
+                                                                        (1, 24, 1c ) +[1, 15,3̄c] +[1,15,
+1 Introduction                                                                                          ¯ 6c ] +
+                                                                        1, 24, 8c +[1, 10, 6̄c ] +[1, 10,
+                                                                                                                                 (1)
+                                                                        (1, 1, 8 )
+                                                                                c                                +
+While highly relevant in string theory and supergravity, the                         (2, 5, 3c )  +(2, 5̄, 3̄c ) +
+S O(32) group is not a good unification group as it doesn’t                          (1, 1, 1c )  +[1, 1, 1c ]
+have complex representations [19]. But it still gets an inter-
+esting family group when decomposed. In this letter, we first
+                                                                       And our components of interest are the three first ones, that
+review the decomposition, interpret it as a group symme-
+                                                                       we have stressed with boldface. The explicit U1 (1) group
+try on scalars that could be supersymmetry partners of the
+                                                                       provides an hypercharge that counts the number of coloured
+Standard Model fermions, and then we present an interest-
+                                                                       representations and is zero for colour singlets, so we can
+ing reconstruction of such scalars as composites. Besides,
+                                                                       assign respectively Y1 = 0, +1, −1 to the above 1c , 3̄c and
+the interpretation has a uniqueness that limits the number of
+                                                                       3̄.
+generations for the SM group.
+                                                                           To get a second hypercharge, we can consider SU (5) as
+   This reconstruction could have some application when
+                                                                       the flavour group and decompose it [15,28,29] down to mul-
+considering open string theory and their branes, or could be
+                                                                       tiplets in SU (3) × SU (2) × U2 (1)
+used as basis for other GUT-flavour models. Considering this,
+we include a pair of sections with some separate discussion
+on other related groups.                                               15 =             (1, 3)−6 + (3, 2)−1 + (6, 1)4            (2)
+                                                                       24 = (1, 1)0 + (1, 3)0 + (3, 2)5 + (3̄, 2)−5 + (8, 1)0    (3)
+
+2 The flavour group in S O(32)
+                                                                       Now from the two hypercharges we can produce a charge
+The authors of [18] classify decomposition of groups hav-                                
+ing explicitly a SU (3) colour subgroup, giving candidate                     1 2
+                                                                        Q=        Y1 − Y2                                        (4)
+representations as well as the decomposition of the adjoint                   5 3
+representation in all the cases. Groups S O(2n) are case 4
+                                                                       and check that the resulting decomposition includes content
+a e-mail: arivero@unizar.es (corresponding author)                     corresponding to the scalars of a minimal, three generations,
+
+
+                                                                                                                          123
+1058 Page 2 of 9                                                                                          Eur. Phys. J. C (2024) 84:1058
+
+
+supersymmetric standard model.
+
+           ( f 3 , f 2 ) Y1 Y2   Q
+(1, 15, 3̄) (3, 2)        1 −1 +1/3
+            (6, 1)        1 4 −2/3
+     ¯
+(1, 15, 3) (3, 2) −1 +1 −1/3
+            (6, 1) −1 −4 +2/3
+                                                            (5)
+(1, 24, 1) (1, 1)         0 0     0
+            (1, 3)        0 0     0
+            (8, 1)        0 0     0
+            (3, 2)        0 5 −1
+            (3̄, 2)       0 −5 +1
+Plus an extra content
+                  Y1 Y2   Q
+                                                            (6)
+(1, 15, 3̄) (1, 3) 1 −6 +4/3
+   We can arrive to the same result by chaining some branch-
+ings. A straightforward way is S O(32) ⊃ SU (16) × U (1),
+                   ¯ −4 + 2550
+496 = 10 + 1204 + 120                                       (7)
+
+   and then SU (16) ⊃ SU (15) × U (1) and SU (15) ⊃
+SU (5) × SU (3), to finish applying (2), (3). In this way the
+quarks come from the initial 120s, while the leptons are from
+the 255. Or respectively in SU (15), from the 105s and the
+224.
+                                                                   Fig. 1 Illustration of the concept Turtles all way down, with an spec-
+                                                                   tator but massive giant (Credit of the drawing: De Rújula)
+
+3 S O(32) from postulates
+                                                                   elephants,1 and add a rule: only turtles can combine into
+Once we know that our aim is to get not the fermions but           composites.
+just the scalar partners of a Susy Standard Model, we can             We assume there are N up-type quarks, of these ku turtles,
+wonder if there is some set of postulates that isolates directly   and N down-type quarks, of which kd turtles.
+the flavour group, or at least the number of generations it has.      We ask for what values of N , ku , kd the number of scalars
+It turns out, there is an amusing set of requirements that force   of each type is exactly 2N , as required in supersymmetry
+this result.                                                       models. This gives two equations for squarks up and down:
+    The clue is the “recursive” property of colour: we can get     2N = ku kd                                                        (8)
+the 3 colour triplet out of 3̄ × 3̄ = 3 + 6. And also we can
+                                                                   2N = kd (kd + 1)/2                                                (9)
+get singlets, from 3 × 3̄ = 1 + 8.
+    And adding to this hint, we notice that one quark with an      So N ≥ 3 (actually, N must be half of an hexagonal number)
+antiquark allows to build particles of electrical charges +1,      and kd = 2ku −1. If we add other two conditions, for sleptons
+0, and −1, but not only that: also we can build a charge +2/3      charged and neutral
+with two antiquarks of down type, and a charge −1/3 with
+                                                                   2N = ku kd                                                       (10)
+one antiquark down plus other antiquark down. This was in
+fact the spirit of the above decomposition of SU (5) flavour,      4N = ku2 + kd2 − 1                                               (11)
+but it is even more interesting when starting from particles       then the solution is unique, N = 3, ku = 2, kd = 3. There
+and going later to groups.                                         are five turtles and one elephant, that we can name as the top
+                                                                   quark.
+3.1 Turtles and elephants                                             However, note that if we consider all the combinations of
+                                                                   turtles we find that we get three extra “squarks” of charge
+We consider scalars as composites either of pairs of quarks,       +4/3, and their opposites.
+as a colour triplet, or of pairs quark anti-quark, as a singlet.
+Furthermore, we divide the quarks in two classes: turtles and      1 Or giants see Fig. 1.
+
+
+
+
+123
+Eur. Phys. J. C (2024) 84:1058                                                                                        Page 3 of 9 1058
+
+
+3.2 Colourless and coloured flavour groups                        charges of the 24 and 15, or even an anomalous “deflipped
+                                                                  SU (5)” with the up quark in the fundamental but the stan-
+The extra “squarks” look as a penalisation but group theo-        dard hypercharge assignments, so that the +4/3 triplet would
+retically they are the ones that allow to complete the flavour    appear in the decuplet. The authors in [9] use a different
+supermultiplet into a 15 of SU (5)                                charge assignment to produce the +2/3 charge in the 24, so
+    At this level and without colour, we could consider that      that it is composed of gluons, a photon, and a whole set of
+the flavour is organized in the 54 of S O(10), and then break     SU (3) × U (1) charges, and then a broken susy SU (5) pro-
+it down to SU (5) × U (1)                                         duces the standard model particles as Goldstone fermions.
+            ¯ −4 + 240                                               The SU (5) model was frequently used as foundational
+54 = 154 + 15
+                                                                  model in the peak of composite theories in the early eighties.
+where again the hypercharge from this U(1) can be combined        In most cases the components in the 5 were new particles, but
+with the one on (2), (3) to reproduce the electric charge.        some models considered to keep right fermion as elementary
+   If we want to incorporate colour and unify colour-flavour,     and only left as composite, and even there was some pro-
+our minimal candidate is SU (15). From here we can go up to       posal [14] were the 5 had a shared mix of preons and known
+S O(30) and then to S O(32) adding singlets, or substituting      fermions. The author in [4] considers a fundamental “quint”
+colour SU (3) by U (3).                                           and a composite 10, albeit from the product of three “quints”.
+                                                                  Early literature also includes ideas where only the leptons are
+                                                                  composite, as well as proposals where only the first family
+4 A case for one generation                                       is elementary.
+
+The above argument assumed the SM and particularly that
+the turtles were allowed to bind only if they had colour. But     5 The role of the top
+the final particle content is very reminiscent of the Georgi-
+Glashow model.                                                    The argument in Sect. 3 tells us that there is one quark that
+   Consider the usual formulation of the model                    does not act as a preon for the susy scalars. It does not tell us
+ 5 = (1, 2)−3 + (3, 1)2                                  (12)     which one. We need to identify the elephant. And really we
+                                                                  have not a concrete argument.
+10 = (1, 1)−6 + (3̄, 1)4 + (3, 2)−1                      (13)
+                                                                     We favour the top quark due to the horizontal, flavour-like,
+and use Q = T3 − Y/6 to study the electric charge of the          symmetries found in the first section: SU (3) f3 × SU (2) f2 .
+colour singlets and colour triplets in each representation of     When considering the values of quark Yukawa couplings, and
+SU (5)                                                            thus quark masses, it seems more fitting that the f 2 symmetry
+                                                                  relates u and c, with the t quark being the excluded one. This
+                                                                  scenario is typical when breaking textures.
+Repr     Singlets         Triplets     Antitriplets    Other
+                                                                     We were in fact inspired by the empirical observation that
+1        0                                                        toponium doesn’t exist, but this is perfectly justified by the
+5        0, +1            −1/3                                    mass of the top being closer to the Fermi scale than to the
+24       0, +1, 0, −1     −4/3, −1/3   +4/3,+1/3       (8)q=0
+                                                                  QCD scale. So it disintegrates faster than it binds. However,
+10       +1               +2/3, −1/3   −2/3
+ ¯
+10       −1               +2/3         −2/3, +1/3                 we have not discussed the binding mechanism here, and the
+15       +2, +1, 0        +2/3, −1/3                   (6)−2/3    one from QCD doesn’t apply.
+ ¯
+15       −2, −1, 0                     −2/3, +1/3      (6̄)+2/3      The heavy mass of the top quark can be used as an argu-
+                                                                  ment in compositions where the quarks act as charges at the
+                                                                  ends of a relativistic open string, as they need to be mass-
+   It can be argued that the union of 10 + 10  ¯ + 24 is the      less, or at least as light as possible. And ultimately it can
+one generation version of our previous construction, albeit       be expected that masses in the standard model -with right
+with only a left neutrino. See how the X boson of the GUT         neutrinos but not other particles- are protected by two dual
+model is here just the q = +4/3 scalar, and how we have the       symmetries: one that fixes all the degrees of freedom as Dirac
+condition of two states for each fermion. In this case our        massless except the top quark, and another one that fixes all
+turtles, binding, are all the members of 5 and the elephants,     the degrees of freedom as Majorana massless except the neu-
+not-binding, are the members of 10. They bypass the previous      trinos.2
+uniqueness proof because we are allowing leptons to join the
+game.                                                             2 Such protection splits degrees of freedom as 84+12 in both cases, and
+   It could be interesting to consider variants of this game,     thus we should look for some group representations in the 84, 42 or 21.
+such as flipped SU (5) [12] with some rules for the U (1) X       Note M2-brane and M5-brane carry a SU (9) symmetry.
+
+
+                                                                                                                             123
+1058 Page 4 of 9                                                                                          Eur. Phys. J. C (2024) 84:1058
+
+
+6 Discussion on masses                                                 As it is well known, if we use a scale factor k = m e +
+                                                                    m μ +m τ then for α = 0.745821 the mass triplet [k(z 0 +z i )2 ]
+The main point of this section is the existence of a mass for-      recovers exactly the values m e , m μ , m τ . This is sometimes
+mula that produces pairs of equal mass particles, as required       interpreted as a prediction for m τ [24], as we can use m e and
+by unbroken susy.                                                   m μ to recover α, k and then calculate the extant mass, well
+   Excepting the top quark, preon models from the eighties          within one sigma of the current measurement error. Note also
+were known to produce realistic masses. One model from that         that kz 02 = 313.85 MeV, a familiar quantity from QCD [27].
+age is [24], that became popular later due to the accuracy in          More interestingly, we can ask for the mass values of the
+the lepton sector. It assumes that all the mass comes from a        octet and sextet. Note that they do not depend on z 0 ; our
+single abelian charge and that all the preons are presented in      choosing of sign is translated to the whole [z 1 , z 2 , z 3 ] tuple,
+the same state, so the energy of a pair, having the same spatial    but this is in turn just a exchange of preons with antipreons.
+wavefunction, is simply the energy of a single element with
+the sum of the charges                                              6.1 Paired scalars in the same representation
+E(qa , qb ) = E(qa + qb ) = (qa + qb ) K 
+                                         2
+                                                            (14)
+                                                                    Our goal is to check if we can realistically recover a mass
+Intuitively one could imagine classical charge on two spher-        spectrum similar to supersymmetry scalars. This means that
+ical surfaces of radius  and common center, and sum both           we should find pairs of scalars in the same representation
+self-energies plus the interaction energy and see how it does       having equal masses. We have to cases.
+not depend of the radius .                                            For α = π/2 or π/6 we recover two equal masses and a
+   Furthermore, the model [24] makes two provisions for             different one in the triplet of (3, 2)
+composites of three pairs (a, bi ) to produce realistic masses:           √         √           √
+                                                                    1       2 1        2 1        2
+                                                                       ±      , ∓        , ±
+                                                                    4      6 2        3 4        6
+ • That the charge of the three bi particles add to zero
+                                                                    The octet is never a problem as we have the “antiparticles”
+    z1 + z2 + z3 = 0                                        (15)    in the same set. The sextet fails for one pair. The triplets
+                                                                    of (3, 2) are also a source of trouble, as the pair should be
+                                                                    expected to happen across the SU (2); the only possibility is
+ • That the self energy of the common preon a averages the
+                                                                    to assign the same charge to “preons” c and u.
+   self energy of the other three
+                                                                       A better result happens for α = 0. Here a change of sign
+                                                                    just exchanges charges z 1 and z 3 , so we get exact pairs of
+             z 12 + z 22 + z 32
+    z 02 =                                                  (16)    masses in all cases. More important, also the sextet is grouped
+                    3                                               into pairs.
+   The first condition is easily met extracting an abelian             So we can conclude that it is possible, with this mass
+charge from any direction of a SU (3) triplet, and we have          formula, to obtain an spectrum that resembles the scalars of
+some. The second is a sort of trace condition but it is imposed     a mildly broken supersymmetry.
+ad-hoc. Remember also that z i2 = (z j +z k )2 . So at least some      If we take seriously that the mass of the fermions is just
+scalars keep having the same self-energy than a third preon         the “preonic” self energy, then the discrepancy in the α = 0
+in the set.                                                         case contains a sort of isospin exchange: we have assigned
+   Lets parametrize with an angle α all the possible ways                 u = c = 313.85,
+to produce an abelian charge from the 3 representation of
+                                                                    s = 0, d = b = 470.8
+SU(3), in T3 , T8 basis
+      1         1                                                   and we have got
+z1 =    cos α + √ sin α                                     (17)
+      2        2 3                                                            (u, c, t) = (0, 470.8, 1883),
+           1                                                           (d, s, b) = (15.8, 313.85, 1553.4)
+z 2 = 0 − √ sin α                                           (18)
+            3
+        1         1                                                 6.2 Solutions with paired scalars in different
+z 3 = − cos α + √ sin α                                     (19)
+        2        2 3                                                    representation. Missing symmetry
+          √
+z 0 = ±1/ 6                                                 (20)
+                                                                    Lets go a bit beyond this the scope of this work, to look
+This is T3 for α = 0 and T8 for α = π/2.                            also for rotations that create some pairs in different repre-
+  The solutions have an obvious periodicity 2π/3 and sym-           sentations. The motivation here is to explore for some extra
+metries at π/6 and π/2.                                             symmetry that includes quarks of different charges. This is
+
+
+123
+Eur. Phys. J. C (2024) 84:1058                                                                                                         Page 5 of 9 1058
+
+
+Table 1 “slepton” masses for kz 02 = 313.85 MeV. There are always          Table 2 “squark” masses for kz 02 = 313.85 MeV. Note that a global
+two massless sneutrinos in the octet (8, 1) and other two in (1, 3). The   change of sign in s, b, c exchanges the (3, 2) of sleptons and squarks
+other two combinations of (1, 3) and (1, 1) can be chosen to have zero
+mass too
+                                                                                       0      π/2   π/4    αSM α.68583
+                                                                                 ud 15.853 26.93 42.048 45.18 49.128
+                  0     π/2       π/4  αSM α.68583
+                                                                           (3,2) us 313.85 1829.25 1255.4 1205.3 1127.8
+           ūd 1553.4 914.63 1756.96 1776.9 1801.22
+                                                                                 ub 1553.4 26.93 585.65 632.66 706.162
+   (3,2) ūs 313.85 53.848          0 0.5110 3.4179
+                                                                                 dd 1883.1 627.7 2342.61 2388.9 2445.29
+           ūb 15.853 914.63 126.144 105.65 78.463
+                                                                                 ds 470.775 156.93 42.048 55.31 78.463
+       (3̄, 2)           (as above)
+
+            ¯ 470.775 1412.32 1756.96 1717.2 1647.7                        (6,1) ss    0    2510.8 1255.4 1156.1 1007.05
+      s̄d, ds
+       ¯ b̄d 470.775 1412.32 126.144 91.47 49.128                                bd    0     627.7 313.85 289.03 251.76
+(8,1) db,
+                                                                                 bs 470.775 156.93 585.65 597.21 611.32
+         b̄s, s̄b 1883.1     0     941.55 1016.0 1127.8
+       ¯ b̄b)                                                                    bb 1883.1 627.7 168.192 221.23 313.85
+ (s̄s, dd,                       0
+        ūu, c̄c                 0
+     (ūc, c̄u)     0 if u = c, 1255.4 if u = c
+                                                                           from elsewhere that it can be further rotated to produce more
+                                                                           exact values, but we will not pursue this here3
+                                                                              Our conclusion in this section is that the breaking down to
+phenomenologically motivated by two approximate observa-                   a single SU (3) flavour, and particularly the neglect of weak
+tions:                                                                     isospin, misses some extra symmetry that would allow more
+                                                                           comprehensive mass formulae.
+ • that the top mass still can fit in a Koide SU(3) tuple but
+   only respect to high masses, for instance (m c , m b , m t ).
+ • that (m s , m c , m b ) also look as a valid tuple.                     7 Discussion on related groups
+
+Both observations need to get values from different repre-                 7.1 On SU (15)
+sentations. Looking for such solutions is beyond the scope
+of this work, but we can cover here the cases where a mass                 For the group decomposition, similar results could be
+appears in two representations, as it is really a completion of            obtained with only S O(30) or SU (15) as a coloured flavour
+our inspection.                                                            group, or S O(10) or SU (5) as colourless flavour groups, or
+   We find two cases. First, for α = π/4 = 0.7854... we                    even with U sp(32).
+obtain for the triplet of the sleptonic (3, 2):                               SU (15) was considered as a GUT group by [1] and [16].
+      √           √                                                        The first reference notes that it is a subgroup of S O(32) Both
+1            1
+  (2 + 3), 0, (2 − 3)                                             (21)     references embed a full generation
+4            4
+and with change of sign:                                                   (l L , l Lc , ν L , u rgb,L , u rgb,L
+                                                                                                           c
+                                                                                                                 , drgb,L , drgb,L
+                                                                                                                             c
+                                                                                                                                   )
+
+ 1     √ 2 1      √                                                        inside the fundamental of SU (15). On the other hand, our
+   (2 − 3), , (2 + 3)                                             (22)
+12         3 12                                                            approach embeds the (2, 1) + (1, 3) turtles of our SU (5)
+   The second case happens when z 0 = ±2z i for some                       flavour:
+index i. All the solutions are similar obtained as reflec-                 (u rgb , crgb , drgb , srgb , brgb )
+tions and translations of sin−1 √     1
+                                         ; we show in the tables
+                                     2 2                                                                         ¯ and 224 represen-
+                                                                           and we use, as noted above, the 105, 105
+α = 0.6858... for continuity.
+   The proportion (21) was first found by [21] who assigned                tations.
+them to (m s , m u , m d ), back in 1978.                                     Recently [10,11] have considered SU (15) in the context
+   It is interesting that if we scale (21, 22)
+                                              to get equal masses          of the standard model extended with bifermions, so they
+                                                           
+in both tuples, we observe a relation            mq = 3 ml ,
+and that works empirically for (m s , m c , m b ) with respect             3   It is just an empirical observation, that solving
+to (m e , m μ , m τ ). Also a comparison of Table 2 respect to                                              √                            2
+                                                                                   √        √                  m1m2
+the quantities of Table 1 seems to hint a missed factor of                 m3 =         m 1 + m 2 2 − 3 + 6 √     √ 2
+three in other cases: 627.7 → 1883.1, 156.93 → 470.7,                                                         m1 + m2
+313.85 → 841.55. With the factor three the tuple we have                   with input (172.4, 4.183) gets 1.3495, and then input (4.183,1.3495)
+called (ud, us, ub) gets more realistic masses and we know                 gets 0.092.
+
+
+                                                                                                                                            123
+1058 Page 6 of 9                                                                                       Eur. Phys. J. C (2024) 84:1058
+
+
+naturally use these representations. They consider the par-       triplet is explicit. So we prefer this later way because so all
+ticles to be elementary, so “biquarks” instead of “diquarks”      the irreducible representations of SU (8) have an interest-
+or mesons, but this distinction blurs away when we consider       ing interpretable descent. The decomposition of the 28 has a
+an interpretation as open string terminated in quark labels.      quark content, triplets, that looks very much as our division
+More importantly, they still keep having leptons in the funda-    in five turtles and one elephant,
+mental representation, so it is possible to get a lepton number
+in the 15 × 15 and 15 × 15 ¯ products.                            28 = (1, 3̄)−10 + (5, 3)−2 + (10, 1)6
+   The difference with our model is due to option for the         but it is different to the S O(32) case. To illustrate a particular
+breaking path SU (15) ⊃ SU (12) × SU (3)l × U (1) ⊃               assignment, if we think of the fundamental as “half-charged
+SU (6) L × SU (6) R × SU (3)l × U (1) × U (1), that allows        preons” of charges ±1/2, 1/6, then in the 28:
+to put a whole generation of the SM without right neutrinos
+in the decomposition of the 15, at the cost of some delicate
+                                                                   – (1, 3̄) is one anticoloured particle of charge +1/3
+surgery [1,16]. The first extracted SU (3)l group has the goal
+                                                                   – (5, 3) are coloured particles, three of charge −1/3, two
+of joining all the leptons of each generation in a single mul-
+                                                                     of charge +2/3
+tiplet; if we want an extra ν Lc neutrino it must be expanded
+                                                                   – (10, 1) contains six particles of charge 0, three of charge
+to SU (4)l and then the whole group to SU (16)
+                                                                     −1 in an horizontal “antitriplet”…and one of charge +1
+7.2 On SU (8)
+                                                                      So this content doesn’t allow for our “recursive” interpre-
+                                                                  tation of the interplay between the 32 and the 496 of S O(32)
+This section and the next one are explorative work, the main
+                                                                      We can play also with content from extra representations.
+theme being if representations of other groups from super-
+                                                                  The 36 somehow complements the 28, and the 63 can pro-
+gravity and string theory can benefit of a similar interpreta-
+                                                                  vide a full uncoloured (24, 1) to break into different charges.
+tion as scalars of some supersymmetric standard model.
+                                                                  Besides, in this path, the fundamental of S O(32) appears in
+   SU (8) appears directly because an alternate chain down
+                                                                  SU (8) as
+from S O(32) is to take the detour SU (16) ⊃ S O(16) ⊃
+SU (8) × U (1)                                                    32 = (81,2 + 8̄−1,2 ) + (81,−2 + 8̄−1,−2 )                    (24)
+496 = 1 + 1204 + 1204 + 1200 + 1350                               and so it provides extra U (1) charges and extra particles; one
+    = 1 + 3(10 + 282 + 2̄8−2 + 630 )                              needs a good motivation to justify a particular pick. We can
+      +362 + 36¯ −2 + 630                                 (23)    explore one hundred weightings to extract the electric charge
+                                                                  Q of each representation, most of the combinations offering
+And then we can go for the group theory of SU (8) ⊃               extra quark and lepton content, including some +4/3 quarks.
+SU (5) ⊗ SU (3) ⊗ U (1) but with a lot more of hypercharge           We could also use the process via via SU (5) ⊃ SU (2) ⊗
+assignments (usually uglier, but worth a glance).                 SU (3) to assign weak and colour multiplets as usual. On our
+   Family GUT unification with SU (8) was examined with           point of view, both SU (2) and SU (3) here are horizontal
+some detail in 1980, see for instance the references in the       groups.
+recent revisit of [3]. Typically three families of standard          One can observe that (24) meets the condition asked in [18]
+model fermions were expected to be in the summed com-             of having only singlets and triplets of colour, and so wonder
+plex representation 8̄ + 2̄8 + 56 and some criteria was           what reasons, besides simplicity, motivate the exclusion from
+used to select the hypercharge assignments.Most models pre-       the listing.
+ferred to interpret for flavour the first SU (3) in SU (8) ⊃         We could also consider first a regular descent, via S O(16)
+SU (5)⊗SU (3)⊗U (1) instead of leaving it for colour as [18].     to SU (8) × SU (8)
+Both approaches differ only in the algebra of U (1) charges
+for the multiplets. The fundamental decomposes as a colour         120 = (8, 8)0 + (28, 1)2 + (1, 28)−2
+triplet, a SU (2) horizontal doublet, and a SU (3) horizontal      255 = (1, 1)0 + (8, 8̄)2 + (8̄, 8)−2 + (63, 1)0 + (1, 63)0
+triplet.
+8 = (1, 1, 3)0,−5 + (1, 2, 1)−3,3 + (3, 1, 1)2,3                  7.3 On E 8 × E 8
+
+Note it went first to                                             Exotic approaches to flavour are not unknown in supergrav-
+                                                                  ity, a good example being the diagonal SU (3) from Gell-
+8 = (1, 3)−5 + (5, 1)3
+                                                                  Mann, that also ignores electroweak charge [26]. And as
+and while in the first approach SU (5) is flavour-colour, in      S O(32) is relevant to 10D sugra, and all the 10D supersym-
+the second it is just two horizontal symmetries and the colour    metric theories are related via string dualities, it is interesting
+
+
+123
+Eur. Phys. J. C (2024) 84:1058                                                                                       Page 7 of 9 1058
+
+
+to speculate if other corner of this space, the E 8 ⊗ E 8 group,      or equal than three. Adding a reasonable condition on the
+can present a similar mix.                                            building of neutral sleptons, it fixes uniquely N = 3 and
+   We can examine this possibility starting from the conclu-          then also the separation between five light quarks and one
+sions of the above sections, albeit at the moment the discus-         heavy one that does not participate in the composites. Of
+sion will be very light, and inconclusive, if not disappointing.      course this uniqueness is not seen when going directly from
+    E 8 is not considered in [18] because the authors apply           the S O(32) group down to flavour times colour, but even in
+a “colour restriction” in their selection of groups, asking           this case there is a separation between five “turtles” in the
+for decomposition of the fundamental representation having            fundamental of S O(32) and a non-participant “elephant”.
+only singlets and triplets of SU (3). It is more particularly             While eventually all the extant multiplets of the decom-
+reviewed by [2], who enumerates the problems to use it as a           position should be explained, the (1, 3) squarks, of charge
+group GUT and also considers decomposition with explicit              ±4/3, are specially puzzling. They can not be organised
+family group SU (3) F . A separate approach with explicit             as three generations of partners of four-component Dirac
+colour group SU (3)c and then mixed electroweak-flavour               quarks. Still, they have a role in the flavour multiplet, and they
+SU (6) × U (1) was done in [7] via an initial breaking into           could exhibit their singularity if chirality is introduced back
+SU (9). Generically, E 8 has an industry of its own for pure          in the game. We have not considered other flipped descents
+algebraic approaches, linked to Clifford algebras, and full of        that could result in different extra squar ks
+interesting observations, but reviewing it is out of the scope            The symmetry between quarks and diquarks or its hadronic
+of this letter.                                                       equivalent is known to be one of the historical origins
+   Both S O(32) and E 8 ⊗ E 8 have a subgroup S O(16) ⊗               of supersymmetry [17,25] and it is used in hadronic phe-
+S O(16). The branching of S O(32) to this subgroup is                 nomenology. But a concrete hadronic construction of our
+                                                                      scalars as real diquarks produces the ones of odd parity, that
+496 = (120, 1) ⊕ (1, 120) ⊕ (16, 16)                                  are excluded of phenomenological discussions as they do
+very similar to the branching we have used in (7)                     not survive the ’single mode approximation’ [23]. Thus the
+   Isolately, each E 8 branches to S O(16) as                         composite “squarks” and “sleptons” bound here should be
+                                                                      not the ones, diquarks and mesons, found at QCD scale, but
+248 = (120) ⊕ (128 )                                                  it is intriguing that they are similar in number and mass.
+                                                                          Approximate supersymmetry between quarks and diquarks,
+   What we suspect is that quark and lepton parts have dif-           to be used for dynamical supersymmetry between barions and
+ferent roles, the quark part coming from 120; one of the 120s         mesons, is a well known technique, see the review [5]. One
+will provide the quark-like charges, the other will provide           of the authors of this review extended this technique to pre-
+the antiquark ones. The lepton part can be extracted from the         ons [13], so that dipreons are susy partners of preons, but the
+28 of SU (8) but it could also come from the 63, and then we          model does not produces a dynamical susy with new scalars
+should investigate the (128 ) irrep.                                  as partners of leptons and quarks.
+   Remember that in the initial sections the critical part has            We can justify the uplift from SU (15) to S O(32) by ask-
+been to obtain a 15 representation of SU (5) associated to            ing particle colour to be in a slightly greater group, such
+a triplet 3 of SU (3), as well as a 24 associated to the sin-         as U (3). This could be a hint of the difference between the
+glet. And here is the problem: any further factorisation of           binding mechanism needed here, that should happen at high
+S O(16) fails to get representations as big as the 15. We are         energy scale, and the usual binding of mesons and diquarks.
+down to fives and tens too soon. Amusingly, we could also             Observe that the usual binding shares some properties: the
+consider a directly branching E8 ⊃ SU (5) ⊗ SU (5); this is           top quark, our elephant, does not bind into mesons -because it
+exploited in model building, for instance [3,8], but with dif-        disintegrates before-, and the masses of mesons and diquarks
+ferent assignments to colour and flavour. If we use this kind         are in the same range of energies that the SM fermions, as
+of decomposition and we accept the irreps 5 and 10 instead of         expected of a slightly broken supersymmetry.
+the 15, it amounts to exchange some of the ±4/3 and ±2/3                  While the composites point to HC, TC or ETC models, one
+charges by an excess of ±1/3 charges.                                 must recognise that the motivation for S O(32) is not only to
+                                                                      produce one hypercharge and the adequate multiplets in the
+                                                                      decomposition, but also because of its role in string theory.
+8 Discussion                                                          The postulates of composition need a pairing that looks sim-
+                                                                      ilar to labels in terminated open strings. The composition
+The postulate It is turtles all the way down4 applied solely to       process from the point of view of a terminated “QCD string”
+squarks already fixes the number of generations to be greater         bears some similarity to the techniques of [6] using “planar
+                                                                      orientifolds”.
+4 I first heard this idiom in a talk from Alvaro de Rujula in 1986.
+
+
+
+
+                                                                                                                           123
+1058 Page 8 of 9                                                                                            Eur. Phys. J. C (2024) 84:1058
+
+
+   If we get the scalars from S O(32) a natural question is         Data Availability Statement My manuscript has no associated data.
+where the superpartners -the actual fermions- are. They could       [Authors’ comment: Data sharing not applicable to this article as no
+                                                                    datasets were generated or analysed during the current study.]
+be obtained by applying the susy transformation. In string-
+inspired GUTs, they should be in usual non-susy models              Code Availability Statement My manuscript has no associated code/
+for three generations, and the issue would be to reassure the       software. [Authors’ comment: Code/Software sharing not applicable to
+compatibility with the S O(32) group. In preon constructions,       this article as no code/software was generated or analysed during the
+                                                                    current study.]
+our focus on scalars, and thus in pairs of fermions, makes the
+results to differ from most previous approaches [13,14,20].         Open Access This article is licensed under a Creative Commons Attri-
+To recover a fermion, one must consider an extra object,            bution 4.0 International License, which permits use, sharing, adaptation,
+particle or string, providing again an 1/2 spin.                    distribution and reproduction in any medium or format, as long as you
+                                                                    give appropriate credit to the original author(s) and the source, pro-
+                                                                    vide a link to the Creative Commons licence, and indicate if changes
+                                                                    were made. The images or other third party material in this article
+                                                                    are included in the article’s Creative Commons licence, unless indi-
+                                                                    cated otherwise in a credit line to the material. If material is not
+9 Conclusions                                                       included in the article’s Creative Commons licence and your intended
+                                                                    use is not permitted by statutory regulation or exceeds the permit-
+                                                                    ted use, you will need to obtain permission directly from the copy-
+In conclusion, lets review what we have got. We offer a             right holder. To view a copy of this licence, visit http://creativecomm
+novel interpretation of the S O(32) group within the con-           ons.org/licenses/by/4.0/.
+text of supersymmetric models, emphasizing its potential as         Funded by SCOAP3 .
+a flavour group for scalars. The decomposition and hyper-
+charge assignment that allows to recover three generations
+has not been presented in the literature explicitly. This is for
+                                                                    References
+the obvious reason that it recovers scalars, not fermions. But
+on the other hand, to look for scalars avoids to address the         1. S.L. Adler, A new electroweak and strong interaction unification
+problem of the lack of chiral fermions.                                 scheme. Phys. Lett. B 225, 143 (1989). https://doi.org/10.1016/
+   Besides, we offer a composite explanation for scalars of             0370-2693(89)91025-3
+the SSM, that fixes the number of generations and limits the         2. S.L. Adler, Should E(8) SUSY Yang–Mills be reconsidered
+                                                                        as a family unification model? Phys. Lett. B 533, 121–
+possible groups that can be used to generate flavour with a             125 (2002). https://doi.org/10.1016/S0370-2693(02)01596-4.
+separate colour factor. In the list of possible groups, S O(32)         arXiv:hep-ph/0201009
+stands up.                                                           3. S.L. Adler, SU(8) family unification with boson-fermion balance.
+   Our postulate is, certainly, exotic: it suggests that while          Int. J. Mod. Phys. A 29, 1450130 (2014). https://doi.org/10.1142/
+                                                                        S0217751X14501309. arXiv:1403.2099 [hep-ph]
+SSM fermions could be elementary, the SSM scalars are com-           4. A.A. Anselm, The problem of particle generations and que quint
+posites, with their preons being a subset of the observed SM            structure of leptons and quarks. Sov. Phys. JETP 53(1), 23–32
+fermions. Far fetched as this postulate looks, it reproduces            (1981)
+the S O(32) decomposition and fixes the number of possible           5. M. Anselmino, E. Predazzi, S. Ekelin, S. Fredriksson, D.B. Licht-
+                                                                        enberg, Diquarks. Rev. Mod. Phys. 65, 1199–1234 (1993). https://
+generations. Also, it justifies the non observation of super-           doi.org/10.1103/RevModPhys.65.1199
+partners; supersymmetry could be hiding in plain sight, not          6. A. Armoni, M. Shifman, G. Veneziano, SUSY relics in one
+broken but distorted.                                                   flavor QCD from a new 1/N expansion. Phys. Rev. Lett. 91,
+   We have recalled a classical mass formula that when                  191601 (2003). https://doi.org/10.1103/PhysRevLett.91.191601.
+                                                                        arXiv:hep-th/0307097
+applied to our piece of SU (3) flavour symmetry can grant            7. N.S. Baaklini, Supergrand unification in E8. Phys. Lett. B 91, 376–
+pairs of scalars having the same mass.                                  378 (1980). https://doi.org/10.1016/0370-2693(80)90999-5
+   The decomposition seems to imply that each generation             8. N.S. Baaklini, Supersymmetric exceptional gauge unification.
+also includes two extra “scalar quarks” of charge ±4/3. It              Phys. Rev. D 22, 3118–3127 (1980). https://doi.org/10.1103/
+                                                                        PhysRevD.22.3118
+is unclear if such scalars could have an associated fermion,         9. W. Buchmuller, R.D. Peccei, T. Yanagida, Quarks and leptons as
+as it should be of Weyl type, not Dirac. On other hand, our             quasi Nambu–Goldstone fermions. Phys. Lett. B 124, 67 (1983).
+approach could be compared to the “scalar democracy” of                 https://doi.org/10.1016/0370-2693(83)91405-3
+[22] that goes further and proposes the existence of a scalar       10. C. Corianò, P.H. Frampton, An SU (15) approach to B anomalies.
+                                                                        arXiv:2207.01952 [hep-ph]
+bound state for every pair of fundamental fermions, either          11. C. Coriano, P.H. Frampton, D. Melle, T.W. Kephart, T.C. Yuan,
+leptons or quarks.                                                      An SU(15) approach to bifermion classification. Mod. Phys.
+                                                                        Lett. A 38(26–27), 2350124 (2023). https://doi.org/10.1142/
+Acknowledgements This work was supported in part by project No.         S0217732323501249. arXiv:2301.02425 [hep-ph]
+PID 2022-136374NB-C22, funded by the Spanish MCIN/AEI and by        12. J.P. Derendinger, J.E. Kim, D.V. Nanopoulos, Anti-SU(5).
+the European Union. Figure 1 adapted by Álvaro de Rújula from his       Phys. Lett. B 139, 170–176 (1984). https://doi.org/10.1016/
+personal archive. I also thank M Porter for discussions.                0370-2693(84)91238-3
+
+
+123
+Eur. Phys. J. C (2024) 84:1058                                                                                               Page 9 of 9 1058
+
+
+13. J.J. Dugne, S. Fredriksson, J. Hansson, E. Predazzi, Preon trinity.   23. R.L. Jaffe, Exotica. Phys. Rep. 409, 1–45 (2005). https://doi.org/
+    arXiv:hep-ph/9802339 [hep-ph]                                             10.1016/j.physrep.2004.11.005. arXiv:hep-ph/0409065
+14. S. Fajfer, D. Tadic, Simple supersymmetric strongly coupled preon     24. Y. Koide, Lett. Nuovo Cim. 34, 201 (1982). https://doi.org/10.
+    model. Phys. Rev. D 38, 962–969 (1988). https://doi.org/10.1103/          1007/BF02817096
+    PhysRevD.38.962                                                       25. H. Miyazawa, Spinor currents and symmetries of baryons and
+15. R. Feger, T.W. Kephart, R.J. Saskowski, LieART 2.0 – a mathemat-          mesons. Phys. Rev. 170, 1586–1590 (1968). https://doi.org/10.
+    ica application for Lie algebras and representation theory. Comput.       1103/PhysRev.170.1586
+    Phys. Commun. 257, 107490 (2020). https://doi.org/10.1016/j.cpc.      26. H. Nicolai, N.P. Warner, The SU(3) X U(1) invariant breaking of
+    2020.107490. arXiv:1912.10969 [hep-th]                                    gauged N = 8 supergravity. Nucl. Phys. B 259, 412 (1985). https://
+16. P.H. Frampton, B.H. Lee, SU(15) grand unification. Phys. Rev.             doi.org/10.1016/0550-3213(85)90643-1
+    Lett. 64, 619 (1990). https://doi.org/10.1103/PhysRevLett.64.619      27. M.D. Scadron, F. Kleefeld, G. Rupp, EPL 80(5), 51001 (2007).
+17. C.-S. Gao, T.-H. Ho, Baryonium and possible supersymmetry                 https://doi.org/10.1209/0295-5075/80/51001. arXiv:0710.2273
+    between quarks and antidiquarks. Commun. Theor. Phys. 1, 761              [hep-ph]
+    (1982). https://doi.org/10.1088/0253-6102/1/6/761                     28. R. Slansky, Group theory for unified model building. Phys. Rep.
+18. M. Gell-Mann, P. Ramond, R. Slansky, Color embeddings, charge             79, 1–128 (1981). https://doi.org/10.1016/0370-1573(81)90092-2
+    assignments, and proton stability in unified gauge theories. Rev.     29. N. Yamatsu, Finite-dimensional Lie algebras and their representa-
+    Mod. Phys. 50, 721 (1978). https://doi.org/10.1103/RevModPhys.            tions for unified model building. arXiv:1511.08771 [hep-ph]
+    50.721
+19. M. Gell-Mann, P. Ramond, R. Slansky, Complex spinors
+    and unified theories. Conf. Proc. C 790927, 315–321 (1979).
+    arXiv:1306.4669 [hep-th]
+20. O.W. Greenberg, R.N. Mohapatra, M. Yasue, Determination of the
+    number of generations of quarks and leptons from flavor–color
+    symmetry. Phys. Rev. Lett. 51, 1737–1740 (1983). https://doi.org/
+    10.1103/PhysRevLett.51.1737
+21. H. Harari, H. Haut, J. Weyers, Phys. Lett. B 78, 459–461 (1978).
+    https://doi.org/10.1016/0370-2693(78)90485-9
+22. C.T. Hill, P.A.N. Machado, A.E. Thomsen, J. Turner, Scalar democ-
+    racy. Phys. Rev. D 100(1), 015015 (2019). https://doi.org/10.1103/
+    PhysRevD.100.015015. arXiv:1902.07214 [hep-ph]
+
+
+
+
+                                                                                                                                    123
+

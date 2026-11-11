@@ -1,0 +1,117 @@
+{
+  "archive": "arXiv-2610.09093v1.tar.gz",
+  "archive_sha256": "e5e422ca3970d346dce46c8b0aaa4e1845b72a7cd20dbe4a0385175a8943db5c",
+  "expanded_bytes": 2735816,
+  "entries": [
+    {
+      "path": "00README.json",
+      "bytes": 847,
+      "sha256": "d22a64a2f51cfb2cb7f91a90a22127ae6691615b0a81c10995e2feb916677070"
+    },
+    {
+      "path": "JHEP.bst",
+      "bytes": 20428,
+      "sha256": "7d94537265ba1185f58d85b052d92bac855a0740ddddbcdbe338621cc4649f4a"
+    },
+    {
+      "path": "anc/README.txt",
+      "bytes": 1346,
+      "sha256": "4ca1fe8119a0c17a40b5cce166c06b748e77f7d30bae8832ec8069aaef6a28a5"
+    },
+    {
+      "path": "anc/lean-verification-report.pdf",
+      "bytes": 86150,
+      "sha256": "52dcd6891f98d05f5e0c2d396bdf8b56bf91f3f1f5b7987bce156181a5f96b33"
+    },
+    {
+      "path": "anc/mathematical-companion.pdf",
+      "bytes": 648778,
+      "sha256": "c559cd9e185a342448e4e9d090f72c785f0a990d7dac03cb2e973050eace6f27"
+    },
+    {
+      "path": "anc/two-dimensional-supplement.pdf",
+      "bytes": 1033205,
+      "sha256": "8e99d5cdf49197415f370b7d7899bad979567753bd2306c9bcf8644166bd51bd"
+    },
+    {
+      "path": "figures/centered_refinement.pdf",
+      "bytes": 33653,
+      "sha256": "ce015f77e095e380aca69489b53ac68630cc39ba108a18d93855535e39682ff2"
+    },
+    {
+      "path": "figures/distinct_limits.pdf",
+      "bytes": 23379,
+      "sha256": "e3c650245663a051b01d7a78ad0a17534107ab79e69834a0ca59d51815656f5e"
+    },
+    {
+      "path": "figures/gauge_sampling.pdf",
+      "bytes": 193916,
+      "sha256": "cc588c73e11513422eea0d5ae47b35db65106625c2a7a2a91c7f1f8392c79b69"
+    },
+    {
+      "path": "figures/history_connection_cylinder.pdf",
+      "bytes": 24023,
+      "sha256": "1d3c5ba714e3feed47d84d3ab7a12b4f57ddd0a9c10dda7a0abe32cfa62734e6"
+    },
+    {
+      "path": "figures/intro_narrative.pdf",
+      "bytes": 40928,
+      "sha256": "09006fc9442f1d86f79ca1bb85169473e40d6c3e5f44288f798696026de035d5"
+    },
+    {
+      "path": "figures/kernel_gap_and_overlap.pdf",
+      "bytes": 17735,
+      "sha256": "3e261b77a04b7d43757b9042d719c577a68044641f2b11093f881aa4a47c3317"
+    },
+    {
+      "path": "figures/local_and_global_integrability.pdf",
+      "bytes": 24703,
+      "sha256": "2658a4b00b5c225e9acff4b1b07743516f587355bdcf713c474c374deb9a9232"
+    },
+    {
+      "path": "figures/locality_refinement.pdf",
+      "bytes": 33059,
+      "sha256": "60f57b7924ac5925051a7e1e972e9c4d7024985bb810c96412c6856b8111ce79"
+    },
+    {
+      "path": "figures/oriented_comparison_cylinder.pdf",
+      "bytes": 17218,
+      "sha256": "d0ae7f4e496e103e76b3c877897ca30a2136c201269cb8c6cd081cbaea608e81"
+    },
+    {
+      "path": "figures/polynomial_group_averaging.pdf",
+      "bytes": 24416,
+      "sha256": "cde389a60503a4774b297cf10f0986efeca4f493b4d81b4a4836e72b8af764f5"
+    },
+    {
+      "path": "figures/pseudoreal_pairs.pdf",
+      "bytes": 17893,
+      "sha256": "489a68d56dcd570d36632549d18df4e56ab3dc4b279f315fc2fa6f73c1fdcc80"
+    },
+    {
+      "path": "figures/subspace_and_measure_phase.pdf",
+      "bytes": 23031,
+      "sha256": "5c59cced99b8bf19605ef938f05ed904dc7e5c846cd0ab686fc4ac31088174f0"
+    },
+    {
+      "path": "jheppub.sty",
+      "bytes": 11812,
+      "sha256": "478c47bf3d831b723766104b4c506de19f04bf5ede537cc25aeda9f3f5ade2a0"
+    },
+    {
+      "path": "lcf.bib",
+      "bytes": 40214,
+      "sha256": "767b8d564d102e85efe5dc6b471812ebe7b5242b94f476ae326da30567dfcaa1"
+    },
+    {
+      "path": "lcf_v2.bbl",
+      "bytes": 26707,
+      "sha256": "5af3184f4c3422490c8531f49be44b4d191979ffd5822c15928fe4656448583a"
+    },
+    {
+      "path": "lcf_v2.tex",
+      "bytes": 392375,
+      "sha256": "1f53c250008b783839a03592c58981792108a430c26ed5d290dff227c193c8c6"
+    }
+  ]
+}

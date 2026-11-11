@@ -1,0 +1,36 @@
+A. E8 in SU(9) form
+   roots: 72 + 84 + 84 = 240; all norm 2: True; inner products all integers: True; closed under reflections (sample): True
+   84 = Lambda^3(3_f x 3_c) equals (10,1)+(8,8)+(1,10) as weight multisets: True
+   80 = adjoint of SU(9) equals (8,1)+(1,8)+(8,8): True
+   charge generator traceless on the nine labels (lies in SU(9)): True
+   colour singlets in the 84 by electric charge (u,d,s): {'-1': 4, '0': 3, '1': 2, '2': 1} -> the decuplet: 1, 2, 3, 4 states at charges 2, 1, 0, -1: True
+   colour singlets in the 80 by charge: {'-1': 2, '0': 4, '1': 2} (octet: 2,4,2 at -1,0,+1; the count includes no SU(9) singlet)
+   sums of two 84-roots that are roots (sample of 30 x 84): {'84bar': 600} -> label number is conserved mod 9
+   Lambda^3 for (u,c): 2 flavours: 20 states, colour singlets: 4
+   Lambda^3 for five flavours: 455 states, colour singlets: 35
+
+B. spinor class of Spin(32)/Z2: subsets S of the sixteen labels with |S| even
+   q_n = 0: charge offset of the class = -1/2
+       0 coloured labels    :    1 colour singlets, B = 0, charges ['-1/2']
+       3 coloured labels + n:   35 colour singlets, B = 1, charges ['-1/2', '-3/2', '1/2', '3/2']
+       6 coloured labels    :  175 colour singlets, B = 2, charges ['-1/2', '-3/2', '-5/2', '1/2', '3/2', '5/2', '7/2']
+       9 coloured labels + n:  175 colour singlets, B = 3, charges ['-1/2', '-3/2', '-5/2', '-7/2', '1/2', '3/2', '5/2']
+      12 coloured labels    :   35 colour singlets, B = 4, charges ['-1/2', '-3/2', '1/2', '3/2']
+      15 coloured labels + n:    1 colour singlets, B = 5, charges ['1/2']
+      total colour singlets: 422 ; all charges integers: False
+   q_n = -1: charge offset of the class = 0
+       0 coloured labels    :    1 colour singlets, B = 0, charges ['0']
+       3 coloured labels + n:   35 colour singlets, B = 1, charges ['-1', '-2', '0', '1']
+       6 coloured labels    :  175 colour singlets, B = 2, charges ['-1', '-2', '0', '1', '2', '3', '4']
+       9 coloured labels + n:  175 colour singlets, B = 3, charges ['-1', '-2', '-3', '-4', '0', '1', '2']
+      12 coloured labels    :   35 colour singlets, B = 4, charges ['-1', '0', '1', '2']
+      15 coloured labels + n:    1 colour singlets, B = 5, charges ['0']
+      total colour singlets: 422 ; all charges integers: True
+
+C. Z3 orbifold of E8 x E8, V = (1,1,1,1,2,0,0,0 ; 2,0,0,0,0,0,0,0)/3
+   3(V^2 - 2/3) = 2 (must be even)
+   first E8: 72 unbroken roots (SU(9) has 72), 84 roots with phase 1/3 (the 84)
+   second E8: 84 unbroken roots (SO(14) has 84), 78 roots with phase 1/3 (14 + 64 = 78)
+   twisted massless left-moving states (before the factor 27 of fixed points):
+        9 weights, squared weight length in SU(9): 8/9 (a fundamental weight has 8/9), in SO(14): 0, oscillator degeneracy 1
+   SU(9) cubic sums (untwisted, twisted, cancel): [('81/8', '-81/8', True), ('405/4', '-405/4', True), ('-72', '72', True)]

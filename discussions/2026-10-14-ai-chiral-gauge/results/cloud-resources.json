@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-10-14T07:26:19.497982+00:00",
+  "cpu_model": "Intel Xeon Platinum 8573C",
+  "visible_logical_cpus": 3,
+  "cpu_quota_microseconds": 200000,
+  "cpu_period_microseconds": 100000,
+  "effective_cpu_quota": 2.0,
+  "memory_limit_bytes": 8589934592,
+  "memory_current_bytes": 783327232,
+  "memory_headroom_bytes": 7806607360,
+  "workspace_available_bytes": 31371124736,
+  "comparison_other_sandbox_user_report": {
+    "free_disk": "30 GB",
+    "RAM": "5.8 GiB",
+    "available_RAM": "4.7 GiB",
+    "visible_CPU": "5 AMD EPYC 9V74 vCPUs",
+    "effective_cpu_quota": "not measured"
+  },
+  "interpretation": "More enforced RAM here; only two cores worth of CPU quota. Visible CPU count alone does not establish the other sandbox throughput."
+}

@@ -1,0 +1,650 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{51}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Panico}\ and\ \citenamefont
+  {Wulzer}(2016)}]{Panico:2015jxa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Panico}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Wulzer}},\ }\href {https://doi.org/10.1007/978-3-319-22617-0} {\emph
+  {\bibinfo {title} {{The Composite Nambu-Goldstone Higgs}}}},\ Vol.\ \bibinfo
+  {volume} {913}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {2016})\
+  \Eprint {https://arxiv.org/abs/1506.01961} {arXiv:1506.01961 [hep-ph]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kaplan}(1991)}]{Kaplan:1991dc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont
+  {Kaplan}},\ }\bibfield  {title} {\bibinfo {title} {{Flavor at SSC energies: A
+  New mechanism for dynamically generated fermion masses}},\ }\href
+  {https://doi.org/10.1016/S0550-3213(05)80021-5} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {365}},\
+  \bibinfo {pages} {259} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coleman}(1985)}]{Coleman_1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Coleman}},\ }\href@noop {} {\emph {\bibinfo {title} {Aspects of Symmetry:
+  Selected Erice Lectures}}}\ (\bibinfo  {publisher} {Cambridge University
+  Press},\ \bibinfo {year} {1985})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sundrum}(2012)}]{Sundrum:2011ic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Sundrum}},\ }\bibfield  {title} {\bibinfo {title} {{From Fixed Points to the
+  Fifth Dimension}},\ }\href {https://doi.org/10.1103/PhysRevD.86.085025}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {86}},\ \bibinfo {pages} {085025} (\bibinfo {year} {2012})},\
+  \Eprint {https://arxiv.org/abs/1106.4501} {arXiv:1106.4501 [hep-th]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Randall}\ and\ \citenamefont
+  {Sundrum}(1999)}]{Randall:1999ee}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Randall}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Sundrum}},\ }\bibfield  {title} {\bibinfo {title} {{A Large mass hierarchy
+  from a small extra dimension}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.83.3370} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {3370} (\bibinfo {year} {1999})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/9905221} {arXiv:hep-ph/9905221} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sundrum}(2005)}]{Sundrum:2005jf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Sundrum}},\ }\bibfield  {title} {\bibinfo {title} {{Tasi 2004 lectures: To
+  the fifth dimension and back}},\ }in\ \href@noop {} {\emph {\bibinfo
+  {booktitle} {{Theoretical Advanced Study Institute in Elementary Particle
+  Physics}: {Physics in D $\geqq$ 4}}}}\ (\bibinfo {year} {2005})\ pp.\
+  \bibinfo {pages} {585--630},\ \Eprint {https://arxiv.org/abs/hep-th/0508134}
+  {arXiv:hep-th/0508134} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gherghetta}(2011)}]{Gherghetta:2010cj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Gherghetta}},\ }\bibfield  {title} {\bibinfo {title} {{A Holographic View of
+  Beyond the Standard Model Physics}},\ }in\ \href
+  {https://doi.org/10.1142/9789814327183_0004} {\emph {\bibinfo {booktitle}
+  {{Theoretical Advanced Study Institute in Elementary Particle Physics}:
+  {Physics of the Large and the Small}}}}\ (\bibinfo {year} {2011})\ pp.\
+  \bibinfo {pages} {165--232},\ \Eprint {https://arxiv.org/abs/1008.2570}
+  {arXiv:1008.2570 [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Arkani-Hamed}\ \emph {et~al.}(2001)\citenamefont
+  {Arkani-Hamed}, \citenamefont {Porrati},\ and\ \citenamefont
+  {Randall}}]{Arkani-Hamed:2000ijo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Arkani-Hamed}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Porrati}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Randall}},\ }\bibfield  {title} {\bibinfo {title} {{Holography and
+  phenomenology}},\ }\href {https://doi.org/10.1088/1126-6708/2001/08/017}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {08}},\ \bibinfo {pages} {017}},\ \Eprint
+  {https://arxiv.org/abs/hep-th/0012148} {arXiv:hep-th/0012148} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rattazzi}\ and\ \citenamefont
+  {Zaffaroni}(2001)}]{Rattazzi:2000hs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Rattazzi}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zaffaroni}},\ }\bibfield  {title} {\bibinfo {title} {{Comments on the
+  holographic picture of the Randall-Sundrum model}},\ }\href
+  {https://doi.org/10.1088/1126-6708/2001/04/021} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo
+  {pages} {021}},\ \Eprint {https://arxiv.org/abs/hep-th/0012248}
+  {arXiv:hep-th/0012248} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Contino}\ \emph {et~al.}(2003)\citenamefont
+  {Contino}, \citenamefont {Nomura},\ and\ \citenamefont
+  {Pomarol}}]{Contino:2003ve}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Contino}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Nomura}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Pomarol}},\
+  }\bibfield  {title} {\bibinfo {title} {{Higgs as a Holographic Pseudo
+  Goldstone Boson}},\ }\href {https://doi.org/10.1016/j.nuclphysb.2003.08.027}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf
+  {\bibinfo {volume} {671}},\ \bibinfo {pages} {148} (\bibinfo {year}
+  {2003})},\ \Eprint {https://arxiv.org/abs/hep-ph/0306259}
+  {arXiv:hep-ph/0306259} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Contino}\ and\ \citenamefont
+  {Pomarol}(2004)}]{Contino:2004vy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Contino}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Pomarol}},\ }\bibfield  {title} {\bibinfo {title} {{Holography for
+  fermions}},\ }\href {https://doi.org/10.1088/1126-6708/2004/11/058}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {058}},\ \Eprint
+  {https://arxiv.org/abs/hep-th/0406257} {arXiv:hep-th/0406257} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph
+  {et~al.}(2005{\natexlab{a}})\citenamefont {Agashe}, \citenamefont {Contino},\
+  and\ \citenamefont {Pomarol}}]{Agashe:2004rs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Contino}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Pomarol}},\
+  }\bibfield  {title} {\bibinfo {title} {{The Minimal composite Higgs model}},\
+  }\href {https://doi.org/10.1016/j.nuclphysb.2005.04.035} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume}
+  {719}},\ \bibinfo {pages} {165} (\bibinfo {year} {2005}{\natexlab{a}})},\
+  \Eprint {https://arxiv.org/abs/hep-ph/0412089} {arXiv:hep-ph/0412089}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grossman}\ and\ \citenamefont
+  {Neubert}(2000)}]{Grossman:1999ra}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Grossman}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Neubert}},\ }\bibfield  {title} {\bibinfo {title} {{Neutrino masses and
+  mixings in nonfactorizable geometry}},\ }\href
+  {https://doi.org/10.1016/S0370-2693(00)00054-X} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {474}},\
+  \bibinfo {pages} {361} (\bibinfo {year} {2000})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/9912408} {arXiv:hep-ph/9912408} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gherghetta}\ and\ \citenamefont
+  {Pomarol}(2000)}]{Gherghetta:2000qt}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Gherghetta}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Pomarol}},\ }\bibfield  {title} {\bibinfo {title} {{Bulk fields and
+  supersymmetry in a slice of AdS}},\ }\href
+  {https://doi.org/10.1016/S0550-3213(00)00392-8} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {586}},\
+  \bibinfo {pages} {141} (\bibinfo {year} {2000})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0003129} {arXiv:hep-ph/0003129} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Huber}\ and\ \citenamefont
+  {Shafi}(2001)}]{Huber:2000ie}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Huber}}\ and\ \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Shafi}},\
+  }\bibfield  {title} {\bibinfo {title} {{Fermion masses, mixings and proton
+  decay in a Randall-Sundrum model}},\ }\href
+  {https://doi.org/10.1016/S0370-2693(00)01399-X} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {498}},\
+  \bibinfo {pages} {256} (\bibinfo {year} {2001})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0010195} {arXiv:hep-ph/0010195} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Huber}(2003)}]{Huber:2003tu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Huber}},\ }\bibfield  {title} {\bibinfo {title} {{Flavor violation and
+  warped geometry}},\ }\href {https://doi.org/10.1016/S0550-3213(03)00502-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf
+  {\bibinfo {volume} {666}},\ \bibinfo {pages} {269} (\bibinfo {year}
+  {2003})},\ \Eprint {https://arxiv.org/abs/hep-ph/0303183}
+  {arXiv:hep-ph/0303183} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph
+  {et~al.}(2005{\natexlab{b}})\citenamefont {Agashe}, \citenamefont {Perez},\
+  and\ \citenamefont {Soni}}]{Agashe:2004cp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Perez}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Soni}},\ }\bibfield
+  {title} {\bibinfo {title} {{Flavor structure of warped extra dimension
+  models}},\ }\href {https://doi.org/10.1103/PhysRevD.71.016002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume}
+  {71}},\ \bibinfo {pages} {016002} (\bibinfo {year} {2005}{\natexlab{b}})},\
+  \Eprint {https://arxiv.org/abs/hep-ph/0408134} {arXiv:hep-ph/0408134}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Glioti}\ \emph {et~al.}(2025)\citenamefont {Glioti},
+  \citenamefont {Rattazzi}, \citenamefont {Ricci},\ and\ \citenamefont
+  {Vecchi}}]{Glioti:2024hye}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Glioti}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Rattazzi}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ricci}},\ and\ \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Vecchi}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Exploring the Flavor Symmetry Landscape}},\ }\href
+  {https://doi.org/10.21468/SciPostPhys.18.6.201} {\bibfield  {journal}
+  {\bibinfo  {journal} {SciPost Phys.}\ }\textbf {\bibinfo {volume} {18}},\
+  \bibinfo {pages} {201} (\bibinfo {year} {2025})},\ \Eprint
+  {https://arxiv.org/abs/2402.09503} {arXiv:2402.09503 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Frigerio}\ \emph {et~al.}(2018)\citenamefont
+  {Frigerio}, \citenamefont {Nardecchia}, \citenamefont {Serra},\ and\
+  \citenamefont {Vecchi}}]{Frigerio:2018uwx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Frigerio}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Nardecchia}}, \bibinfo {author} {\bibfnamefont {J.~.}\ \bibnamefont
+  {Serra}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Vecchi}},\ }\bibfield  {title} {\bibinfo {title} {{The Bearable
+  Compositeness of Leptons}},\ }\href {https://doi.org/10.1007/JHEP10(2018)017}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {10}},\ \bibinfo {pages} {017}},\ \Eprint
+  {https://arxiv.org/abs/1807.04279} {arXiv:1807.04279 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chivukula}\ and\ \citenamefont
+  {Georgi}(1987)}]{Chivukula:1987py}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont
+  {Chivukula}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Georgi}},\ }\bibfield  {title} {\bibinfo {title} {{Composite Technicolor
+  Standard Model}},\ }\href {https://doi.org/10.1016/0370-2693(87)90713-1}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf
+  {\bibinfo {volume} {188}},\ \bibinfo {pages} {99} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Redi}\ and\ \citenamefont
+  {Weiler}(2011)}]{Redi:2011zi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Redi}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Weiler}},\
+  }\bibfield  {title} {\bibinfo {title} {{Flavor and CP Invariant Composite
+  Higgs Models}},\ }\href {https://doi.org/10.1007/JHEP11(2011)108} {\bibfield
+  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {11}},\
+  \bibinfo {pages} {108}},\ \Eprint {https://arxiv.org/abs/1106.6357}
+  {arXiv:1106.6357 [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barbieri}\ \emph {et~al.}(2013)\citenamefont
+  {Barbieri}, \citenamefont {Buttazzo}, \citenamefont {Sala}, \citenamefont
+  {Straub},\ and\ \citenamefont {Tesi}}]{Barbieri:2012tu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Barbieri}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Buttazzo}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Sala}}, \bibinfo {author}
+  {\bibfnamefont {D.~M.}\ \bibnamefont {Straub}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Tesi}},\ }\bibfield  {title} {\bibinfo
+  {title} {{A 125 GeV composite Higgs boson versus flavour and electroweak
+  precision tests}},\ }\href {https://doi.org/10.1007/JHEP05(2013)069}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {05}},\ \bibinfo {pages} {069}},\ \Eprint
+  {https://arxiv.org/abs/1211.5085} {arXiv:1211.5085 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Redi}(2013)}]{Redi:2013pga}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Redi}},\ }\bibfield  {title} {\bibinfo {title} {{Leptons in Composite
+  MFV}},\ }\href {https://doi.org/10.1007/JHEP09(2013)060} {\bibfield
+  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {09}},\
+  \bibinfo {pages} {060}},\ \Eprint {https://arxiv.org/abs/1306.1525}
+  {arXiv:1306.1525 [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {D'Ambrosio}\ \emph {et~al.}(2002)\citenamefont
+  {D'Ambrosio}, \citenamefont {Giudice}, \citenamefont {Isidori},\ and\
+  \citenamefont {Strumia}}]{DAmbrosio:2002vsn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {D'Ambrosio}}, \bibinfo {author} {\bibfnamefont {G.~F.}\ \bibnamefont
+  {Giudice}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Isidori}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Strumia}},\
+  }\bibfield  {title} {\bibinfo {title} {{Minimal flavor violation: An
+  Effective field theory approach}},\ }\href
+  {https://doi.org/10.1016/S0550-3213(02)00836-2} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl. Phys. B}\ }\textbf {\bibinfo {volume} {645}},\
+  \bibinfo {pages} {155} (\bibinfo {year} {2002})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0207036} {arXiv:hep-ph/0207036} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Golling}\ \emph {et~al.}(2017)\citenamefont {Golling}
+  \emph {et~al.}}]{Golling:2016gvc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Golling}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {Physics at
+  a 100 tev pp collider: beyond the standard model phenomena},\ }\href
+  {https://doi.org/10.23731/CYRM-2017-003.441} {\bibfield  {journal} {\bibinfo
+  {journal} {CERN Yellow Rep.}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo
+  {pages} {441} (\bibinfo {year} {2017})},\ \Eprint
+  {https://arxiv.org/abs/1606.00947} {arXiv:1606.00947 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2022)\citenamefont {Chen},
+  \citenamefont {Glioti}, \citenamefont {Rattazzi}, \citenamefont {Ricci},\
+  and\ \citenamefont {Wulzer}}]{Chen:2022msz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Glioti}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Rattazzi}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Ricci}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Wulzer}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Learning from radiation at a very high energy lepton collider}},\
+  }\href {https://doi.org/10.1007/JHEP05(2022)180} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {05}},\ \bibinfo
+  {pages} {180}},\ \Eprint {https://arxiv.org/abs/2202.10509} {arXiv:2202.10509
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Accettura}\ \emph {et~al.}(2023)\citenamefont
+  {Accettura} \emph {et~al.}}]{Accettura:2023ked}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Accettura}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{Towards
+  a muon collider}},\ }\href {https://doi.org/10.1140/epjc/s10052-023-11889-x}
+  {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf
+  {\bibinfo {volume} {83}},\ \bibinfo {pages} {864} (\bibinfo {year} {2023})},\
+  \bibinfo {note} {[Erratum: Eur.Phys.J.C 84, 36 (2024)]},\ \Eprint
+  {https://arxiv.org/abs/2303.08533} {arXiv:2303.08533 [physics.acc-ph]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stefanek}(2024)}]{Stefanek:2024kds}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
+  {Stefanek}},\ }\bibfield  {title} {\bibinfo {title} {{Non-universal probes of
+  composite Higgs models: new bounds and prospects for FCC-ee}},\ }\href
+  {https://doi.org/10.1007/JHEP09(2024)103} {\bibfield  {journal} {\bibinfo
+  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {09}},\ \bibinfo {pages}
+  {103}},\ \Eprint {https://arxiv.org/abs/2407.09593} {arXiv:2407.09593
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Redi}(2012)}]{Redi:2012uj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Redi}},\ }\bibfield  {title} {\bibinfo {title} {{Composite MFV and
+  Beyond}},\ }\href {https://doi.org/10.1140/epjc/s10052-012-2030-1} {\bibfield
+   {journal} {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo
+  {volume} {72}},\ \bibinfo {pages} {2030} (\bibinfo {year} {2012})},\ \Eprint
+  {https://arxiv.org/abs/1203.4220} {arXiv:1203.4220 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Barbieri}\ \emph {et~al.}(2012)\citenamefont
+  {Barbieri}, \citenamefont {Buttazzo}, \citenamefont {Sala},\ and\
+  \citenamefont {Straub}}]{Barbieri:2012uh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Barbieri}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Buttazzo}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Sala}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Straub}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Flavour physics from an approximate $U(2)^3$ symmetry}},\
+  }\href {https://doi.org/10.1007/JHEP07(2012)181} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {07}},\ \bibinfo
+  {pages} {181}},\ \Eprint {https://arxiv.org/abs/1203.4218} {arXiv:1203.4218
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fitzpatrick}\ \emph {et~al.}(2008)\citenamefont
+  {Fitzpatrick}, \citenamefont {Perez},\ and\ \citenamefont
+  {Randall}}]{Fitzpatrick:2007sa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Fitzpatrick}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Perez}},\
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Randall}},\
+  }\bibfield  {title} {\bibinfo {title} {{Flavor anarchy in a Randall-Sundrum
+  model with 5D minimal flavor violation and a low Kaluza-Klein scale}},\
+  }\href {https://doi.org/10.1103/PhysRevLett.100.171604} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {100}},\
+  \bibinfo {pages} {171604} (\bibinfo {year} {2008})},\ \Eprint
+  {https://arxiv.org/abs/0710.1869} {arXiv:0710.1869 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Panico}\ and\ \citenamefont
+  {Pomarol}(2016)}]{Panico:2016ull}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Panico}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Pomarol}},\ }\bibfield  {title} {\bibinfo {title} {{Flavor hierarchies from
+  dynamical scales}},\ }\href {https://doi.org/10.1007/JHEP07(2016)097}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {07}},\ \bibinfo {pages} {097}},\ \Eprint
+  {https://arxiv.org/abs/1603.06609} {arXiv:1603.06609 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fuentes-Martin}\ \emph {et~al.}(2022)\citenamefont
+  {Fuentes-Martin}, \citenamefont {Isidori}, \citenamefont {Lizana},
+  \citenamefont {Selimovic},\ and\ \citenamefont
+  {Stefanek}}]{Fuentes-Martin:2022xnb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fuentes-Martin}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Isidori}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Lizana}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Selimovic}},\ and\
+  \bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont {Stefanek}},\
+  }\bibfield  {title} {\bibinfo {title} {{Flavor hierarchies, flavor anomalies,
+  and Higgs mass from a warped extra dimension}},\ }\href
+  {https://doi.org/10.1016/j.physletb.2022.137382} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {834}},\
+  \bibinfo {pages} {137382} (\bibinfo {year} {2022})},\ \Eprint
+  {https://arxiv.org/abs/2203.01952} {arXiv:2203.01952 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Covone}\ \emph {et~al.}(2025)\citenamefont {Covone},
+  \citenamefont {Davighi}, \citenamefont {Isidori},\ and\ \citenamefont
+  {Pesut}}]{Covone:2024elw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Covone}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Davighi}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Isidori}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Pesut}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Flavour deconstructing the composite Higgs}},\ }\href
+  {https://doi.org/10.1007/JHEP01(2025)041} {\bibfield  {journal} {\bibinfo
+  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {01}},\ \bibinfo {pages}
+  {041}},\ \Eprint {https://arxiv.org/abs/2407.10950} {arXiv:2407.10950
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cheung}\ \emph {et~al.}(2008)\citenamefont {Cheung},
+  \citenamefont {Fitzpatrick},\ and\ \citenamefont {Randall}}]{Cheung:2007bu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cheung}}, \bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Fitzpatrick}},\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Randall}},\ }\bibfield  {title} {\bibinfo {title} {{Sequestering CP
+  Violation and GIM-Violation with Warped Extra Dimensions}},\ }\href
+  {https://doi.org/10.1088/1126-6708/2008/01/069} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {01}},\ \bibinfo
+  {pages} {069}},\ \Eprint {https://arxiv.org/abs/0711.4421} {arXiv:0711.4421
+  [hep-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cacciapaglia}\ \emph {et~al.}(2008)\citenamefont
+  {Cacciapaglia}, \citenamefont {Csaki}, \citenamefont {Galloway},
+  \citenamefont {Marandella}, \citenamefont {Terning},\ and\ \citenamefont
+  {Weiler}}]{Cacciapaglia:2007fw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Cacciapaglia}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Csaki}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Galloway}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Marandella}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Terning}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Weiler}},\ }\bibfield  {title} {\bibinfo
+  {title} {{A GIM Mechanism from Extra Dimensions}},\ }\href
+  {https://doi.org/10.1088/1126-6708/2008/04/006} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {04}},\ \bibinfo
+  {pages} {006}},\ \Eprint {https://arxiv.org/abs/0709.1714} {arXiv:0709.1714
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Csaki}\ \emph {et~al.}(2009)\citenamefont {Csaki},
+  \citenamefont {Falkowski},\ and\ \citenamefont {Weiler}}]{Csaki:2008eh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Csaki}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Falkowski}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Weiler}},\
+  }\bibfield  {title} {\bibinfo {title} {{A Simple Flavor Protection for RS}},\
+  }\href {https://doi.org/10.1103/PhysRevD.80.016001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {80}},\
+  \bibinfo {pages} {016001} (\bibinfo {year} {2009})},\ \Eprint
+  {https://arxiv.org/abs/0806.3757} {arXiv:0806.3757 [hep-ph]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Csaki}\ and\ \citenamefont
+  {Curtin}(2009)}]{Csaki:2009bb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Csaki}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Curtin}},\
+  }\bibfield  {title} {\bibinfo {title} {{A Flavor Protection for Warped
+  Higgsless Models}},\ }\href {https://doi.org/10.1103/PhysRevD.80.015027}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo
+  {volume} {80}},\ \bibinfo {pages} {015027} (\bibinfo {year} {2009})},\
+  \Eprint {https://arxiv.org/abs/0904.2137} {arXiv:0904.2137 [hep-ph]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Raby}\ \emph {et~al.}(1980)\citenamefont {Raby},
+  \citenamefont {Dimopoulos},\ and\ \citenamefont {Susskind}}]{RABY1980373}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Raby}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Dimopoulos}},\
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Susskind}},\
+  }\bibfield  {title} {\bibinfo {title} {Tumbling gauge theories},\ }\href
+  {https://doi.org/https://doi.org/10.1016/0550-3213(80)90093-0} {\bibfield
+  {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo
+  {volume} {169}},\ \bibinfo {pages} {373} (\bibinfo {year}
+  {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Klebanov}\ and\ \citenamefont
+  {Strassler}(2000)}]{Klebanov:2000hb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~R.}\ \bibnamefont
+  {Klebanov}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Strassler}},\ }\bibfield  {title} {\bibinfo {title} {{Supergravity and a
+  confining gauge theory: Duality cascades and chi SB resolution of naked
+  singularities}},\ }\href {https://doi.org/10.1088/1126-6708/2000/08/052}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {08}},\ \bibinfo {pages} {052}},\ \Eprint
+  {https://arxiv.org/abs/hep-th/0007191} {arXiv:hep-th/0007191} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2022)\citenamefont {Lee},
+  \citenamefont {Nakai},\ and\ \citenamefont {Suzuki}}]{Lee:2021wau}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Nakai}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Suzuki}},\ }\bibfield
+  {title} {\bibinfo {title} {{Multiple hierarchies from a warped extra
+  dimension}},\ }\href {https://doi.org/10.1007/JHEP02(2022)050} {\bibfield
+  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {02}},\
+  \bibinfo {pages} {050}},\ \Eprint {https://arxiv.org/abs/2109.10938}
+  {arXiv:2109.10938 [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph {et~al.}(2017)\citenamefont {Agashe},
+  \citenamefont {Du}, \citenamefont {Hong},\ and\ \citenamefont
+  {Sundrum}}]{Agashe:2016rle}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Du}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Hong}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Sundrum}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Flavor Universal Resonances and Warped Gravity}},\ }\href
+  {https://doi.org/10.1007/JHEP01(2017)016} {\bibfield  {journal} {\bibinfo
+  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {01}},\ \bibinfo {pages}
+  {016}},\ \Eprint {https://arxiv.org/abs/1608.00526} {arXiv:1608.00526
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goldberger}\ and\ \citenamefont
+  {Wise}(1999)}]{Goldberger:1999uk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~D.}\ \bibnamefont
+  {Goldberger}}\ and\ \bibinfo {author} {\bibfnamefont {M.~B.}\ \bibnamefont
+  {Wise}},\ }\bibfield  {title} {\bibinfo {title} {{Modulus stabilization with
+  bulk fields}},\ }\href {https://doi.org/10.1103/PhysRevLett.83.4922}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {83}},\ \bibinfo {pages} {4922} (\bibinfo {year}
+  {1999})},\ \Eprint {https://arxiv.org/abs/hep-ph/9907447}
+  {arXiv:hep-ph/9907447} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barbieri}\ \emph {et~al.}(2001)\citenamefont
+  {Barbieri}, \citenamefont {Hall},\ and\ \citenamefont
+  {Nomura}}]{Barbieri:2000vh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Barbieri}}, \bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont {Hall}},\
+  and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Nomura}},\
+  }\bibfield  {title} {\bibinfo {title} {{A Constrained standard model from a
+  compact extra dimension}},\ }\href
+  {https://doi.org/10.1103/PhysRevD.63.105007} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {63}},\ \bibinfo
+  {pages} {105007} (\bibinfo {year} {2001})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0011311} {arXiv:hep-ph/0011311} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Giudice}\ \emph {et~al.}(2007)\citenamefont
+  {Giudice}, \citenamefont {Grojean}, \citenamefont {Pomarol},\ and\
+  \citenamefont {Rattazzi}}]{Giudice:2007fh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~F.}\ \bibnamefont
+  {Giudice}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Grojean}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Pomarol}},\ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Rattazzi}},\ }\bibfield  {title}
+  {\bibinfo {title} {{The Strongly-Interacting Light Higgs}},\ }\href
+  {https://doi.org/10.1088/1126-6708/2007/06/045} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {06}},\ \bibinfo
+  {pages} {045}},\ \Eprint {https://arxiv.org/abs/hep-ph/0703164}
+  {arXiv:hep-ph/0703164} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vecchi}(2017)}]{Vecchi:2015fma}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Vecchi}},\ }\bibfield  {title} {\bibinfo {title} {{A dangerous irrelevant
+  UV-completion of the composite Higgs}},\ }\href
+  {https://doi.org/10.1007/JHEP02(2017)094} {\bibfield  {journal} {\bibinfo
+  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {02}},\ \bibinfo {pages}
+  {094}},\ \Eprint {https://arxiv.org/abs/1506.00623} {arXiv:1506.00623
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph {et~al.}(2009)\citenamefont {Agashe},
+  \citenamefont {Okui},\ and\ \citenamefont {Sundrum}}]{Agashe:2008fe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Okui}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Sundrum}},\ }\bibfield
+  {title} {\bibinfo {title} {{A Common Origin for Neutrino Anarchy and Charged
+  Hierarchies}},\ }\href {https://doi.org/10.1103/PhysRevLett.102.101801}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {102}},\ \bibinfo {pages} {101801} (\bibinfo {year}
+  {2009})},\ \Eprint {https://arxiv.org/abs/0810.1277} {arXiv:0810.1277
+  [hep-ph]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bona}\ \emph {et~al.}(2024)\citenamefont {Bona} \emph
+  {et~al.}}]{Bona:2024bue}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bona}} \emph {et~al.},\ }\bibfield  {title} {\bibinfo {title} {{Overview and
+  theoretical prospects for CKM matrix and CP violation from the UTfit
+  Collaboration}},\ }\href {https://doi.org/10.22323/1.457.0007} {\bibfield
+  {journal} {\bibinfo  {journal} {PoS}\ }\textbf {\bibinfo {volume}
+  {WIFAI2023}},\ \bibinfo {pages} {007} (\bibinfo {year} {2024})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph {et~al.}(2006)\citenamefont {Agashe},
+  \citenamefont {Contino}, \citenamefont {Da~Rold},\ and\ \citenamefont
+  {Pomarol}}]{Agashe:2006at}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Contino}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Da~Rold}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Pomarol}},\ }\bibfield  {title}
+  {\bibinfo {title} {{A Custodial symmetry for $Zb \bar b$}},\ }\href
+  {https://doi.org/10.1016/j.physletb.2006.08.005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {641}},\
+  \bibinfo {pages} {62} (\bibinfo {year} {2006})},\ \Eprint
+  {https://arxiv.org/abs/hep-ph/0605341} {arXiv:hep-ph/0605341} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Agashe}\ \emph {et~al.}(2003)\citenamefont {Agashe},
+  \citenamefont {Delgado}, \citenamefont {May},\ and\ \citenamefont
+  {Sundrum}}]{Agashe:2003zs}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Agashe}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Delgado}},
+  \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {May}},\ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Sundrum}},\ }\bibfield  {title}
+  {\bibinfo {title} {{RS1, custodial isospin and precision tests}},\ }\href
+  {https://doi.org/10.1088/1126-6708/2003/08/050} {\bibfield  {journal}
+  {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo {volume} {08}},\ \bibinfo
+  {pages} {050}},\ \Eprint {https://arxiv.org/abs/hep-ph/0308036}
+  {arXiv:hep-ph/0308036} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Panico}\ \emph {et~al.}(2021)\citenamefont {Panico},
+  \citenamefont {Ricci},\ and\ \citenamefont {Wulzer}}]{Panico:2021vav}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Panico}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Ricci}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Wulzer}},\ }\bibfield
+  {title} {\bibinfo {title} {{High-energy EFT probes with fully differential
+  Drell-Yan measurements}},\ }\href {https://doi.org/10.1007/JHEP07(2021)086}
+  {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\ }\textbf {\bibinfo
+  {volume} {07}},\ \bibinfo {pages} {086}},\ \Eprint
+  {https://arxiv.org/abs/2103.10532} {arXiv:2103.10532 [hep-ph]} \BibitemShut
+  {NoStop}%
+\end{thebibliography}%

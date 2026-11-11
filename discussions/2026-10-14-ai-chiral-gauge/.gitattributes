@@ -1,0 +1,2 @@
+# Preserve the uploaded submission byte for byte, including its original whitespace.
+references/arxiv-2610.09093v1/** -whitespace

@@ -1,0 +1,41 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "lcf_v2.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "JHEP.bst"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "anc/README.txt"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "anc/lean-verification-report.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "anc/mathematical-companion.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "anc/two-dimensional-supplement.pdf"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "lcf.bib"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "lcf_v2.bbl"
+      }
+   ],
+   "spec_version" : 1,
+   "texlive_version" : "2025",
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

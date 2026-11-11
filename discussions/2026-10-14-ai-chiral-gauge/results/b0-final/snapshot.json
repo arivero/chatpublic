@@ -1,0 +1,13 @@
+{
+  "snapshot_utc": "2026-10-15T15:37:00.994518+00:00",
+  "snapshot_is_final": true,
+  "source_run": "/workspace/work/craig/b0-campaign/run-5h-20261015T102450Z",
+  "source_report": "/workspace/work/craig/b0-campaign/hourly-reports/20261015T153453Z.json",
+  "copied_files_verified_by_sha256": true,
+  "max_recomputed_completed_integral_discrepancy": 0.0,
+  "completed_cases": 16,
+  "interrupted_cases": [
+    16
+  ],
+  "incomplete_case_excluded_from_completed_csv": true
+}
