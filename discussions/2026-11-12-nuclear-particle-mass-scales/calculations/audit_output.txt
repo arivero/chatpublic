@@ -1,0 +1,288 @@
+
+====================================================================================================
+1. Inputs
+====================================================================================================
+u = 931.49410242 MeV; electron mass = 0.51099895 MeV; v = (sqrt2 G_F)^-1/2 = 246.21964 GeV (G_F = 1.1663788e-05)
+v / u = 264.3276   v/m_p = 262.418   v/m_N(mean) = 262.237
+PDG 2025: MZ=91.188+-0.002, MH=125.2+-0.11, MW=80.3692+-0.0133, MT=172.56+-0.31 GeV
+PDG 2026: MZ=91.1879+-0.002, MH=125.13+-0.11, MW=80.3625+-0.0077, MT=172.6+-0.27 GeV
+AME2020 132Sn: mass excess -76546.554 +- 1.976 keV (experimental/derived); atomic 122.880675 GeV, nuclear 122.855293 GeV
+AME2020 100Sn: mass excess -57148.146 +- 240.010 keV (experimental/derived); atomic 93.092262 GeV, nuclear 93.066880 GeV
+AME2020 208Pb: mass excess -21748.519 +- 1.148 keV (experimental/derived); atomic 193.729025 GeV, nuclear 193.687691 GeV
+AME2020 232Th: mass excess 35446.710 +- 1.421 keV (experimental/derived); atomic 216.142078 GeV, nuclear 216.096809 GeV
+AME2020 100Zr: mass excess -76372.736 +- 8.143 keV (experimental/derived); atomic 93.073038 GeV, nuclear 93.052695 GeV
+AME2020 4He: mass excess 2424.916 +- 0.000 keV (experimental/derived); atomic 3.728401 GeV, nuclear 3.727379 GeV
+
+====================================================================================================
+2. Numbers quoted in the brief
+====================================================================================================
+[atomic] 2M(132Sn) = 245.761 GeV  v/(2M)-1 = +0.186 %   (v-2M = 458.3 MeV)
+[atomic] M(100Sn)+M(132Sn) = 215.973 GeV   (MZ+MH)/(sum)-1 = +0.192 %   diff = 415.1 MeV
+[atomic] MZ vs 100Sn: -2.05 %   MH vs 132Sn: +1.89 %
+[nuclear] 2M(132Sn) = 245.711 GeV  v/(2M)-1 = +0.207 %   (v-2M = 509.1 MeV)
+[nuclear] M(100Sn)+M(132Sn) = 215.922 GeV   (MZ+MH)/(sum)-1 = +0.216 %   diff = 465.8 MeV
+[nuclear] MZ vs 100Sn: -2.02 %   MH vs 132Sn: +1.91 %
+Mass-number units (GeV / u):  W = 86.28  Z = 97.89  H = 134.41  top = 185.25
+208Pb atomic = 193.729 GeV; top vs 208Pb = -10.9 %
+v/(2u) = 132.164 ; 132Sn atomic mass = 131.91782 u ; v/(2 M(132Sn)/132) = 132.246 nucleons
+M_H + M_Z in u = 232.302   (M_H - M_Z)/u = 36.513
+M(132Sn)-M(100Sn) = 29.7884 GeV  vs  M_H-M_Z = 34.0120 GeV  (ratio 1.142)
+offsets from the pair: M_H - v/2 = 2.090 GeV ; M(100Sn) - M_Z = 1.904 GeV
+M(232Th) atomic = 216.1421 GeV ; M_Z+M_H - M(232Th) = 245.9 MeV (+0.114 %)
+
+====================================================================================================
+2b. Offsets in units of u against the nucleon-number rounding limit of 0.5 u
+====================================================================================================
+R1: v/2 - M(132Sn)                           229.1 MeV =  +0.246 u =  0.49 x the 0.5 u limit
+R2: M_Z + M_H - M(100Sn) - M(132Sn)          415.1 MeV =  +0.446 u =  0.89 x the 0.5 u limit
+M_H - M(132Sn)                              2319.3 MeV =  +2.490 u =  4.98 x the 0.5 u limit
+M_Z - M(100Sn)                             -1904.3 MeV =  -2.044 u =  4.09 x the 0.5 u limit
+charm (no integer freedom; scale only)         2.3 MeV =  +0.002 u =  0.00 x the 0.5 u limit
+0.5 u as a fraction of M_Z + M_H = 0.215 % ; of v/2 = 0.378 % ; of M_H = 0.372 %
+common unit: v/264 = 932.65 MeV ; (M_Z+M_H)/232 = 932.71 MeV ; u = 931.49 MeV ; M(132Sn)/132 = 930.91 MeV
+
+====================================================================================================
+3. Convention matrix: atomic/nuclear masses, Z mass definition, Higgs mass value
+====================================================================================================
+R1 = v/(2M(132Sn)) - 1 ; R2 = (MZ+MH)/(M100+M132) - 1 ; ratio = (MZ+MH)/v ; 29/33 = 0.878788
+-- atomic masses: R1 = +0.186 %; nuclear ratio (M100+M132)/(2 M132) = 0.878791 (29/33 +3.9 ppm)
+   Z mass BW 91.1880      PDG2025 125.20: R2=+0.192%  ratio-29/33=+0.53e-4 | PDG2026 125.13: R2=+0.160%  ratio-29/33=-2.31e-4 | LHC prelim 125.09: R2=+0.141%  ratio-29/33=-3.93e-4 | CMS Nov26 125.065: R2=+0.130%  ratio-29/33=-4.95e-4
+   Z mass pole 91.1539    PDG2025 125.20: R2=+0.176%  ratio-29/33=-0.85e-4 | PDG2026 125.13: R2=+0.144%  ratio-29/33=-3.69e-4 | LHC prelim 125.09: R2=+0.125%  ratio-29/33=-5.32e-4 | CMS Nov26 125.065: R2=+0.114%  ratio-29/33=-6.33e-4
+-- nuclear masses: R1 = +0.207 %; nuclear ratio (M100+M132)/(2 M132) = 0.878766 (29/33 -24.6 ppm)
+   Z mass BW 91.1880      PDG2025 125.20: R2=+0.216%  ratio-29/33=+0.53e-4 | PDG2026 125.13: R2=+0.183%  ratio-29/33=-2.31e-4 | LHC prelim 125.09: R2=+0.165%  ratio-29/33=-3.93e-4 | CMS Nov26 125.065: R2=+0.153%  ratio-29/33=-4.95e-4
+   Z mass pole 91.1539    PDG2025 125.20: R2=+0.200%  ratio-29/33=-0.85e-4 | PDG2026 125.13: R2=+0.168%  ratio-29/33=-3.69e-4 | LHC prelim 125.09: R2=+0.149%  ratio-29/33=-5.32e-4 | CMS Nov26 125.065: R2=+0.137%  ratio-29/33=-6.33e-4
+M_H implied by the exact rational: (29/33) v - M_Z(BW) = 125.1868 GeV
+M_H implied by the exact rational: (29/33) v - M_Z(pole) = 125.2210 GeV
+statistical resolution of the ratio from M_H = +-0.11 GeV: sigma(ratio) = 4.47e-04; 2025 value is +0.12 sigma from 29/33
+2026 PDG: -0.52 sigma ; LHC prelim 125.09+-0.07: -1.38 sigma
+
+====================================================================================================
+4. Algebra of the first feedback (tin pair relations)
+====================================================================================================
+v - 2M(132Sn) = 458.29 MeV (feedback: 458.68)
+MZ+MH-M(100Sn)-M(132Sn) = 415.06 MeV (feedback: 414.69)
+MH+MZ-v = -29831.6 MeV ; M(100Sn)-M(132Sn) = -29788.4 MeV ; residual -43.2 MeV (feedback: -44)
+M_H predicted = v - MZ + M(100Sn) - M(132Sn) = 125.2432 GeV (feedback: 125.244)
+M_H predicted by (29/33) v - MZ = 125.1868 GeV (second feedback: 125.18694)
+Candidate lobe pairs for A = 232 (atomic masses, AME2020); offsets m_H - M(heavy), m_Z - M(light) in GeV
+  132Sn + 100Zr: mH-M_heavy = +2.319, mZ-M_light = -1.885, sum offset = +0.434 GeV, Z_tot = 90
+  134Te + 98Sr: mH-M_heavy = +0.462, mZ-M_light = -0.032, sum offset = +0.430 GeV, Z_tot = 90
+  134Sn + 98Zr: mH-M_heavy = +0.446, mZ-M_light = -0.017, sum offset = +0.429 GeV, Z_tot = 90
+  132Sn + 100Sn: mH-M_heavy = +2.319, mZ-M_light = -1.904, sum offset = +0.415 GeV, Z_tot = 100
+  132Sb + 100Zr: mH-M_heavy = +2.322, mZ-M_light = -1.885, sum offset = +0.437 GeV, Z_tot = 91
+Q(232Th -> 132Sn + 100Zr) [atomic] = 188.37 MeV
+Q(232Th -> 132Sn + 100Zr) [nuclear] = 188.82 MeV
+second feedback relation: MH + MZpole - M(232Th) = 187.1 MeV vs Q = 188.8 MeV (M_H = 125.13)
+   the same difference with M_H = 125.20: 257.1 MeV; the M_H uncertainty (110 MeV) is 58 % of Q
+
+====================================================================================================
+5. Charm threshold and the alpha particle
+====================================================================================================
+2 m(D0) = 3729.68 +- 0.10 MeV ; M(alpha) = 3727.3794 MeV ; difference = 2.301 MeV = 0.0617 %  (23.0 sigma of the D0 mass)
+M(alpha)/2 = 1863.690 MeV ; m(D0) - M(alpha)/2 = +1.150 MeV
+4 free nucleons = 3755.675 MeV ; B(alpha) = 28.296 MeV ; 4N - 2m(D0) = 25.995 MeV ; remainder = 2.301 MeV
+charged threshold: 2 m(D+) = 3739.32 ; minus M(alpha) = 11.941 MeV ; D+ - D0 = 4.82 MeV
+m(D0) vs deuteron: -10.77 MeV (-0.57 %)
+m(D0)/u = 2.00199 ; v/m(D0) = 132.0326 ; 1/132 = 0.0075758 vs m(D0)/v = 0.0075739
+4 M(132Sn)/M(alpha) = 131.868 (v/m(D0) implied by R1 and R3 alone; observed 132.033)
+MSbar m_c = 1.273 GeV -> y_c = sqrt2 m_c / v = 0.00731 ; shift of m_c that moves 2 m(D0) by the 2.30 MeV remainder: 1.151 MeV = 0.090 % of m_c
+
+====================================================================================================
+6. What the 0.19 % of R1 means for alpha_s(M_Z)
+====================================================================================================
+two-loop beta: |beta(alpha_s)| = 0.01779 ; d ln Lambda5 / d alpha_s = 56.2 ; d ln Lambda3 / d alpha_s = 47.9
+offset of R1 = 0.186 % -> delta alpha_s = 3.90e-05 (0.033 % of alpha_s); PDG world average is 0.1180 +- 0.0009
+integer spacing: one unit of mass number at A = 264 (0.38 %) corresponds to delta alpha_s = 7.91e-05
+Z-vector coherent coupling of 132Sn: g_Z Q_W = 14.76 ; Higgs: f_N m_N A / v = 0.154
+contact energy per nucleon at 0.16 fm^-3: Higgs 5.31e-05 eV, Z vector 0.889 eV
+dilaton-like Higgs (f = v): g = m_N/v = 3.814e-03, contact (m_N/v)^2/m_H^2 = 9.28e-10 GeV^-2 ; sigma exchange 10^2/0.55^2 = 331 GeV^-2 ; ratio 2.8e-12; g_hAA(132Sn) = M/v = 0.499
+2x2 reading of R2: V^2 from the difference = 67.4 GeV^2 ; from the product = 22.5 GeV^2
+
+====================================================================================================
+7. R2 and the exact rational (29/33) through the PDG editions (atomic masses)
+====================================================================================================
+edition   M_H +- unc      M_Z       R2 offset   sum-diff(MeV)   (MZ+MH)/v - 29/33   sigma
+2014            125.700 +- 0.400   91.1876    +0.424%      914.7     +2.08e-03        +1.28
+2016            125.090 +- 0.240   91.1876    +0.141%      304.7     -3.95e-04        -0.41
+2018            125.180 +- 0.160   91.1876    +0.183%      394.7     -2.94e-05        -0.05
+2020            125.100 +- 0.140   91.1876    +0.146%      314.7     -3.54e-04        -0.62
+2022            125.250 +- 0.170   91.1876    +0.215%      464.7     +2.55e-04        +0.37
+2024            125.200 +- 0.110   91.1880    +0.192%      415.1     +5.35e-05        +0.12
+2025            125.200 +- 0.110   91.1880    +0.192%      415.1     +5.35e-05        +0.12
+2026            125.130 +- 0.110   91.1879    +0.160%      345.0     -2.31e-04        -0.52
+LHCP26 prelim.  125.090 +- 0.070   91.1879    +0.141%      305.0     -3.94e-04        -1.38
+CMS 2 Nov 2026  125.065 +- 0.088   91.1879    +0.130%      280.0     -4.95e-04        -1.39
+exact completions of the approximate relations, as Higgs-mass predictions (GeV), and pulls (measured - predicted)/sigma:
+  (29/33) v - M_Z(BW)                                      125.1869   PDG 2026: -0.52   LHCP 2026 prelim.: -1.38   CMS 2 Nov 2026: -1.39
+  (29/33) v - M_Z(pole)                                    125.2211   PDG 2026: -0.83   LHCP 2026 prelim.: -1.87   CMS 2 Nov 2026: -1.77
+  v - M_Z + M(100Sn) - M(132Sn)                            125.2433   PDG 2026: -1.03   LHCP 2026 prelim.: -2.19   CMS 2 Nov 2026: -2.03
+  2M(232Th) - M(132Sn) - M(100Zr) - M_Z(pole), nuclear     125.1319   PDG 2026: -0.02   LHCP 2026 prelim.: -0.60   CMS 2 Nov 2026: -0.76
+
+====================================================================================================
+8. Heavy-fragment mass number if the proton number is fixed (unchanged charge density)
+====================================================================================================
+H = 134.41 u. Rows: A_H = Z_H * A/Z for Z_H = 52.5 (S1) and 55 (S2), against a fixed A_H = 134.4
+  222Th: A/Z = 2.467  A_H(S1,52.5) =  129.5  A_H(S2,55) =  135.7  A_L(S1) =  92.5  [GeV:  120.6 /  126.4]
+  226Th: A/Z = 2.511  A_H(S1,52.5) =  131.8  A_H(S2,55) =  138.1  A_L(S1) =  94.2  [GeV:  122.8 /  128.6]
+  230Th: A/Z = 2.556  A_H(S1,52.5) =  134.2  A_H(S2,55) =  140.6  A_L(S1) =  95.8  [GeV:  125.0 /  130.9]
+  232Th: A/Z = 2.578  A_H(S1,52.5) =  135.3  A_H(S2,55) =  141.8  A_L(S1) =  96.7  [GeV:  126.1 /  132.1]
+  233U: A/Z = 2.533  A_H(S1,52.5) =  133.0  A_H(S2,55) =  139.3  A_L(S1) = 100.0  [GeV:  123.9 /  129.8]
+  235U: A/Z = 2.554  A_H(S1,52.5) =  134.1  A_H(S2,55) =  140.5  A_L(S1) = 100.9  [GeV:  124.9 /  130.9]
+  238U: A/Z = 2.587  A_H(S1,52.5) =  135.8  A_H(S2,55) =  142.3  A_L(S1) = 102.2  [GeV:  126.5 /  132.5]
+  239Pu: A/Z = 2.543  A_H(S1,52.5) =  133.5  A_H(S2,55) =  139.8  A_L(S1) = 105.5  [GeV:  124.3 /  130.3]
+  252Cf: A/Z = 2.571  A_H(S1,52.5) =  135.0  A_H(S2,55) =  141.4  A_L(S1) = 117.0  [GeV:  125.8 /  131.7]
+  258Fm: A/Z = 2.580  A_H(S1,52.5) =  135.4  A_H(S2,55) =  141.9  A_L(S1) = 122.6  [GeV:  126.2 /  132.2]
+A_H(S1) reaches the H value at A/Z = 2.560 (Th: A = 230.4, U: A = 235.5)
+
+====================================================================================================
+9. Ground-state Q-value landscape of binary splits (AME2020 atomic masses, best Z_H for each A_H)
+====================================================================================================
+local maxima over even A_H (pairing staggering removed), heavy fragment A_H > A/2 + 4; Q in MeV
+226Th: A_H=130 (Z_H=50) Q=188.8; A_H=134 (Z_H=52) Q=188.6; A_H=122 (Z_H=48) Q=184.2   |   Q(132)=187.2, Q(134)=188.6, Q(138)=182.9, Q(140)=179.4   |   symmetric Q=180.7
+232Th: A_H=132 (Z_H=50) Q=188.4; A_H=120 (Z_H=46) Q=181.4   |   Q(132)=188.4, Q(134)=184.4, Q(138)=180.0, Q(140)=177.2   |   symmetric Q=179.3
+236U: A_H=132 (Z_H=50) Q=199.3; A_H=124 (Z_H=48) Q=194.8   |   Q(132)=199.3, Q(134)=196.6, Q(138)=189.4, Q(140)=188.3   |   symmetric Q=193.2
+240Pu: A_H=132 (Z_H=50) Q=210.3; A_H=124 (Z_H=48) Q=206.7; A_H=156 (Z_H=60) Q=186.3   |   Q(132)=210.3, Q(134)=208.8, Q(138)=201.7, Q(140)=199.5   |   symmetric Q=204.4
+252Cf: A_H=130 (Z_H=50) Q=236.8   |   Q(132)=236.5, Q(134)=234.0, Q(138)=226.2, Q(140)=224.7   |   symmetric Q=234.3
+258Fm:    |   Q(132)=253.0, Q(134)=249.7, Q(138)=240.7, Q(140)=238.8   |   symmetric Q=251.6
+Fermium chain: symmetric split into two tin isotopes (Z_H = Z_L = 50), Q in MeV; AME2020 values beyond A = 257 are extrapolations
+  252Fm -> 126Sn + 126Sn : Q =   248.8 MeV (exp.)
+  253Fm -> 126Sn + 127Sn : Q =   248.8 MeV (exp.)
+  254Fm -> 127Sn + 127Sn : Q =   247.8 MeV (exp.)
+  255Fm -> 127Sn + 128Sn : Q =   250.6 MeV (exp.)
+  256Fm -> 128Sn + 128Sn : Q =   252.2 MeV (exp.)
+  257Fm -> 128Sn + 129Sn : Q =   252.5 MeV (exp.)
+  258Fm -> 129Sn + 129Sn : Q =   251.6 MeV (est.)
+  259Fm -> 129Sn + 130Sn : Q =   254.4 MeV (est.)
+  260Fm -> 130Sn + 130Sn : Q =   256.0 MeV (est.)
+
+====================================================================================================
+10. Subshell rectangles of the November 2003 text (mass-number intervals) against boson mass numbers
+====================================================================================================
+square 5g9/2 x 5g9/2 (to 100Sn): A in [82, 100]
+rectangle 5g9/2 x 6h11/2 (to 132Sn): A in [112, 132]
+rectangle 6h11/2 x 7i13/2 (to 208Pb): A in [184, 208]
+  W 2003 (80.423)    A =  86.34 -> inside to 100Sn (margin to upper edge +13.7)
+  Z 2003 (91.1876)   A =  97.89 -> inside to 100Sn (margin to upper edge +2.1)
+  H LEP hint (115)   A = 123.46 -> inside to 132Sn (margin to upper edge +8.5)
+  top 2003 (174.3)   A = 187.12 -> inside to 208Pb (margin to upper edge +20.9)
+  W PDG2025          A =  86.28 -> inside to 100Sn (margin to upper edge +13.7)
+  Z PDG2025          A =  97.89 -> inside to 100Sn (margin to upper edge +2.1)
+  H PDG2025          A = 134.41 -> outside to 132Sn (margin to upper edge -2.4)
+  top PDG2025        A = 185.25 -> inside to 208Pb (margin to upper edge +22.7)
+
+====================================================================================================
+11. One-parameter family: v varied with Yukawas, gauge couplings, lambda and the UV QCD coupling held fixed
+====================================================================================================
+Scaling assumed: v, M_Z, M_H, quark masses ~ v ; nuclear masses ~ v^K_A (K_A ~ 0.3 from the trace anomaly, 2/9 + sigma term) ; D0 ~ v^K_D (heavy-quark estimate 0.75-0.92)
+present ratios: R1 = 1.001865, R2 = 1.001922, R3 = 1.000617
+K_A = 0.27: R1 becomes exact at delta ln v = -0.255 %, R2 at -0.263 %, separation 0.0078 %
+K_A = 0.30: R1 becomes exact at delta ln v = -0.266 %, R2 at -0.274 %, separation 0.0081 %
+K_A = 0.33: R1 becomes exact at delta ln v = -0.278 %, R2 at -0.287 %, separation 0.0085 %
+K_D = 0.75: R3 becomes exact at delta ln v = -0.137 %
+K_D = 0.85: R3 becomes exact at delta ln v = -0.112 %
+K_D = 0.92: R3 becomes exact at delta ln v = -0.100 %
+K_D required for R3 to become exact at the same v as R1: 0.53
+
+====================================================================================================
+12. Heavy-fragment positions measured in Z (Boeckstiegel et al. 2008, Table 1) and the masses implied by UCD
+====================================================================================================
+A_H = Z_H * A/Z is the unchanged-charge-density conversion used in the paper (evaporation neglected); H = 134.41 u
+system   asym.share%   Z_H(S1)       A_H(S1)   A_H(S1)-134.4   Z_H(S2)       A_H(S2)   [GeV S1 / S2]
+234U       88.8      52.7+-0.6     134.0      -0.4         55.2+-0.5     140.4   [ 124.9 /  130.8]
+233U       86.2      51.8+-0.2     131.2      -3.2         54.6+-0.2     138.3   [ 122.2 /  128.8]
+232U       82.1      52.4+-0.2     132.1      -2.3         55.1+-0.2     138.9   [ 123.1 /  129.4]
+232Pa      81.9      52.5+-0.4     133.8      -0.6         55.1+-0.2     140.5   [ 124.7 /  130.9]
+231Pa      80.6      52.5+-0.1     133.3      -1.1         55.0+-0.1     139.6   [ 124.1 /  130.1]
+230Pa      77.5      52.6+-0.2     132.9      -1.5         54.9+-0.1     138.8   [ 123.8 /  129.3]
+229Pa      74.6      52.5+-0.1     132.1      -2.3         54.9+-0.1     138.2   [ 123.1 /  128.7]
+228Pa      64.5      52.0+-0.3     130.3      -4.1         54.4+-0.1     136.3   [ 121.4 /  127.0]
+228Th      62.5      52.9+-0.3     134.0      -0.4         55.0+-0.2     139.3   [ 124.8 /  129.8]
+226Th      44.4      53.6+-0.3     134.6      +0.2         55.7+-0.3     139.9   [ 125.4 /  130.3]
+225Th      31.4      53.8+-0.2     134.5      +0.1         56.1+-0.5     140.2   [ 125.3 /  130.6]
+224Th      24.2      52.8+-0.3     131.4      -3.0         55.0+-0.3     136.9   [ 122.4 /  127.5]
+223Th      16.0      53.4+-0.1     132.3      -2.1         56.2+-0.1     139.3   [ 123.2 /  129.7]
+222Th      11.8      53.3+-0.2     131.5      -2.9         56.0+-0.2     138.1   [ 122.5 /  128.7]
+223Ac      11.6      52.2+-0.2     130.8      -3.6         54.5+-0.7     136.6   [ 121.8 /  127.2]
+Z_H(S1)          mean   52.73  sd  0.58 (1.10 %)  range   51.8 to   53.8
+A_H(S1) via UCD  mean  132.60  sd  1.40 (1.06 %)  range  130.3 to  134.6
+Z_H(S2)          mean   55.18  sd  0.57 (1.03 %)  range   54.4 to   56.2
+A_H(S2) via UCD  mean  138.75  sd  1.36 (0.98 %)  range  136.3 to  140.5
+systems with A_H(S1) within 1 u of H: 5 of 15 (234U, 232Pa, 228Th, 226Th, 225Th)
+mean A_H(S1) - H = -1.81 u = -1688 MeV
+The Z positions are measured; every A_H in this table is derived, so the table cannot separate a fixed-mass ridge from a fixed-charge ridge.
+
+====================================================================================================
+13. Near-zero thresholds in AME2020 (experimental entries only): how many nuclides sit within a few keV of a threshold
+====================================================================================================
+window |S| < w with combined uncertainty < w/2; counts over nuclides (parent entries)
+  S_n      within 6 keV:   0   within 20 keV:   0   within 60 keV:   1
+  S_p      within 6 keV:   0   within 20 keV:   1   within 60 keV:   3
+  S_2n     within 6 keV:   0   within 20 keV:   0   within 60 keV:   0
+  S_2p     within 6 keV:   0   within 20 keV:   0   within 60 keV:   0
+  S_alpha  within 6 keV:   0   within 20 keV:   0   within 60 keV:   5
+  Q_beta-  within 6 keV:   2   within 20 keV:   5   within 60 keV:  20
+  Q_EC     within 6 keV:   2   within 20 keV:   5   within 60 keV:  20
+isobar pairs with |Q| < 20 keV: 187Re -> 187Os: Q = +2.47 keV; 163Dy -> 163Ho: Q = -2.83 keV; 222Rn -> 222Fr: Q = -6.15 keV; 243Am -> 243Cm: Q = -6.93 keV; 3H -> 3He: Q = +18.59 keV
+sensitivity of a separation energy of 8 MeV to v if it scales as Lambda_QCD ~ v^(2/9): 1.76 MeV per unit ln v; a threshold flips within 0.3 % of v when the nuclide lies 5.3 keV from it
+
+====================================================================================================
+14. Fusion side: heavy-meson masses and pair thresholds against light nuclei, and the charm remainder against light-nucleus energies
+====================================================================================================
+check: alpha from AME2020 = 3727.3794 MeV (CODATA 3727.3794066); deuteron 1875.6129 (CODATA 1875.61294257)
+meson           m(X) nearest nucleus (offset %)        2m(X) nearest nucleus (offset %)
+  K+-              493.68  d     -73.68         987.35  d     -47.36
+  K0               497.61  d     -73.47         995.22  d     -46.94
+  eta              547.86  d     -70.79        1095.72  d     -41.58
+  omega            782.66  d     -58.27        1565.32  d     -16.54
+  eta'             957.78  d     -48.94        1915.56  d      +2.13
+  phi             1019.46  d     -45.65        2038.92  d      +8.71
+  D0              1864.84  d      -0.57        3729.68  4He    +0.06
+  D+-             1869.66  d      -0.32        3739.32  4He    +0.32
+  Ds+-            1968.35  d      +4.94        3936.70  4He    +5.62
+  D*0             2006.85  d      +7.00        4013.70  4He    +7.68
+  D*+-            2010.26  d      +7.18        4020.52  4He    +7.86
+  eta_c           2984.10  t      +6.24        5968.20  6Li    +6.55
+  J/psi           3096.90  t     +10.25        6193.80  7Li    -5.20
+  chi_c1(3872)    3871.64  4He    +3.87        7743.28  8Be    +3.87
+  B+-             5279.41  6Li    -5.75       10558.82  11B    +2.99
+  B0              5279.72  6Li    -5.74       10559.44  11B    +2.99
+  Bs              5366.93  6Li    -4.19       10733.86  12C    -3.95
+  Upsilon(1S)     9460.40  10B    +1.46       18920.80  16O   +27.03
+  Upsilon(4S)    10579.40  11B    +3.19       21158.80  16O   +42.05
+charm remainder 2 m(D0) - M(alpha) = 2.301 +- 0.10 MeV, compared with 19 light-nucleus energies:
+  B(d)                      2.2246 MeV   remainder - E =   +0.076 MeV (  +0.8 sigma of 2 m(D0))
+  Q(d+d -> 3He+n)           3.2689 MeV   remainder - E =   -0.968 MeV (  -9.7 sigma of 2 m(D0))
+  m_n - m_p                 1.2933 MeV   remainder - E =   +1.007 MeV ( +10.1 sigma of 2 m(D0))
+  2 m_e                     1.0220 MeV   remainder - E =   +1.279 MeV ( +12.8 sigma of 2 m(D0))
+  Q(d+d -> t+p)             4.0327 MeV   remainder - E =   -1.732 MeV ( -17.3 sigma of 2 m(D0))
+  m_e                       0.5110 MeV   remainder - E =   +1.790 MeV ( +17.9 sigma of 2 m(D0))
+  Q(8Be -> 2 4He)           0.0921 MeV   remainder - E =   +2.209 MeV ( +22.1 sigma of 2 m(D0))
+  m(D+) - m(D0)             4.8200 MeV   remainder - E =   -2.519 MeV ( -25.2 sigma of 2 m(D0))
+  Q(12C+4He -> 16O)         7.1610 MeV   remainder - E =   -4.860 MeV ( -48.6 sigma of 2 m(D0))
+  Q(3 4He -> 12C)           7.2739 MeV   remainder - E =   -4.973 MeV ( -49.7 sigma of 2 m(D0))
+  B(3He)                    7.7180 MeV   remainder - E =   -5.417 MeV ( -54.2 sigma of 2 m(D0))
+  B(t)                      8.4818 MeV   remainder - E =   -6.181 MeV ( -61.8 sigma of 2 m(D0))
+  Q(p+11B -> 3 4He)         8.6824 MeV   remainder - E =   -6.382 MeV ( -63.8 sigma of 2 m(D0))
+  Q(t+t -> 4He+2n)         11.3320 MeV   remainder - E =   -9.031 MeV ( -90.3 sigma of 2 m(D0))
+  Q(3He+3He -> 4He+2p)     12.8596 MeV   remainder - E =  -10.559 MeV (-105.6 sigma of 2 m(D0))
+  Q(d+t -> 4He+n)          17.5893 MeV   remainder - E =  -15.289 MeV (-152.9 sigma of 2 m(D0))
+  Q(d+3He -> 4He+p)        18.3531 MeV   remainder - E =  -16.052 MeV (-160.5 sigma of 2 m(D0))
+  Q(d+d -> 4He)            23.8465 MeV   remainder - E =  -21.546 MeV (-215.5 sigma of 2 m(D0))
+  B(4He)                   28.2956 MeV   remainder - E =  -25.995 MeV (-260.0 sigma of 2 m(D0))
+equivalent form: 2 m(D0) + M(d) - M(alpha) - m_p - m_n = +0.076 MeV
+
+====================================================================================================
+15. Asymmetric share against parent mass number and neutron number (Boeckstiegel et al. 2008, Table 1)
+====================================================================================================
+isobars (same A):
+  A = 223: 223Th 16.0%, 223Ac 11.6%  spread 4.4
+  A = 228: 228Pa 64.5%, 228Th 62.5%  spread 2.0
+  A = 232: 232U 82.1%, 232Pa 81.9%  spread 0.2
+isotones (same N):
+  N = 134: 224Th 24.2%, 223Ac 11.6%  spread 12.6
+  N = 138: 229Pa 74.6%, 228Th 62.5%  spread 12.1
+  N = 140: 232U 82.1%, 231Pa 80.6%  spread 1.5
+  N = 141: 233U 86.2%, 232Pa 81.9%  spread 4.3
+logistic fit share(A) = 100/(1+exp(-(A-A50)/w)): A50 = 226.93, w = 2.65, rms residual 3.9 points
+band (M_H+M_W)/u = 220.69 to (M_H+M_Z)/u = 232.30; midpoint 226.49
+excitation energy of the fissioning nuclei in these data: about 11 MeV (Coulomb excitation of secondary beams)

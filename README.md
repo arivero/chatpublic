@@ -3,6 +3,7 @@ this is a generic repo for chats with the ai that could be of public interest to
 
 - [Quark–diquark and lepton–meson research notebook](discussions/2026-10-11-quark-antiquark-open-string/README.md): source conversations, curated notes, a working blackboard, reproducible calculations, and an independent manuscript reconstruction.
 - [AI, chiral gauge theories, and Craig's lattice measure](discussions/2026-10-14-ai-chiral-gauge/README.md): submission review, reproducible GCC checks, a bounded five-hour 4D campaign with Dirac controls, and the linked conversation.
+- [Nuclear and particle mass scales: tin sums, the charm threshold and fission modes](discussions/2026-11-12-nuclear-particle-mass-scales/README.md): the author's brief, two archived replies from other agents, a reproducible audit against AME2020 and PDG 2025-2026, errata, executed and proposed checks, and the requirements on a mechanism.
 
 The first research cycle closed on 13 October 2026, pending new models. Shared conversation: [this research chat](https://chatgpt.com/s/cx_6acd8e76200c8191a4529d36db233c91). See the [chronological recap](discussions/2026-10-11-quark-antiquark-open-string/notes/conversation_recap.md).
 
