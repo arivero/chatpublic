@@ -1,0 +1,9 @@
+# Output of fission_yields_check.py on the ENDF/B-VIII.0 nfy and sfy sublibraries (NNDC archives ENDF-B-VIII.0_nfy.zip sha256 92c5371fdb21eecf4989f48828671b904186abc6386b3d7510c8fcee2ee5ffcf, ENDF-B-VIII.0_sfy.zip sha256 7a13c998eb8aecf50399301eb70f33efb87b1f4bb22dc3fad81c35288f7972b4)
+232Th(n, 0.5 MeV) E=5e+05 eV sum Y = 2.000  centroids L/H =  91.12 / 139.74   single-mass maxima L/H = 90 (8.43%) / 140 (7.91%)   Y(134) = 5.20%  Y(98) = 3.64%
+233U(n, thermal) E=0.0253 eV sum Y = 2.000  centroids L/H =  93.37 / 138.19   single-mass maxima L/H = 93 (6.95%) / 137 (6.84%)   Y(134) = 6.30%  Y(98) = 5.18%
+235U(n, thermal) E=0.0253 eV sum Y = 2.000  centroids L/H =  94.92 / 138.68   single-mass maxima L/H = 94 (6.58%) / 134 (7.85%)   Y(134) = 7.85%  Y(98) = 5.75%
+238U(n, 0.5 MeV) E=5e+05 eV  sum Y = 2.000  centroids L/H =  97.38 / 138.76   single-mass maxima L/H = 100 (6.72%) / 134 (7.46%)   Y(134) = 7.46%  Y(98) = 5.87%
+239Pu(n, thermal) E=0.0253 eV sum Y = 2.000  centroids L/H =  99.00 / 138.12   single-mass maxima L/H = 103 (6.99%) / 134 (7.67%)   Y(134) = 7.67%  Y(98) = 5.80%
+242Cm(n, 0.5 MeV) [243Cm*] E=5e+05 eV sum Y = 2.000  centroids L/H = 100.70 / 138.73   single-mass maxima L/H = 102 (5.97%) / 136 (8.26%)   Y(134) = 6.30%  Y(98) = 5.20%
+244Cm(sf) E=0 eV             sum Y = 2.000  centroids L/H = 103.11 / 138.75   single-mass maxima L/H = 105 (9.30%) / 137 (8.07%)   Y(134) = 6.80%  Y(98) = 3.48%
+252Cf(sf) E=0 eV             sum Y = 2.000  centroids L/H = 106.12 / 141.95   single-mass maxima L/H = 107 (6.62%) / 143 (6.25%)   Y(134) = 3.88%  Y(98) = 2.27%
