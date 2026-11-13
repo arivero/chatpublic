@@ -4,7 +4,8 @@ usage: python -I scale_links.py > scale_links_output.txt
 
 Sections: common unit; shell-model magic numbers; trace-anomaly fraction; QCD share of the
 W mass; running of alpha_s; infrared fixed points; Casimir scaling; unification relations;
-Seiberg duality bookkeeping; Seiberg-Witten check; Higgs-mass frameworks; fermium half-lives.
+Seiberg duality bookkeeping; Seiberg-Witten check; Higgs-mass frameworks; fermium half-lives;
+bottom thresholds among the alpha-cluster nuclei; lifetimes against fission time scales.
 """
 import math
 import pathlib
@@ -248,9 +249,47 @@ def sec_fm():
         print(f"  T_SF({a}) / T_SF({b}) = {r:.2e} ; ln = {math.log(r):.1f} ; change of the WKB action = {math.log(r) / 2:.1f} hbar")
 
 
+def sec_bottom():
+    head("13. Bottom thresholds among the alpha-cluster nuclei")
+    nuclei = [("8Be", 4, 8), ("9Be", 4, 9), ("10Be", 4, 10), ("10B", 5, 10), ("11B", 5, 11), ("11C", 6, 11), ("12C", 6, 12)]
+    masses = {n: A.m_nuclear(z, a) * 1000 for n, z, a in nuclei}
+    for n, m in masses.items():
+        print(f"  {n:5s} {m:10.2f} MeV = {m / U:7.4f} u = {m / A.M_ALPHA:6.4f} M_alpha")
+    thresholds = [("Upsilon(1S)", 9460.40), ("Upsilon(2S)", 10023.4), ("Upsilon(3S)", 10355.1), ("2 m(B+-)", 10558.82),
+                  ("2 m(B0)", 10559.44), ("Upsilon(4S)", 10579.4), ("2 m(Bs)", 10733.86)]
+    for name, m in thresholds:
+        near = min(masses, key=lambda k: abs(masses[k] - m))
+        print(f"  {name:12s} {m:9.2f} MeV = {m / U:7.3f} u = {m / A.M_ALPHA:6.4f} M_alpha ; nearest {near} ({100 * (m / masses[near] - 1):+.2f} %) ; "
+              f"12C {100 * (m / masses['12C'] - 1):+.2f} % ; 11B {100 * (m / masses['11B'] - 1):+.2f} %")
+    ma, mn = A.M_ALPHA, A.M_N
+    print(f"  cluster thresholds: 8Be - 2 alpha = {masses['8Be'] - 2 * ma:+.3f} MeV ; 9Be - (2 alpha + n) = {masses['9Be'] - 2 * ma - mn:+.3f} MeV ; "
+          f"12C - 3 alpha = {masses['12C'] - 3 * ma:+.3f} MeV ; Hoyle state 7.654 MeV above 12C, {7.654 + masses['12C'] - 3 * ma:+.3f} MeV from 3 alpha")
+    print(f"  ratio of thresholds 2 m(B0) / 2 m(D0) = {10559.44 / (2 * D0):.4f} ; single B: m(B+-) = {5279.41 / U:.3f} u")
+
+
+def sec_times():
+    head("14. Lifetimes of the heavy sector against nuclear and fission time scales")
+    hbar = 6.582119569e-25      # GeV s
+    hbarc = 0.1973269804        # GeV fm
+    fm_c = 1e-15 / 2.99792458e8  # s
+    for name, gamma in (("Z", 2.4955), ("W", 2.14), ("top", 1.42), ("Higgs, PDG 2026 (3.0 MeV)", 3.0e-3), ("Higgs, Standard Model (4.1 MeV)", 4.1e-3)):
+        print(f"  {name:32s} Gamma = {gamma:9.4g} GeV   tau = hbar/Gamma = {hbar / gamma:.3g} s   c tau = {hbarc / gamma:8.3g} fm")
+    print(f"  1 fm/c = {fm_c:.3g} s")
+    vf = 268.0 / math.hypot(268.0, 939.0)
+    for a in (132, 232):
+        d = 2 * 1.2 * a ** (1 / 3)
+        print(f"  nucleon crossing, A = {a}: diameter {d:.1f} fm at v_F = {vf:.3f} c -> {d / vf:.1f} fm/c = {d / vf * fm_c:.3g} s ; "
+              f"shell spacing 41 A^(-1/3) = {41 * a ** (-1 / 3):.1f} MeV")
+    for name, t in (("neck rupture, 1e-22 s (Carjan and Rizea 2019)", 1e-22), ("descent from saddle to scission, lower value 1e-21 s", 1e-21), ("upper value 3e-20 s", 3e-20)):
+        print(f"  {name:55s} = {t / fm_c:8.0f} fm/c ; hbar/t = {hbar / t * 1000:.3g} MeV")
+    gbb = 3 * A.G_F * 125.2 * 2.8 ** 2 / (4 * math.sqrt(2) * math.pi)
+    print(f"  Gamma(H -> b b) at tree level with m_b(M_H) = 2.8 GeV: {gbb * 1000:.2f} MeV (about 2.4 MeV with QCD corrections, 58 % of 4.1 MeV)")
+    print(f"  Z width / R2 offset = {2.4955 / 0.4151:.1f} ; Gamma_Z / M_Z = {100 * 2.4955 / MZ:.2f} % ; Gamma_H / M_H = {3.0e-3 / 125.13:.1e}")
+
+
 def main():
     for s in (sec_unit, sec_magic, sec_anomaly, sec_qcd_ewsb, sec_running, sec_fixed_points, sec_casimir,
-              sec_unification, sec_seiberg, sec_sw, sec_higgs, sec_fm):
+              sec_unification, sec_seiberg, sec_sw, sec_higgs, sec_fm, sec_bottom, sec_times):
         s()
 
 

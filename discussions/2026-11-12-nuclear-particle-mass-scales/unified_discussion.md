@@ -2,7 +2,7 @@
 
 Conversation of 12 November 2026. This document gathers in one place the brief, the two replies supplied by other agents (called A and B), and the passes of analysis made in this folder, and it writes out the mathematics behind each point. Sections 7 to 9 are new: they collect the ways in which masses that originate in the Higgs field and masses that originate in QCD can be tied together, including the exact results of supersymmetric gauge theory (holomorphic scale matching, Seiberg duality, Seiberg-Witten theory).
 
-**Working hypothesis.** The relations of section 1 are treated as physical statements. The chance reading yields no prediction, and we leave it aside. Every section asks the same question: what must be true for the relations to hold, and how can that be tested?
+**Working hypothesis.** The relations of section 1 are treated as physical statements. The chance reading yields no prediction, and we leave it aside. Every section asks the same question: what must be true for the relations to hold, and how can that be tested? Precisions are stated throughout for the record. The weight is placed on structure: the integers, the landmarks, and the mechanism that could host them (section 6).
 
 Numbers come from `calculations/audit.py`, `calculations/scale_links.py` and `calculations/fission_yields_check.py`, with outputs stored next to the scripts. Inputs and provenance are in `data/README.md`. The claim-by-claim audit of the brief and of the two replies is in `notes/01_audit_and_errata.md` and `notes/04_error_check.md`.
 
@@ -51,7 +51,7 @@ Numbers come from `calculations/audit.py`, `calculations/scale_links.py` and `ca
 
 For R2, nuclear masses add 0.024% and the pole Z mass subtracts 0.016%. Each relation pins one parameter of the Standard Model: R1 the ratio $v/\Lambda_\mathrm{QCD}$, R2 the quartic coupling $\lambda$ once the gauge couplings are given, R3 the charm Yukawa coupling in units of $\Lambda_\mathrm{QCD}/v$ (section 4).
 
-Two members of the 2003 set stay outside: the top quark lies 10.9% below $^{208}\mathrm{Pb}$, and $2m_B = 10.56$ GeV has no light-nucleus partner within 3%.
+Two heavier flavours complete the picture. The top quark, at 185.3 mass units, lies 10.9% below $^{208}\mathrm{Pb}$ and has no landmark of the tin type; the 2004 version looked for it among the drip-line masses. The bottom quark falls in the region of the alpha-cluster nuclei. The $\Upsilon$ states and the open-bottom threshold span 10.2 to 11.5 mass units ($\Upsilon(1S)$ at 10.16, $\Upsilon(3S)$ at 11.12, $2m_B$ at 11.34), the stretch between $^{10}\mathrm{B}$ and $^{12}\mathrm{C}$, or 2.54 to 2.88 alpha masses. The landmarks there are intricate: $^{8}\mathrm{Be}$ is unbound into two alpha particles by 0.09 MeV, $^{9}\mathrm{Be}$ is two alpha particles held by a neutron with 1.57 MeV, and $^{12}\mathrm{C}$ is three alpha particles bound by 7.27 MeV, with the Hoyle state 0.38 MeV above the three-alpha threshold. The correspondence for the bottom is left open, and the cluster thresholds belong among the candidate landmarks (section 13).
 
 ### 1.3 One unit for the three relations
 
@@ -137,7 +137,7 @@ Every mass lies within $0.5\,u$ of an integer multiple of $u$. The offsets of th
 \frac{v}{2} - M(^{132}\mathrm{Sn}) = 0.246\,u, \qquad M_Z + M_H - M(^{100}\mathrm{Sn}) - M(^{132}\mathrm{Sn}) = 0.446\,u ,
 ```
 
-while the single offsets are $+2.49\,u$ (H against $^{132}\mathrm{Sn}$) and $-2.04\,u$ (Z against $^{100}\mathrm{Sn}$). The pair $(^{100}\mathrm{Sn}, ^{132}\mathrm{Sn})$ was named in 2003, before the Higgs mass was known, so the offset of R2 measures the distance to a preset target. The content of R1 beyond rounding is the identity of the integer: $264 = 2(50+82)$ among its neighbours, which are $7.9\times10^{-5}$ apart in $\alpha_s(M_Z)$ (section 4.3).
+while the single offsets are $+2.49\,u$ (H against $^{132}\mathrm{Sn}$) and $-2.04\,u$ (Z against $^{100}\mathrm{Sn}$). The pair $(^{100}\mathrm{Sn}, ^{132}\mathrm{Sn})$ was named in 2003, before the Higgs mass was known, so the offset of R2 measures the distance to a preset target. The content of R1 beyond rounding is the identity of the integer: $264 = 2(50+82)$ among its neighbours, which are $7.9\times10^{-5}$ apart in $\alpha_s(M_Z)$ (section 4.3). The offsets are recorded here for completeness; the content of both relations is the identity of the integers and of the nuclei behind them.
 
 ### 2.3 The charm relation
 
@@ -347,6 +347,8 @@ Under the working hypothesis an explanation takes one of three forms.
 **(c) A common mass formula.** The masses on both sides are values of one function of conserved charges. Mass relations across superselection sectors then follow from the function itself, with no mixing between the sectors. The prototype is the central-charge formula of extended supersymmetry (section 9.3). This form is where the suggestion of the brief, "states carrying the nucleus's own baryon number", leads. Reply A phrased it as a competing branch $X_A$ with $M_X \propto v^{K_X}$: at the observed $v$ its splitting from the nucleus would be $0.33\,(K_X - K_A)$ GeV, and a state that draws its whole mass from the Higgs field ($K_X = 1$) would need a Yukawa coupling $\sqrt2\,M_A/v = 0.71$, which restates R1. The Standard Model has no such state, and form (c) replaces it by a statement about the mass formula.
 
 The unit formulation of section 1.3 reads differently in the two static forms. In form (a) it is two numerical conditions, $v/m_\ast = 264$ and $\tfrac12\sqrt{g^2+g'^2} + \sqrt{2\lambda} = \tfrac{29}{33}$. In form (c) the numbers 264, 232 and 2 are charges of one central charge with unit $m_\ast$, subject to the bound discussed in section 9.3. Form (c) also accommodates a feature that the brief stressed: the sum $M_Z + M_H$ is sharp while the single masses are displaced by $\pm 2.08$ GeV. Two aligned central charges whose individual values contain a second period that cancels in the sum would produce this pattern.
+
+**Where the weight goes.** Two historical cases bracket the role of precision. The Koide relation among the charged-lepton masses holds to about $10^{-5}$ and anticipated the tau mass, and after four decades it remains without a host. The Gell-Mann-Okubo relations hold at the percent level and belong to the Standard Model, because flavour $SU(3)$ explains them. Precision is therefore recorded in this document and carries little weight. The weight rests on three things: the identity of the integers and landmarks, a structure that hosts the relations, and a second, independent consequence of that structure. The Koide relation shares one feature with the relations of section 1 that points to form (c): both hold among measured masses, where a relation written in a Lagrangian would hold among running parameters at a common scale.
 
 ## 7. Links that already exist inside the Standard Model
 
@@ -613,7 +615,7 @@ The price is supersymmetry, softly broken, and for 9.3 extended supersymmetry.
 | $\lambda = 1/8$ | $M_H = v/2$ | 123.11 GeV |
 | Completions of R2 (section 2.1) | | 125.13 to 125.24 GeV |
 
-Several frameworks land within a few GeV of the measured mass, each with an intrinsic precision of order 1 GeV. The completions of R2 are fifty times sharper. Under the working hypothesis R2 asks either for one of these frameworks refined to 0.1 GeV or for a relation of form (c). Every framework in the table computes $\lambda$ from the gauge and Yukawa couplings, so $\lambda$, $y_t$ and $\alpha_s$ arrive tied together and R1 with R2 becomes a joint constraint (section 7.5).
+Several frameworks land within a few GeV of the measured mass, each with an intrinsic precision of order 1 GeV. They compute $\lambda$ alone. R2 concerns the combination $M_Z + M_H$, and what it asks of a framework is a reason for that combination, which form (c) supplies through additivity. Every framework in the table computes $\lambda$ from the gauge and Yukawa couplings, so $\lambda$, $y_t$ and $\alpha_s$ arrive tied together and R1 with R2 becomes a joint constraint (section 7.5).
 
 ### 10.2 The charm mass
 
@@ -625,7 +627,7 @@ m_c^\mathrm{const} = 2\,m_\ast - \tfrac13\,m_\ast = \tfrac53\,m_\ast = 1554\ \ma
 
 five light constituent masses, inside the range that quark models use. The MS-bar mass is $1.273$ GeV and $y_c = 7.3\times10^{-3}$. Known theory ties $y_c$ to $\Lambda_\mathrm{QCD}$ only through the threshold exponent 2/27; the exact models add the special points of section 9.3; the routes of section 8 leave $y_c$ free. R3 is therefore the relation with the fewest candidate mechanisms and the cleanest test, the $D^0$ mass.
 
-### 10.3 The sharpest joint statement
+### 10.3 A joint statement in particle masses
 
 The unit form combines R2 and R3 into a relation between two particle masses,
 
@@ -660,6 +662,29 @@ Here $C_3 \to C_3 - \delta C(M_\mathrm{parent})$, with $\delta C$ concentrated i
 ### 11.4 Fermium and Standard II
 
 The value $v/u = 264.33$ points to $^{264}\mathrm{Fm}$, two $^{132}\mathrm{Sn}$. The measured collapse of the fission half-life occurs at $^{258}\mathrm{Fm}$, six units earlier, and calculations for $^{264}\mathrm{Fm}$ predict symmetric fission through two compact prefragments. Half-lives and yields of $^{260}\mathrm{Fm}$ and beyond are the test. The Standard II component, 138 to 143 u or 128.5 to 133 GeV, was compared in reply B with the ATLAS excess for a charged scalar at 130 GeV (local significance about 3, global 2.5). A charged scalar has no diagonal coherent coupling to a nucleus, and the experimental follow-up is pending.
+
+### 11.5 An aside: lifetimes of the heavy sector and the time of scission
+
+The heavy states of the electroweak sector have large widths, and $\tau = \hbar/\Gamma$ sets them against the clock of a fissioning nucleus.
+
+| Process | Time (s) | In fm/c |
+| --- | --- | --- |
+| Z decay ($\Gamma = 2.50$ GeV) | $2.6\times10^{-25}$ | 0.08 |
+| W decay ($\Gamma = 2.14$ GeV) | $3.1\times10^{-25}$ | 0.09 |
+| top decay ($\Gamma \simeq 1.4$ GeV) | $4.6\times10^{-25}$ | 0.14 |
+| breaking of a colour string | $3\times10^{-24}$ | 1 |
+| Higgs decay ($\Gamma = 3.0$ to 4.1 MeV) | 1.6 to $2.2\times10^{-22}$ | 48 to 66 |
+| nucleon crossing a heavy nucleus at the Fermi velocity | 1.5 to $1.8\times10^{-22}$ | 45 to 54 |
+| rupture of the neck | of order $10^{-22}$ | 30 |
+| descent from saddle to scission | $10^{-21}$ to a few $10^{-20}$ | 300 to $10^{4}$ |
+
+The nucleon crossing uses diameters of 12.2 fm ($A = 132$) and 14.7 fm ($A = 232$) with $v_F = 0.27\,c$. The two fission rows are typical literature values and depend on the model: dynamical scission models take $10^{-22}$ s for the rupture (Carjan and Rizea 2019), and time-dependent density functional calculations find the descent much slower than earlier estimates (Bulgac et al. 2016).
+
+Three remarks follow.
+
+* The W, the Z and the top decay before a nucleon moves a tenth of a fermi, and the top before a colour string forms. They enter nuclear physics through the constants only, as section 5 requires.
+* The Higgs boson is the exception, in time and in energy. Its lifetime matches the nucleon crossing time and the rupture of the neck, and its width is a nuclear energy, of the size of the shell spacing $41\,A^{-1/3}$ MeV (8 MeV at $A = 132$) or of the binding per nucleon. The width is dominated by the bottom Yukawa coupling, $\Gamma(H \to b\bar b) = \frac{3\,G_F}{4\sqrt2\,\pi}\,M_H\,m_b^2$ at tree level, about 2.4 MeV with QCD corrections, so the quark placed among the alpha-cluster nuclei in section 1.2 controls this time.
+* The Z width, 2.5 GeV, is six times the 0.42 GeV offset of R2. The relation concerns the pole of the propagator, a parameter of the theory, and the mass of a single Z fluctuates far more than the offset.
 
 ## 12. Catalogue of explanations
 
@@ -698,20 +723,27 @@ Status is given under the working hypothesis. Sources: the 2003 text, the brief,
 
 ## 13. Programme
 
+The weight of the question rests on the first group. The measurements of the second group prune exact completions and test the fission hypotheses.
+
+Structure and calculation.
+
+1. **A host for the relations.** A gauge theory whose central charge counts baryon number, with a softly broken vacuum at a commensurate point (9.3); the dual pair with three colours and five flavours combined with chiral weak isospin (9.2); a reason for the combination $M_Z + M_H$ (10.1).
+2. **A second consequence.** Whatever structure hosts the three relations has to say something independent of them: about the bottom and top quarks, about other thresholds, or about the fission modes.
+3. **The bottom region.** The $\Upsilon$ states and the open-bottom threshold against the alpha-cluster nuclei from $^{9}\mathrm{Be}$ to $^{12}\mathrm{C}$ (section 1.2), with the cluster thresholds counted among the landmarks.
+4. **Lattice.** The ratio of condensation scales $\Lambda_R/\Lambda_3$ for higher colour representations; the scalar spectrum near the conformal window; the exponents $K_A$ for light nuclei and $K_D$ for the $D$ meson, which locate the crossing points of section 4.4.
+
 Measurements and data.
 
-1. **Higgs mass to 0.02 or 0.03 GeV.** It separates the completions of section 2.1: 125.13 (unit form and reply B), 125.19 and 125.22 (the ratio 29/33 with the two Z-mass conventions), 125.24 (reply A).
-2. **$D^0$ mass to 0.01 or 0.02 MeV.** It tests the completion $2m_{D^0} + M_d = M_\alpha + m_p + m_n$ (1864.802 MeV) and sharpens the unit-form prediction of $M_H$.
-3. **Mass- and charge-resolved Standard I yields along isotopic chains.** A fixed mass of 134.4 u against a fixed charge of 52.7.
-4. **The midpoint of the symmetric-to-asymmetric transition** as a function of excitation energy and proton number.
-5. **Fission of $^{260}\mathrm{Fm}$ and heavier isotopes.**
-6. **Running of $\alpha_s$ in the multi-TeV range and coloured states between 0.35 and 3 TeV.**
+5. **Higgs mass to 0.02 or 0.03 GeV.** It separates the completions of section 2.1: 125.13 (unit form and reply B), 125.19 and 125.22 (the ratio 29/33 with the two Z-mass conventions), 125.24 (reply A).
+6. **$D^0$ mass to 0.01 or 0.02 MeV.** It tests the completion $2m_{D^0} + M_d = M_\alpha + m_p + m_n$ (1864.802 MeV).
+7. **Mass- and charge-resolved Standard I yields along isotopic chains.** A fixed mass of 134.4 u against a fixed charge of 52.7.
+8. **The midpoint of the symmetric-to-asymmetric transition** as a function of excitation energy and proton number.
+9. **Fission of $^{260}\mathrm{Fm}$ and heavier isotopes.**
+10. **Running of $\alpha_s$ in the multi-TeV range and coloured states between 0.35 and 3 TeV.**
 
-Calculations.
+Bookkeeping.
 
-7. **Lattice.** The ratio of condensation scales $\Lambda_R/\Lambda_3$ for higher colour representations; the scalar spectrum near the conformal window; the exponents $K_A$ for light nuclei and $K_D$ for the $D$ meson, which locate the crossing points of section 4.4.
-8. **Model building.** A gauge theory whose central charge counts baryon number, with a softly broken vacuum at a commensurate point (9.3); the dual pair with three colours and five flavours combined with chiral weak isospin (9.2); a framework for $\lambda$ refined to 0.1 GeV (10.1).
-9. **Bookkeeping.** Each number quoted with its mass convention, Z-mass convention and Higgs-mass input; the audit rerun on every new release of $M_H$, $m_{D^0}$ and $\alpha_s$.
+11. Each number quoted with its mass convention, Z-mass convention and Higgs-mass input; the audit rerun on every new release of $M_H$, $m_{D^0}$ and $\alpha_s$.
 
 ## 14. References
 
@@ -719,7 +751,7 @@ Data: AME2020 (Wang et al., Chin. Phys. C 45, 030003, 2021); NUBASE2020 (Kondev 
 
 Preprints where the first relations appeared: arXiv:nucl-th/0312003; arXiv:hep-ph/0405076.
 
-Fission: Böckstiegel et al., Nucl. Phys. A 802 (2008) 12, arXiv:0712.3808; Dubray, Goutte and Delaroche, Phys. Rev. C 77, 014310 (2008), arXiv:0712.0252; McDonnell, Nazarewicz and Sheikh, Phys. Rev. C 87, 054327 (2013), arXiv:1302.1165; Zhang, Schuetrumpf and Nazarewicz, Phys. Rev. C 94, 064323 (2016), arXiv:1607.00422; Scamps and Simenel, Nature 564 (2018) 382; Bernard et al., Eur. Phys. J. A 60, 192 (2024), arXiv:2409.02818; McGlynn and Simenel, Phys. Rev. C 111, 034619 (2025), arXiv:2410.02187; Chen et al., Phys. Rev. C 114, 024329 (2026), arXiv:2605.30828.
+Fission: Böckstiegel et al., Nucl. Phys. A 802 (2008) 12, arXiv:0712.3808; Dubray, Goutte and Delaroche, Phys. Rev. C 77, 014310 (2008), arXiv:0712.0252; McDonnell, Nazarewicz and Sheikh, Phys. Rev. C 87, 054327 (2013), arXiv:1302.1165; Zhang, Schuetrumpf and Nazarewicz, Phys. Rev. C 94, 064323 (2016), arXiv:1607.00422; Scamps and Simenel, Nature 564 (2018) 382; Bernard et al., Eur. Phys. J. A 60, 192 (2024), arXiv:2409.02818; McGlynn and Simenel, Phys. Rev. C 111, 034619 (2025), arXiv:2410.02187; Chen et al., Phys. Rev. C 114, 024329 (2026), arXiv:2605.30828; Bulgac, Magierski, Roche and Stetcu, Phys. Rev. Lett. 116, 122504 (2016), arXiv:1511.00738; Carjan and Rizea, Phys. Rev. C 99, 034613 (2019), arXiv:1811.05717.
 
 Standard Model links: Shifman, Vainshtein and Zakharov, Phys. Lett. B 78 (1978) 443; Pendleton and Ross, Phys. Lett. B 98 (1981) 291; Hill, Phys. Rev. D 24 (1981) 691; Buttazzo et al., JHEP 12 (2013) 089, arXiv:1307.3536.
 
