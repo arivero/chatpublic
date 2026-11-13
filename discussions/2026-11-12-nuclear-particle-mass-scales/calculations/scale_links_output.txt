@@ -1,0 +1,154 @@
+
+================================================================================================
+1. One unit for the three relations: v = 264 m*, M_Z + M_H = 232 m*, m(D0) = 2 m*
+================================================================================================
+  v / 264                              932.650 MeV   vs u:  +0.124 %   vs m(D0)/2:  +0.025 %
+  m(D0) / 2                            932.420 MeV   vs u:  +0.099 %   vs m(D0)/2:  +0.000 %
+  (M_Z + M_H)/232, PDG 2025            932.707 MeV   vs u:  +0.130 %   vs m(D0)/2:  +0.031 %
+  (M_Z + M_H)/232, PDG 2026            932.405 MeV   vs u:  +0.098 %   vs m(D0)/2:  -0.002 %
+  (M_Z + M_H)/232, LHCP 2026           932.233 MeV   vs u:  +0.079 %   vs m(D0)/2:  -0.020 %
+  (M_Z + M_H)/232, CMS Nov 2026        932.125 MeV   vs u:  +0.068 %   vs m(D0)/2:  -0.032 %
+  u                                    931.494 MeV   vs u:  +0.000 %   vs m(D0)/2:  -0.099 %
+  M(132Sn)/132 atomic                  930.914 MeV   vs u:  -0.062 %   vs m(D0)/2:  -0.161 %
+  M(132Sn)/132 nuclear                 930.722 MeV   vs u:  -0.083 %   vs m(D0)/2:  -0.182 %
+  [M(100Sn)+M(132Sn)]/232 atomic       930.918 MeV   vs u:  -0.062 %   vs m(D0)/2:  -0.161 %
+  M(alpha)/4                           931.845 MeV   vs u:  +0.038 %   vs m(D0)/2:  -0.062 %
+  M(232Th)/232 atomic                  931.647 MeV   vs u:  +0.016 %   vs m(D0)/2:  -0.083 %
+  free nucleon mean                    938.919 MeV   vs u:  +0.797 %   vs m(D0)/2:  +0.697 %
+  v / m(D0) = 132.0326  (132: +2.5e-4)
+  (M_Z + M_H)/m(D0), PDG 2025      =  116.036 +- 0.059  (116: +3.1e-4)   (M_Z+M_H)/v / (29/33) - 1 = +0.61e-4
+  (M_Z + M_H)/m(D0), PDG 2026      =  115.998 +- 0.059  (116: -0.2e-4)   (M_Z+M_H)/v / (29/33) - 1 = -2.63e-4
+  (M_Z + M_H)/m(D0), LHCP 2026     =  115.977 +- 0.038  (116: -2.0e-4)   (M_Z+M_H)/v / (29/33) - 1 = -4.48e-4
+  (M_Z + M_H)/m(D0), CMS Nov 2026  =  115.963 +- 0.047  (116: -3.2e-4)   (M_Z+M_H)/v / (29/33) - 1 = -5.63e-4
+  free nucleon minus unit: v/264 -> 6.27 MeV ; m(D0)/2 -> 6.50 MeV ; (B_alpha - B_d)/4 = 6.52 MeV
+  precision asked of lambda: delta M_H = 0.1 GeV <-> delta lambda / lambda = 0.16 %
+
+================================================================================================
+2. Magic numbers: oscillator closures plus the intruder level
+================================================================================================
+  n = 0: oscillator closure    2 ; intruder j = n + 3/2 holds  4 ; sum    6 = (n+2)(n^2+4n+9)/3 = 6
+  n = 1: oscillator closure    8 ; intruder j = n + 3/2 holds  6 ; sum   14 = (n+2)(n^2+4n+9)/3 = 14
+  n = 2: oscillator closure   20 ; intruder j = n + 3/2 holds  8 ; sum   28 = (n+2)(n^2+4n+9)/3 = 28
+  n = 3: oscillator closure   40 ; intruder j = n + 3/2 holds 10 ; sum   50 = (n+2)(n^2+4n+9)/3 = 50
+  n = 4: oscillator closure   70 ; intruder j = n + 3/2 holds 12 ; sum   82 = (n+2)(n^2+4n+9)/3 = 82
+  n = 5: oscillator closure  112 ; intruder j = n + 3/2 holds 14 ; sum  126 = (n+2)(n^2+4n+9)/3 = 126
+  n = 6: oscillator closure  168 ; intruder j = n + 3/2 holds 16 ; sum  184 = (n+2)(n^2+4n+9)/3 = 184
+  50 + 82 = 132 ; 50 + 50 = 100 ; 82 + 126 = 208 ; 2 (50 + 82) = 264 ; 100 + 132 = 232
+
+================================================================================================
+3. Higgs-originated fraction of a nuclear mass (trace anomaly and heavy-quark decoupling)
+================================================================================================
+  one loop: Lambda_3 = Lambda_6^(7/9) (m_c m_b m_t)^(2/27) ; exponent per heavy quark 2/27 = 0.0741, total 2/9 = 0.2222
+  sum of light sigma fractions 0.08: f_N = 0.284 ; Higgs-originated part of M(132Sn) = 35.0 GeV
+  sum of light sigma fractions 0.10: f_N = 0.300 ; Higgs-originated part of M(132Sn) = 36.9 GeV
+  sum of light sigma fractions 0.12: f_N = 0.316 ; Higgs-originated part of M(132Sn) = 38.8 GeV
+  exact supersymmetric analogue: Lambda_L^(3 N_c) = Lambda^(3 N_c - N_f) det m ; N_c = 3, N_f = 5: exponent per flavour 1/9 = 0.1111 ; pure-glue scale without supersymmetry: 2/33 = 0.0606
+
+================================================================================================
+4. QCD share of electroweak symmetry breaking
+================================================================================================
+  f_pi / v = 3.749e-04 ; delta M_W / M_W = f_pi^2 / (2 v^2) = 7.03e-08 ; M_W from QCD alone = g f_pi / 2 = 30.1 MeV, M_Z = 34.2 MeV ; v / f_pi = 2668
+
+================================================================================================
+5. alpha_s (four-loop running from alpha_s(M_Z) = 0.1180, continuous at m_c, m_b, m_t)
+================================================================================================
+  mu =        1.5 GeV : alpha_s = 0.3496
+  mu =          2 GeV : alpha_s = 0.3011
+  mu =          5 GeV : alpha_s = 0.2131
+  mu =         10 GeV : alpha_s = 0.1782
+  mu =         30 GeV : alpha_s = 0.1420
+  mu =         60 GeV : alpha_s = 0.1260
+  mu =         70 GeV : alpha_s = 0.1229
+  mu =      80.37 GeV : alpha_s = 0.1203
+  mu =      91.19 GeV : alpha_s = 0.1180
+  mu =      125.2 GeV : alpha_s = 0.1126
+  mu =      172.6 GeV : alpha_s = 0.1076
+  mu =      246.2 GeV : alpha_s = 0.1031
+  mu =        500 GeV : alpha_s = 0.0951
+  mu =       1000 GeV : alpha_s = 0.0885
+  mu =       3000 GeV : alpha_s = 0.0796
+  mu =      1e+04 GeV : alpha_s = 0.0718
+  mu =      1e+08 GeV : alpha_s = 0.0411
+  mu =      1e+16 GeV : alpha_s = 0.0222
+  Pendleton-Ross point y_t^2 = (2/9) g_3^2 at mu = m_t: y_t = 0.548, m_t = 95.5 GeV ; observed y_t(MSbar mass 162.5) = 0.933, ratio y_t^2/g_3^2 = 0.644
+
+================================================================================================
+6. Infrared fixed points alpha* of SU(3) with n_f massless triplets (MSbar) and the scale where the measured alpha_s equals alpha*
+================================================================================================
+  n_f = 12: 2-loop 0.7540 (outside 1.3 GeV..1e19)  3-loop 0.4349 (outside 1.3 GeV..1e19)  4-loop 0.4704 (outside 1.3 GeV..1e19)
+  n_f = 13: 2-loop 0.4679 (outside 1.3 GeV..1e19)  3-loop 0.3166 (1.8 GeV)  4-loop 0.3375 (1.6 GeV)
+  n_f = 14: 2-loop 0.2780 (2.38 GeV)  3-loop 0.2145 (4.89 GeV)  4-loop 0.2236 (4.24 GeV)
+  n_f = 15: 2-loop 0.1428 (29.1 GeV)  3-loop 0.1234 (68.4 GeV)  4-loop 0.1257 (60.9 GeV)
+  n_f = 16: 2-loop 0.0416 (7.54e+07 GeV)  3-loop 0.0397 (2.06e+08 GeV)  4-loop 0.0398 (1.95e+08 GeV)
+  two-loop fixed points with other colour content (n3 Dirac triplets, n6 Dirac sextets):
+    (6, 2): b0 = 0.333, b1 = -140.67, alpha* = 0.0298 (3.64e+11 GeV)
+    (10, 1): b0 = 1.000, b1 = -108.00, alpha* = 0.1164 (100 GeV)
+    (11, 1): b0 = 0.333, b1 = -120.67, alpha* = 0.0347 (5.22e+09 GeV)
+    (9, 1): b0 = 1.667, b1 = -95.33, alpha* = 0.2197 (4.5 GeV)
+
+================================================================================================
+7. Casimir scaling: scale where alpha_s reaches the ladder critical value alpha_c(R) = pi / (3 C_2(R))
+================================================================================================
+  rep (p,q)  dim   C_2     T(R)   C_2/C_2(3)  alpha_c   scale mu_R      b0 with one Dirac fermion / one complex scalar added to six flavours
+  (1,0)        3   1.333    0.50     1.00     0.7854     below 1.3 GeV       6.33 /   6.83
+  (2,0)        6   3.333    2.50     2.50     0.3142        1.83 GeV       3.67 /   6.17
+  (1,1)        8   3.000    3.00     2.25     0.3491         1.5 GeV       3.00 /   6.00
+  (3,0)       10   6.000    7.50     4.50     0.1745        10.9 GeV      -3.00 /   4.50
+  (2,1)       15   5.333   10.00     4.00     0.1963        6.76 GeV      -6.33 /   3.67
+  (3,1)       24   8.333   25.00     6.25     0.1257          61 GeV     -26.33 /  -1.33
+  (2,2)       27   8.000   27.00     6.00     0.1309        47.6 GeV     -29.00 /  -2.00
+  (4,0)       15   9.333   17.50     7.00     0.1122         128 GeV     -16.33 /   1.17
+  (4,1)       35  12.000   52.50     9.00     0.0873    1.15e+03 GeV     -63.00 / -10.50
+  (5,0)       21  13.333   35.00    10.00     0.0785     3.5e+03 GeV     -39.67 /  -4.67
+  (6,0)       28  18.000   63.00    13.50     0.0582    1.77e+05 GeV     -77.00 / -14.00
+  sensitivity for the (4,0) case: d ln mu_R / d ln alpha_c = -2 pi / (b0 alpha_s(mu_R)) = -7.3
+
+================================================================================================
+8. Relations through a common ultraviolet coupling
+================================================================================================
+  Standard Model : 1/alpha_1 = 59.02, 1/alpha_2 = 29.58 -> one-loop 1/alpha_3(M_Z) = 14.06, alpha_3 = 0.0711
+  MSSM           : 1/alpha_1 = 59.02, 1/alpha_2 = 29.58 -> one-loop 1/alpha_3(M_Z) = 8.56, alpha_3 = 0.1168
+  shift of ln Lambda_5 per unit of 1/alpha_3: 2 pi / b0 = 0.820 ; 0.19 % in v/m_N <-> delta(1/alpha_3) = 0.0027 of 8.47
+  r = ln(M/v) / ln(M/Lambda) with Lambda = 0.34 GeV, M = Planck mass: 0.8538
+  r = ln(M/v) / ln(M/Lambda) with Lambda = 0.34 GeV, M = reduced Planck mass: 0.8483
+  r = ln(M/v) / ln(M/Lambda) with Lambda = 0.21 GeV, M = Planck mass: 0.8447
+  r = ln(M/v) / ln(M/Lambda) with Lambda = 0.21 GeV, M = reduced Planck mass: 0.8390
+
+================================================================================================
+9. Seiberg duality bookkeeping for N_c = 3
+================================================================================================
+  N_f = 3: quantum-deformed moduli space  no dual gauge group
+  N_f = 4: s-confinement                  no dual gauge group
+  N_f = 5: conformal window               dual group SU(2), b = 4, b~ = 1, D(M) = 1.20
+  N_f = 6: conformal window               dual group SU(3), b = 3, b~ = 3, D(M) = 1.50
+  N_f = 7: conformal window               dual group SU(4), b = 2, b~ = 5, D(M) = 1.71
+  N_f = 8: conformal window               dual group SU(5), b = 1, b~ = 7, D(M) = 1.88
+  N_f = 9: infrared free electric         dual group SU(6), b = 0, b~ = 9, D(M) = 2.00
+  matching: Lambda^(3N_c-N_f) Lambda~^(3N~_c-N_f) = (-1)^(N_f-N_c) mu^N_f ; mass m of one electric flavour <-> <q q~> = -mu m
+
+================================================================================================
+10. Seiberg-Witten curve, SU(2) with one flavour: y^2 = x^3 - u x^2 + (m L^3/4) x - L^6/64
+================================================================================================
+  at m = 3L/4, u = 3L^2/4: f, f', f'' at x = u/3 = 0.0e+00, 0.0e+00, 0.0e+00 (triple root: Argyres-Douglas point)
+  pure SU(2): y^2 = (x^2 - u)^2 - L^4, singular at u = +L^2 and u = -L^2
+
+================================================================================================
+11. Frameworks that fix the Higgs mass, against the relations
+================================================================================================
+  lambda(M_Pl) = 0 (Buttazzo et al. 2013 formula) with m_t = 172.60, alpha_s = 0.1180: M_H = 128.4 GeV ; slope dM_H/d alpha_s = -714 GeV
+  the R1 offset in alpha_s (3.9e-5) moves that M_H by 28 MeV
+  lambda = 1/8: M_H = v/2 = 123.110 GeV ; observed lambda = 0.1293 (PDG 2025), 0.1290 (CMS Nov 2026)
+  completions of the relations: 125.132, 125.187, 125.221, 125.243 GeV (audit section 7)
+
+================================================================================================
+12. Fermium: spontaneous-fission partial half-lives T_SF = T_1/2 / b_SF (NUBASE2020)
+================================================================================================
+  252Fm: T_1/2 = 9.14e+04 s, b_SF = 2.3e-05, T_SF = 3.97e+09 s = 126 y
+  254Fm: T_1/2 = 1.166e+04 s, b_SF = 0.000592, T_SF = 1.97e+07 s = 0.624 y
+  256Fm: T_1/2 = 9426 s, b_SF = 0.919, T_SF = 1.03e+04 s = 0.000325 y
+  257Fm: T_1/2 = 8.683e+06 s, b_SF = 0.0021, T_SF = 4.13e+09 s = 131 y
+  258Fm: T_1/2 = 0.00037 s, b_SF = 1, T_SF = 0.00037 s = 1.17e-11 y
+  259Fm: T_1/2 = 1.5 s, b_SF = 1, T_SF = 1.5 s = 4.75e-08 y
+  T_SF(254Fm) / T_SF(256Fm) = 1.92e+03 ; ln = 7.6 ; change of the WKB action = 3.8 hbar
+  T_SF(256Fm) / T_SF(258Fm) = 2.77e+07 ; ln = 17.1 ; change of the WKB action = 8.6 hbar
+  T_SF(257Fm) / T_SF(258Fm) = 1.12e+13 ; ln = 30.0 ; change of the WKB action = 15.0 hbar

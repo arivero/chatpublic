@@ -1,6 +1,6 @@
 # Nuclear and particle mass scales: tin sums, the charm threshold and fission modes
 
-Started on 12 November 2026. The standing question comes from the author's brief: what could relate v / Lambda_QCD, the Higgs self-coupling lambda and the charm Yukawa coupling to nuclear landmarks, and which further check would dissolve the pattern. Two replies from other agents are archived next to the brief and audited here. A second pass on the same day re-checked every alleged error and wrote the review of the coincidences and of the suggested explanations.
+Started on 12 November 2026. The standing question comes from the author's brief: what could relate v / Lambda_QCD, the Higgs self-coupling lambda and the charm Yukawa coupling to nuclear landmarks, and which further check would dissolve the pattern. Two replies from other agents are archived next to the brief and audited here. A second pass on the same day re-checked every alleged error and wrote the review of the relations and of the suggested explanations. **`unified_discussion.md` is the single entry point**: it unifies the whole discussion, writes out the mathematics of each point, and works under the hypothesis that the relations are physical.
 
 The relations under discussion:
 
@@ -12,6 +12,7 @@ The relations under discussion:
 
 | Path | Content |
 | --- | --- |
+| `unified_discussion.md` | the unified account: relations, mathematics, constraints, links between Higgs-originated and QCD-originated masses (Standard Model, routes to a pure number, Seiberg duality and Seiberg-Witten theory), fission hypotheses, catalogue of 28 explanations, programme |
 | `sources/00_author_brief.md` | the author's brief: observations, dated claims, items already examined, the question |
 | `sources/01_feedback_A_*.md`, `sources/02_feedback_B_*.md` | the two supplied replies, verbatim |
 | `notes/01_audit_and_errata.md` | every number and citation of the brief and of both replies, with labels |
@@ -20,6 +21,7 @@ The relations under discussion:
 | `notes/04_error_check.md` | second pass: each alleged error re-checked against a primary source |
 | `notes/05_review.md` | review: inventory of the coincidences, the fusion side, the fission side, the 21 suggested explanations, tests in order |
 | `calculations/audit.py`, `audit_output.txt` | the reproducible audit (15 sections) |
+| `calculations/scale_links.py`, `scale_links_output.txt` | numbers of the unified document: common unit, running coupling, infrared fixed points, Casimir scaling, unification relations, duality bookkeeping, fermium half-lives |
 | `calculations/fission_yields_check.py`, `fission_yields_output.txt` | ENDF/B-VIII.0 post-neutron mass-yield centroids and maxima |
 | `calculations/make_ame_csv.py` | converts the AME2020 table to `data/ame2020_mass_table.csv` |
 | `data/README.md` | provenance of every input, PDG values by edition |
@@ -35,7 +37,8 @@ The relations under discussion:
 7. The 257Fm spontaneous-fission partial half-life is 131 y; 258Fm lives 0.37 ms, a factor 1.1e13 lower.
 8. Second-pass corrections: the CMS value quoted in feedback B, the reading of McDonnell et al. and the ATLAS 130 GeV excess are confirmed (three first-pass verdicts reversed); the charge statement is limited to the GSI data; the granularity remark applies to a pair chosen to fit, while the brief's pair was fixed in 2003.
 9. Confirmed corrections to the replies: the 252Cf entry (and probably the 242Cm entry) of the peak table in feedback B; the uncited claim of Algora et al. on the 232Th mass distribution.
-10. Of the 21 suggested explanations, the parameter relation, the baryon-number branch and the sharp-feature selection remain open without a candidate; the lobe-mass preference and the octupole softening near M_H + M_Z are testable with data in hand; coincidence remains the default reading.
+10. The unified document (13 November) sets the chance reading aside and catalogues 28 explanations. New entries: a second condensation channel of QCD (Casimir scaling), an infrared fixed point above the weak scale, Seiberg duality (confinement as a dual Higgs phase), and Seiberg-Witten vacuum selection with masses as central charges, the one structure that produces integers and exact sum rules across sectors. The three relations share a unit of 932.1 to 932.7 MeV; the unit form predicts M_H = 116 m(D0) - M_Z = 125.133 +- 0.006 GeV.
+11. Correction to the brief found on 13 November: the nuclear spin-orbit splitting has the sign of the Thomas term of the net potential and exceeds it 15 to 40 times; the opposite sign holds relative to the atomic formula.
 
 ## Reproduce
 

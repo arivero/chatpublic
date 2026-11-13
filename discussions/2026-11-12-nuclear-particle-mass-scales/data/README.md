@@ -33,6 +33,8 @@ Other Higgs-mass results used as context (not PDG averages):
 
 PDG 2025 meson masses used in audit section 14 (MeV, from `rpp2025-sum-mesons.pdf`): K+- 493.677, K0 497.611, eta 547.862, omega 782.66, eta' 957.78, phi 1019.460, D0 1864.84, D+- 1869.66, Ds+- 1968.35, D*0 2006.85, D*+- 2010.26, eta_c 2984.1, J/psi 3096.900, chi_c1(3872) 3871.64, B+- 5279.41, B0 5279.72, Bs 5366.93, Upsilon(1S) 9460.40, Upsilon(4S) 10579.4.
 
+`../calculations/scale_links.py` produces the remaining numbers of `../unified_discussion.md` (sections 1.3, 3.4, 7 to 10) from the same constants, with alpha_s(M_Z) = 0.1180, alpha_em^-1(M_Z) = 127.95, sin^2 theta_W = 0.23122, f_pi = 92.3 MeV and the four-loop MS-bar beta function.
+
 ## Fission yields
 
 `../calculations/fission_yields_check.py` reads the ENDF/B-VIII.0 neutron-induced (nfy) and spontaneous (sfy) fission-yield sublibraries, archives `ENDF-B-VIII.0_nfy.zip` (sha256 `92c5371fdb21eecf4989f48828671b904186abc6386b3d7510c8fcee2ee5ffcf`) and `ENDF-B-VIII.0_sfy.zip` (sha256 `7a13c998eb8aecf50399301eb70f33efb87b1f4bb22dc3fad81c35288f7972b4`) from https://www.nndc.bnl.gov/endf-b8.0/zips/ . The archives are left out of the repository; the output is `../calculations/fission_yields_output.txt`. The heavy-fragment charge positions of Boeckstiegel et al. (Nucl. Phys. A 802 (2008) 12, arXiv:0712.3808, Table 1) are typed into `../calculations/audit.py`.

@@ -1,6 +1,6 @@
 # Review: the coincidences and the suggested explanations
 
-State of 12 November 2026 (second pass). Higgs-mass inputs: PDG 2025 (125.20 +- 0.11), PDG 2026 (125.13 +- 0.11), ATLAS+CMS preliminary combination of LHCP 2026 (125.09 +- 0.07), CMS of 2 November 2026 (125.065 +- 0.088). Masses are AME2020 atomic values unless marked. Section numbers refer to `../calculations/audit_output.txt`. Attribution: brief (the author), A and B (the two supplied replies), first pass and this pass (this folder).
+State of 12 November 2026 (second pass). Superseded by `../unified_discussion.md`, which sets the chance reading aside at the author's request and extends the catalogue of explanations. Higgs-mass inputs: PDG 2025 (125.20 +- 0.11), PDG 2026 (125.13 +- 0.11), ATLAS+CMS preliminary combination of LHCP 2026 (125.09 +- 0.07), CMS of 2 November 2026 (125.065 +- 0.088). Masses are AME2020 atomic values unless marked. Section numbers refer to `../calculations/audit_output.txt`. Attribution: brief (the author), A and B (the two supplied replies), first pass and this pass (this folder).
 
 ## 1. Inventory
 
