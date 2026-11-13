@@ -20,6 +20,7 @@ The relations under discussion:
 | `notes/03_mechanisms.md` | requirements set by the audit and four mechanism classes |
 | `notes/04_error_check.md` | second pass: each alleged error re-checked against a primary source |
 | `notes/05_review.md` | review: inventory of the coincidences, the fusion side, the fission side, the 21 suggested explanations, tests in order |
+| `alpha.md` | side note, kept apart for its numerological character: the Nambu and Barut rules, the number 27/2, the electroweak value 1/alpha = 132, half-integers of m_e/alpha^2; numbers from `calculations/alpha_note.py` |
 | `calculations/audit.py`, `audit_output.txt` | the reproducible audit (15 sections) |
 | `calculations/scale_links.py`, `scale_links_output.txt` | numbers of the unified document: common unit, running coupling, infrared fixed points, Casimir scaling, unification relations, duality bookkeeping, fermium half-lives |
 | `calculations/fission_yields_check.py`, `fission_yields_output.txt` | ENDF/B-VIII.0 post-neutron mass-yield centroids and maxima |

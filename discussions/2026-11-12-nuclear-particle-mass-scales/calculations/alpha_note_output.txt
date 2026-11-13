@@ -1,0 +1,85 @@
+
+================================================================================================
+1. The ladder
+================================================================================================
+  m_e/alpha = 70.0253 MeV ; m_e/alpha^2 = 9.5960 GeV ; m_e/alpha^3 = 1.315 TeV
+
+================================================================================================
+2. Units of m_e/alpha (Nambu 1952: half-integer multiples)
+================================================================================================
+  muon                    105.658 MeV    1.5089   nearest half-integer   1.5 (+0.59 %)
+  pi+-                    139.570 MeV    1.9931   nearest half-integer   2.0 (-0.34 %)
+  pi0                     134.977 MeV    1.9275   nearest half-integer   2.0 (-3.62 %)
+  K+-                     493.677 MeV    7.0500   nearest half-integer   7.0 (+0.71 %)
+  proton                  938.272 MeV   13.3991   nearest half-integer  13.5 (-0.75 %)
+  nucleon mean            938.919 MeV   13.4083   nearest half-integer  13.5 (-0.68 %)
+  unit m* = m(D0)/2       932.420 MeV   13.3155   nearest half-integer  13.5 (-1.37 %)
+  unit m* = v/264         932.650 MeV   13.3188   nearest half-integer  13.5 (-1.34 %)
+  u                       931.494 MeV   13.3023   nearest half-integer  13.5 (-1.46 %)
+  Lambda                 1115.683 MeV   15.9326   nearest half-integer  16.0 (-0.42 %)
+  tau                    1776.930 MeV   25.3756   nearest half-integer  25.5 (-0.49 %)
+  D0                     1864.840 MeV   26.6310   nearest half-integer  26.5 (+0.49 %)
+  alpha particle         3727.379 MeV   53.2291   nearest half-integer  53.0 (+0.43 %)
+
+================================================================================================
+3. Barut 1979: m_N = m_e (1 + (3 / 2 alpha) sum_{n<=N} n^4)
+================================================================================================
+  N = 0: sum =     0   m =     0.0005 GeV
+  N = 1: sum =     1   m =     0.1055 GeV
+  N = 2: sum =    17   m =     1.7862 GeV
+  N = 3: sum =    98   m =    10.2942 GeV
+  N = 4: sum =   354   m =    37.1839 GeV
+  N = 5: sum =   979   m =   102.8326 GeV
+  N = 6: sum =  2275   m =   238.9617 GeV
+  measured: muon 0.10566 GeV, tau 1.77693 GeV
+
+================================================================================================
+4. 27/2 and 2/27
+================================================================================================
+  b0(n_f = 3) / (2/3) = 13.5 = 33/2 - 3 ; exponent of a heavy-quark mass in Lambda_3: 2/27 = 0.07407
+  (2/27) m_N = 69.55 MeV ; m_e/alpha = 70.03 MeV ; ratio 0.9932
+  with light sigma fractions 0.08: sigma_Q = (2/27)(1 - 0.08) m_N = 64.0 MeV
+  with light sigma fractions 0.10: sigma_Q = (2/27)(1 - 0.10) m_N = 62.6 MeV
+  with light sigma fractions 0.12: sigma_Q = (2/27)(1 - 0.12) m_N = 61.2 MeV
+  27 / (2 alpha) = 1850.0 against m_p/m_e = 1836.15
+
+================================================================================================
+5. alpha as an electroweak quantity (tree level, G_F scheme)
+================================================================================================
+  PDG 2025 masses      M_W = 80.3692: 1/alpha =  132.100 +- 0.108 ; alpha v =  1863.89 +- 1.53 MeV ; alpha v/2 =  931.94 MeV ; 1 - (1/alpha)/(1/alpha(0)) = 0.0360
+  PDG 2026 masses      M_W = 80.3625: 1/alpha =  132.047 +- 0.063 ; alpha v =  1864.64 +- 0.89 MeV ; alpha v/2 =  932.32 MeV ; 1 - (1/alpha)/(1/alpha(0)) = 0.0364
+  pole masses (2026)   M_W = 80.3340: 1/alpha =  132.157 +- 0.063 ; alpha v =  1863.08 +- 0.89 MeV ; alpha v/2 =  931.54 MeV ; 1 - (1/alpha)/(1/alpha(0)) = 0.0356
+  compare: v/m(D0) = 132.033 ; v/(M_alpha/2) = 132.114 ; 50 + 82 = 132 ; 1/alpha(0) = 137.036
+  compare: m(D0) = 1864.84 MeV ; M_alpha/2 = 1863.69 MeV ; m(D0)/2 = 932.42 ; M_alpha/4 = 931.84 ; u = 931.494 MeV
+  1/alpha = 132.000 (the integer) corresponds to M_W = 80.3568 GeV
+  1/alpha = 132.033 (v/m(D0)) corresponds to M_W = 80.3608 GeV
+  1/alpha = 132.114 (v/(M_alpha/2)) corresponds to M_W = 80.3708 GeV
+  slope: d(1/alpha)/dM_W = 8.14 per GeV
+  Nambu unit with this alpha: m_e x 132.05 = 67.48 MeV ; nucleon = 13.91 units
+
+================================================================================================
+6. Units of m_e/alpha^2 = 9.596 GeV
+================================================================================================
+  Upsilon(1S)             9.4604 GeV    0.9859   nearest half-integer   1.0 (-1.41 %)
+  Barut N = 3            10.2942 GeV    1.0728   nearest half-integer   1.0 (+7.28 %)
+  2 m(B0)                10.5594 GeV    1.1004   nearest half-integer   1.0 (+10.04 %)
+  W                      80.3692 GeV    8.3753   nearest half-integer   8.5 (-1.47 %)
+  Z                      91.1880 GeV    9.5027   nearest half-integer   9.5 (+0.03 %)
+  Z pole                 91.1539 GeV    9.4992   nearest half-integer   9.5 (-0.01 %)
+  H 125.20              125.2000 GeV   13.0471   nearest half-integer  13.0 (+0.36 %)
+  H 125.13              125.1300 GeV   13.0398   nearest half-integer  13.0 (+0.31 %)
+  top                   172.5600 GeV   17.9825   nearest half-integer  18.0 (-0.10 %)
+  v                     246.2196 GeV   25.6586   nearest half-integer  25.5 (+0.62 %)
+  Z + H (2025)          216.3880 GeV   22.5499   nearest half-integer  22.5 (+0.22 %)
+  Z + H (2026)          216.3179 GeV   22.5426   nearest half-integer  22.5 (+0.19 %)
+  M(100Sn)+M(132Sn)     215.9729 GeV   22.5066   nearest half-integer  22.5 (+0.03 %)
+  45/2 units = 215.910 GeV
+
+================================================================================================
+7. One power of alpha(0)
+================================================================================================
+  m_tau/alpha  =  243.503 GeV
+  m(D0)/alpha  =  255.550 GeV
+  m_p/alpha    =  128.577 GeV
+  m*/alpha     =  127.786 GeV
+  v alpha(0) = 1796.8 MeV ; v/m_tau = 138.56 ; v/m(D0) = 132.03
