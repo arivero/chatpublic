@@ -135,7 +135,7 @@
 ================================================================================================
 11. Frameworks that fix the Higgs mass, against the relations
 ================================================================================================
-  lambda(M_Pl) = 0 (Buttazzo et al. 2013 formula) with m_t = 172.60, alpha_s = 0.1180: M_H = 128.4 GeV ; slope dM_H/d alpha_s = -714 GeV
+  boundary of absolute stability (Buttazzo et al. 2013, eq. 64) with m_t = 172.60, alpha_s = 0.1180: M_H = 128.4 GeV ; slope dM_H/d alpha_s = -714 GeV
   the R1 offset in alpha_s (3.9e-5) moves that M_H by 28 MeV
   lambda = 1/8: M_H = v/2 = 123.110 GeV ; observed lambda = 0.1293 (PDG 2025), 0.1290 (CMS Nov 2026)
   completions of the relations: 125.132, 125.187, 125.221, 125.243 GeV (audit section 7)

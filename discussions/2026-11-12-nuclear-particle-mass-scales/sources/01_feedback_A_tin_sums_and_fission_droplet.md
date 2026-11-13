@@ -1,6 +1,6 @@
 # Feedback A: tin pair sums, charm remainder, fission droplet
 
-Source: transcript of a reply by another agent to the brief, with the author's follow-up messages, pasted into the session of 12 November 2026.
+Source: transcript of a reply by another agent to the brief, with the follow-up messages of the exchange, pasted into the session of 12 November 2026.
 
 The text between the tilde fences is the pasted block, unchanged, including the line breaks and the one-symbol-per-line artifacts that copying from a rendered page introduces. Nothing in it has been checked at this point; the checks are in ../notes/.
 

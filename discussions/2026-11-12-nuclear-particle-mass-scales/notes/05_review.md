@@ -1,6 +1,6 @@
 # Review: the coincidences and the suggested explanations
 
-State of 12 November 2026 (second pass). Superseded by `../unified_discussion.md`, which sets the chance reading aside at the author's request and extends the catalogue of explanations. Higgs-mass inputs: PDG 2025 (125.20 +- 0.11), PDG 2026 (125.13 +- 0.11), ATLAS+CMS preliminary combination of LHCP 2026 (125.09 +- 0.07), CMS of 2 November 2026 (125.065 +- 0.088). Masses are AME2020 atomic values unless marked. Section numbers refer to `../calculations/audit_output.txt`. Attribution: brief (the author), A and B (the two supplied replies), first pass and this pass (this folder).
+State of 12 November 2026 (second pass). Superseded by `../unified_discussion.md`, which sets the chance reading aside and extends the catalogue of explanations. Higgs-mass inputs: PDG 2025 (125.20 +- 0.11), PDG 2026 (125.13 +- 0.11), ATLAS+CMS preliminary combination of LHCP 2026 (125.09 +- 0.07), CMS of 2 November 2026 (125.065 +- 0.088). Masses are AME2020 atomic values unless marked. Section numbers refer to `../calculations/audit_output.txt`. Attribution: brief, A and B (the two supplied replies), first pass and this pass (this folder).
 
 ## 1. Inventory
 
@@ -39,7 +39,7 @@ State of 12 November 2026 (second pass). Superseded by `../unified_discussion.md
 | light peaks of Th to U between W (86.3) and Z (97.9) | 91.1, 93.4, 94.9, 97.4; Pu 99.0 and Cf 106.1 lie above | same mechanism of the moving light peak | B |
 | v / u = 264.3 and 264Fm; onset of fast spontaneous fission at 258Fm | SF partial half-life 131 y (257Fm) to 0.37 ms (258Fm) | the onset lies 6 u before 264; symmetric fragments of 258Fm are 129Sn | brief |
 | 226Th Standard I mass 134.6 against 134.4 | one of five systems within 1 u among 15 | | A |
-| Standard II (139 to 143 u, 130 to 133 GeV) against the ATLAS H+- excess at 130 GeV | ATLAS JHEP 09 (2023) 004: local 3 sigma, global 2.5 sigma | Standard I and II can belong to one valley (McGlynn and Simenel 2025) | user and B |
+| Standard II (139 to 143 u, 130 to 133 GeV) against the ATLAS H+- excess at 130 GeV | ATLAS JHEP 09 (2023) 004: local 3 sigma, global 2.5 sigma | Standard I and II can belong to one valley (McGlynn and Simenel 2025) | exchange with B |
 
 ### V. Failing or unmatched
 
@@ -70,7 +70,7 @@ The first pass covered R3, the D0 against the deuteron, the charged threshold, t
 ## 4. The fission side
 
 * **Mass against charge.** The GSI data fix the charge of the Standard I fragment (Z_H = 52.7 +- 0.6) over 15 neutron-deficient parents; their masses carry the charge-density model. The ENDF yields of U and Pu, which measure the mass after neutron emission, place the single-mass maximum at A = 134 and the hump centroid at 138 to 140. A fixed-mass heavy fragment at 134.4 for every parent and a fixed-charge fragment at Z = 52.7 differ by up to 5 u among neutron-deficient thorium isotopes (`02_checks.md`, E7). The decisive data are mass- and charge-resolved yields along isotopic chains.
-* **Asymmetric share against parent mass (section 15).** In Table 1 of Boeckstiegel et al. the share of asymmetric fission changes little between isobars (A = 232: 82.1 and 81.9%; A = 228: 62.5 and 64.5%; A = 223: 16.0 and 11.6%) and much more between isotones (N = 134: 24.2 and 11.6%; N = 138: 62.5 and 74.6%). In this set the share behaves as a function of the parent mass number. A logistic fit gives the midpoint A50 = 226.93 and width 2.65 u (rms residual 3.9 points). The midpoint lies 0.4 u above (M_H + (M_W + M_Z)/2)/u = 226.49, the centre of the band that the author proposed. Three remarks limit the weight of this match. The data come from fission at about 11 MeV of excitation, and the competition between the channels moves with excitation energy as shell effects fade. The shares saturate near 89% at 234U, so the edges of the transition depend on the fit shape. The shell picture also predicts a dependence on A: the heavy fragment is pinned near Z = 52.7, and the competition is set mostly by the size of the light partner A - A_H. The discriminator is the movement of A50 with excitation energy and proton number. A fixed electroweak band keeps A50 in place; shell-driven competition moves it.
+* **Asymmetric share against parent mass (section 15).** In Table 1 of Boeckstiegel et al. the share of asymmetric fission changes little between isobars (A = 232: 82.1 and 81.9%; A = 228: 62.5 and 64.5%; A = 223: 16.0 and 11.6%) and much more between isotones (N = 134: 24.2 and 11.6%; N = 138: 62.5 and 74.6%). In this set the share behaves as a function of the parent mass number. A logistic fit gives the midpoint A50 = 226.93 and width 2.65 u (rms residual 3.9 points). The midpoint lies 0.4 u above (M_H + (M_W + M_Z)/2)/u = 226.49, the centre of the proposed band. Three remarks limit the weight of this match. The data come from fission at about 11 MeV of excitation, and the competition between the channels moves with excitation energy as shell effects fade. The shares saturate near 89% at 234U, so the edges of the transition depend on the fit shape. The shell picture also predicts a dependence on A: the heavy fragment is pinned near Z = 52.7, and the competition is set mostly by the size of the light partner A - A_H. The discriminator is the movement of A50 with excitation energy and proton number. A fixed electroweak band keeps A50 in place; shell-driven competition moves it.
 
 ## 5. Suggested explanations
 
@@ -92,11 +92,11 @@ The first pass covered R3, the D0 against the deuteron, the charged threshold, t
 | 14 | Anthropic windows | brief | yes | windows of 1.5% to 17% in v | too wide |
 | 15 | Trace-anomaly self-consistency, Higgs criticality or asymptotic safety, scale-invariant origin of v | brief | yes | leave alpha_s free | insufficient alone |
 | 16 | Neutron-specific spin-orbit term delta E(q) = F(M_parent) I_n(q) on the fission path | A | yes, as phenomenology | barrier and yield shifts; must vanish after scission | ad hoc; the charge constancy of the heavy fragment points to protons |
-| 17 | Lobe-mass preference: the forming drops favour masses M_H and M_Z | author, A | yes (baryon number stays in the drops) | heavy fragment fixed at 134.4 u for every parent; at A = 240 two channels, 134 + 106 and 142 + 98 | testable with mass-resolved yields; the GSI charge data and the ENDF centroids (138 to 140) argue against a fixed heavy hump at 134.4, the Standard I component alone remains open |
-| 18 | Octupole softening for parents near M_H + M_Z, enhancing asymmetric fission | author, B | yes | asymmetric share rising across the band 220.7 to 232.3 u | the transition midpoint lies at 226.9 against a band centre of 226.5; the shell picture predicts the same A dependence; the excitation-energy dependence of A50 discriminates |
-| 19 | Standard II tied to a charged Higgs at 130 GeV | author, B | a charged scalar has no diagonal coherent coupling to a nucleus | | speculative; the excess is 2.5 sigma global |
-| 20 | Retired drip-line version (2004) | 2004 preprint | | | retired by the author |
-| 21 | Coincidence | standard reply | | no correlated signals; deviations stay where precision puts them | the default reading; probability arguments set aside by the author |
+| 17 | Lobe-mass preference: the forming drops favour masses M_H and M_Z | exchange with A | yes (baryon number stays in the drops) | heavy fragment fixed at 134.4 u for every parent; at A = 240 two channels, 134 + 106 and 142 + 98 | testable with mass-resolved yields; the GSI charge data and the ENDF centroids (138 to 140) argue against a fixed heavy hump at 134.4, the Standard I component alone remains open |
+| 18 | Octupole softening for parents near M_H + M_Z, enhancing asymmetric fission | exchange with B | yes | asymmetric share rising across the band 220.7 to 232.3 u | the transition midpoint lies at 226.9 against a band centre of 226.5; the shell picture predicts the same A dependence; the excitation-energy dependence of A50 discriminates |
+| 19 | Standard II tied to a charged Higgs at 130 GeV | exchange with B | a charged scalar has no diagonal coherent coupling to a nucleus | | speculative; the excess is 2.5 sigma global |
+| 20 | Retired drip-line version (2004) | 2004 preprint | | | retired |
+| 21 | Coincidence | standard reply | | no correlated signals; deviations stay where precision puts them | the default reading; probability arguments are out of scope |
 
 ## 6. Tests in order of decisiveness
 

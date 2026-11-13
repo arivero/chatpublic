@@ -1,6 +1,6 @@
-# Author brief: shared background
+# Brief: shared background
 
-Source: pasted by the author at the start of the working session of 12 November 2026. It states the observations, the dated claims, the items already examined and the question.
+Source: pasted at the start of the working session of 12 November 2026. It states the observations, the dated claims, the items already examined and the question.
 
 The text between the tilde fences is the pasted block, unchanged, including the line breaks and the one-symbol-per-line artifacts that copying from a rendered page introduces. Nothing in it has been checked at this point; the checks are in ../notes/.
 

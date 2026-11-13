@@ -1,6 +1,6 @@
 # Feedback B: ratio 29/33, nuclear masses, fission modes, charged Higgs
 
-Source: transcript of a second agent's exchange with the author, pasted into the session of 12 November 2026.
+Source: transcript of the exchange with a second agent, pasted into the session of 12 November 2026.
 
 The text between the tilde fences is the pasted block, unchanged, including the line breaks and the one-symbol-per-line artifacts that copying from a rendered page introduces. Nothing in it has been checked at this point; the checks are in ../notes/.
 

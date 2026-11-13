@@ -228,7 +228,7 @@ def sec_sw():
 def sec_higgs():
     head("11. Frameworks that fix the Higgs mass, against the relations")
     crit = 129.6 + 2.0 * (172.60 - 173.34) - 0.5 * (ALPHA_S_MZ - 0.1184) / 0.0007
-    print(f"  lambda(M_Pl) = 0 (Buttazzo et al. 2013 formula) with m_t = 172.60, alpha_s = 0.1180: M_H = {crit:.1f} GeV ; slope dM_H/d alpha_s = {-0.5 / 0.0007:.0f} GeV")
+    print(f"  boundary of absolute stability (Buttazzo et al. 2013, eq. 64) with m_t = 172.60, alpha_s = 0.1180: M_H = {crit:.1f} GeV ; slope dM_H/d alpha_s = {-0.5 / 0.0007:.0f} GeV")
     print(f"  the R1 offset in alpha_s (3.9e-5) moves that M_H by {0.5 / 0.0007 * 3.9e-5 * 1000:.0f} MeV")
     print(f"  lambda = 1/8: M_H = v/2 = {V / 2:.3f} GeV ; observed lambda = {125.20 ** 2 / (2 * V ** 2):.4f} (PDG 2025), {125.065 ** 2 / (2 * V ** 2):.4f} (CMS Nov 2026)")
     print("  completions of the relations: 125.132, 125.187, 125.221, 125.243 GeV (audit section 7)")
