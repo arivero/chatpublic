@@ -20,6 +20,8 @@
   tau                    1776.930 MeV   25.3756   nearest half-integer  25.5 (-0.49 %)
   D0                     1864.840 MeV   26.6310   nearest half-integer  26.5 (+0.49 %)
   alpha particle         3727.379 MeV   53.2291   nearest half-integer  53.0 (+0.43 %)
+  classical electron radius r_e = hbar c / (m_e/alpha) = 2.8179 fm ; pion Compton length hbar c / m_pi = 1.4138 fm
+  alpha m_pi / 2 = 0.5092 MeV ; (2/27) alpha m_N = 0.5075 MeV ; m_e = 0.5110 MeV ; y_e = sqrt2 m_e / v = 2.935e-06
 
 ================================================================================================
 3. Barut 1979: m_N = m_e (1 + (3 / 2 alpha) sum_{n<=N} n^4)

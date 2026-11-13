@@ -42,6 +42,10 @@ def main():
                     ("D0", D0), ("alpha particle", MALPHA)]:
         print(f"  {name:20s} {m:10.3f} MeV  {half(m / U1)}")
 
+    r_e = 197.3269804 / U1
+    print(f"  classical electron radius r_e = hbar c / (m_e/alpha) = {r_e:.4f} fm ; pion Compton length hbar c / m_pi = {197.3269804 / 139.5704:.4f} fm")
+    print(f"  alpha m_pi / 2 = {139.5704 / AI0 / 2:.4f} MeV ; (2/27) alpha m_N = {2 / 27 * MN / AI0:.4f} MeV ; m_e = {ME:.4f} MeV ; y_e = sqrt2 m_e / v = {math.sqrt(2) * ME / V:.3e}")
+
     head("3. Barut 1979: m_N = m_e (1 + (3 / 2 alpha) sum_{n<=N} n^4)")
     s = 0
     for n in range(0, 7):

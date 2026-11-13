@@ -26,6 +26,14 @@ Nambu (1952) observed that particle masses lie near $m = \tfrac{N}{2}\,\frac{m_e
 
 The grid meets the relations of the conversation through the nucleon. The unit $m_\ast$, the $D^0$ and the alpha particle have no distinguished place on it.
 
+**What the unit is and what it pins.** The unit is the energy of the classical electron radius, $m_e/\alpha = \hbar c/r_e$ with $r_e = 2.82$ fm, a nuclear length. The grid therefore restates an old link: a length built from the electron mass and $\alpha$ falls at the range of the nuclear force. In Standard Model terms the electron mass comes from the Higgs field through a Yukawa coupling $y_e = 2.9\times10^{-6}$, $\alpha$ comes from the electroweak couplings, and the pion and nucleon masses come from QCD. The two entries nearest to the unit read
+
+```math
+m_e \simeq \tfrac12\,\alpha\,m_\pi = 0.509\ \mathrm{MeV}, \qquad m_e \simeq \tfrac{2}{27}\,\alpha\,m_N = 0.5075\ \mathrm{MeV}, \qquad \text{measured } 0.5110\ \mathrm{MeV} .
+```
+
+Either form pins the electron Yukawa coupling in units of $\Lambda_\mathrm{QCD}/v$, in the way R3 pins the charm Yukawa coupling. With it the list of pinned parameters becomes $v/\Lambda_\mathrm{QCD}$, $\lambda$, $y_c$ and $y_e$, with the same missing host. The work of Mac Gregor supplies integers and units for this grid and no dynamics; in the terms of section 6 of the unified discussion it has the first of the three things that carry weight.
+
 ## 3. The lepton formula of Barut
 
 Barut (1979) proposed $m_N = m_e\big(1 + \tfrac{3}{2\alpha}\sum_{n=0}^{N} n^4\big)$. It gives 105.5 MeV for the muon, 1786.2 MeV for the tau (measured 1776.9), and continues with 10.29, 37.2, 102.8 and 239.0 GeV. The fourth member falls in the bottom region, between $\Upsilon(2S)$ and $\Upsilon(3S)$ and next to the mass of $^{11}\mathrm{B}$ (10.25 GeV), in the stretch of alpha-cluster nuclei of section 1.2 of the unified discussion. The seventh lies 3% below $v$.
